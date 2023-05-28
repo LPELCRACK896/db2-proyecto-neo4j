@@ -2,3 +2,6 @@
 package-lock.json
 config/config.env
 config/credentials.config
+__pycache__
+playground.*
+credentials.py
