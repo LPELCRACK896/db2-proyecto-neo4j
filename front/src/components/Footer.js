@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-md-6">
             <p className="mb-1">Kenneth Galvez 20079</p>
             <p className="mb-1">Luis Pedro Gonzales 20008</p>
-            <p className="mb-0">Natael Rodas 20029</p>
+            <p className="mb-0">Natanel Rodas 20029</p>
           </div>
         </div>
       </div>

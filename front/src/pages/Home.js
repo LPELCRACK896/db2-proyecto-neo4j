@@ -7,7 +7,7 @@ const Home = () => {
     <div className="inicio-container">
       <h1 className="titulo">CrossHair FrauD</h1>
       <img src={logo} alt="Logo" className="logo-rotating" />
-      <Link to="/otra-pagina" className="btn-empezar">Empezar</Link>
+      <Link to="/fraude" className="btn-empezar">Empezar</Link>
     </div>
   );
 }
