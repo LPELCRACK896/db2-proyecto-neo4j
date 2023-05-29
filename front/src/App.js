@@ -1,48 +1,25 @@
 import './App.css';
-import DataTable from 'react-data-table-component';
-import 'styled-components'
-import React, {useState, useEffect} from 'react'
+import Navbar from './components/Navbar';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Home from './pages/Home';
+import Fraude from './pages/Fraude';
+import Diseño from './pages/Diseño';
+import Base from './pages/Base';
+import Footer from './components/Footer';
 
-
-const App = () => {
-
-
-  const [users, setUsers] = useState ( [] )
-  const URL = 'https://restcountries.com/v3.1/all'
-  const showdata = async () => {
-    const response = await fetch(URL)
-    const data = await response.json()
-    console.log(data)
-    setUsers(data)
-  }
-
-  useEffect( ()=>{
-    showdata()
-  }, [])
-
-  const columns = [
-    {
-      name: 'NOMBRE',
-      selector : row => row.name.common
-    },
-    {
-      name: 'CAPITAL',
-      selector : row => row.capital
-    },
-    {
-      name: 'REGION',
-      selector : row => row.region
-    }
-  ]
-
+function App(){
   return (
     <div className="App">
-      <h1>TABLA TEST</h1>
-      <DataTable
-        columns={columns}
-        data={users}
-        pagination
-      /> 
+      <BrowserRouter>
+      <Navbar/>
+        <Routes>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/fraude' element={<Fraude/>}/>
+          <Route path='/diseño' element={<Diseño/>}/>
+          <Route path='/base' element={<Base/>}/>
+        </Routes>
+      <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
