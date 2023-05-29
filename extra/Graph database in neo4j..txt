@@ -1,0 +1,39 @@
+Graph database in neo4j.
+
+Nodo: Client
+--------------
+Labels: Client, Person
+Properties: [id: string, name: string, address: string,  birthdate: datetime, phone: string, ocupation: string, nit: string, average_income: number]
+Relations: -(Owes {start_capital:number, is_favourite:bool, create_date: datetime})-> Account
+--------------
+Node: Account
+Labels: Account
+Properties: [account_number: string, balance: number, account_type: str, state: string, closing_date: date, expeceted_incoming_pm: number]
+Relations:  -(made {id: str, date: datetime})-> Withdraw; -(made {id: str, date: datetime})-> Transfer; -(recieved {id: str, date: datetime})-> Transfer; -(recieved {id: str, date: datetime})-> Deposit; -(inherates {percentage: number, is_family: bool, is_shared: bool})-> Person
+---------------
+Node: Person
+Labels: Person
+Properties: [name: string, dpi: number]
+Relations: -(made {id: str, date: datetime})-> Deposit;  -(recieved {id: str, date: datetime})-> Withdraw
+---------------
+Node: Deposit
+Labels: Deposit
+Properties: [id: string, state: string, motive: string, type: string, amount: number, location: string]
+Relations: -(generates {id: str, date: datetime})-> Fraud behaviour
+
+---------------
+Node: Transfer
+Labels: Transfer
+Properties: [id: string, state: string, motive: string, type: string, amount: number]
+Relations: -(generates {id: str, date: datetime})-> Fraud behaviour
+---------------
+Node: Withdraw
+Labels: Withdraw
+Properties: [id: string, state: string, motive: string, type: string, amount: number, location: string]
+Relations: -(generates {id: str, date: datetime})-> Fraud behaviour
+
+---------------
+Node: Fraud behaviour
+Labels: Fraud Behaviour
+Properties: [id: string, acustion: string, gravity: number, actions: list, mount_related:number]
+Relations: -(suspects {movie: string, alert_level: number})-> Account,  -(suspects {movie: string, alert_level: number})-> Client
