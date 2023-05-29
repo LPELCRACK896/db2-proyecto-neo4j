@@ -16,14 +16,25 @@ class Neo4jService(object):
             return list(session.run(query, parameters))
 
 
+class BankNeo4j():
+
+    def __init__(self , service: Neo4jService) -> None:
+        self.service: Neo4jService = service
+    
+    def clean(self, show_results = False):
+        results = self.service.query("MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n, r")
+        if show_results:
+            for record in results:
+                print(record)
+
+
+    def seek_all(self, show_results = False):
+        results = self.service.query("MATCH (n) RETURN n")
+        if show_results:
+            for record in results:
+                print(record)
 
 if __name__ == "__main__":
     # Test
-    neo4j_service = Neo4jService()
-
-    results = neo4j_service.query("MATCH (n) RETURN n")
-
-    for record in results:
-        print(record)
-
-    neo4j_service.close()
+    neo  = BankNeo4j(Neo4jService())
+    neo.service.close()
