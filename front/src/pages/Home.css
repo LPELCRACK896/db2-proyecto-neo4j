@@ -1,0 +1,45 @@
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a237e;
+  }
+  
+  .titulo {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .logo-rotating {
+    animation: rotation 8s linear infinite;
+    width: 200px;
+    height: 200px;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .btn-empezar {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #2196f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-empezar:hover {
+    background-color: #0d47a1;
+  }
+  

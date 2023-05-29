@@ -1,9 +1,15 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
+import logo from '../components/logo_trans.png';
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
+    <div className="inicio-container">
+      <h1 className="titulo">CrossHair FrauD</h1>
+      <img src={logo} alt="Logo" className="logo-rotating" />
+      <Link to="/otra-pagina" className="btn-empezar">Empezar</Link>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
