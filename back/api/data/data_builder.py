@@ -195,8 +195,8 @@ def __create_single_account(client_row: pd.Series, from_date = None):
     capital = round(fake.random.uniform(1000, 50000), 2)
 
     account_client = pd.Series({
-        ":START_ID(Client dpi)": client_row["dpi"],
-        ":END_ID(Account number)": account_number,
+        ":START_ID": client_row["dpi"],
+        ":END_ID": account_number,
         ":TYPE": "Owes",
         "start_capital": capital, 
         "is_favourite": random.choice([True, False]),

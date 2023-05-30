@@ -3,7 +3,7 @@ from credentials import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, AURA_INSTANCE
 import os
 from dataclasses import dataclass
 import pandas as pd
-
+import c_styles as cs
 class Neo4jService(object):
     def __init__(self):
         self._driver = GraphDatabase.driver(
@@ -18,13 +18,20 @@ class Neo4jService(object):
         with self._driver.session() as session:
             return list(session.run(query, parameters))
 
+
+@dataclass
+class Relation:
+    start_in: tuple
+    end_in: tuple
+    name: str
+
 @dataclass
 class EntityFile:
     type: str
     url: str
     labels: list
     types_dict: dict
-    additional_data: dict
+    relation: Relation
     dataframe: pd.DataFrame
 
 class BankNeo4j():
@@ -76,61 +83,62 @@ class BankNeo4j():
         print(create_query)
         self.service.query(create_query)
 
-    def upload_csv_relation(self, url_file, types_dict=None):
-        url = url_file
+
+    def __fast_cast(self, variable, type):
+        typo = {
+            "string": "toString(",
+            "int": "toInteger(",
+            "bool": "toBoolean("
+        }
+        
+        if type in typo:
+            mytype = typo[type]
+            return mytype+variable+")"
+        return variable
+    
+    def upload_csv_relation(self, entity_file: EntityFile, types_dict=None):
+
+        url = entity_file.url
+        relation: Relation = entity_file.relation
+        row_start_id = self.__fast_cast("row.`START_ID`", relation.start_in[2])
+        row_end_id = self.__fast_cast("row.`END_ID`", relation.end_in[2])
+
         create_query = f"""
         LOAD CSV WITH HEADERS FROM '{url}' AS row
-        MATCH (start {{id: toString(row.`:START_ID`)}}), (end {{id: toString(row.`:END_ID`)}})
-        MERGE (start)-[r:row.`:TYPE`]->(end)
+        MATCH (start:{relation.start_in[0]} {{ {relation.start_in[1]}: {row_start_id}}}), (end: {relation.end_in[0]} {{{relation.end_in[1]}: {row_end_id}}})
+        MERGE (start)-[r:{relation.name}]->(end)
         """
         # Setting properties based on their types
         if types_dict is not None:
             create_query += 'SET '
             for key, value in types_dict.items():
                 if value == 'int':
-                    create_query += f'r.{key} = toInteger(row.`{key}`), '
+                    create_query += f'r.{key} = toInteger(row.{key}), '
                 elif value == 'float':
-                    create_query += f'r.{key} = toFloat(row.`{key}`), '
+                    create_query += f'r.{key} = toFloat(row.{key}), '
                 elif value == 'bool':
-                    create_query += f'r.{key} = toBoolean(row.`{key}`), '
+                    create_query += f'r.{key} = toBoolean(row.{key}), '
                 elif value == 'date':
-                    create_query += f'r.{key} = date(row.`{key}`), '
+                    create_query += f'r.{key} = date(row.{key}), '
                 elif value == 'point':
                     create_query += f'r.{key} = point({{latitude: toFloat(row.latitude), longitude: toFloat(row.longitude)}}), '
                 elif value == 'datetime':
-                    create_query += f'r.{key} = datetime(row.`{key}`), '
+                    create_query += f'r.{key} = datetime(row.{key}), '
                 else:  # default is string
-                    create_query += f'r.{key} = row.`{key}`, '
+                    create_query += f'r.{key} = row.{key}, '
             create_query = create_query[:-2]  # remove trailing comma and space
         else:
             create_query += 'SET r = row'
-        create_query += f'\nREMOVE r.`:START_ID`, r.`:END_ID`, r.`:TYPE`'
-        print(create_query)
+        print(cs.s_yellow(create_query))
         self.service.query(create_query)
+    
 
-    def upload_csv_relation(self, url_file, type_dict):
-        pass
-
-    def create_relations(self, dataframe: pd.DataFrame, addiontal_data: dict):
-        # Create the subdataframe by selecting only the columns from the original dataframe
-        for index, row in dataframe.iterrows():
-            # Access row values by column name
-            properties_val = dict(row[[col for col in row.index if not col.startswith(':')]])
-            start_id_val = dict(row[[col for col in row.index if col.startswith(':START_ID')]])
-            end_id_val = dict(row[[col for col in row.index if col.startswith(':END_ID')]])
-            type_val = list(row[[col for col in row.index if col.startswith(':TYPE')]])[0]
-            
-            # Perform operations on row values
-            print(f"Properties: {properties_val}")
-            print(f"Start ID: {start_id_val}")
-            print(f"End ID: {end_id_val}")
-            print(f"Type: {type_val}")
-            print()
-        
-
+def filtr_columns(columns):
+    return [c for c in columns if not(c==':START_ID' or c==":END_ID" or c==":TYPE")]
 
 def build_types_dict(columns, special_types):
     types_dict = {}
+    columns = filtr_columns(columns)
     for column in columns:
         if column in special_types:
             types_dict[column] = special_types[column]
@@ -148,7 +156,7 @@ if __name__ == "__main__":
             url = f"{base_url}/clients.csv", 
             labels = ["Client", "Person"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "clients.csv")).columns, {"dpi": "int", "nit": "int", "average_income_pm": "float"}),
-            additional_data=None,
+            relation=None,
             dataframe=None
             
             ),
@@ -157,7 +165,7 @@ if __name__ == "__main__":
             url = f"{base_url}/accounts.csv", 
             labels = ["Account"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "accounts.csv")).columns, {"number": "int", "balance": "int", "create_date": "date", "closing_date": "date"}),
-            additional_data=None,
+            relation=None,
             dataframe=None
             ),
         EntityFile(
@@ -165,7 +173,7 @@ if __name__ == "__main__":
             url = f"{base_url}/persons.csv", 
             labels = ["Person"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "persons.csv")).columns, {"dpi": "int"}),
-            additional_data=None,
+            relation=None,
             dataframe=None
             ),
         EntityFile(
@@ -173,7 +181,7 @@ if __name__ == "__main__":
             url = f"{base_url}/transfers.csv", 
             labels = ["Transfer"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "transfers.csv")).columns, {"amount": "float"}),
-            additional_data=None,
+            relation=None,
             dataframe=None
             ),
         EntityFile(
@@ -181,7 +189,7 @@ if __name__ == "__main__":
             url = f"{base_url}/withdrawals.csv", 
             labels = ["Withdrawal"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "withdrawals.csv")).columns, {"amount": "float", 'latitude': 'point','longitude': 'point'}),
-            additional_data=None,
+            relation=None,
             dataframe=None
             ),
         EntityFile(
@@ -189,7 +197,7 @@ if __name__ == "__main__":
             url = f"{base_url}/deposits.csv", 
             labels = ["Deposit"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "deposits.csv")).columns, {"amount": "float", 'latitude': 'point','longitude': 'point'}),
-            additional_data=None,
+            relation=None,
             dataframe=None
 
             ),  
@@ -197,8 +205,8 @@ if __name__ == "__main__":
             type = "RELATION", 
             url = f"{base_url}/accounts_clients.csv", 
             labels = ["Owes"], 
-            types_dict = {"start_capital": "float", 'is_favourite': 'bool','create_date': 'date'},
-            additional_data={"start": "Client", "start_property": "dpi", "end": "Account", "end_property": "number"},
+            types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "accounts_clients.csv")).columns,{"start_capital": "float", 'is_favourite': 'bool','create_date': 'date'}),
+            relation=Relation(("Client", "dpi", "string"),("Account", "number", "int"), "Owes" ),
             dataframe= pd.read_csv(os.path.join(current_dir, "accounts_clients.csv"))
             ),       
             
@@ -207,9 +215,6 @@ if __name__ == "__main__":
     for f in files:
         if f.type == "NODE":
             neo.upload_csv(f.url, f.labels, f.types_dict)
-            pass
         else:
-            
-            #neo.create_relations(f.dataframe, addiontal_data = f.additional_data)
-            pass
+            neo.upload_csv_relation(f, f.types_dict)
     neo.service.close()

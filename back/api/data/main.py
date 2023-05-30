@@ -2,14 +2,19 @@ from data_builder import *
 
 
 def main():
-    clients = create_clients(100, True)
-    accounts = create_accounts(client_df=clients, to_csv=True)
-    withdrawals = create_withdrawals(account_df=accounts, to_csv=True)
-    transfers = create_transfers(account_df=accounts, to_csv=True)
-    deposits = create_deposits(account_df=accounts, to_csv=True)
+    clients_count = 100
+    person_count  = 100
+    clients = create_clients(num_rows=clients_count, dpi_start=1,to_csv = True)
+    persons = create_persons(num_rows=person_count, dpi_start = clients_count+1,to_csv = True)
+    accounts, accounts_clients = create_accounts(client_df=clients, allow_logs=True, to_csv=True)
+    withdrawals, person_withdrawals, account_withdrawals, accounts = create_withdrawals(accounts_df=accounts, clients_df=clients, persons_df=persons, to_csv=True, allow_logs=True)
+    transfers, account_transfers = create_transfers(accounts_df = accounts, to_csv = True)
+    deposits, person_deposits, account_deposits, accounts = create_deposits(accounts_df=accounts, clients_df=clients, persons_df=persons, to_csv=True, allow_logs=True)
     
     print("Clients")
     print(clients.head())
+    print("Persons")
+    print(persons.head())
     print("Accounts")
     print(accounts.head())
     print("Withdrawals")
@@ -18,6 +23,7 @@ def main():
     print(transfers.head())
     print("Deposits")
     print(deposits.head())
+
 
 if __name__ == "__main__":
     main()
