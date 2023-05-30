@@ -280,7 +280,8 @@ def __create_single_transfer(account_row_origin: pd.Series, account_row_destiny:
 
 def create_transfers(accounts_df, min_transfers_per_account = 1, max_transfers_per_account = 3, to_csv = False):
     transfers = []
-    account_transfers = []
+    account_transfers_recieved = []
+    account_transfers_made = []
     for i, account in accounts_df.iterrows():
         num_transfers = fake.random_int(min_transfers_per_account, max_transfers_per_account)  # each account can have between 1 and 3 transfers    
         for _ in range(num_transfers):
@@ -289,17 +290,21 @@ def create_transfers(accounts_df, min_transfers_per_account = 1, max_transfers_p
             transfer, account_transfer_made, account_transfer_recieved, account_row_origin, account_row_destiny = __create_single_transfer(account_row_origin=account, account_row_destiny=transfer_destiny)
             
             transfers.append(transfer)
-            account_transfers.append(account_transfer_made)
-            account_transfers.append(account_transfer_recieved)
+            account_transfers_made.append(account_transfer_made)
+            account_transfers_recieved.append(account_transfer_recieved)
 
             accounts_df.iloc[i] = account_row_origin
             accounts_df.iloc[transfer_destiny_index] = account_row_destiny
     df_transfers = pd.DataFrame(transfers)
-    df_account_transfers = pd.DataFrame(account_transfers)
+    df_account_transfers_made = pd.DataFrame(account_transfers_made)
+    df_account_transfers_recieved = pd.DataFrame(account_transfers_recieved)
+
     if to_csv:
         __write_csv(df_transfers, 'transfers.csv')
-        __write_csv(df_account_transfers, 'account_transfers.csv')
-    return df_transfers, df_account_transfers
+        __write_csv(df_account_transfers_made, 'account_transfers_made.csv')
+        __write_csv(df_account_transfers_recieved, 'account_transfers_recieved.csv')
+
+    return df_transfers, df_account_transfers_made, df_account_transfers_recieved
 
 def __create_single_deposit(account_row: pd.Series, person_row, type = "Client/Person", allow_log = False):
     if type not in ["Client/Person", "Person"]:
