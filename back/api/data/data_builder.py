@@ -190,8 +190,9 @@ def __create_single_account(client_row: pd.Series, from_date = None):
         "Business Account"
     ]
     account_states = ["active", "inactive", "closed"]
+    state = random.choice(account_states)
     create_date = fake.date_between(start_date=from_date) if from_date else fake.date_this_century()
-    end_date = fake.date_between_dates(date_start=create_date, date_end=dt.date(2023, 12, 31)) if random.uniform(0, 1)<0.2 else None 
+    end_date = fake.date_between_dates(date_start=create_date, date_end=dt.date(2023, 12, 31)) if state == "closed" else None 
     account_number = fake.unique.random_number(digits=10)
     capital = round(fake.random.uniform(1000, 50000), 2)
 
@@ -208,7 +209,7 @@ def __create_single_account(client_row: pd.Series, from_date = None):
         'number': account_number,
         'balance': capital,  
         'account_type': random.choice(account_types),
-        'state': random.choice(account_states),
+        'state': state,
         "create_date": create_date,
         'closing_date': end_date
     })
