@@ -12,12 +12,12 @@ const Base = () => {
       let data = await response.json();
       data = data.data
       console.log(data);
-      setUsers([data.data]); // Update to pass the user object as an array
+      setUsers(data);
     } catch (error) {
       console.error('Error fetching data:', error);
     }
   };
-
+  
   useEffect(() => {
     showData();
   }, []);
