@@ -131,10 +131,20 @@ files = [
     EntityFile(
         type = "RELATION", 
         url = f"{base_url}/person_withdrawals.csv", 
-        labels = ["RECIEVED"], 
+        labels = ["RECEIVED"], 
         types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "person_withdrawals.csv")).columns,{'date': 'datetime'}),
-        relation=Relation(("Person", "dpi", "int"),("Withdrawal", "id", "string"), "RECIEVED" ),
+        relation=Relation(("Person", "dpi", "int"),("Withdrawal", "id", "string"), "RECEIVED" ),
         dataframe= pd.read_csv(os.path.join(current_dir, "person_withdrawals.csv")),
         localfile=os.path.join(current_dir, "person_withdrawals.csv")
-    ),   
+    ),
+
+    EntityFile(
+        type = "RELATION", 
+        url = f"{base_url}/persons_accounts.csv", 
+        labels = ["INHERITS"], 
+        types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "persons_accounts.csv")).columns,{'percentage': "int", 'is_family': "bool", 'is_shared': 'bool'}),
+        relation=Relation(("Account", "number", "int"),("Person", "dpi", "int"), "INHERITS" ),
+        dataframe= pd.read_csv(os.path.join(current_dir, "persons_accounts.csv")),
+        localfile=os.path.join(current_dir, "persons_accounts.csv")
+    ),      
 ]

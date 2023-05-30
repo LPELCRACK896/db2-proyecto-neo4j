@@ -176,7 +176,7 @@ def create_clients(num_rows = 100, dpi_start = 1, to_csv = False):
 
     return df
 
-def __create_single_account(client_row: pd.Series, from_date = None):
+def __create_single_account(client_row: pd.Series, person_row, from_date = None):
     account_types =  [
         "Checking Account",
         "Savings Account",
@@ -203,6 +203,16 @@ def __create_single_account(client_row: pd.Series, from_date = None):
         "create_date": create_date
     })
 
+    account_person = pd.Series({
+        ":START_ID": account_number,
+        ":END_ID": person_row["dpi"],
+        ":TYPE": "MADE",
+        "percentage": 100,
+        "is_family": random.choice([False, True]),
+        "is_shared": random.choice([False, True])
+
+    })
+
     account = pd.Series({
         'number': account_number,
         'balance': capital,  
@@ -212,20 +222,26 @@ def __create_single_account(client_row: pd.Series, from_date = None):
         'closing_date': end_date
     })
 
-    return account, account_client
+    return account, account_client, account_person
 
-def create_accounts(client_df: pd.DataFrame, min_accounts_per_client: int = 1, max_accounts_per_client: int= 3, to_csv = False, allow_logs = False):
+def create_accounts(client_df: pd.DataFrame, persons_df:pd.DataFrame,min_accounts_per_client: int = 1, max_accounts_per_client: int= 3, to_csv = False, allow_logs = False):
     accounts = []
     accounts_clients = []
+    persons_accounts = []
+    dataframes = [client_df, persons_df]
     if allow_logs:
         print(cs.s_magenta("=========ACCOUNTS CREATION LOG========="))
     for _, client in client_df.iterrows():
         num_accounts = fake.random_int(min_accounts_per_client, max_accounts_per_client)  # each client can have between 1 and 3 accounts
         start_date  = fake.date_between(start_date=dt.date(2010, 1, 1), end_date=datetime.now() - timedelta(days=1))
         for _ in range(num_accounts):
-            account, accounts_client = __create_single_account(client, from_date=start_date)
+            index_df_picked, row_index_selected = __random_pick(dataframes[0], dataframes[1])
+            dataframe: pd.DataFrame = dataframes[index_df_picked]
+            row = dataframe.iloc[row_index_selected] 
+            account, accounts_client, accounts_person = __create_single_account(client,row, from_date=start_date)
             accounts.append(account)
             accounts_clients.append(accounts_client)
+            persons_accounts.append(accounts_person)
             start_date = accounts_client["create_date"]
             if allow_logs:
                 client_name = client["name"]
@@ -233,9 +249,11 @@ def create_accounts(client_df: pd.DataFrame, min_accounts_per_client: int = 1, m
                 print(cs.s_green(f"Cuenta creada para: {client_name}: {account_num}"))    
     df_accounts = pd.DataFrame(accounts)
     df_accounts_clients = pd.DataFrame(accounts_clients)
+    df_persons_accounts = pd.DataFrame(persons_accounts)
     if to_csv:
         __write_csv(df_accounts, 'accounts.csv')
         __write_csv(df_accounts_clients, "accounts_clients.csv")
+        __write_csv(df_persons_accounts, "persons_accounts.csv")
 
     return df_accounts, df_accounts_clients
 
