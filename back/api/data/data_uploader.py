@@ -5,6 +5,8 @@ import pandas as pd
 import c_styles as cs
 from data_classes import *
 from files import files
+from datetime import datetime
+import pytz
 
 class Neo4jService(object):
     def __init__(self):
@@ -37,7 +39,16 @@ class BankNeo4j():
         if show_results:
             for record in results:
                 print(record)
-
+    
+    def format_datetime(self, datetime_str):
+        try:
+            dt = datetime.strptime(datetime_str, "%Y-%m-%d %H:%M:%S.%f")
+            return dt.isoformat()
+        except ValueError:
+            dt = datetime.strptime(datetime_str, "%Y-%m-%d %H:%M:%S")  
+            return dt.isoformat()      
+        
+    
     def upload_csv(self, filename, labels, types_dict=None):
         url = filename
         labels_str = ":".join(labels)
@@ -72,14 +83,16 @@ class BankNeo4j():
 
     def __fast_cast(self, variable, type):
         typo = {
-            "string": "toString(",
+            "string": "\"",
             "int": "toInteger(",
             "bool": "toBoolean("
         }
         
         if type in typo:
             mytype = typo[type]
-            return mytype+variable+")"
+            if type!="string":
+                return mytype+variable+")"
+            return mytype+variable+"\""
         return variable
     
     def upload_csv_relation(self, entity_file: EntityFile):
@@ -107,14 +120,23 @@ class BankNeo4j():
                     elif value == 'bool':
                         create_query += f'r.{key} = toBoolean("{row[key]}"), '
                     elif value == 'date':
-                        create_query += f'r.{key} = date("{row[key]}"), '
+                        if key in row:
+                             if not pd.isna(row[key]):
+                                create_query += f'r.{key} = date("{row[key]}"), '
                     elif value == 'point':
                         create_query += f'r.{key} = point({{latitude: toFloat("{row[key]}"), longitude: toFloat("{row[key]}")}}), '
                     elif value == 'datetime':
-                        create_query += f'r.{key} = datetime("{row[key]}"), '
+                        if key in row:
+                            if not pd.isna(row[key]):
+                                create_query += f'r.{key} = datetime("{self.format_datetime(row[key])}"), '
                     else:  # default is string
                         create_query += f'r.{key} = "{row[key]}", '
-                create_query = create_query[:-2]  # remove trailing comma and space
+                if create_query[-4:]=='SET ':
+                    create_query = create_query[:-4] # Remove set in case no property added
+                else:
+                    create_query = create_query[:-2]  # remove trailing comma and space
+                
+
             print(cs.s_yellow(create_query))
             print(cs.s_magenta("============="))
             self.service.query(create_query)
