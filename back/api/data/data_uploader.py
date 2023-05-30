@@ -33,6 +33,7 @@ class EntityFile:
     types_dict: dict
     relation: Relation
     dataframe: pd.DataFrame
+    localfile: str
 
 class BankNeo4j():
 
@@ -96,42 +97,42 @@ class BankNeo4j():
             return mytype+variable+")"
         return variable
     
-    def upload_csv_relation(self, entity_file: EntityFile, types_dict=None):
-
-        url = entity_file.url
+    def upload_csv_relation(self, entity_file: EntityFile):
+        url = entity_file.localfile
         relation: Relation = entity_file.relation
-        row_start_id = self.__fast_cast("row.`START_ID`", relation.start_in[2])
-        row_end_id = self.__fast_cast("row.`END_ID`", relation.end_in[2])
+        types_dict = entity_file.types_dict
+        dataframe = pd.read_csv(url)
 
-        create_query = f"""
-        LOAD CSV WITH HEADERS FROM '{url}' AS row
-        MATCH (start:{relation.start_in[0]} {{ {relation.start_in[1]}: {row_start_id}}}), (end: {relation.end_in[0]} {{{relation.end_in[1]}: {row_end_id}}})
-        MERGE (start)-[r:{relation.name}]->(end)
-        """
-        # Setting properties based on their types
-        if types_dict is not None:
-            create_query += 'SET '
-            for key, value in types_dict.items():
-                if value == 'int':
-                    create_query += f'r.{key} = toInteger(row.{key}), '
-                elif value == 'float':
-                    create_query += f'r.{key} = toFloat(row.{key}), '
-                elif value == 'bool':
-                    create_query += f'r.{key} = toBoolean(row.{key}), '
-                elif value == 'date':
-                    create_query += f'r.{key} = date(row.{key}), '
-                elif value == 'point':
-                    create_query += f'r.{key} = point({{latitude: toFloat(row.latitude), longitude: toFloat(row.longitude)}}), '
-                elif value == 'datetime':
-                    create_query += f'r.{key} = datetime(row.{key}), '
-                else:  # default is string
-                    create_query += f'r.{key} = row.{key}, '
-            create_query = create_query[:-2]  # remove trailing comma and space
-        else:
-            create_query += 'SET r = row'
-        print(cs.s_yellow(create_query))
-        self.service.query(create_query)
-    
+        for _, row in dataframe.iterrows():
+            row_start_id = self.__fast_cast(str(row[":START_ID"]), relation.start_in[2])
+            row_end_id = self.__fast_cast(str(row[":END_ID"]), relation.end_in[2])
+
+            create_query = f"""
+            MATCH (start:{relation.start_in[0]} {{ {relation.start_in[1]}: {row_start_id}}}), (end: {relation.end_in[0]} {{{relation.end_in[1]}: {row_end_id}}})
+            MERGE (start)-[r:{relation.name}]->(end)
+            """
+            # Setting properties based on their types
+            if types_dict is not None:
+                create_query += 'SET '
+                for key, value in types_dict.items():
+                    if value == 'int':
+                        create_query += f'r.{key} = toInteger("{row[key]}"), '
+                    elif value == 'float':
+                        create_query += f'r.{key} = toFloat("{row[key]}"), '
+                    elif value == 'bool':
+                        create_query += f'r.{key} = toBoolean("{row[key]}"), '
+                    elif value == 'date':
+                        create_query += f'r.{key} = date("{row[key]}"), '
+                    elif value == 'point':
+                        create_query += f'r.{key} = point({{latitude: toFloat("{row[key]}"), longitude: toFloat("{row[key]}")}}), '
+                    elif value == 'datetime':
+                        create_query += f'r.{key} = datetime("{row[key]}"), '
+                    else:  # default is string
+                        create_query += f'r.{key} = "{row[key]}", '
+                create_query = create_query[:-2]  # remove trailing comma and space
+            print(cs.s_yellow(create_query))
+            print(cs.s_magenta("============="))
+            #self.service.query(create_query)
 
 def filtr_columns(columns):
     return [c for c in columns if not(c==':START_ID' or c==":END_ID" or c==":TYPE")]
@@ -157,7 +158,8 @@ if __name__ == "__main__":
             labels = ["Client", "Person"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "clients.csv")).columns, {"dpi": "int", "nit": "int", "average_income_pm": "float"}),
             relation=None,
-            dataframe=None
+            dataframe=None,
+            localfile=os.path.join(current_dir, "clients.csv")
             
             ),
         EntityFile(
@@ -166,7 +168,8 @@ if __name__ == "__main__":
             labels = ["Account"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "accounts.csv")).columns, {"number": "int", "balance": "int", "create_date": "date", "closing_date": "date"}),
             relation=None,
-            dataframe=None
+            dataframe=None,
+            localfile=os.path.join(current_dir, "accounts.csv")
             ),
         EntityFile(
             type = "NODE", 
@@ -174,7 +177,8 @@ if __name__ == "__main__":
             labels = ["Person"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "persons.csv")).columns, {"dpi": "int"}),
             relation=None,
-            dataframe=None
+            dataframe=None,
+            localfile=os.path.join(current_dir, "persons.csv")
             ),
         EntityFile(
             type = "NODE", 
@@ -182,7 +186,8 @@ if __name__ == "__main__":
             labels = ["Transfer"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "transfers.csv")).columns, {"amount": "float"}),
             relation=None,
-            dataframe=None
+            dataframe=None,
+            localfile=os.path.join(current_dir, "transfers.csv")
             ),
         EntityFile(
             type = "NODE", 
@@ -190,7 +195,8 @@ if __name__ == "__main__":
             labels = ["Withdrawal"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "withdrawals.csv")).columns, {"amount": "float", 'latitude': 'point','longitude': 'point'}),
             relation=None,
-            dataframe=None
+            dataframe=None,
+            localfile=os.path.join(current_dir, "withdrawals.csv")
             ),
         EntityFile(
             type = "NODE", 
@@ -198,7 +204,8 @@ if __name__ == "__main__":
             labels = ["Deposit"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "deposits.csv")).columns, {"amount": "float", 'latitude': 'point','longitude': 'point'}),
             relation=None,
-            dataframe=None
+            dataframe=None,
+            localfile=os.path.join(current_dir, "deposits.csv")
 
             ),  
         EntityFile(
@@ -206,8 +213,9 @@ if __name__ == "__main__":
             url = f"{base_url}/accounts_clients.csv", 
             labels = ["Owes"], 
             types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "accounts_clients.csv")).columns,{"start_capital": "float", 'is_favourite': 'bool','create_date': 'date'}),
-            relation=Relation(("Client", "dpi", "string"),("Account", "number", "int"), "Owes" ),
-            dataframe= pd.read_csv(os.path.join(current_dir, "accounts_clients.csv"))
+            relation=Relation(("Client", "dpi", "int"),("Account", "number", "int"), "Owes" ),
+            dataframe= pd.read_csv(os.path.join(current_dir, "accounts_clients.csv")),
+            localfile=os.path.join(current_dir, "accounts_clients.csv")
             ),       
             
     ]
@@ -216,5 +224,5 @@ if __name__ == "__main__":
         if f.type == "NODE":
             neo.upload_csv(f.url, f.labels, f.types_dict)
         else:
-            neo.upload_csv_relation(f, f.types_dict)
+            neo.upload_csv_relation(entity_file=f)
     neo.service.close()
