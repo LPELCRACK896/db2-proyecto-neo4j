@@ -98,7 +98,7 @@ files = [
         dataframe= pd.read_csv(os.path.join(current_dir, "person_deposits.csv")),
         localfile=os.path.join(current_dir, "person_deposits.csv")
     ),    
-                  
+
     EntityFile(
         type = "RELATION", 
         url = f"{base_url}/account_transfers_made.csv", 
@@ -118,5 +118,23 @@ files = [
         dataframe= pd.read_csv(os.path.join(current_dir, "account_transfers_recieved.csv")),
         localfile=os.path.join(current_dir, "account_transfers_recieved.csv")
     ),       
+    EntityFile(
+        type = "RELATION", 
+        url = f"{base_url}/account_withdrawals.csv", 
+        labels = ["MADE"], 
+        types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "account_withdrawals.csv")).columns,{'date': 'datetime'}),
+        relation=Relation(("Account", "number", "int"),("Withdrawal", "id", "string"), "MADE" ),
+        dataframe= pd.read_csv(os.path.join(current_dir, "account_withdrawals.csv")),
+        localfile=os.path.join(current_dir, "account_withdrawals.csv")
+    ),       
 
+    EntityFile(
+        type = "RELATION", 
+        url = f"{base_url}/person_withdrawals.csv", 
+        labels = ["RECIEVED"], 
+        types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "person_withdrawals.csv")).columns,{'date': 'datetime'}),
+        relation=Relation(("Person", "dpi", "int"),("Withdrawal", "id", "string"), "RECIEVED" ),
+        dataframe= pd.read_csv(os.path.join(current_dir, "person_withdrawals.csv")),
+        localfile=os.path.join(current_dir, "person_withdrawals.csv")
+    ),   
 ]

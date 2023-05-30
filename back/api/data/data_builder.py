@@ -94,16 +94,16 @@ def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Clien
             print(cs.s_green(f"COMPLETED withdrawal ({withdrawal_id}): ${amount} from {balance} in ({latitude}, {longitude})"))
 
     account_withdrawal = pd.Series({
-        ":START_ID(Account number)": account_row["number"],
-        ":END_ID(Withdrawal id)": withdrawal_id,
+        ":START_ID": account_row["number"],
+        ":END_ID": withdrawal_id,
         ":TYPE": "MADE",
         'date': create_date
 
     })
 
     person_withdrawal = pd.Series({
-        ":START_ID(Person dpi)": person_row["dpi"],
-        ":END_ID(Withdrawal id)": withdrawal_id,
+        ":START_ID": person_row["dpi"],
+        ":END_ID": withdrawal_id,
         ":TYPE": "RECIEVED",
         'date': create_date if state=="completed" else None,
 

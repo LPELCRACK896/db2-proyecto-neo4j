@@ -2,8 +2,8 @@ from data_builder import *
 
 
 def main():
-    clients_count = 100
-    person_count  = 100
+    clients_count = 20
+    person_count  = 20
     clients = create_clients(num_rows=clients_count, dpi_start=1,to_csv = True)
     persons = create_persons(num_rows=person_count, dpi_start = clients_count+1,to_csv = True)
     accounts, accounts_clients = create_accounts(client_df=clients, allow_logs=True, to_csv=True)
