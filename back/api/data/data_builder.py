@@ -14,7 +14,7 @@ def __write_csv(df: pd.DataFrame, filename: str):
     current_dir = os.path.dirname(os.path.realpath(__file__))
     file_path = os.path.join(current_dir, filename)
     
-    df.to_csv(file_path)
+    df.to_csv(file_path, index=False)
     print(f"File {filename} written in {file_path}")
 
 def __get_fake_names(num_rows):
@@ -322,36 +322,102 @@ def create_transfers(accounts_df, min_transfers_per_account = 1, max_transfers_p
 
     return df_transfers, df_account_transfers
 
-def __create_single_deposit(account_row: pd.Series):
-    deposit_states = ["completed", "failed", "pending"] 
-    deposit_motive = ["salary", "loan", "gift", "investment return", "other"]
-    create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['closing_date'] is None else account_row['closing_date'])
-    
-    deposit = pd.Series({
-        'id': fake.uuid4(),
-        'state': random.choice(deposit_states),
-        'motive': random.choice(deposit_motive),
-        'date': create_date,
-        'amount': round(fake.random.uniform(1, 10000), 2),  
-        'account_id': account_row['number']
-    })
-    
-    return deposit
+def __create_single_deposit(account_row: pd.Series, person_row, type = "Client/Person", allow_log = False):
 
-def create_deposits(accounts_df, min_deposits_per_account = 1, max_deposits_per_account = 5, to_csv = False):
-    deposits = []
-    for _, account in accounts_df.iterrows():
-        num_deposits = fake.random_int(min_deposits_per_account, max_deposits_per_account)  # each account can have between 1 and 5 deposits
-        for _ in range(num_deposits):
-            deposit = __create_single_deposit(account)
-            deposits.append(deposit)
+    if type not in ["Client/Person", "Person"]:
+        print("Not allowed")
+        return 
+
+    deposit_types = ["Direct Deposit", "Wire Transfer", "Cash"]
+    deposit_states = ["completed", "failed", "pending"]
+    deposit_motive = ["salary", "loan", "investment", "other"]
+    create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['closing_date'] is None else account_row['closing_date'])
+    balance = account_row['balance']
+    deposit_id = fake.uuid4()
+
+    amount = round(fake.random.uniform(1, balance+10), 2)
+    state = random.choice(deposit_states)
+    latitude, longitude = __generate_random_location() 
     
-    df = pd.DataFrame(deposits)
+    if state == "failed":
+        amount = 0
+
+    deposit = pd.Series({
+        'id': deposit_id,
+        'state': state,
+        'motive': random.choice(deposit_motive),
+        'type': random.choice(deposit_types),
+        'amount': amount,  
+        "location": {
+            "latitude": latitude, 
+            "longitude": longitude
+        }
+    })
+
+    if allow_log:
+        if state == "pending":
+            print(cs.s_yellow(f"PENDIND deposit ({deposit_id}): ${amount} in ({latitude}, {longitude})"))
+        elif state == "failed":
+            print(cs.s_red(f"FAILED deposit ({deposit_id}): ${amount} in ({latitude}, {longitude})"))
+        else: # completed
+            print(cs.s_green(f"COMPLETED deposit ({deposit_id}): ${amount} in ({latitude}, {longitude})"))
+
+    account_deposit = pd.Series({
+        ":START_ID(Account number)": account_row["number"],
+        ":END_ID(Deposit id)": deposit_id,
+        ":TYPE": "RECEIVED",
+        'date': create_date
+    })
+
+    person_deposit = pd.Series({
+        ":START_ID(Person dpi)": person_row["dpi"],
+        ":END_ID(Deposit id)": deposit_id,
+        ":TYPE": "MADE",
+        'date': create_date if state=="completed" else None,
+    })
+
+    if state == "completed":
+        account_row["balance"] = balance + amount
+
+    return deposit, account_deposit, person_deposit, account_row
+
+def create_deposits(accounts_df: pd.DataFrame, clients_df: pd.DataFrame, persons_df: pd.DataFrame, min_deposits_per_account:int = 1, max_deposits_per_account:int = 5, to_csv:bool = False, allow_logs = False):
+    deposits = []
+    account_deposits = []
+    person_deposits = []
+    dataframes = [clients_df, persons_df]
+    if allow_logs:
+        print(cs.s_magenta("=========DEPOSITS CREATION LOG========="))
+    for i, account in accounts_df.iterrows():
+        num_deposits = fake.random_int(min_deposits_per_account, max_deposits_per_account)  # each account can have between 1 and 5 deposits
+
+        for _ in range(num_deposits):
+
+            index_df_picked, row_index_selected = __random_pick(dataframes[0], dataframes[1])
+            dataframe: pd.DataFrame = dataframes[index_df_picked]
+            row = dataframe.iloc[row_index_selected] 
+            deposit, account_deposit, person_deposit, acc_row = __create_single_deposit(account_row = account, person_row = row, type= "Client/Person" if index_df_picked==0 else "Person", allow_log=allow_logs)
+            
+            deposits.append(deposit)
+            account_deposits.append(account_deposit)
+            person_deposits.append(person_deposit)
+            
+            accounts_df.iloc[i] = acc_row
+
+
+    df_deposits = pd.DataFrame(deposits)
+    df_account_deposits = pd.DataFrame(account_deposits)
+    df_person_deposits = pd.DataFrame(person_deposits)
 
     if to_csv:
-        __write_csv(df, 'deposits.csv')
+        __write_csv(df_deposits, 'deposits.csv')
+        __write_csv(df_person_deposits, "person_deposits.csv")
+        __write_csv(df_account_deposits, "account_deposits.csv")
+        __write_csv(accounts_df, "accounts.csv")
 
-    return df
+
+    return df_deposits, df_person_deposits, df_account_deposits, accounts_df
+
 
 if __name__ == "__main__":
     clients_count = 100
@@ -360,19 +426,17 @@ if __name__ == "__main__":
     accounts, accounts_clients = create_accounts(client_df=clients, allow_logs=True, to_csv=True)
     withdrawals, person_withdrawals, account_withdrawals, accounts = create_withdrawals(accounts_df=accounts, clients_df=clients, persons_df=persons, to_csv=True, allow_logs=True)
     transfers, account_transfers = create_transfers(accounts_df = accounts, to_csv = True)
-    """     accounts = create_accounts(client_df=clients, to_csv=True)
-    withdrawals = create_withdrawals(accounts_df=accounts, to_csv=True)
-    transfers = create_transfers(accounts_df=accounts, to_csv=True)
-    deposits = create_deposits(accounts_df=accounts, to_csv=True)
-     """
+    deposits, person_deposits, account_deposits, accounts = create_deposits(accounts_df=accounts, clients_df=clients, persons_df=persons, to_csv=True, allow_logs=True)
     
     print("Clients")
     print(clients.head())
+    print("Persons")
+    print(persons.head())
     print("Accounts")
-"""     print(accounts.head())
+    print(accounts.head())
     print("Withdrawals")
     print(withdrawals.head())
     print("Transfers")
     print(transfers.head())
     print("Deposits")
-    print(deposits.head()) """
+    print(deposits.head())
