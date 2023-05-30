@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 78vh;
     background-color: #021B38;
   }
   
@@ -11,6 +11,10 @@
     font-size: 3rem;
     color: white;
     margin-bottom: 2rem;
+  }
+
+  .letra {
+    color: white;
   }
   
   .logo-rotating {
