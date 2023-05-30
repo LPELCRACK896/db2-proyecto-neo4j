@@ -1,5 +1,6 @@
 from neo4j import GraphDatabase, basic_auth
 from credentials import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, AURA_INSTANCEID, AURA_INSTANCENAME
+import os
 
 class Neo4jService(object):
     def __init__(self):
@@ -34,7 +35,25 @@ class BankNeo4j():
             for record in results:
                 print(record)
 
+    def load_nodes_from_csv(self, file_path, labels):
+        # Build a string of labels
+        label_str = ':'.join(labels)
+        query = f"""
+            LOAD CSV WITH HEADERS FROM 'file:///{file_path}' AS row
+            CREATE (n:{label_str} {{}})
+            SET n = row
+        """
+        self.service.query(query)
+        print("Finish import")
+
+
 if __name__ == "__main__":
     # Test
     neo  = BankNeo4j(Neo4jService())
+    # neo.clean()
+    # neo.seek_all(show_results=True)
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    # Clients
+    clients_csv = os.path.join(current_dir, 'clients.csv')
+    neo.load_nodes_from_csv(clients_csv, ['Client', 'Person'])
     neo.service.close()
