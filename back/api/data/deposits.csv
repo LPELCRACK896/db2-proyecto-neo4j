@@ -1,544 +1,593 @@
-id,state,motive,type,amount,location
-86b5895b-cc90-4315-b9a3-48069035fa65,failed,other,Cash,429.72,"{'latitude': -24.59530720441238, 'longitude': -162.90178606727983}"
-5a37a3dc-fa61-4945-bbee-62948410fa8d,failed,salary,Direct Deposit,2408.4,"{'latitude': -46.430268606565264, 'longitude': 86.17339348594919}"
-c7f8179f-b824-4ca7-ac13-dfb2ab0235c2,pending,loan,Wire Transfer,5161.48,"{'latitude': -17.536038112213276, 'longitude': -176.07517373810808}"
-0b9e70e3-208e-4d19-abb8-1238587b822d,completed,other,Direct Deposit,5073.82,"{'latitude': -4.25184353060844, 'longitude': 138.13762018006673}"
-69f3862e-dcb7-4925-903b-f507ea0228d5,pending,other,Wire Transfer,5287.1,"{'latitude': 15.967123412182985, 'longitude': 136.1915760426607}"
-12ebe707-cc03-4fc1-8806-ec3f2b140cb5,completed,salary,Wire Transfer,18522.17,"{'latitude': -17.1878458523598, 'longitude': 132.7444766739165}"
-89c4a550-47f7-43cc-a3ff-645c4ba59093,completed,other,Cash,14928.88,"{'latitude': 0.2754659902055465, 'longitude': -6.536096378293877}"
-d4820571-818d-4a43-a7e4-4fddb12c4b3b,completed,loan,Cash,28662.31,"{'latitude': 12.093218001806278, 'longitude': 117.20079523364876}"
-506536e8-d427-4bfa-9d96-3131f35b1f8a,completed,investment,Wire Transfer,52457.86,"{'latitude': 68.41751606202553, 'longitude': -173.23865532830953}"
-f4cd6d6a-5beb-4de5-b618-56e7f0b20039,failed,investment,Wire Transfer,70.27,"{'latitude': 40.00776860794156, 'longitude': 171.76651058198195}"
-5f6c05d9-b309-45cf-9ee9-7ab680e7ecd5,pending,other,Direct Deposit,1425.77,"{'latitude': 57.012895472381246, 'longitude': 109.31625821922154}"
-cd195d52-c629-434c-bd73-74876e6ae6db,failed,investment,Wire Transfer,1835.15,"{'latitude': 4.390405568857361, 'longitude': 80.23699098574008}"
-4239be4a-5bb4-4035-b826-04d7757e01f6,pending,salary,Cash,7835.56,"{'latitude': -35.32029332479285, 'longitude': -92.86914485614909}"
-28c8ea3d-c367-4fce-afe2-a34cb5371b99,failed,loan,Wire Transfer,694.21,"{'latitude': 2.0824253391843257, 'longitude': -70.33376990786012}"
-cfaff408-f6e7-4a72-ad9d-1edcd09deae9,completed,salary,Direct Deposit,134.05,"{'latitude': -52.055711799941264, 'longitude': -24.50426023441716}"
-11dda2ef-67aa-43ed-8425-79045249e584,failed,investment,Direct Deposit,8583.22,"{'latitude': -47.036232443561566, 'longitude': -121.09911220799252}"
-d57d8c2d-eec6-4ddd-8237-967c08ff45fd,completed,loan,Direct Deposit,4751.53,"{'latitude': 14.692119990091356, 'longitude': -8.745337562483172}"
-fa35ead1-695e-48b6-8a79-f6ce6b9fca44,pending,salary,Direct Deposit,379.23,"{'latitude': 58.72330448615921, 'longitude': -35.00593346409278}"
-2ade3860-24d5-4e76-9b15-839c8db81379,pending,salary,Cash,8371.35,"{'latitude': 70.88197125917662, 'longitude': 119.31547162288138}"
-47fc05a8-18f1-4ad9-9752-4842de0c561a,completed,salary,Direct Deposit,8054.77,"{'latitude': -43.978691811951286, 'longitude': -158.0327975593658}"
-0c0ff7e7-d1ce-4979-afc4-be0f0470995b,pending,loan,Cash,59.43,"{'latitude': -14.825521024206637, 'longitude': -57.620916999591046}"
-b4640840-f3b1-4802-86a2-e22c6d06928f,completed,loan,Wire Transfer,2777.75,"{'latitude': 48.99366877351588, 'longitude': -95.68271325755691}"
-af723a74-5631-4950-9b0a-e27387dbc060,failed,loan,Cash,735.12,"{'latitude': 7.801404738347969, 'longitude': -104.68120807048138}"
-42a7f955-eeed-49cb-817b-566b3167cac9,failed,salary,Cash,102.32,"{'latitude': -8.933007567063882, 'longitude': -74.834247766296}"
-afaab985-ec4b-44dd-9b69-58fd9e566ef5,failed,salary,Direct Deposit,702.42,"{'latitude': -87.61305453608847, 'longitude': 42.954707283859534}"
-9c11bd02-a582-49ac-8d19-0294d0cec19d,pending,other,Wire Transfer,314.43,"{'latitude': -56.149807037026264, 'longitude': -170.99152739837373}"
-ad78121b-aea4-458d-a0c9-e1b93c521414,failed,salary,Wire Transfer,6206.01,"{'latitude': 64.96544567389287, 'longitude': -98.43620491948273}"
-6eac0a12-eadc-4751-911f-761e2f625e57,completed,salary,Wire Transfer,161.53,"{'latitude': 84.89546230522612, 'longitude': 144.93914017783266}"
-5a5e9729-084f-4b82-a32e-b3745a12f115,failed,investment,Direct Deposit,4922.66,"{'latitude': -30.279700561814863, 'longitude': 35.00152394475231}"
-927a61ab-7db1-4e73-8388-5f1c9f07ae73,pending,investment,Wire Transfer,1704.28,"{'latitude': 16.953893564143968, 'longitude': -120.82184319177999}"
-7c15750d-e630-47f2-b64e-7485efde8e81,completed,salary,Direct Deposit,9007.58,"{'latitude': -2.611774307991098, 'longitude': -75.61867575519918}"
-ddc59e8c-a298-4952-9bb2-767968081a60,pending,investment,Cash,29793.11,"{'latitude': -53.23064931791212, 'longitude': 41.51413386241754}"
-4fae096c-4660-4994-834c-e8fdd1804502,pending,investment,Cash,806.91,"{'latitude': 17.885948525980922, 'longitude': 6.189241728362305}"
-ec0b92e1-d664-4535-9083-73d460c5a874,pending,salary,Direct Deposit,891.55,"{'latitude': 68.31061138893418, 'longitude': -167.91820203989127}"
-ba076a3a-806a-4ce3-8353-8fcf4acfcb18,failed,other,Direct Deposit,877.16,"{'latitude': 28.894071351978255, 'longitude': -2.6991421124578494}"
-ed1bf452-1eb2-4ca2-aea1-0ca7fe577a23,pending,other,Wire Transfer,523.38,"{'latitude': 9.21827985821686, 'longitude': -129.02756588245944}"
-fb5858b8-18f5-4b02-86ae-c3b294b4c1e4,pending,salary,Cash,974.07,"{'latitude': 84.13588685969802, 'longitude': 159.50206900883438}"
-d829e0f0-5367-4cc2-a3b6-9151dbdf5c99,completed,other,Cash,6949.31,"{'latitude': 37.69355146324774, 'longitude': 167.78952287730078}"
-936bedda-e074-4f9c-8fae-1397d68ec6b2,completed,loan,Direct Deposit,3092.51,"{'latitude': -53.5339911187731, 'longitude': 113.97692829758688}"
-f98298b8-dda8-4c01-b6e6-5a03612cae98,failed,investment,Cash,752.76,"{'latitude': 57.007193914288905, 'longitude': -75.90711374962356}"
-6f75bbbb-b227-4f4d-8533-d37bef1c50ed,completed,investment,Cash,602.87,"{'latitude': 31.95632807217278, 'longitude': -48.22728818171453}"
-440d455c-a158-4468-9198-6974e5df258f,pending,other,Wire Transfer,1429.48,"{'latitude': -54.23032983308374, 'longitude': 3.983705568564176}"
-a7dda4fe-6bbf-4881-afba-1664c9a50682,pending,salary,Cash,1041.27,"{'latitude': -73.72412786599796, 'longitude': 99.1005047954913}"
-b3f964d7-682b-4479-9250-3a850565a695,completed,investment,Wire Transfer,704.01,"{'latitude': -59.23628499778853, 'longitude': 25.39059964142217}"
-5acdddb0-ac32-4674-95d2-98051ea22329,failed,investment,Wire Transfer,37.71,"{'latitude': 9.695374942882381, 'longitude': -5.622032524212699}"
-a7b50e2b-6d4f-4a68-84fc-7b975a272dfe,pending,loan,Wire Transfer,6.43,"{'latitude': 29.095859891402085, 'longitude': -9.423102853763652}"
-44292099-0343-4829-aef1-3fc8ae98a84e,pending,investment,Cash,135.42,"{'latitude': -18.82488580560748, 'longitude': 25.047339594156966}"
-972d968f-422d-4148-83c2-bc3eca93dda8,pending,other,Direct Deposit,1509.49,"{'latitude': 35.51298636181515, 'longitude': 33.36367914728794}"
-3f841b1c-04dd-4fe0-bf76-ff86bdf0d4cc,pending,salary,Wire Transfer,591.62,"{'latitude': -70.11232999773225, 'longitude': -88.10289027770344}"
-8888cb28-2bb9-42f6-9ca3-50d26b2a6bca,failed,loan,Cash,3601.4,"{'latitude': 2.7281215755441792, 'longitude': 16.115191561116774}"
-79471e5b-adbc-4375-bffb-78bf5609a97d,failed,salary,Cash,7721.08,"{'latitude': 6.27240174593102, 'longitude': -121.82098856562966}"
-18d12769-58b2-41fc-ae02-9dd31e56a29b,failed,investment,Cash,128.36,"{'latitude': -12.69896556418199, 'longitude': 77.28812859089157}"
-b21a82a9-58b4-403a-8e1d-27fb329ac888,completed,loan,Direct Deposit,9017.72,"{'latitude': 64.56969216982273, 'longitude': 120.87337900196354}"
-c3bbfb60-509c-4c2e-90d5-b732449f05b8,pending,salary,Direct Deposit,4.19,"{'latitude': -42.546250660673046, 'longitude': -70.45981134471002}"
-ab659521-3299-411f-88ab-914a90bec87a,failed,other,Cash,16198.12,"{'latitude': 68.92525680109935, 'longitude': -95.78924765636249}"
-e2c0e85e-ff96-4374-887e-a5f4b69ae025,failed,other,Cash,187.02,"{'latitude': -27.652707519627022, 'longitude': -165.0927483027224}"
-0f7dfb40-8b44-46bc-8d16-a0cb62de9795,failed,salary,Wire Transfer,53.23,"{'latitude': 20.334444312049072, 'longitude': -78.58142056543905}"
-f69d4c27-f9af-441c-a295-59d121b51192,pending,investment,Wire Transfer,62.07,"{'latitude': 22.73022244321278, 'longitude': -160.30310163835307}"
-1c2716b8-282d-4bf0-b199-c3e0a2e693ca,completed,other,Direct Deposit,74.27,"{'latitude': -69.5391176702017, 'longitude': 110.59017723823217}"
-55b831aa-5517-4be1-8cbb-3df98a6f19d3,pending,other,Cash,37.16,"{'latitude': -15.494559422961757, 'longitude': 179.8371933836815}"
-a67aa9dc-49b1-4433-9400-fe745dcc3de6,failed,investment,Direct Deposit,468.85,"{'latitude': -32.74266399670972, 'longitude': -94.69573944564473}"
-e749fdfd-790d-4979-b28b-cea4bbbf765c,pending,loan,Cash,869.17,"{'latitude': 24.438637307106433, 'longitude': 115.46663111201235}"
-6db575a3-87f3-4a07-b304-a1944cb4a51d,failed,other,Wire Transfer,90.3,"{'latitude': 83.72598508601052, 'longitude': 10.483648343022054}"
-dc31fb55-a56b-47a6-b528-c812948278e4,pending,loan,Wire Transfer,16.09,"{'latitude': 89.6008382943833, 'longitude': 66.45494093161074}"
-7fffa8a8-dd0b-4bfe-a368-8936a757f35c,completed,other,Cash,439.25,"{'latitude': 54.97377195234935, 'longitude': 54.416303623625765}"
-1d8f6ab2-3a38-4608-9869-fbd927b34c7d,completed,investment,Direct Deposit,12512.29,"{'latitude': -43.4507562644973, 'longitude': -25.63019375800411}"
-2745eafb-6696-411a-b2a0-09801b3fb4b0,completed,loan,Direct Deposit,20749.16,"{'latitude': 21.452441571206734, 'longitude': -71.56866826501611}"
-d13bc7d2-ae43-4b31-9c48-99f188dca393,completed,loan,Wire Transfer,213.3,"{'latitude': -27.192201446923264, 'longitude': -160.06960420908766}"
-97959a52-29c7-42f2-806d-4f3eb6d91e91,pending,loan,Cash,22758.41,"{'latitude': -63.74966323704895, 'longitude': -81.67998948922069}"
-6a0d44c6-eff4-4b82-a85a-c7785fa278ab,completed,salary,Direct Deposit,5123.99,"{'latitude': 43.25501961392098, 'longitude': -5.01247642185794}"
-ec2e6ad4-e040-4f74-b313-9a9cbcb8f671,failed,other,Wire Transfer,3966.23,"{'latitude': 40.85919248723749, 'longitude': 85.22484724315194}"
-eb0dc0fc-dcf7-4558-924d-5fda5c21fbff,completed,salary,Wire Transfer,598.2,"{'latitude': -5.526451806557958, 'longitude': 32.06789220223317}"
-50139f55-cc21-4392-8fbc-7b8aa2e7d913,completed,other,Cash,1284.43,"{'latitude': -9.697536330106061, 'longitude': -86.60823751748867}"
-2c336dc8-78bd-4bb9-a83e-9c4478de0463,failed,other,Wire Transfer,1555.63,"{'latitude': -40.69463971062472, 'longitude': 23.614569925520016}"
-d27186cc-a3ca-43d9-925d-71f97e48b2dd,completed,investment,Cash,1052.29,"{'latitude': 45.04310351451818, 'longitude': 63.09007144110609}"
-cad5c1f6-10dd-4f53-acd9-dc593f117e49,completed,salary,Wire Transfer,17292.83,"{'latitude': -42.9523704861857, 'longitude': 20.896747447614615}"
-9312b571-b2de-4627-94e0-08c1234b098c,completed,loan,Cash,24193.78,"{'latitude': -51.497341377322925, 'longitude': -144.26080114864237}"
-376f0140-4e20-434f-b7b8-200c649f2deb,failed,loan,Direct Deposit,23439.42,"{'latitude': -33.99894786441878, 'longitude': -80.32348001261873}"
-a8d07788-f630-4645-8b68-0f78d6759633,completed,loan,Direct Deposit,45.57,"{'latitude': 57.782943023041184, 'longitude': -147.1440857100148}"
-33934c22-ada5-434e-be54-bb55cebc9c76,failed,investment,Direct Deposit,37.47,"{'latitude': -88.39454061716569, 'longitude': 52.54996616650061}"
-d5c69184-9266-4090-a2cb-eed82fc8b7d2,pending,investment,Cash,2543.69,"{'latitude': -11.607908568139607, 'longitude': 40.47308241751733}"
-d2d9cdef-fbd2-4914-af04-64d38d4f7f69,completed,investment,Cash,10272.39,"{'latitude': -15.692962143226339, 'longitude': 53.135738632960226}"
-60c786f3-6321-4293-b096-d76b8c381ccc,pending,salary,Wire Transfer,1142.6,"{'latitude': -67.33758090718675, 'longitude': -177.24563703829634}"
-88b69933-48f6-49cc-af58-3a7dcca9ffe1,completed,investment,Direct Deposit,3014.74,"{'latitude': -38.54481888562586, 'longitude': -68.04729014957684}"
-5b2406f7-2f4d-49d8-a94a-ea66487c9955,pending,loan,Cash,359.57,"{'latitude': -51.02698582103048, 'longitude': 74.09078394716323}"
-8d54c3cf-beb6-4ffb-bb8f-0384a90c124d,failed,salary,Direct Deposit,359.31,"{'latitude': 82.24239569182197, 'longitude': -152.87726186489846}"
-530a1cda-92b6-46f6-909a-858d9b9482f6,completed,investment,Cash,344.82,"{'latitude': 40.533602831806775, 'longitude': -173.27275627585476}"
-405fc4db-3e93-4792-8be2-87fa6c8e899a,completed,investment,Direct Deposit,13.15,"{'latitude': 8.418179901175407, 'longitude': -75.72422457905814}"
-e8993698-0dc3-4a4b-9b72-2bcaa6953f49,failed,investment,Cash,12.69,"{'latitude': 43.03839193127024, 'longitude': 164.23772283257523}"
-71b00493-8a3a-46b5-b078-45dbf787f65c,failed,salary,Cash,20.12,"{'latitude': -9.137666160228605, 'longitude': -140.37994911742396}"
-5db28e5c-d6a2-4fd2-a388-e50ac1fec70d,pending,loan,Cash,19.33,"{'latitude': 33.371747873195474, 'longitude': -147.56543912923712}"
-3960351d-7d58-47bb-92a0-1c1a6cecdefc,failed,salary,Direct Deposit,1369.84,"{'latitude': -63.092292311627205, 'longitude': -139.22283354549637}"
-ec180335-f934-4cf3-b5fe-45bf939528a0,pending,other,Direct Deposit,8203.09,"{'latitude': 50.09881928485095, 'longitude': 65.15441600129998}"
-a004bc5f-0e41-4720-8b51-387cb13c14d7,failed,salary,Direct Deposit,5157.16,"{'latitude': -13.260152206915507, 'longitude': -102.19427287267824}"
-fec2407a-7e57-4e95-b2aa-f47df9a640d4,pending,salary,Direct Deposit,3430.53,"{'latitude': 39.461840748248704, 'longitude': 56.59363656839301}"
-3c4e8795-b5c5-4726-aba0-57af13eea00e,completed,salary,Direct Deposit,9939.95,"{'latitude': -15.620583857907349, 'longitude': -114.61495828148087}"
-b54188c8-a61d-4dd7-b451-2768ac85241b,failed,salary,Cash,17275.48,"{'latitude': 47.65367988472934, 'longitude': -46.03138579296274}"
-575a1288-b11f-4522-ae8d-5e158a20faaa,failed,other,Direct Deposit,9572.75,"{'latitude': 60.21578771454307, 'longitude': 64.41099511257062}"
-611bf0fd-4f7d-461e-a341-f203a042694b,pending,other,Wire Transfer,38.66,"{'latitude': -30.924006485032265, 'longitude': 60.12771335696635}"
-2c3edb52-6b0f-4ce3-a252-8a5f0b3dc21b,pending,investment,Direct Deposit,738.88,"{'latitude': 17.803534915428656, 'longitude': 43.798336232118714}"
-59d08d17-7b8c-41a2-9dd3-63237d769301,completed,salary,Cash,390.25,"{'latitude': 71.86881257146186, 'longitude': 175.37615566998}"
-74a80811-fe8b-41bd-ab14-b66c14ed61bf,pending,salary,Cash,1318.75,"{'latitude': -37.24284458615317, 'longitude': 11.931761785607023}"
-b2704578-e62a-4548-b194-4dacab340af2,pending,investment,Cash,52.67,"{'latitude': -41.923137932731564, 'longitude': 18.470510242511864}"
-b3e40527-9adc-4f18-8a8c-e8fecd85f273,failed,other,Wire Transfer,28.06,"{'latitude': -32.57371960775521, 'longitude': 21.050273397385865}"
-189305c2-32a7-4e12-9abe-ba1d1215f8c1,failed,investment,Direct Deposit,11.86,"{'latitude': 7.057121317103807, 'longitude': -69.57975732236424}"
-533d4750-2786-437f-8303-be98f6719401,pending,salary,Direct Deposit,742.27,"{'latitude': 41.54586724811065, 'longitude': -86.09516554176521}"
-70ed3bcc-a70d-4775-92ca-958378649a07,failed,investment,Direct Deposit,2474.61,"{'latitude': -45.887979094193035, 'longitude': -27.15147953666434}"
-7f591898-6e30-4334-b542-9205fadac12e,failed,salary,Direct Deposit,1507.92,"{'latitude': 40.822176051977976, 'longitude': -175.96641346166865}"
-6b5a2a36-ed34-4608-ad5a-cc70265f3cef,pending,loan,Wire Transfer,390.14,"{'latitude': 17.256349867981726, 'longitude': 137.8843677344916}"
-d9ca07ec-a421-42be-a2a2-f29d7a1af010,pending,other,Wire Transfer,2826.62,"{'latitude': 23.92522545797344, 'longitude': 169.425028908292}"
-eefdacca-9f4b-44d2-935e-4c3dbc824765,pending,investment,Cash,1.58,"{'latitude': 27.87527699826103, 'longitude': -35.41027060862936}"
-31568726-cf3c-4528-859b-bb9c3ee718ae,failed,investment,Wire Transfer,39.5,"{'latitude': -54.12944619948763, 'longitude': 94.34280424709749}"
-c4a813c8-aa36-4598-b2c5-595fc1022541,completed,loan,Wire Transfer,17.24,"{'latitude': -8.180811769954971, 'longitude': 46.26033483581563}"
-a6346dc0-fbfc-4378-9295-7671adf5c9f2,failed,other,Cash,5.84,"{'latitude': -46.94646188100634, 'longitude': -97.13981790137211}"
-64321476-89fc-41a4-8392-0f2551a88c55,completed,other,Direct Deposit,192.57,"{'latitude': -13.041050706529575, 'longitude': 20.90681322042974}"
-d177d9ac-ad68-4b46-bfcc-f9bf795113cc,failed,other,Direct Deposit,301.32,"{'latitude': -37.285445808776274, 'longitude': 178.51958100092446}"
-654f8d5d-8a1d-446f-8aba-dc5005d77f68,completed,salary,Cash,1384.93,"{'latitude': 30.921021310649593, 'longitude': -165.439085348741}"
-de0c96ed-790c-4a84-89ff-f6b4b3eb5956,pending,loan,Wire Transfer,2111.96,"{'latitude': -48.68216702907715, 'longitude': -120.21114339036282}"
-14c5b0e1-b6ea-436e-aa8a-7574d354e6b5,pending,other,Wire Transfer,2691.31,"{'latitude': -71.76268544043239, 'longitude': -100.83227946294804}"
-a18f2e10-155e-4e00-9a57-d2135e31c307,failed,salary,Direct Deposit,5487.79,"{'latitude': 53.620405319091645, 'longitude': -90.72841445843946}"
-6457e33a-0161-4f2e-b2a1-95e20d239051,completed,loan,Direct Deposit,2329.42,"{'latitude': 81.66194697195641, 'longitude': 19.11490770904973}"
-53ce6ec4-2ec4-4924-a9e7-4b5872f3e33c,pending,investment,Cash,6778.65,"{'latitude': -16.75868145781547, 'longitude': -145.09635636517376}"
-5756a51d-efc8-425d-be4f-f840e96f1e5c,failed,loan,Wire Transfer,6645.18,"{'latitude': 72.54632735389049, 'longitude': -164.96246458145603}"
-92bea3b2-a112-4fe6-a1c0-37721d3ecf52,failed,other,Cash,1006.94,"{'latitude': 71.89327978672998, 'longitude': -89.9617498485801}"
-f79aeef6-8fbf-401c-bcb8-74800ddddbf9,failed,other,Cash,750.7,"{'latitude': -77.95997033058204, 'longitude': 2.1945104587058495}"
-207b54a8-e56d-425d-a276-6bdd06079cb1,failed,salary,Direct Deposit,21742.77,"{'latitude': 8.130685914120619, 'longitude': 3.521523684057712}"
-f7370f3f-33ef-4f0e-9b67-950b40025011,failed,loan,Direct Deposit,10574.24,"{'latitude': 1.0794678115966008, 'longitude': 44.10849347786777}"
-aee0caa6-2e53-43f4-b262-98a1927a91d2,completed,loan,Wire Transfer,14684.77,"{'latitude': 24.696624495994968, 'longitude': 149.86840058899867}"
-f2bc6ce2-bf2d-41c6-a286-09b3c45cb77f,failed,investment,Cash,9472.16,"{'latitude': -2.587358297090603, 'longitude': 53.96566331234402}"
-ac845da4-c0e4-43ee-83b7-c8120dfe5680,pending,loan,Wire Transfer,1078.12,"{'latitude': -32.00167324929467, 'longitude': 77.76787780473325}"
-6743c501-b97a-440a-b710-e8224212ebc1,completed,salary,Cash,14010.12,"{'latitude': 6.967888382604443, 'longitude': 58.14993328108906}"
-17d5184d-8f2a-44b2-9f3c-7e1022865e8d,failed,investment,Cash,34077.13,"{'latitude': -20.925261962623154, 'longitude': -125.8392264146249}"
-3e42d0b8-c303-435e-8d05-8028abc26ef6,failed,loan,Direct Deposit,610.09,"{'latitude': 89.85743792770234, 'longitude': 50.688244563707826}"
-7faf60c4-5baf-43b9-bdb0-e6e41b6961f6,completed,salary,Cash,448.5,"{'latitude': 0.43162103371477656, 'longitude': -80.99392481526539}"
-21498cbc-542c-438e-8cc9-0811450cad0d,pending,loan,Wire Transfer,470.82,"{'latitude': -51.43851714819432, 'longitude': -27.232380401605354}"
-795a57b5-74d2-4dc7-9090-dbb30aae3a5a,completed,salary,Direct Deposit,1129.16,"{'latitude': 41.264273802331104, 'longitude': 91.41249586952244}"
-c8150fce-63b0-4a0e-97c7-faccf0cc511b,completed,loan,Direct Deposit,1537.62,"{'latitude': 86.80314049653478, 'longitude': -121.75959031572637}"
-8848a7c8-e398-4b5f-a65d-abbc69a24cf0,failed,loan,Direct Deposit,6674.39,"{'latitude': -22.363744105775638, 'longitude': 169.22916760379132}"
-ecfb44bb-4b75-46e6-b2d1-03a6adfd57ce,failed,other,Cash,1064.95,"{'latitude': -9.464062259028168, 'longitude': -113.20337846663121}"
-ddef1842-ec2f-481a-8008-be3b49d0e068,pending,salary,Direct Deposit,1108.69,"{'latitude': 33.63166150364066, 'longitude': -78.11399257984934}"
-d8b3a02b-32ca-4157-a12c-fc789ad26d06,failed,salary,Wire Transfer,5193.02,"{'latitude': 56.06092874336062, 'longitude': -25.732206007571875}"
-3d7bc2af-92ff-4796-88e7-adf9b8407c84,pending,salary,Direct Deposit,2269.83,"{'latitude': 13.279943500900046, 'longitude': 162.29465822839256}"
-73ce54d4-cb4b-4c14-b897-952089a38190,pending,loan,Wire Transfer,3.06,"{'latitude': 58.777021443781706, 'longitude': 131.17239055674975}"
-1a54df8a-0f90-483a-b0eb-c17d11a53c82,failed,investment,Direct Deposit,7.14,"{'latitude': -7.010627844997828, 'longitude': -20.140406404140975}"
-8eba9b39-ebd0-438e-ac5e-11c45a996c55,completed,other,Cash,3.0,"{'latitude': 62.20942075762062, 'longitude': 118.41479965067583}"
-a7e3b171-1d84-4604-8ffd-65fb0a803ba0,failed,loan,Cash,682.74,"{'latitude': 72.84508525395736, 'longitude': -161.12488375764335}"
-3b042a19-dfc3-49e9-904a-acb16adf1683,failed,salary,Wire Transfer,11069.39,"{'latitude': 25.332388661441513, 'longitude': 167.55561104893388}"
-30093483-a61b-4f00-93df-56e08f383800,failed,loan,Wire Transfer,10727.59,"{'latitude': 35.13746055572565, 'longitude': 165.8773865912491}"
-43a8cd44-df26-4ff3-873d-b52aacac5fbb,completed,investment,Cash,743.61,"{'latitude': -5.078161206937409, 'longitude': 146.42370991060358}"
-5e0b300b-285c-4283-baf9-36b39697ca2d,completed,loan,Direct Deposit,2475.73,"{'latitude': 47.124426771821874, 'longitude': 62.182161092207906}"
-cd14e644-3328-4e04-94fb-066556a622a5,failed,loan,Direct Deposit,2099.09,"{'latitude': 53.10958755615286, 'longitude': 5.0486673232535395}"
-83ad45a3-b4f7-4156-9ad4-2950588031a5,completed,investment,Wire Transfer,4822.45,"{'latitude': 63.7927672674538, 'longitude': 109.60763485742001}"
-df177b2e-e061-4e60-8b6c-3faa291a1d35,pending,investment,Wire Transfer,39934.26,"{'latitude': -54.32646910032227, 'longitude': 114.60925109073139}"
-1576db9c-d1dc-46f7-a889-7e37913a9147,completed,salary,Wire Transfer,7669.99,"{'latitude': 11.6693017117573, 'longitude': 40.484395231382365}"
-2c396cdd-c854-40b8-a3ac-cd8503f2c7b3,failed,loan,Direct Deposit,41587.76,"{'latitude': 80.24296341629139, 'longitude': 77.02631319926178}"
-b913aaab-7971-4b61-afd7-f8efdd4e2bf5,completed,investment,Cash,48061.89,"{'latitude': 29.218463010634963, 'longitude': -68.53762014341126}"
-be5ea812-a9c1-4cf5-beb9-f86a24abfc83,failed,loan,Wire Transfer,45124.87,"{'latitude': 40.96126806269683, 'longitude': -129.36600841708574}"
-d629f2eb-a9ab-46c7-aa49-ace24577efa8,failed,loan,Cash,147.42,"{'latitude': -61.66921026328457, 'longitude': -40.70691736371563}"
-7f79e5aa-603a-4642-8a7a-5c87132169e4,failed,salary,Cash,449.92,"{'latitude': 19.78378682953101, 'longitude': 164.09481026736597}"
-03fbf977-2f4f-4fe3-a0b3-5af57f61fe42,pending,loan,Cash,197.18,"{'latitude': -65.89706880223933, 'longitude': 15.03704379527153}"
-fd5b58bc-b13c-4e56-94c8-102581269160,failed,salary,Direct Deposit,468.7,"{'latitude': 63.581552166071305, 'longitude': -152.79366752644478}"
-003d7206-2a91-481f-a9a5-3c02e5e29d8d,pending,investment,Cash,1728.53,"{'latitude': -62.43499517004231, 'longitude': 30.805050123492123}"
-ee015cc7-63c9-42e5-a6c6-fb655c7f9540,pending,investment,Cash,646.2,"{'latitude': 48.46938084288885, 'longitude': -15.201264483311888}"
-d8d73b18-4e5a-4d5a-85e6-9bc43cb7ebcb,failed,loan,Direct Deposit,1633.3,"{'latitude': 52.954335014332884, 'longitude': -31.34806721298935}"
-37b1e7f1-b29d-49a7-93c1-a689228fb4f0,failed,other,Cash,3001.54,"{'latitude': 68.84720187387259, 'longitude': 117.202018974461}"
-525c014a-ba84-4701-b979-b5a49d63c186,failed,other,Wire Transfer,8196.63,"{'latitude': -43.33159714579007, 'longitude': -84.05749769352462}"
-6f5ae45f-4961-4917-99a6-3c52c572441b,failed,salary,Wire Transfer,6056.3,"{'latitude': 47.9527120411727, 'longitude': 179.1194205785133}"
-df1b9d92-c065-40d6-8317-012312618a59,pending,other,Wire Transfer,2859.6,"{'latitude': 5.018679466758741, 'longitude': 82.2214241171261}"
-6e5fd2c4-083a-4400-a558-790ffa85adaa,completed,salary,Wire Transfer,8778.29,"{'latitude': 45.78950601129091, 'longitude': -7.554761349656957}"
-8e0ce527-d40e-4a4c-84cf-9c5d2d5ec098,failed,other,Cash,11195.69,"{'latitude': -7.630728958611442, 'longitude': 140.4366680829167}"
-0ea7ddcd-53c3-4e9f-8c23-bd117d27ad40,pending,loan,Cash,2140.53,"{'latitude': 52.69064064471522, 'longitude': -123.77617199269523}"
-32da6dff-1b54-42fe-884f-1eefe6bfeacf,failed,loan,Wire Transfer,1571.44,"{'latitude': 9.347568825335102, 'longitude': -125.10084146245097}"
-9a9c0d03-0f40-4b45-925e-b27878849fd3,completed,other,Cash,100.93,"{'latitude': -54.05975144297562, 'longitude': 109.2779024320202}"
-a92ba08c-ed5f-4287-83a9-f4847d4f459c,failed,salary,Wire Transfer,15778.31,"{'latitude': -18.766756859245277, 'longitude': -9.172368508190743}"
-a1a18fa7-807a-422a-be02-dc9be8305da5,failed,investment,Direct Deposit,3392.91,"{'latitude': -14.022192913183247, 'longitude': -112.47587294706315}"
-d6386ae6-62ed-4794-a83a-2c74180385c9,completed,salary,Direct Deposit,11699.12,"{'latitude': 52.358521916675926, 'longitude': -109.71737660090645}"
-a99704db-5f50-4302-b139-98888d94ba5b,completed,salary,Direct Deposit,33652.52,"{'latitude': -60.342903280325544, 'longitude': 90.44145997139935}"
-c276806f-b106-4bf0-bf88-209632d59353,completed,investment,Direct Deposit,25590.73,"{'latitude': -76.64287304464615, 'longitude': 94.65882403005219}"
-ad8b21b5-e88b-4c37-8c9a-632704e4b93f,failed,salary,Direct Deposit,70000.22,"{'latitude': -83.28800754780555, 'longitude': 152.7433435852168}"
-c3a207df-2708-41c7-a473-1dcc7a1b6782,failed,loan,Direct Deposit,2042.7,"{'latitude': -1.8042311985796147, 'longitude': -126.79532292355606}"
-ff122e38-b000-4a16-9ad2-8fccab1e9d5f,pending,loan,Cash,313.07,"{'latitude': -42.29236288851212, 'longitude': -91.28244315534083}"
-19fb79c4-a136-41c5-aab3-d57cae6a8808,completed,loan,Direct Deposit,320.82,"{'latitude': 81.39830994056302, 'longitude': -141.71040844018867}"
-24e52a9e-67d2-4228-8860-307a3a1ccd8c,completed,investment,Wire Transfer,12353.88,"{'latitude': -46.65471184806174, 'longitude': 116.27921408378762}"
-33d2989b-c8c2-4207-adb9-bc951df33b95,pending,other,Cash,30101.2,"{'latitude': -79.600788099491, 'longitude': -97.37200292975521}"
-0748d60b-9248-45b4-87cd-38b2a918bba3,failed,investment,Cash,12483.6,"{'latitude': 49.66788591399495, 'longitude': 37.654428449035436}"
-2bbc0340-5c8a-4138-8678-d55efceacb6c,pending,salary,Wire Transfer,20908.2,"{'latitude': 29.896508843400866, 'longitude': -64.4207081972086}"
-8198876e-ad8e-47b2-b754-e6dd7196f21f,completed,investment,Wire Transfer,10086.73,"{'latitude': 15.39120605241996, 'longitude': 72.79560629288054}"
-e3b92fd3-279f-4ba8-ad6a-6e87b84021fd,completed,other,Direct Deposit,10562.33,"{'latitude': 19.828475711550396, 'longitude': -45.28312548190769}"
-042b7578-22c8-443c-aa29-6137f1226b28,failed,other,Direct Deposit,26200.26,"{'latitude': 74.62158844132648, 'longitude': -133.65059514791454}"
-41ddc814-06a3-42af-9183-255a4a5cc785,pending,loan,Cash,10232.89,"{'latitude': 1.1320150980880612, 'longitude': -161.46530595530967}"
-1ead80de-674f-4ee3-94f4-3f45b5a1142d,pending,other,Cash,13413.67,"{'latitude': 6.913599159348777, 'longitude': -0.1669840918041814}"
-54d970ee-2854-475a-b0f8-fe505666a8b0,pending,loan,Wire Transfer,12242.82,"{'latitude': -29.223703591560636, 'longitude': 5.052107761928255}"
-32b91bfd-f409-40f9-a5ae-3ca2faa27a2a,pending,investment,Cash,14889.81,"{'latitude': 0.8797894462980622, 'longitude': 4.050569982143145}"
-09824fbc-7624-452c-9d82-8deecbec0a3a,failed,loan,Wire Transfer,2.22,"{'latitude': 85.01904594199615, 'longitude': 124.26826464132029}"
-1494051b-fcae-4720-8649-b378c5bac97e,pending,loan,Wire Transfer,16.02,"{'latitude': 41.11243472483309, 'longitude': -174.39601427548584}"
-c3f4ca3f-acd1-410b-99c1-4dd0306141a9,pending,loan,Wire Transfer,10.46,"{'latitude': -11.282249535175026, 'longitude': -47.756010535448894}"
-fbf96546-c0a6-451b-9bc7-36194165a188,pending,salary,Wire Transfer,6.69,"{'latitude': -1.6032633595623338, 'longitude': 68.9281051125549}"
-fe7f2cdc-d3c0-4133-9f09-ee79011cacfe,failed,loan,Direct Deposit,4604.68,"{'latitude': -56.22156029057075, 'longitude': 101.08517923088453}"
-530a586f-4b5b-4fb9-bf80-04abac09e153,pending,other,Direct Deposit,5123.49,"{'latitude': -41.624598281991915, 'longitude': -161.0227223023931}"
-8f2faca0-03df-4ac5-ba4e-b86f32c1c023,failed,loan,Cash,46.75,"{'latitude': 40.87904022179299, 'longitude': -95.68881459479095}"
-eb3fd8f7-167a-4954-94e1-4f0925746dc5,failed,loan,Wire Transfer,37.3,"{'latitude': 15.29855620775426, 'longitude': -52.7997684958642}"
-bd72ef7e-a367-4bd2-983d-4d1dce986b51,failed,loan,Wire Transfer,209.28,"{'latitude': 22.333469523430196, 'longitude': 167.34013171231095}"
-dd19cafc-5bc7-4215-a02e-5c53618a1935,completed,investment,Cash,222.2,"{'latitude': 16.631087343681628, 'longitude': 121.07493369180008}"
-6d742891-4e4e-454e-a138-9c84dae29427,completed,other,Direct Deposit,566.61,"{'latitude': 68.22904589688295, 'longitude': 103.47123296441777}"
-17d60eee-534d-47b7-8256-7d1f77afa9ea,pending,salary,Direct Deposit,248.4,"{'latitude': 14.233320307654282, 'longitude': 110.57339177214686}"
-0b974534-dc41-4df4-9f09-a69a27439fcd,failed,loan,Direct Deposit,247.44,"{'latitude': -1.87051422979917, 'longitude': -123.81019467256303}"
-771a2f1d-19b6-4bb9-b3a2-848fe7d03e83,completed,other,Direct Deposit,122.64,"{'latitude': 10.720389791018263, 'longitude': -67.23869187619573}"
-cceb126a-b036-4955-ae1a-9b07d9d4cf7e,failed,investment,Wire Transfer,560.89,"{'latitude': 26.618500057224225, 'longitude': 22.141396938148546}"
-b3d09f49-1cc9-4e71-a20f-7d119203b735,failed,other,Wire Transfer,755.79,"{'latitude': -83.29533535860638, 'longitude': -47.286453909162475}"
-d6dce101-eba0-4eb4-b17c-c7259ca07835,completed,other,Cash,109.16,"{'latitude': -5.839179228865248, 'longitude': 122.11411446897637}"
-de3cf559-0387-4521-ad49-b217b3cfa339,completed,investment,Cash,4026.02,"{'latitude': 15.128280640072191, 'longitude': -70.3136297766071}"
-4d48bff0-71c2-4dfc-8898-7fa31b6ed7a0,completed,salary,Cash,3037.43,"{'latitude': -51.23525039562739, 'longitude': 60.31440925458472}"
-aaadbdb1-bb2d-4167-b876-e5f011708c5f,failed,loan,Direct Deposit,6.25,"{'latitude': 7.25068336462094, 'longitude': -132.2829454220356}"
-0ba4a67f-b044-49ba-9ddd-4022745aee99,completed,loan,Direct Deposit,9.32,"{'latitude': 20.249895361392774, 'longitude': -77.51840072931822}"
-dd03ff33-af21-4ef1-a0f0-f6229cb0aee3,pending,other,Wire Transfer,15.78,"{'latitude': 68.1862814944833, 'longitude': -96.02008985319095}"
-8fd72979-528d-47fc-a214-89fc1be15614,completed,loan,Direct Deposit,1543.66,"{'latitude': -23.161204079062585, 'longitude': 151.37580292021084}"
-2b421335-9d17-4764-8d7c-f1a1b58b9d0f,failed,investment,Direct Deposit,7696.48,"{'latitude': -1.5284522306466073, 'longitude': 3.722618127830458}"
-13f80d02-c882-427c-9c52-66195219cdeb,failed,salary,Cash,1081.79,"{'latitude': -42.331032575945684, 'longitude': -81.48704287391928}"
-7e20913e-0080-4f4c-99c4-aa290fb2daa1,pending,investment,Direct Deposit,1603.08,"{'latitude': -22.0066686810668, 'longitude': 47.82732508905357}"
-0f5a1de6-eac8-436a-8e2c-e3c84576e930,completed,loan,Wire Transfer,4843.13,"{'latitude': -26.563015327401686, 'longitude': 143.11860882388015}"
-1e3a3d0c-e9ce-4ee3-8ea7-34d8e451c811,completed,investment,Cash,4.38,"{'latitude': -38.571012315518296, 'longitude': 57.93113213232118}"
-a318b5cb-d6c8-4918-b96b-61bc917d10cd,failed,investment,Wire Transfer,9.29,"{'latitude': -58.18880967318201, 'longitude': -163.56716995788918}"
-3490b4e7-2e8b-4c54-9103-1d1992b59dd6,failed,other,Cash,22.81,"{'latitude': -73.96457520684054, 'longitude': -83.46197701077453}"
-3bb9b3c5-aa5d-4b00-aa0b-767994377112,failed,salary,Direct Deposit,22.54,"{'latitude': -7.176781316703071, 'longitude': 118.32986153462724}"
-258adb5b-4fd4-47e7-8bfe-54ea082bf3a5,failed,salary,Direct Deposit,46.8,"{'latitude': -69.43746527892377, 'longitude': -158.50757384132856}"
-0a596b3f-216b-4328-9ac9-765335a568b2,failed,salary,Direct Deposit,8.55,"{'latitude': 63.40246063682315, 'longitude': -79.91542807811096}"
-cadd6ffe-3c73-458d-925d-931fec2f82af,pending,loan,Wire Transfer,4.3,"{'latitude': -26.916352704953773, 'longitude': 28.928698851964356}"
-1ab04baa-2fbe-4e94-88c4-b809fb729843,failed,other,Wire Transfer,10134.62,"{'latitude': -64.7984432465439, 'longitude': 83.46581527586471}"
-239c0dfe-d8c2-4632-9fa6-2f3d2ee34ec0,pending,other,Wire Transfer,3009.91,"{'latitude': 0.775035665254336, 'longitude': 113.89011473333517}"
-eb23effb-d0e8-49f1-8d1a-3350d42d7c61,pending,loan,Cash,7170.88,"{'latitude': -42.582957469967255, 'longitude': -169.2131184637278}"
-fcd239c4-b12b-4b8c-8dc6-21fc90a9f585,failed,investment,Direct Deposit,5220.99,"{'latitude': -43.7894905520038, 'longitude': -25.416287554080014}"
-911828d2-8af0-47f2-aec2-0482e44cfed5,completed,salary,Direct Deposit,4022.26,"{'latitude': -20.362653970400956, 'longitude': -75.16803866520172}"
-b4459b50-6a50-49a1-8d37-85b414ba3fa2,completed,loan,Wire Transfer,5737.29,"{'latitude': -66.20155715254441, 'longitude': -55.23505904927245}"
-aeab03c8-5119-4493-9d53-b22a8604e808,pending,loan,Wire Transfer,298.31,"{'latitude': -30.782107846256046, 'longitude': -168.3432006779609}"
-39bd711c-8909-41a2-a218-c5714387a168,pending,loan,Wire Transfer,459.88,"{'latitude': -49.826976155606765, 'longitude': -67.49402570775169}"
-0a4292f2-bedf-4577-a06b-2c3ec15c65c7,failed,salary,Direct Deposit,40.24,"{'latitude': -16.931001657125947, 'longitude': 160.34510833257127}"
-7ba0c3e4-8af1-4a00-9798-f5e02d44eccb,pending,loan,Cash,427.96,"{'latitude': 63.486199714885686, 'longitude': 143.96649738100803}"
-ad84ba79-0342-4430-a81d-1e51f50e60f7,pending,loan,Direct Deposit,960.62,"{'latitude': -32.370055720864315, 'longitude': -54.491444973072575}"
-3ae0e7fc-c5e5-4b6d-a22a-3a6c81efd276,failed,loan,Cash,1785.79,"{'latitude': 45.34768457754848, 'longitude': -107.08908108054024}"
-6b7a3d09-460d-4654-9dd7-8efc70a90ee4,failed,other,Direct Deposit,4776.79,"{'latitude': 18.392697331675194, 'longitude': -73.68152036395134}"
-aab4a941-b46e-43b4-bf67-f2011fd3d53c,completed,salary,Direct Deposit,2473.15,"{'latitude': -66.30094923322466, 'longitude': -58.78501448646857}"
-8182c18b-1e9c-4c82-9276-08f85c9d1d72,pending,salary,Wire Transfer,657.5,"{'latitude': 28.09668135311206, 'longitude': 18.1865909058466}"
-9087fa50-52ab-48c9-a9ad-356b3981aa7b,completed,other,Cash,670.54,"{'latitude': -65.1136233536131, 'longitude': 49.16178284999111}"
-31dceeb5-8bb3-4d83-a30d-62488f6c5c32,failed,salary,Wire Transfer,904.33,"{'latitude': -29.357827289383437, 'longitude': 35.974267735646265}"
-b3653f85-391d-4dc7-ade4-c6ab62f611cf,pending,loan,Direct Deposit,1308.7,"{'latitude': -2.302407676864277, 'longitude': 57.753922649706396}"
-b7d03062-6c82-46f3-8d79-aa650566acfa,pending,other,Direct Deposit,1074.79,"{'latitude': -49.71528470289359, 'longitude': 145.25793607005164}"
-8a00f4ec-3d72-4a3f-a287-c4816b7a9fbd,pending,investment,Wire Transfer,268.37,"{'latitude': -42.74557136993554, 'longitude': -130.60213290250732}"
-3699f83d-f8ef-4a2d-b767-a2a54c1e5037,completed,investment,Cash,177.94,"{'latitude': -8.990956436063016, 'longitude': 110.1364421608468}"
-ba869f97-4b1d-473b-b8e6-d39f312875c0,pending,other,Cash,458.72,"{'latitude': -13.890272252067533, 'longitude': -178.59968047080852}"
-a72dcffa-98e1-4125-bb92-22012f120210,pending,loan,Direct Deposit,12160.72,"{'latitude': 54.69589970663793, 'longitude': -2.0092790703560865}"
-a0d265e7-1563-4337-b629-faf0bcdea96d,failed,investment,Direct Deposit,7143.67,"{'latitude': -12.34461913560314, 'longitude': -158.01029296540912}"
-e6215643-ee64-4648-a841-6b30377c8dc4,completed,loan,Wire Transfer,3051.57,"{'latitude': 51.19770179583466, 'longitude': 145.987708022125}"
-b29e88d7-5b60-424a-b239-f69d7672a34f,completed,investment,Cash,2338.52,"{'latitude': -38.094259576717285, 'longitude': 153.59344057058934}"
-11db51fe-558d-436e-a54c-e6e744c198bf,pending,investment,Direct Deposit,13397.03,"{'latitude': 75.72034373943768, 'longitude': -14.099617695799708}"
-4cf919af-bb75-4d5f-a985-22952a67abe7,failed,loan,Direct Deposit,6452.95,"{'latitude': -43.03474079839168, 'longitude': 112.58614261490902}"
-16ea9d67-0e3f-46e4-b941-427d57fc7f1f,pending,other,Direct Deposit,3772.88,"{'latitude': -74.90230449686823, 'longitude': 135.9512006734658}"
-936f2233-cfb3-46ae-81e0-ab2210118a93,pending,investment,Direct Deposit,3492.64,"{'latitude': -18.794427545292407, 'longitude': 114.088616259675}"
-523a42a3-03de-45a9-a140-532e56dd4311,pending,loan,Direct Deposit,14232.98,"{'latitude': 80.2866395861949, 'longitude': 6.274543133779531}"
-fe1dabec-8689-43b8-aebe-9c6175f1b355,pending,other,Cash,4216.66,"{'latitude': 73.5867718797899, 'longitude': -90.71791546519592}"
-aca8285f-f9c4-4283-a88b-9311de360b15,completed,loan,Wire Transfer,9804.04,"{'latitude': -69.14093026775319, 'longitude': -73.36075571798354}"
-5ad7be91-a5e5-4557-89a1-67a4cd80df40,failed,investment,Wire Transfer,23058.39,"{'latitude': 78.63451972869885, 'longitude': -177.6630922241457}"
-079fc399-b64b-442f-ba7c-bc983ada799e,failed,other,Wire Transfer,17347.6,"{'latitude': -83.94128329884657, 'longitude': -11.457580498790321}"
-0bb0c433-6156-4e19-a64c-f7524686986b,completed,investment,Cash,2178.5,"{'latitude': -69.95724422012475, 'longitude': -70.16427075786392}"
-7a2b7c7f-4c9a-4dfd-8bbc-dea0f36e431f,pending,loan,Wire Transfer,2331.82,"{'latitude': -53.94810197033205, 'longitude': 21.46178373245357}"
-58f29cce-df87-484f-bd91-8e3c628ecc7c,completed,loan,Wire Transfer,4742.62,"{'latitude': 5.659516152630474, 'longitude': 42.05202290163351}"
-ef9e24d6-85ee-40c6-ae92-6ab906796e67,failed,investment,Direct Deposit,6389.0,"{'latitude': 77.43769563034908, 'longitude': -97.34023581268463}"
-f11ff3e1-9ab7-4e0a-aa06-01331f2bdf6c,completed,investment,Wire Transfer,7359.53,"{'latitude': 14.253358414979402, 'longitude': -126.43818684562831}"
-c3880ecf-3e67-4c48-9b4e-1a0e331f7ddb,failed,salary,Cash,5776.61,"{'latitude': -27.71372679127534, 'longitude': -2.9637987765204628}"
-379031c7-f536-43d6-86a2-51d9c256f9ac,pending,salary,Direct Deposit,4032.82,"{'latitude': -11.848882224925688, 'longitude': -143.34115169489985}"
-e6266650-f133-4440-b60c-7f567e964bc0,completed,loan,Cash,3558.2,"{'latitude': 78.0050365524555, 'longitude': 153.1052087516304}"
-5c75c1e5-9390-41c8-bf48-f8d7f8267c2f,failed,salary,Direct Deposit,3574.34,"{'latitude': 66.31911189036006, 'longitude': -47.46450400478835}"
-6b9efa6d-32f3-4b38-955f-7475f1cb0c3a,failed,loan,Cash,4931.49,"{'latitude': 31.049694013908493, 'longitude': -78.63893470598612}"
-a3259e01-da89-44f9-a6b5-2c5a459f5d1e,pending,loan,Cash,5911.13,"{'latitude': -78.75590288262943, 'longitude': -47.45771863976853}"
-ad6dc227-fe36-4ca5-823c-aaeeaf8d20f6,completed,investment,Direct Deposit,8394.54,"{'latitude': 17.758275912099975, 'longitude': 57.56923583871344}"
-d8b61bed-4a87-4936-a9b3-d102bd418513,failed,salary,Direct Deposit,1019.92,"{'latitude': 9.298878672765056, 'longitude': -13.196736840363116}"
-9bef1561-676d-43c7-8e32-6f38d1aa0703,pending,investment,Direct Deposit,2375.96,"{'latitude': 41.98287685937092, 'longitude': -120.49142346622324}"
-085fa7af-1c92-4c3d-8f59-e7d745fe4521,completed,loan,Cash,1418.44,"{'latitude': -2.327796947935795, 'longitude': 142.7921266385946}"
-1379fc0d-d187-47ef-a570-43d527e71dc6,failed,loan,Wire Transfer,3912.03,"{'latitude': 71.41106313532032, 'longitude': -77.21762487123327}"
-b4c3d333-7e4e-4942-b877-646b10b1d5d5,pending,loan,Direct Deposit,2214.16,"{'latitude': -29.36018056159581, 'longitude': 86.41759177730552}"
-7fd38f18-afcb-4ea0-a456-061a9a001d02,pending,other,Direct Deposit,820.75,"{'latitude': 83.75210874104425, 'longitude': 112.79832678708391}"
-b06afcfc-e0ac-43b1-a1b4-705150cbe92d,pending,salary,Direct Deposit,826.07,"{'latitude': -69.09828828314258, 'longitude': -38.61801033083054}"
-3a8a9f78-303c-44e9-9769-4d4b7003e328,completed,loan,Wire Transfer,1037.54,"{'latitude': -6.992376384300343, 'longitude': -87.41533006204499}"
-c0b2b1b0-cb27-4c00-8a55-6524353dcf56,completed,salary,Cash,3044.54,"{'latitude': 21.854932243647667, 'longitude': 156.70751202641367}"
-295f8426-a230-4e03-a104-a5e63f78f445,pending,loan,Cash,8702.73,"{'latitude': 66.11221792001231, 'longitude': 31.305913949971284}"
-01ba0d05-845e-4436-9fff-c8195170fe6f,completed,investment,Wire Transfer,2163.37,"{'latitude': -85.52908302180603, 'longitude': 29.57485352678998}"
-7e65820e-da1c-4e95-bff7-f8f77809138f,failed,other,Direct Deposit,127.03,"{'latitude': -12.941502110258483, 'longitude': 16.9705419491911}"
-f9fd2cfa-4bad-4ebb-871d-665c0602ead1,pending,loan,Direct Deposit,2435.98,"{'latitude': -62.179168158412125, 'longitude': -158.16181167099148}"
-66d10c7d-9675-482e-99b6-e1087d5bd353,completed,other,Direct Deposit,2294.39,"{'latitude': 54.31064169068918, 'longitude': 167.2997313492461}"
-a6be2b2f-a041-4a26-a6a8-315fb9c1869d,pending,investment,Direct Deposit,1.65,"{'latitude': -64.65850202348153, 'longitude': 162.35772243341296}"
-840a33b1-1d8f-4e25-9575-4fe3ecbe71b5,completed,loan,Direct Deposit,9338.16,"{'latitude': 16.230650047581932, 'longitude': -155.64789127103214}"
-6726480b-eadd-40f3-ada1-515331f2afa6,failed,salary,Wire Transfer,9228.32,"{'latitude': 62.077866747606464, 'longitude': 114.07048828823662}"
-c2ea0425-b006-496e-a54f-dd5e08ab67c3,failed,investment,Cash,16936.86,"{'latitude': -84.0783567630711, 'longitude': 133.29537275462326}"
-f7bc20e7-b669-4184-b3c2-761898c1e202,failed,salary,Direct Deposit,5936.95,"{'latitude': 74.04319440774614, 'longitude': -64.05944030378899}"
-8965c141-50f5-4c2c-a4f8-e67eb61ba731,failed,salary,Direct Deposit,6827.57,"{'latitude': -28.283702513704583, 'longitude': 86.26092533566879}"
-d144a82c-3707-44ad-bb31-b2e1cc5a2909,completed,loan,Cash,656.04,"{'latitude': 12.045091060938717, 'longitude': 51.61794468671687}"
-50678629-04c8-46cf-9c40-df7215ebb972,completed,other,Cash,2813.28,"{'latitude': 56.22821504017054, 'longitude': -34.04439470837474}"
-88c0c151-47cd-4b2c-8fe5-a18a49652d9c,completed,salary,Direct Deposit,5579.42,"{'latitude': 26.19418956739821, 'longitude': 55.635723555234534}"
-2d1b8f64-af91-4e05-b862-86421884dfa3,pending,salary,Cash,3877.27,"{'latitude': 63.62368289854359, 'longitude': 110.38834929078331}"
-744b7ee8-2781-4baa-a5e4-f869477fceb4,pending,salary,Wire Transfer,994.82,"{'latitude': -55.42952364565461, 'longitude': 2.971244271963741}"
-cdd5a9fb-cbca-417b-b46a-130e39bc3b3e,pending,investment,Cash,354.06,"{'latitude': 22.939375197728538, 'longitude': -64.15127269900086}"
-e230b184-8a4a-48c1-8a27-9d406af295c2,failed,investment,Wire Transfer,15208.88,"{'latitude': 46.0497662590725, 'longitude': 164.07304655207463}"
-1a864cb6-63e0-478b-852b-f31ded5793d7,completed,investment,Wire Transfer,12142.13,"{'latitude': 87.7261862362364, 'longitude': -153.67270632337346}"
-1fb2d90e-58ff-4ca7-bf38-f11f55c31a21,failed,loan,Wire Transfer,7577.63,"{'latitude': 17.822273430458083, 'longitude': -73.92818764788538}"
-e15bc019-dc6c-4fd3-8a78-d53a719fa0aa,failed,loan,Wire Transfer,33631.35,"{'latitude': 23.949787382446445, 'longitude': -52.167286949590036}"
-360a5c9f-cde1-4da8-95a0-75e1e00d147b,completed,investment,Direct Deposit,16359.98,"{'latitude': -8.238375625730328, 'longitude': 66.22896105702279}"
-ffaae1eb-dbda-4035-ad2b-7a11c7ee25eb,pending,loan,Cash,2.04,"{'latitude': -55.766502391616996, 'longitude': 24.06947770461983}"
-95088609-fa65-416c-9ac2-06bbb976e91c,completed,other,Wire Transfer,7.73,"{'latitude': -81.20491200007112, 'longitude': 122.01697918602684}"
-b141f562-07a4-4428-a471-2d4f36f9d9cc,pending,salary,Direct Deposit,9.38,"{'latitude': -57.4158439778042, 'longitude': -177.7702248334064}"
-925e1a61-a100-4313-991e-1c6dacbd130a,failed,other,Direct Deposit,17.43,"{'latitude': -15.175372877415356, 'longitude': -89.86743884985982}"
-3f0c7bbd-fd1f-4797-a31a-e69494649b1f,completed,loan,Cash,361.3,"{'latitude': 16.168665686187254, 'longitude': 89.8672754238462}"
-f6087b0e-3f0b-4d2d-bd2e-1ccd0c4c1f58,failed,investment,Cash,2432.1,"{'latitude': -89.6283631338908, 'longitude': -158.36203843557078}"
-2cbad34a-2f96-4006-ab8e-272429ba39ba,completed,other,Wire Transfer,692.32,"{'latitude': 19.16369704835671, 'longitude': -172.05878427748289}"
-0d9c5db9-a343-47f2-88de-5d8b9a1fc807,pending,loan,Wire Transfer,4459.97,"{'latitude': -78.27125232161335, 'longitude': -96.97429206792069}"
-ec45c3ce-bca1-4536-ba1a-f49cb686fa2a,completed,loan,Direct Deposit,21943.95,"{'latitude': 59.95080152448239, 'longitude': -117.29586141081276}"
-3445154a-b248-4858-98b2-5a4bef604905,pending,loan,Cash,12232.66,"{'latitude': 63.38516266612376, 'longitude': 30.117408500435744}"
-5ff6d9d2-e5f1-4e9f-adbe-c9be30e4ebe4,pending,loan,Cash,15895.78,"{'latitude': 10.686582045906377, 'longitude': 149.3005105851314}"
-ea3e029e-f37b-43b1-a228-393521c9fcbb,completed,salary,Cash,18357.03,"{'latitude': 25.54234586012649, 'longitude': -27.168949600854233}"
-33edd54b-a0d1-4662-bf75-04cb9d5b0e5b,completed,loan,Direct Deposit,20504.43,"{'latitude': 54.60910400326833, 'longitude': -48.359322842797866}"
-369b69e5-e55d-4fb4-8455-562ceab94bd2,failed,investment,Wire Transfer,7141.61,"{'latitude': -87.30825194070958, 'longitude': 101.0872530804321}"
-2154c29f-e97e-4729-baea-d9b2cc5b27ef,pending,loan,Cash,8264.96,"{'latitude': -66.4907003148124, 'longitude': 75.59876629603411}"
-540d6570-c141-4d73-9f10-618ae8f0eee8,pending,investment,Cash,781.91,"{'latitude': -37.29473200772247, 'longitude': -163.3991555551616}"
-3ea9bf6e-3f2c-46d3-90ed-642f67f34ad6,pending,other,Cash,587.6,"{'latitude': -68.83914847150403, 'longitude': 135.81772287154547}"
-fc70cd67-3dee-4568-94ec-78541ed3011f,failed,salary,Wire Transfer,531.93,"{'latitude': -48.77742961094081, 'longitude': 134.46987651201977}"
-e4118cce-0d43-4dc6-926d-3bc0f008b0d0,failed,investment,Wire Transfer,8.64,"{'latitude': 60.221678415259305, 'longitude': 31.623672456374237}"
-196e5dd2-234c-44f3-9a99-2ace11e30672,failed,investment,Wire Transfer,36.71,"{'latitude': 64.0593344367029, 'longitude': -138.94448457325677}"
-a60bf98f-3310-4957-93dc-f4b2353c38fb,pending,other,Direct Deposit,26.24,"{'latitude': -36.53940392243037, 'longitude': -165.50301301878497}"
-775018a5-3528-4789-96e1-2032904952ed,failed,investment,Cash,7045.89,"{'latitude': -67.72443719730732, 'longitude': 100.25633897465451}"
-9d1b7931-107c-4613-999a-46b94ce7985a,completed,other,Cash,11449.78,"{'latitude': -85.93356006953437, 'longitude': -66.00576978119155}"
-63182644-6744-499c-9ccd-1c8a02252ebe,completed,loan,Direct Deposit,29514.03,"{'latitude': -25.469547851012038, 'longitude': -56.47189280077623}"
-f23a0f4a-d26d-4138-91c3-aa5e4f0132eb,pending,investment,Wire Transfer,132.3,"{'latitude': 71.51175096727582, 'longitude': 155.63977565378315}"
-86df7f40-e34b-4c34-84c7-0270872b0fe0,pending,investment,Cash,734.21,"{'latitude': 79.86986303729867, 'longitude': 178.22803850456455}"
-abf7b9f8-d36f-4b8c-819d-320f2f3b4b92,failed,investment,Wire Transfer,540.92,"{'latitude': 22.03754027477538, 'longitude': 72.25356420668257}"
-65149414-a197-4f0b-b63b-d3efa295944d,completed,loan,Direct Deposit,695.95,"{'latitude': -61.486193234581066, 'longitude': 112.78982143832712}"
-fa36fef0-1ebf-48e5-a5ab-e5523008bbc6,pending,investment,Wire Transfer,955.62,"{'latitude': -55.309212208673365, 'longitude': 62.617270494150915}"
-704e7e55-94ad-42cb-bce7-2247d321f778,pending,salary,Direct Deposit,773.24,"{'latitude': 17.246686774035098, 'longitude': -165.72230355502717}"
-1255ed7c-70a5-4d1c-89e9-406f54baafd8,completed,investment,Direct Deposit,125.23,"{'latitude': 2.735160500484241, 'longitude': 35.037000387545646}"
-9a8a1ca0-36fe-42d3-a31a-4b19057d5077,pending,salary,Wire Transfer,232.66,"{'latitude': 83.54947198665238, 'longitude': -4.032080020792506}"
-ed171c45-bff0-45c9-824f-e3689fa7a7a4,completed,investment,Wire Transfer,138.7,"{'latitude': 66.4696200461398, 'longitude': -25.39607985530691}"
-fb5f35f6-dc46-47c4-a403-b5438e881d3c,pending,salary,Cash,102.04,"{'latitude': -69.15478978075873, 'longitude': 142.34347862894725}"
-0da76702-64e0-4d48-882a-fb98fed8ae88,completed,salary,Wire Transfer,2370.57,"{'latitude': 44.59258784353514, 'longitude': 131.1915323106948}"
-8f81c1b7-3624-4138-b2b7-09d8d7ba8545,completed,investment,Cash,3397.69,"{'latitude': 71.27225597933187, 'longitude': 53.12429749655968}"
-14c8dbd5-962b-4073-b309-072b535db478,failed,loan,Cash,2929.39,"{'latitude': 44.576593487691156, 'longitude': 83.37630371209679}"
-3cec66b1-daa8-430d-bf59-a98da665413f,pending,loan,Direct Deposit,245.31,"{'latitude': -55.55237410204297, 'longitude': 153.17726198685324}"
-203dabad-b171-4e3b-bf24-03d76d3f6660,completed,other,Wire Transfer,506.41,"{'latitude': 59.12932128451831, 'longitude': -98.24922605421068}"
-b05b0de9-e339-4d8b-be5c-064028aff451,failed,salary,Wire Transfer,1175.33,"{'latitude': 84.1570889260289, 'longitude': 98.12635346822816}"
-e4b1437e-f7ee-461f-93a3-407070b38e8c,pending,other,Direct Deposit,547.93,"{'latitude': -82.3160469096288, 'longitude': -96.65811259651645}"
-f718040a-0511-4c8c-b8b3-9790ec6f9366,failed,other,Cash,32.5,"{'latitude': 85.17978721937592, 'longitude': 55.684849808807485}"
-ccc24901-91de-4f28-b021-88be8235fb9b,completed,other,Wire Transfer,4.76,"{'latitude': -80.44044935084266, 'longitude': 34.40418564332768}"
-c91a2d7a-52e6-4fc6-8dba-2dcb20a4a9a8,completed,other,Wire Transfer,31.42,"{'latitude': 82.41895539179049, 'longitude': 178.01049010414374}"
-d7446075-fa9d-47e6-a778-a248b095e62f,pending,other,Direct Deposit,52.88,"{'latitude': 77.35192316678288, 'longitude': 118.4961209115043}"
-9ab0a59f-cc0a-4143-ae03-26d5fc5e8744,failed,loan,Cash,520.16,"{'latitude': 14.921931287690015, 'longitude': 56.65712137320085}"
-146b8a2d-4d1e-47b9-aa5c-9875f358fae8,completed,other,Cash,140.18,"{'latitude': 19.546398548172533, 'longitude': -0.7572824785281398}"
-50134cda-615d-481c-bf8a-210c1a6655c4,completed,loan,Wire Transfer,386.11,"{'latitude': 85.36986803526679, 'longitude': -122.31820050292471}"
-fc05eead-ffda-4788-a13f-19223144dbd5,pending,loan,Direct Deposit,8704.16,"{'latitude': -24.712213817480148, 'longitude': -102.14211814445663}"
-587a80bd-767e-4f31-bede-2f8e06c3be4d,completed,salary,Wire Transfer,5463.33,"{'latitude': -34.75067312923974, 'longitude': 69.81455039489279}"
-ee0d6015-4788-46a9-87e7-1ffcb740f56e,failed,investment,Direct Deposit,18025.58,"{'latitude': 43.788937493904314, 'longitude': -77.52390846635166}"
-92e122e6-15f5-4e30-98dc-9490c86f139c,completed,loan,Wire Transfer,78.65,"{'latitude': 76.98723782926658, 'longitude': 121.75535644675892}"
-5a223849-5587-418d-b782-7f959ab1779e,pending,investment,Direct Deposit,351.1,"{'latitude': 43.37204996119959, 'longitude': 77.72741997694249}"
-4b1d9a5c-38fb-4214-bc61-9dbabed782eb,failed,loan,Cash,317.37,"{'latitude': 14.268693906311753, 'longitude': -32.66842911229969}"
-348324a4-f3c7-4f6f-9a67-e1565b29e22b,pending,salary,Wire Transfer,2787.08,"{'latitude': 18.24481062079532, 'longitude': -95.83150751417472}"
-405edd13-adb5-42f0-98db-bc510d612cbc,completed,investment,Direct Deposit,362.72,"{'latitude': 79.4398500589233, 'longitude': -106.13264679316224}"
-20751833-9592-4604-b1fe-799688653e22,pending,investment,Direct Deposit,2044.51,"{'latitude': 22.75632002345347, 'longitude': -1.109357492409515}"
-676abbf9-bb69-44d6-912a-9a17d6398b86,completed,salary,Cash,2696.77,"{'latitude': 22.94584826626881, 'longitude': -154.67773536646558}"
-120d352b-00ec-4d7a-87db-f4556aadde6c,completed,investment,Direct Deposit,5553.5,"{'latitude': -67.18740755990753, 'longitude': -74.79185601051104}"
-f1d7f6cb-77e5-4187-9ca6-3a5d3b40432b,failed,loan,Cash,10793.48,"{'latitude': -80.34890043512016, 'longitude': -41.60749515748654}"
-9429858b-8e46-4257-a298-9e353ea0c38d,failed,salary,Direct Deposit,5771.66,"{'latitude': 4.736593958968157, 'longitude': 144.5394362907312}"
-651b5e45-aa10-46e5-83a2-5559196d0279,failed,loan,Direct Deposit,2875.93,"{'latitude': -27.286508248406363, 'longitude': -50.3718529273265}"
-4ea73126-a9a4-4318-9430-a00f3aa1eada,pending,investment,Direct Deposit,1999.91,"{'latitude': -50.84404154927028, 'longitude': 89.69819239243071}"
-ca027f0c-aa72-4f9c-a455-40b255bc614b,pending,other,Direct Deposit,15433.99,"{'latitude': -20.001757228463987, 'longitude': 57.79918038731756}"
-69e868e7-6eb5-4591-9e2c-37076b468a55,completed,loan,Direct Deposit,3797.27,"{'latitude': -81.49276076840457, 'longitude': -20.661503704137857}"
-04a577db-de68-4ce1-b5c8-c671439a1199,completed,salary,Direct Deposit,7528.85,"{'latitude': -16.428862612814612, 'longitude': -166.15668407825052}"
-edc07ab1-4eb1-47f4-83c2-8a44e8e36413,failed,salary,Wire Transfer,3316.78,"{'latitude': -84.91989699917556, 'longitude': -51.644380652128206}"
-7b1cb126-e6ef-4158-9fb1-b87632867088,failed,other,Cash,6110.02,"{'latitude': 84.07096076839397, 'longitude': 27.209450641806598}"
-a204d77a-d0c5-4651-8c3b-cf5c2c8f263a,failed,other,Cash,97.56,"{'latitude': 60.24427742642908, 'longitude': 149.57673348656397}"
-8ac38091-e620-4d78-ae11-2a7c17a2bf29,completed,loan,Direct Deposit,56.84,"{'latitude': -8.214668592758628, 'longitude': 48.85790537674998}"
-5bc76790-2b11-4b4d-a26c-fa8e378db990,pending,other,Wire Transfer,112.11,"{'latitude': 29.41807047721298, 'longitude': 84.21634075042539}"
-2f939014-a314-41a6-bb37-98b89b8386ca,completed,other,Wire Transfer,13303.75,"{'latitude': -3.3330410161986634, 'longitude': 5.843011458697049}"
-33ba81e3-1677-4bc1-8c47-878ccfc82f4a,completed,loan,Wire Transfer,33.31,"{'latitude': 45.381548040358524, 'longitude': 22.809699317138694}"
-62ff02b5-8b58-4f8a-b950-c8b81671f94b,completed,salary,Direct Deposit,60.09,"{'latitude': 25.453477700143523, 'longitude': -33.0522551597183}"
-013c83b7-721b-40f7-84e4-15ceb8b0b7f7,pending,other,Wire Transfer,11895.8,"{'latitude': -72.75502498195578, 'longitude': 33.441168007210024}"
-8f0540ce-710a-4aa5-bf4d-6f8c933f4107,failed,other,Direct Deposit,2278.57,"{'latitude': -23.864521649878256, 'longitude': 53.9348594253176}"
-b4abef69-14ef-4592-b4dd-b2fbd1ab548d,failed,investment,Wire Transfer,12127.16,"{'latitude': 88.86750451121549, 'longitude': -92.69308093851818}"
-e1fbdc95-4125-44bb-b7f3-75262cca440c,failed,investment,Cash,12493.84,"{'latitude': -49.85767073331252, 'longitude': -159.90990294357886}"
-16b637d4-4d99-4581-a487-44df4e241a13,failed,salary,Direct Deposit,399.16,"{'latitude': 78.56708096367427, 'longitude': 137.46996103345776}"
-f975a994-093a-4e2c-956a-c2815cbfd627,pending,investment,Direct Deposit,127.61,"{'latitude': 62.5602468063189, 'longitude': -155.5528747740987}"
-c1746edd-5d27-4566-b1b1-5e8092efa01d,pending,salary,Wire Transfer,2553.93,"{'latitude': 33.6305984438918, 'longitude': 25.553338543564365}"
-4f5191e1-e248-4f13-8239-01a605a88255,pending,salary,Cash,1.9,"{'latitude': 55.80428178177229, 'longitude': -155.85386331959862}"
-bcfff47a-a542-478b-9da4-2fb202152516,pending,investment,Wire Transfer,1.08,"{'latitude': 37.29033492159452, 'longitude': -178.59257452905567}"
-1201f467-ec74-4b3a-b5a4-4aaf638c651d,failed,loan,Wire Transfer,20659.25,"{'latitude': 48.06187293065702, 'longitude': -81.76789733570088}"
-b92c14bf-1fdd-4552-9d72-c0a7af54ff49,failed,salary,Cash,26423.53,"{'latitude': -34.88935319691968, 'longitude': 131.6572937588063}"
-78259199-926e-4be9-bbef-930e925a2ad7,completed,investment,Direct Deposit,24923.17,"{'latitude': -2.3663816562208524, 'longitude': -20.11550843214306}"
-beda7274-1c44-46cd-ab82-f4417cdf1daa,pending,other,Wire Transfer,2829.89,"{'latitude': -47.16875706245738, 'longitude': 2.924456123811325}"
-0e74cd09-5e04-40ea-a535-71a27a38a689,pending,loan,Direct Deposit,1895.5,"{'latitude': 87.97378650275363, 'longitude': 27.611526409910738}"
-20336b40-ff2e-49c4-a16a-ffbaf881652c,pending,salary,Wire Transfer,4235.07,"{'latitude': 52.058166986065146, 'longitude': 146.04732908067683}"
-c56399d5-8e6e-4fb0-b1c7-a5ff9d698af7,failed,other,Wire Transfer,2806.3,"{'latitude': -30.21809719932277, 'longitude': -55.63286967692562}"
-7f8f7c9b-5321-4528-b977-e7ad9a9df9bd,completed,investment,Cash,3145.11,"{'latitude': -46.53854353745515, 'longitude': 17.831140096208713}"
-945b434f-d764-42c9-9eb6-89748371d327,failed,loan,Direct Deposit,14.22,"{'latitude': -62.81355749806944, 'longitude': 144.88768772646876}"
-5a2fa4fb-0440-4e07-9d0d-d2efb4350791,pending,loan,Cash,19.95,"{'latitude': 79.98827250997658, 'longitude': -168.29715243313672}"
-ec45057c-08a5-4bac-966c-b100b2516372,pending,loan,Direct Deposit,19.97,"{'latitude': -59.739318778861445, 'longitude': -131.48314644504484}"
-54a24b82-1559-4be7-b2de-2390fd5087cb,completed,loan,Wire Transfer,21.7,"{'latitude': 31.473126746184533, 'longitude': 22.877479873810245}"
-5549c147-6f1b-47e5-b938-5ea25bcbf962,pending,salary,Wire Transfer,21.93,"{'latitude': -10.109322537366793, 'longitude': -46.62267422183052}"
-7aebe3c9-db58-4ea2-83c6-3d276e6eeb6f,pending,other,Direct Deposit,2410.33,"{'latitude': -13.812477938637727, 'longitude': -96.42702394509648}"
-33168cbe-0fb6-4d03-af65-3eba34617aaa,pending,salary,Direct Deposit,6981.04,"{'latitude': -19.537688514228478, 'longitude': 6.060343548507575}"
-f1509007-39d9-44e2-a8b5-56b254d96482,completed,salary,Wire Transfer,5354.31,"{'latitude': -33.8735758577642, 'longitude': -101.87676609629327}"
-bcdc4447-7e8d-42d2-8e5a-6ffe2ccf8f18,failed,salary,Wire Transfer,838.29,"{'latitude': -25.310370010906922, 'longitude': 98.6600752368551}"
-da46480c-fd83-4d0f-a906-56485a22115f,completed,other,Direct Deposit,1685.33,"{'latitude': -25.797568541802775, 'longitude': 17.234013175879568}"
-6699022e-1c82-4963-b04b-5733494c0e78,pending,investment,Cash,7.94,"{'latitude': 52.33224510742832, 'longitude': 128.73538707962234}"
-4056b8e1-e8cc-42ac-be87-ccb74d7afef8,pending,loan,Wire Transfer,31.34,"{'latitude': 55.21055936438188, 'longitude': 154.3464899730733}"
-500a8156-cf83-4790-9519-c6a58c819a84,failed,loan,Cash,4891.15,"{'latitude': 72.50290513798271, 'longitude': 24.60281918048196}"
-20d5dad1-bc5b-492d-a9c2-cb513cc71983,failed,investment,Direct Deposit,2929.06,"{'latitude': 18.638387750426546, 'longitude': -6.598386148869309}"
-bd4316d0-2d9b-4af2-9134-542133c5ca12,pending,loan,Cash,4048.2,"{'latitude': 17.645589935350884, 'longitude': -166.01614861131756}"
-80a89077-3d63-4e38-9576-b8bd07a175bc,completed,loan,Cash,5865.45,"{'latitude': 57.183904587166836, 'longitude': 86.02317713525508}"
-2a5d3292-a257-499f-a3c8-a824368d88da,failed,other,Wire Transfer,11289.43,"{'latitude': -41.21257481952304, 'longitude': -54.620426857228}"
-103175ec-5d88-482a-b248-11e6b5278728,failed,salary,Direct Deposit,2304.7,"{'latitude': -7.099143518916833, 'longitude': -10.645158153805937}"
-02d02754-ee2b-4e3d-b099-3cd10bebd2da,completed,loan,Wire Transfer,2410.2,"{'latitude': -16.574129345413468, 'longitude': -22.146983564356987}"
-09c248b8-b63a-436a-9e6e-61d68a62ae4d,completed,loan,Wire Transfer,393.91,"{'latitude': -60.09727193546597, 'longitude': -112.800078038286}"
-ebe1c900-9042-418f-bd21-9ea3baac01b8,failed,loan,Cash,1.72,"{'latitude': -71.1272335190151, 'longitude': -42.15428330690057}"
-859a3225-3d09-424d-9aaf-ed66f218d2de,pending,salary,Direct Deposit,4.1,"{'latitude': -40.7181198702449, 'longitude': -35.86353925193299}"
-d7207d4c-db87-4027-ac97-562c567c86f5,pending,investment,Wire Transfer,11220.56,"{'latitude': -15.876845159882805, 'longitude': -49.652082156297155}"
-462697e4-485c-465c-97f1-b189e7fc30ff,pending,other,Cash,24203.68,"{'latitude': -54.10569950267474, 'longitude': -167.9796655980584}"
-9e0f48ed-ee2d-4350-8fbf-35d2c37af0b0,completed,loan,Wire Transfer,23711.93,"{'latitude': 19.82274123365977, 'longitude': -57.99714714660827}"
-ff0239b6-6f21-44a3-86d2-a10e216fb5cc,pending,salary,Direct Deposit,47106.25,"{'latitude': -40.79585934763522, 'longitude': -5.530726016914969}"
-e38ebe16-60dc-44cd-a0d9-1481f389a3b6,failed,loan,Wire Transfer,3434.03,"{'latitude': -88.40585682015747, 'longitude': 23.929000518289314}"
-883766c1-8e62-4d12-8c16-29e70fca3451,failed,investment,Direct Deposit,4565.93,"{'latitude': 7.007485641785706, 'longitude': 82.3813744020049}"
-7973921c-c2ea-4e0e-8ab0-d31982282943,pending,investment,Cash,4420.0,"{'latitude': 72.3044622156462, 'longitude': -143.7648241169944}"
-e686633d-b645-4d09-ad65-1b4ca5c4dbbd,completed,loan,Cash,249.66,"{'latitude': -56.41251027418159, 'longitude': -148.61358647946167}"
-f32f5de9-4f4c-49bd-9f56-18a564625f62,completed,other,Direct Deposit,87.91,"{'latitude': -37.12078324324168, 'longitude': -178.734137804768}"
-a3284daa-5ec8-4969-9769-ecc2f2a58001,completed,other,Wire Transfer,818.78,"{'latitude': 33.946668595098075, 'longitude': 176.42061350683093}"
-b26a0fcf-f804-492a-ae99-6718589f02a3,completed,other,Cash,1505.06,"{'latitude': 74.99437471976222, 'longitude': -158.62150827353543}"
-48185d27-ad45-4dd3-93d8-cf5600c0beef,pending,other,Cash,9236.98,"{'latitude': 69.2598198174868, 'longitude': -44.233249210166036}"
-c95a0e0b-b350-42e8-bc28-425ea939791a,completed,loan,Wire Transfer,5035.64,"{'latitude': 17.831439412991344, 'longitude': 116.82017878548493}"
-91c00b6f-ab23-447d-8286-9ee7f26950ed,failed,loan,Wire Transfer,4315.32,"{'latitude': 43.85380395309792, 'longitude': 4.876329815107994}"
-07d313eb-dbb7-4834-9550-acedf6cce120,pending,loan,Wire Transfer,1282.49,"{'latitude': 40.53929700829812, 'longitude': -46.20055155584524}"
-52b77ff3-768f-4821-b711-1238eafa6918,pending,salary,Direct Deposit,3707.09,"{'latitude': 62.0986017949393, 'longitude': -172.37181502915092}"
-7b01162e-2809-497f-ad47-4a2f10dab9a4,failed,loan,Direct Deposit,26412.7,"{'latitude': 78.33915178363722, 'longitude': -135.00294597441749}"
-166d4c62-333c-49d2-805f-c065134efb9f,pending,investment,Wire Transfer,29810.7,"{'latitude': 25.34526889129269, 'longitude': 35.03740205673259}"
-2e0db1cd-93ff-495e-b60b-24b679da09fe,pending,other,Wire Transfer,480.74,"{'latitude': -86.14599944623347, 'longitude': 115.72937039084894}"
-802a5850-aa0d-4038-91c7-324f85a462d3,completed,loan,Wire Transfer,8278.71,"{'latitude': -0.6583014474916382, 'longitude': -178.0200401478127}"
-c8bede4d-1e3e-48d8-a85b-918c122643b4,failed,salary,Cash,1118.57,"{'latitude': -47.546144202552455, 'longitude': 37.9444986089874}"
-dc3ee60b-d254-4661-b959-8f6031efaa98,completed,salary,Wire Transfer,25468.85,"{'latitude': -71.40631080999343, 'longitude': -135.57454662865183}"
-0685061d-b996-4e47-94c3-625b3573d1fe,pending,other,Direct Deposit,15761.67,"{'latitude': 5.114567779981002, 'longitude': -3.654191390859239}"
-5087bad6-0e3b-44cc-a028-f388ab4d9eb1,completed,salary,Wire Transfer,26991.02,"{'latitude': 13.345834378454668, 'longitude': -0.5648983684480129}"
-afe92cc3-d848-4f77-b6b3-d2c8d9b0378a,completed,investment,Wire Transfer,174.31,"{'latitude': -54.28558320965565, 'longitude': -55.3377298474214}"
-43c1189a-591a-4b6f-89e9-543ed25bfbea,pending,salary,Wire Transfer,27.45,"{'latitude': -85.40914320529424, 'longitude': -50.19820713130886}"
-c6d56889-4704-4c5b-b67c-daaa409aed30,failed,salary,Direct Deposit,242.81,"{'latitude': -66.12154986627145, 'longitude': 98.21505815241466}"
-bde1ad57-118d-4b81-a913-61fb1bdf172d,completed,loan,Direct Deposit,81.7,"{'latitude': 82.34290696992068, 'longitude': -124.27271992946064}"
-00232f44-84b8-4c76-8f14-c2f00095316c,completed,salary,Wire Transfer,497.0,"{'latitude': -80.09633725556564, 'longitude': -173.8186619271522}"
-e1df8ffb-d2ab-4cd5-bbd4-f6c05b91f964,failed,loan,Direct Deposit,537.98,"{'latitude': -55.78195191812241, 'longitude': -140.6638863471265}"
-3d55722e-a07d-4d25-a27f-43e17d9bd83f,completed,other,Cash,3047.68,"{'latitude': 71.52857760680561, 'longitude': -138.1170675759327}"
-8d22772c-e691-4914-bbb7-9d8c181f279e,pending,other,Direct Deposit,6775.42,"{'latitude': -65.78139202745908, 'longitude': 46.03737981567011}"
-995e295e-70dc-47a6-9d07-710a7c1bc978,pending,loan,Direct Deposit,1887.95,"{'latitude': 0.08200386336908139, 'longitude': -174.51113134118734}"
-a0804bc5-5f09-4c8c-9b9f-f2ae5e4e3393,completed,loan,Wire Transfer,4431.87,"{'latitude': 15.978232275057948, 'longitude': -160.43737897902878}"
-d3a06899-235b-49f9-b1cb-35ec0295c183,failed,salary,Cash,2491.75,"{'latitude': 77.62349129290024, 'longitude': 169.7207129825939}"
-970914da-8067-4ee2-bda3-cb0421bcbc89,completed,salary,Wire Transfer,20782.19,"{'latitude': -48.32617856606794, 'longitude': -104.71221499877528}"
-c0cdfc68-d9f4-4e6a-a819-0fa1968594da,pending,salary,Direct Deposit,53401.35,"{'latitude': -3.0108785240954603, 'longitude': -2.934005679791511}"
-fa6685be-e44e-44fb-842d-05af7f508959,pending,investment,Wire Transfer,6336.11,"{'latitude': 36.962258551583815, 'longitude': 72.1528107666845}"
-03ada35d-9ef1-408e-bb25-8bc0cd760952,completed,loan,Direct Deposit,28524.27,"{'latitude': 64.57994509943308, 'longitude': -18.976844522368083}"
-a0ca0bdf-36bb-4c39-a85a-fdfdf1f41172,pending,salary,Wire Transfer,61024.65,"{'latitude': -61.127597584142485, 'longitude': -61.39697547221502}"
-9a1ace06-08b6-43e8-8dc6-3545489b95b4,completed,loan,Wire Transfer,8029.68,"{'latitude': 88.21984935851805, 'longitude': -175.69918333745278}"
-69cc376d-3a59-4531-a41f-9641a945c787,failed,salary,Direct Deposit,11709.06,"{'latitude': 69.53781090731837, 'longitude': 147.78567414639735}"
-33c84c72-c8c8-4531-95d4-18edbaa7596a,failed,loan,Wire Transfer,9664.88,"{'latitude': 46.555646674205576, 'longitude': 148.7725767372101}"
-62fc723a-ce16-4811-be2d-a93d2cdcd7fa,completed,salary,Cash,2091.7,"{'latitude': -49.14705409340732, 'longitude': -163.23435364470808}"
-ef83601b-8010-4170-b69f-7f1bc90566e3,completed,loan,Direct Deposit,289.15,"{'latitude': 20.413634550164304, 'longitude': 78.02901261512278}"
-c537bebf-e173-448c-8e9f-41b46be708f3,failed,loan,Wire Transfer,4.98,"{'latitude': 48.67779148032716, 'longitude': -42.832288133488646}"
-df59f1a4-771c-4556-b097-dce95f7534e4,completed,other,Wire Transfer,5.99,"{'latitude': -73.76851124655286, 'longitude': 113.34794535171085}"
-7133ea8b-5457-4259-a866-7f2b438fe377,completed,other,Wire Transfer,31.88,"{'latitude': 88.3838909572383, 'longitude': 98.81240770694586}"
-f2d806dd-d243-41f8-9347-f029a9541080,pending,other,Wire Transfer,9267.72,"{'latitude': 66.84777522122133, 'longitude': 150.11232567740086}"
-1ddb244e-edae-42d5-af51-d16c181a1ee7,pending,salary,Direct Deposit,16760.09,"{'latitude': -33.69189025527743, 'longitude': 91.32750555584323}"
-0a66ba8c-d99a-40be-9638-98ffb1694ebf,completed,loan,Direct Deposit,9350.05,"{'latitude': 11.71492762207032, 'longitude': -140.60504449156318}"
-050dd07a-98fb-47c4-b2bf-8d5afb731d5d,completed,other,Direct Deposit,10827.07,"{'latitude': -44.433500157994786, 'longitude': 129.75117619006795}"
-a47bc2bd-cbd5-42d3-bfce-3885d9656c16,completed,loan,Cash,1254.51,"{'latitude': 75.35103958431611, 'longitude': -90.04609778021943}"
-3915233e-722e-4d0e-80b8-77e01405d052,pending,other,Cash,1585.46,"{'latitude': 11.117296969537904, 'longitude': -26.32102430824108}"
-634ded27-8209-48f2-b8d4-8d02a48b7ddc,pending,salary,Cash,12277.48,"{'latitude': -43.695464336009486, 'longitude': 75.14369261778663}"
-8cb489b8-d7fd-487f-8c54-5db14d110fe8,pending,other,Direct Deposit,291.77,"{'latitude': 66.40554027471009, 'longitude': -98.57342679329136}"
-87020942-30cb-41e1-8a3d-2987ce214c57,completed,loan,Cash,1286.46,"{'latitude': 70.05375079846769, 'longitude': 43.42030578334504}"
-ada4ec91-f513-416c-95f2-c72a62b6a8f0,failed,salary,Cash,1469.29,"{'latitude': 87.74596903953139, 'longitude': 133.8806750806841}"
-2752d2e4-1bea-4c97-bc6c-12dd7c8501a6,pending,investment,Wire Transfer,220.47,"{'latitude': 19.724025021402312, 'longitude': 90.82488119935061}"
-377c4eab-6763-4183-94b2-e93389236552,completed,other,Wire Transfer,2595.11,"{'latitude': 5.551064730455195, 'longitude': -64.26088644002498}"
-6b2d6603-f3e5-4425-bd56-0fdc0624fcd8,failed,salary,Wire Transfer,596.45,"{'latitude': 10.554510659479917, 'longitude': 19.111545519496474}"
-62a5b568-8801-4eaf-bd66-7ac6d8b53e5b,failed,salary,Cash,1865.52,"{'latitude': 46.565206340249944, 'longitude': -88.97263106957682}"
-58cc2110-85a0-43e0-8edd-7565415fc648,failed,loan,Direct Deposit,2176.79,"{'latitude': -23.213458408817317, 'longitude': -154.70139201118474}"
-bc2f2648-6fbf-4267-8ac3-4f1fca542fc7,completed,salary,Cash,84.22,"{'latitude': 40.2676839263309, 'longitude': -114.00370926717976}"
-71a5d553-35b9-43c1-a082-d72ea9699335,completed,salary,Direct Deposit,193.41,"{'latitude': -78.85026081669835, 'longitude': -171.58550849095525}"
-57fb5957-0b77-458b-954c-7183a001c326,pending,loan,Cash,3479.08,"{'latitude': 81.3270561061639, 'longitude': -144.37563528724098}"
-4e68a4ea-f997-42f6-bc26-c85f1d05731c,failed,salary,Wire Transfer,42.65,"{'latitude': -83.54104910604994, 'longitude': -166.8514882927379}"
-3d02921e-328a-4c69-b441-f83343c0ed8b,completed,investment,Wire Transfer,153.6,"{'latitude': -60.58178766486657, 'longitude': 97.40622375223523}"
-460bed82-47d8-464d-bec9-1f3312c46249,completed,salary,Direct Deposit,433.07,"{'latitude': 5.110181538685026, 'longitude': 106.80879768650561}"
-45ec1f73-92c6-4d00-b7e5-99ee8e9e544f,pending,loan,Direct Deposit,545.64,"{'latitude': 85.65214476117762, 'longitude': -137.92690346167603}"
-94f76b0b-b185-41af-a3ce-048deba54071,completed,loan,Direct Deposit,221.4,"{'latitude': -25.359583195827454, 'longitude': -136.60603026318972}"
-37d9c909-b7ab-4563-af4b-5a6474e524c2,completed,salary,Direct Deposit,7858.27,"{'latitude': 36.2584388650982, 'longitude': -11.470679996705144}"
-b116eaab-d967-4426-86ee-2dfbfa42b7ac,failed,loan,Cash,7259.86,"{'latitude': -7.211285004361528, 'longitude': -26.850518595646577}"
-0cd1f1ba-a1b1-4d25-89b2-872f9a3ccbc6,completed,investment,Cash,8.62,"{'latitude': -88.42360740645114, 'longitude': 171.88574477866933}"
-7b764d06-ba00-409e-b6c3-666195c869f9,pending,other,Wire Transfer,1178.17,"{'latitude': 65.06590603816329, 'longitude': 7.68849539327033}"
-73acc1c8-897f-4c20-a13d-c1ef73bbc253,completed,salary,Direct Deposit,722.77,"{'latitude': -69.16778483784168, 'longitude': 174.2311902787593}"
-0461be48-1c3c-4eb4-945b-36c94c06f2e0,pending,other,Direct Deposit,5776.21,"{'latitude': 19.273751137691633, 'longitude': 160.77087083425533}"
-48848de7-eeab-462f-9bb8-aee853b4d428,completed,salary,Wire Transfer,4769.61,"{'latitude': 10.731680094788999, 'longitude': 178.89133524598992}"
-90a8880b-1186-4598-8b73-46b1520786da,completed,salary,Direct Deposit,378.94,"{'latitude': -61.827385136366765, 'longitude': -15.936877660462443}"
-00beccd4-5fd4-4976-a10e-03a73a66a18d,failed,investment,Wire Transfer,12535.23,"{'latitude': 16.609559015898583, 'longitude': -7.394428369527134}"
-8ae84c4a-3fdc-4e17-a2e2-c4912173b3af,completed,loan,Direct Deposit,2476.67,"{'latitude': -42.66688126599622, 'longitude': 137.98994745296937}"
-bd997bb0-e368-4c21-85b6-9d1033c0407c,completed,salary,Direct Deposit,11787.87,"{'latitude': 87.60774037666297, 'longitude': 0.41280752567379864}"
-135f7796-7589-4b53-bfbb-e3bb3c7995ae,failed,investment,Direct Deposit,1241.89,"{'latitude': 15.560301332682727, 'longitude': -179.56879514593177}"
-a047fa24-99b4-4668-919b-1a4e0cb9db94,failed,salary,Wire Transfer,269.42,"{'latitude': 22.28455236122494, 'longitude': 74.7964043000587}"
-43d45400-18e1-43be-96b0-95b6cdfdcc36,completed,other,Direct Deposit,13202.52,"{'latitude': 24.11750072939701, 'longitude': -68.78626066787983}"
-c3b25771-4305-4f7b-9821-16a5dd52891e,completed,salary,Cash,8.46,"{'latitude': 50.81893249356733, 'longitude': 37.82214975649765}"
-9ce6b4c8-7cc2-49a6-a86a-0263391011c0,pending,salary,Cash,50.95,"{'latitude': 79.26832497150835, 'longitude': 8.612168350394285}"
-702fc922-58b0-45ef-a8a7-17838ac1edfc,completed,investment,Cash,3.45,"{'latitude': -38.13278058165255, 'longitude': 145.78182261261134}"
-1becbc08-d810-4e51-8356-989356dc0dc7,pending,loan,Cash,4.13,"{'latitude': 70.17605496599492, 'longitude': -25.334486432064722}"
-c3483563-c578-457e-bba0-a7e486e07850,pending,salary,Wire Transfer,11.27,"{'latitude': 11.409216546460144, 'longitude': -91.91488876382097}"
-268914b8-747d-4844-96f7-a56d208dada3,completed,loan,Wire Transfer,5533.65,"{'latitude': -21.87881017852996, 'longitude': -172.7579319210615}"
-40e2faa3-f606-4d03-9c28-7e9b47c7c395,failed,investment,Direct Deposit,10651.46,"{'latitude': -85.15080776360715, 'longitude': -31.820080184488916}"
-bd0eafd9-3b18-4de9-b2d0-17215de0df49,completed,loan,Cash,32.29,"{'latitude': -20.126457575563137, 'longitude': 15.32382385670303}"
-8ed7801c-91e1-471e-a513-a1cdd86156f4,completed,loan,Wire Transfer,52.14,"{'latitude': 48.6851731872496, 'longitude': -170.44308703657273}"
-943aecfe-fdeb-4207-a8c3-30a17198f9a7,pending,salary,Cash,139.38,"{'latitude': -79.91634899312709, 'longitude': 107.14602659344297}"
-2457ff8f-29b9-46cd-a75e-5103ce56ce7b,failed,loan,Direct Deposit,6.18,"{'latitude': -34.683761738431606, 'longitude': -7.864536879314244}"
-52866d8e-18e9-4a57-97fe-30efcf08d0a4,failed,other,Direct Deposit,2506.91,"{'latitude': 62.21687764061602, 'longitude': -54.042081803584594}"
-0d71bbaf-9e9a-4949-a98e-9ff3d38ba622,completed,investment,Wire Transfer,1225.24,"{'latitude': 55.00765876586041, 'longitude': -50.02744473534344}"
-801ec557-9c00-4e43-8360-c0d87cece9d6,failed,other,Wire Transfer,57.06,"{'latitude': -1.8138172009939808, 'longitude': 1.041007068094018}"
-c53d8bde-6404-4e75-9932-1bd42b4b1aab,pending,salary,Cash,4665.63,"{'latitude': -89.2688914996986, 'longitude': 30.161239860182377}"
-15c3608b-cd23-43e5-8a87-ec7050336b25,pending,salary,Direct Deposit,3303.79,"{'latitude': 20.259092446113527, 'longitude': 64.93980603650056}"
-4f050f56-7781-4d39-9c2f-c5b041d79544,completed,salary,Cash,209.4,"{'latitude': 20.356857833631736, 'longitude': -98.53664433505236}"
-84b7554a-685c-4c62-9266-6b5876af4a7b,pending,other,Direct Deposit,728.06,"{'latitude': 10.665832395919594, 'longitude': -143.9463858180083}"
-224c794e-0afe-4088-bb61-33d76e7a12eb,pending,other,Cash,566.84,"{'latitude': 9.490193576941522, 'longitude': 77.38227168679299}"
-2f151649-8ad5-40af-911c-7b85a2781e1d,failed,loan,Wire Transfer,6331.45,"{'latitude': -47.87097598286524, 'longitude': 9.286926858317912}"
-d3885477-cb79-4fb6-aa77-575d3ae057e9,completed,other,Wire Transfer,493.08,"{'latitude': 38.88370790006084, 'longitude': 120.64195759116228}"
-cb8f37c3-b9d8-4985-97d0-f8747f194922,completed,salary,Direct Deposit,62.54,"{'latitude': -38.498842248238205, 'longitude': 135.44943893281442}"
-f120b821-2f57-4289-a327-2bed1bf226ce,failed,loan,Direct Deposit,183.03,"{'latitude': -67.22301227938277, 'longitude': 113.76716559229453}"
-9412ff99-bd2e-49b1-ab0f-93764c8ba075,completed,other,Direct Deposit,600.68,"{'latitude': 56.12217189147532, 'longitude': -138.06273690016496}"
-0a55b304-a756-44d0-ba43-b4eca01f8d16,failed,salary,Cash,1464.23,"{'latitude': -13.797366948076828, 'longitude': 39.422837933087266}"
-8a8dc57d-4b13-4047-8eb7-509d496f56fe,failed,other,Direct Deposit,96.56,"{'latitude': -56.474316441756706, 'longitude': -23.370447799142482}"
-a476a02c-2974-43a1-a6a4-07bf5d6fa353,completed,loan,Wire Transfer,5006.76,"{'latitude': -32.50934560106839, 'longitude': -43.91738875366309}"
-0a6de2e1-d430-4c64-b10a-55967af363bb,pending,other,Direct Deposit,18056.65,"{'latitude': -32.87689025331134, 'longitude': -28.169027379825025}"
-18c08d7b-f8b0-4d45-ad4f-d88d74654d40,failed,investment,Direct Deposit,12596.25,"{'latitude': -69.21688802052626, 'longitude': -7.032600985903741}"
-cb9ee059-b1a0-434e-9970-577e034eb08a,completed,loan,Direct Deposit,1503.04,"{'latitude': -68.27524213078658, 'longitude': 51.70126017799544}"
-decb514a-e15f-4e42-a2ae-a16613c5719a,completed,other,Direct Deposit,37.9,"{'latitude': -28.280722449812508, 'longitude': 27.519681421152683}"
-b7d01153-fe5a-4df1-a52d-a708357fadfd,pending,other,Cash,95.21,"{'latitude': -58.387355125215045, 'longitude': -44.74342390117775}"
-6726f392-b477-4cba-b4ec-273a6c309017,pending,other,Direct Deposit,49.36,"{'latitude': -43.89413161989293, 'longitude': 114.98260434218304}"
-2187d440-f83f-4035-9c4b-6cdbcb2885d3,failed,other,Direct Deposit,13.26,"{'latitude': -54.79196684133399, 'longitude': -34.69726473736213}"
-a3097181-9070-408c-9b7f-eafd26f0ee23,completed,other,Cash,28.12,"{'latitude': -52.58598953019174, 'longitude': 35.25136461907266}"
-0ec4a807-32c4-4d4f-9589-3ffc33a8429d,completed,investment,Cash,1851.36,"{'latitude': -89.26666256280846, 'longitude': -128.0835627908923}"
-63bd7be5-d2e2-47da-9edb-643c034ac9d9,completed,loan,Wire Transfer,8005.03,"{'latitude': -85.30900187438439, 'longitude': -98.84700105684661}"
-5c9a962e-fea1-4a84-bc01-6c3e5333cd39,pending,other,Cash,18590.79,"{'latitude': -30.32054109674462, 'longitude': -45.85975753738231}"
-2e882aa5-a868-4473-93de-91eb19853cc4,failed,salary,Direct Deposit,9.86,"{'latitude': -58.111256899535725, 'longitude': -114.97845917792081}"
-5cb53ee3-7e20-4ecf-bb71-4e75b1623e9c,pending,investment,Cash,18.82,"{'latitude': -22.581598359602637, 'longitude': 113.3556127205432}"
+id,state,motive,type,amount,latitude,longitude
+b1d4aac8-9371-4ce5-ab9a-3d747a735732,completed,investment,Wire Transfer,15.05,21.719489623131125,55.6948661083793
+0eb9ed29-4d86-4a3a-8228-f00cbec5ca8a,pending,loan,Wire Transfer,4422.5,-6.400791034392597,97.80703617573488
+21e89f5a-7134-40b5-9ae5-fafbf682178c,completed,other,Direct Deposit,2739.6,65.04991696217141,-94.67678856253944
+4b5a3771-a57f-46f2-99e9-e7408880318a,completed,loan,Wire Transfer,9686.9,48.98153991335039,68.50055171885916
+3410a4e9-7cb5-458c-b656-ba2f57023e4d,completed,investment,Cash,15568.19,-23.46047446353758,-171.01128171343285
+b0abcc90-8560-4264-9622-d631b56e9898,pending,loan,Wire Transfer,13187.9,-75.07962281903431,-97.9729816948757
+b261bf30-abf9-4706-9ed4-9a59e6afa9d1,completed,salary,Direct Deposit,647.6,77.51261026820904,-125.0832980679338
+9dfdb90b-88df-4efb-a832-92f446f65060,pending,other,Wire Transfer,1139.43,87.23292899088406,-32.19665020666014
+cb1cf861-c604-4f94-8704-e01189c33c48,failed,investment,Cash,938.74,30.08495823995655,-0.05641426014130957
+beb1a81b-7cde-48ee-8a8c-2c6f7769d0c2,completed,other,Wire Transfer,295.13,47.751229385822825,-149.0379020905059
+a9b52dee-65e7-4a4d-b25f-a61670af030d,failed,investment,Cash,917.37,-73.18829785835587,-35.60243992003342
+09cb1ae1-ad03-49d1-ba6b-f2bac779ecd2,pending,investment,Direct Deposit,59.32,64.38043215160835,136.04826481096018
+bed07b7b-d8a8-4ac0-be60-cbe9bf47f65e,pending,loan,Direct Deposit,47611.77,20.94987121975906,57.42339226819945
+d177ae71-e0cd-4ace-b65a-cb57d45e9e60,completed,salary,Direct Deposit,12009.54,12.087046365820726,78.87606313083177
+fcf1aeee-0acb-443a-a56b-6d381c2126fd,pending,salary,Cash,33128.6,-69.21558387961316,-33.77578727116065
+9ecea0dc-2873-4155-b18d-bc1dfc575dce,pending,loan,Cash,11239.83,8.531203921099404,-63.47665909337269
+5ddb4eb4-9bd0-4289-bb41-394935950dc7,completed,salary,Wire Transfer,7812.7,-86.80350948054134,100.06817389956154
+350bf1c1-64e7-419f-b136-980249f73902,failed,investment,Wire Transfer,915.67,5.490741673509689,-155.74590115245718
+f2a41390-f782-4459-a156-1a09a71fb799,failed,other,Wire Transfer,7892.43,82.8160009797231,102.39557201937419
+f9bf4dca-fbe7-4b70-9d85-7132e81e5fbb,completed,loan,Wire Transfer,2583.85,15.050991043097625,52.20452102942568
+c4f8832b-f350-4089-82ab-261b79ac43ba,completed,investment,Wire Transfer,6060.86,55.78039233316835,-124.31309786707334
+ba2f1c41-f37a-49a0-aafb-54f4efc4367b,failed,other,Cash,21.1,82.73801458847453,60.59854660878142
+63c60e42-e4b9-4618-aba9-66c5ce6ddcec,pending,loan,Wire Transfer,13.23,12.21771641731695,-127.72470997933158
+65156c4f-e667-4f31-bb51-b9507f3b0cf0,pending,investment,Cash,24.59,65.7973467878738,0.9751842807601179
+b784e088-615a-45ac-9dfe-de84c6e3511f,pending,salary,Direct Deposit,1917.83,-21.931676868786113,-122.63964183325282
+c06b77f9-61ee-4137-9d32-6eb29a3d4cf3,completed,salary,Direct Deposit,3899.45,-36.10652980620311,159.50272721288155
+30801d16-d83d-4e8c-9a3d-692026f90dcd,pending,investment,Cash,427.03,-29.61131154395008,103.12449466174098
+77e65b97-3611-4e2a-ac26-80d87d84950e,pending,loan,Cash,329.61,17.612666627262882,-38.310599035169076
+bb5ab09a-87fe-48ae-92d9-66d68492b95a,pending,other,Direct Deposit,668.66,-76.03053507620398,-52.171157341895295
+8510f471-2de4-4298-84ff-19145a7016dc,completed,loan,Cash,1279.68,22.51383477079675,-176.6184861033009
+270d53bc-fdad-4785-a847-34a39b4fc413,completed,other,Wire Transfer,1585.56,25.559686902037285,26.42337058517012
+cad91e7a-9e27-4d4e-84ab-29046d4d77c0,failed,investment,Cash,143.27,-24.689904745828372,-98.49766624334993
+d5de3ece-0180-497d-bab7-3a3388615763,failed,salary,Direct Deposit,16327.73,-86.40607762126344,-2.593361957908485
+1f871ba3-c10c-4c74-9830-02821dcc92af,failed,other,Cash,8509.35,36.588433310513224,-80.64810194085584
+c2605848-ea92-4a8a-ae74-c835de48d9ce,failed,other,Wire Transfer,7893.78,-70.20399141704821,-80.85279849437636
+97689bfd-005a-46da-822e-3f7779c1b4ff,completed,salary,Wire Transfer,8796.6,-85.91414017017739,57.18011546542854
+3e09a39c-d40b-4a4e-82d4-b13aa0352475,failed,salary,Direct Deposit,1203.07,-62.945632881634815,-163.38133714793292
+9a76d4c8-75b1-4df6-8cd7-cc07028319f7,completed,salary,Wire Transfer,439.22,55.483570844414544,-37.63793673777246
+4c10fefc-0122-4e43-8e50-99a71298d2c0,failed,salary,Direct Deposit,1636.28,65.10679952018313,85.87911336863971
+aa533f62-0d21-471d-88cd-a307e947ca28,completed,salary,Wire Transfer,520.77,59.42353182828555,-129.09087684242223
+5d3d8c9a-567a-4553-b9de-928e0a694b9c,pending,investment,Wire Transfer,39.89,38.17619047182893,-125.13221767486812
+7f264a68-2c86-42b7-989a-5e442cad9dc1,pending,salary,Cash,7.51,14.558440260140074,-23.38893970247338
+e0149d04-4b06-4956-9aaf-a0692b0427df,failed,loan,Direct Deposit,1262.91,-60.77973589918838,-48.49768637885208
+1b3258ef-2ab8-4c1d-970f-589416f9409a,completed,loan,Cash,4021.71,33.13980639579343,159.00263097618813
+7b611482-4760-41f8-98ec-833535e90ad3,completed,loan,Wire Transfer,1296.65,-47.9259407158455,-19.787476255897758
+66acd879-613a-4876-9c69-a1770b48d1e0,pending,investment,Wire Transfer,5228.31,-56.16612475135142,-128.22464507676517
+880f6cea-d84b-4997-9819-b333bccc2e73,failed,other,Direct Deposit,4549.85,-80.72891577632711,-154.19646706038483
+e5ce3311-7ae2-459d-88c2-1bebae48dfda,failed,other,Direct Deposit,2025.77,-19.389285628071576,26.770614563837142
+e5d499d1-19e7-41e2-9c22-801f0d83ae58,pending,other,Cash,1405.99,-4.970304310839154,130.41915594991974
+0c95a7fd-9bb9-4e57-b492-264e8105b0f5,completed,other,Direct Deposit,1058.94,-56.916401625698306,104.05886575322774
+ba397b9f-f3af-4266-b81a-6bf076ea3085,pending,other,Cash,2616.9,54.123265872716416,-179.8739121755175
+c355e799-9e2c-41d2-916c-a2888da2c200,completed,other,Cash,4.2,-8.948665152517037,-90.28651700699409
+4a634159-44c1-495d-972d-bbb5150a7cd2,pending,loan,Direct Deposit,10.47,-70.60638002946142,114.9651408315076
+92b8b4f7-f833-4357-8d1f-def0f6fd9de8,pending,loan,Direct Deposit,9.89,-30.32298103214542,-73.36929645811938
+dfe14db3-48fe-4fad-9263-3a8b7abd9bf4,pending,loan,Wire Transfer,7.5,25.4795057770381,49.600934100072095
+002dc50b-6d1f-4ed5-b9ef-87722a71f18a,failed,salary,Cash,8.37,-73.17097610594072,34.52868915915181
+d6f5f360-b109-4778-a539-0662a89a6293,failed,investment,Direct Deposit,37389.92,-78.8491726298713,-6.215479432397956
+de72771a-3973-40f2-9a87-9d103ac9d657,failed,investment,Wire Transfer,34599.88,-80.47811460799385,20.2569684119608
+01b5906b-4c50-4f85-8ec3-d60dc46384f1,completed,investment,Direct Deposit,8886.07,18.398050803060528,-25.41988182986134
+c55e52f9-12ef-4148-9eb0-6b0a948f7cd6,pending,other,Cash,6561.39,-21.10247283177887,143.97574888552373
+cd2d5476-4bbd-4c39-aa0d-cd114e784d7c,pending,salary,Direct Deposit,7443.98,-50.68529615447601,176.47682002737747
+ba0633fd-e9c4-49b6-9efd-7e986a6ac5f5,pending,other,Wire Transfer,10029.93,-81.03692834268394,-81.18497394247919
+a5a9fe6d-66b7-4633-b7cf-f334ba98320c,pending,salary,Wire Transfer,2887.64,-23.60156751352237,24.27343298496865
+f4d9eb11-a8ee-4430-8655-a19b181fd6e1,pending,salary,Wire Transfer,9094.83,53.8446602723387,-78.1201275903486
+45b8f98a-bb21-4469-9213-2a2adc8e8d3a,completed,salary,Direct Deposit,5261.59,-77.14080317341921,-34.021385578618776
+1055c0a0-70eb-4dcf-b172-6f6c746f5f56,completed,investment,Direct Deposit,11588.44,-86.31397471209915,-11.053661864981677
+bc6a7e4c-df91-47f2-937f-eac4ce3a4c6e,completed,other,Direct Deposit,19872.3,-50.217028368083945,21.764701449683685
+3d3fe835-6596-43e3-a49e-e0a7ae3be88c,failed,investment,Cash,20799.87,-19.135439350621922,85.94083500990081
+3ae48599-ca65-49fd-8f29-050d533506f6,pending,investment,Wire Transfer,6172.79,-54.72532477031171,-151.31211442599943
+73a59050-3563-49ec-9cc3-48df423be1cf,pending,loan,Direct Deposit,35.24,6.447614176753802,-132.77136725316097
+93b34c89-a550-4cfa-92c6-cec51ef960b1,failed,other,Direct Deposit,10.6,-19.50548594610278,-47.96048811636146
+8493314d-0b22-4c80-8bb5-27789684d3b2,pending,other,Wire Transfer,9160.38,-51.5490272896771,156.52388750119815
+77d10836-45ca-4ea4-a93e-b08f0d5a4aa7,failed,salary,Direct Deposit,5997.84,-48.6138374853909,44.02803021227558
+4b487e19-8d42-4c17-a437-c9c464f6f39e,pending,investment,Cash,8059.91,59.60183611258543,-12.548376775798118
+a2da2b5d-96cc-416e-877e-9ec861e41656,completed,loan,Cash,3607.13,85.42129637572609,119.65829796142805
+9680b682-ae74-42bb-a4c2-36d3121c4e79,completed,investment,Wire Transfer,35.48,3.9762770394515314,64.59624955499143
+1f62ba68-e634-4043-9079-2d516622122b,failed,investment,Direct Deposit,2020.12,-60.359848964096145,0.0458371127995747
+2ec25bdc-53d7-4b95-90ef-602073f87886,completed,loan,Direct Deposit,714.77,17.12769462019108,-107.09281710297111
+dde4cf09-9e23-4325-b16a-3ba21e05464a,pending,loan,Wire Transfer,2642.8,-19.204374211201483,-83.8693840961148
+aafc1a18-cafb-4498-827b-0444303217ad,completed,salary,Cash,3753.98,-36.832757157490335,71.46603957820571
+7295e82d-8d3f-4803-ab56-152e8722df35,failed,investment,Direct Deposit,4608.8,67.561111417756,-179.82097032737627
+a6550878-9179-4b58-9e1f-1bc9d43a8058,completed,investment,Wire Transfer,5335.66,-51.06030181358843,-56.19388749386678
+d77c0f4a-cf6e-4faa-980b-9ebf754246a7,completed,other,Direct Deposit,3105.11,-35.73340879212533,-45.77117610412239
+274faed7-d186-48f5-ba98-5ab2640b2c16,pending,loan,Wire Transfer,2041.89,-50.609445883390364,-9.282341178764057
+03998762-192b-4a0f-9a09-b3a16f9a312e,completed,loan,Direct Deposit,2268.16,-66.50693526056088,-34.5425656928287
+4372f532-b1c2-4b8b-b44d-1c04516f4c7b,completed,loan,Wire Transfer,1156.08,-52.79925626020261,-79.60522767692676
+f56eab3c-7672-433d-9258-ff4b0c0b4bdd,completed,investment,Wire Transfer,624.06,29.200672900729884,132.30966456442502
+7fedb980-1b54-4775-baab-555ae7469f05,failed,salary,Wire Transfer,8864.93,72.29380254151945,101.85267927529179
+b5cbc135-cc3f-4826-befa-a54eeb0683af,pending,investment,Direct Deposit,7257.28,-39.13459782637191,-167.23557875003115
+ac56b884-bca8-4462-a747-1629626bed1b,completed,loan,Wire Transfer,7173.47,75.99476958161202,-70.9606904448055
+b4caa1bb-efca-4611-baa2-de4ee54f1edd,pending,other,Cash,2080.0,53.18315789116096,-92.9361988205308
+4ff99aa7-99fe-47d1-b857-5c7255fea979,pending,loan,Direct Deposit,29909.55,28.325097023092525,-66.53560726530391
+8949127b-489e-4878-a787-71dacb2dcc3d,completed,salary,Direct Deposit,22631.98,69.62392369550437,82.67059931752061
+5c99d65f-6735-4f42-907e-a64f77747292,completed,salary,Cash,46710.91,52.00416520186576,-5.447474459029166
+48d68fdf-5e7c-4a7e-9120-2b08be7ab240,completed,salary,Direct Deposit,67740.32,-4.100576533630218,-24.13772244066962
+ff7e3c42-82cc-4f41-9a01-ec43133abd1a,pending,investment,Wire Transfer,4964.68,-38.18356578236606,-165.3037561762981
+1d6cc385-391f-4c3f-a440-efeebf31191d,completed,other,Wire Transfer,681.07,-16.77709445126615,70.81625885023243
+ce2df43b-c7f2-4fbd-bfcd-5ebf07d37f93,failed,loan,Direct Deposit,383.84,-30.580556187011865,97.90593924577053
+6c9a3fa4-1c5f-4ef6-96f9-2f110fc3c970,failed,loan,Direct Deposit,2475.71,-20.19913298219049,-151.98593309387434
+fcfeda47-e9e2-463c-b21b-c9b4cae18ee6,failed,other,Direct Deposit,1576.67,6.269088375188176,55.23504997671259
+368ec54d-0060-4822-bfc2-6f4db47c2d60,failed,investment,Cash,1532.9,-33.25642517704171,-79.55050483093419
+6fe596b7-fa47-47ca-9a8f-818ec61d0ad6,failed,investment,Direct Deposit,4596.4,-49.16035702418037,53.25404908674142
+32941a66-5d17-42af-b4a6-36cb72611e78,failed,investment,Cash,403.92,-20.694823671142615,-161.93777793633785
+104e0be6-b47f-4d1a-b92d-4eb7185d15bd,pending,loan,Direct Deposit,1020.42,20.41446354781769,4.2535171831258936
+e09f17fa-0734-4cfa-9dce-84a6ca488401,completed,loan,Cash,172.94,-32.64270331311854,6.386177032035221
+f0da8b34-cd50-4ed6-bd32-c77dd7eeca22,failed,other,Wire Transfer,77.49,70.21992275180716,33.71849431798043
+807805c5-8353-4b07-b74a-d115e2c92f4a,completed,other,Direct Deposit,3617.58,59.63746048626368,-99.66690379245853
+a0a2f2b7-43d0-43e9-8e72-6593f2f589aa,failed,investment,Cash,918.38,-43.41675773031171,-69.81243699820702
+253a4307-4fa8-4373-af2f-f9fa8a0e2ff8,failed,salary,Cash,6104.67,-20.204843243334906,-18.19353444674141
+f06d0a93-625a-4804-9430-001352590318,pending,investment,Cash,7038.68,-50.61864184958559,151.25593590182376
+97787b9a-d7a3-436e-b714-dd01eff2557d,failed,salary,Cash,4128.86,-19.702069327197023,-44.846206433154606
+90de9886-6b8f-4242-adeb-cface27782b8,failed,loan,Wire Transfer,56.88,27.99312479135574,-117.63749051697195
+96aefbf5-bd4c-4604-af43-30f964dba185,failed,investment,Wire Transfer,1380.66,23.86446970060122,-19.68876985361527
+5ccf323b-c47f-44c5-9b32-695e52817b76,completed,loan,Wire Transfer,2091.31,-61.01533992117916,159.3376960035361
+456b4049-d421-443a-8fff-682a9e72e5cb,failed,other,Cash,779.42,-89.14156502867772,62.22300965769105
+b0557de1-b38f-4ee3-befb-d897cbbf2a20,pending,other,Cash,3077.59,-39.876622213481944,-75.6249728694903
+cfbf1956-5e92-499c-bc53-8c2b4a93f65f,completed,investment,Cash,6918.79,7.065042302322212,-43.42899051276865
+14fa67a4-5b9e-4d8b-b5e7-7d88c16bcd94,completed,other,Wire Transfer,8463.23,13.435442987796975,104.53637311810638
+106715f0-4390-40e1-b8dd-df6a5b82d70f,completed,investment,Cash,7080.78,58.07736916861941,137.56305276781814
+b07a4155-bb0a-4f07-934a-0ff275dfcd8f,completed,investment,Cash,26702.8,-56.907519299950806,-178.73645175252153
+5ba4e332-7db1-4dc7-bf84-1b118c2b21f3,failed,loan,Wire Transfer,49225.26,-19.404431455008876,-174.3344601558707
+5f37a9cd-ce8d-4722-a430-2f989fbb4235,failed,other,Wire Transfer,815.47,-71.38403067404299,-115.42639755420578
+b4e53323-666b-4448-b6e3-a5211b2f1b31,pending,investment,Direct Deposit,4928.95,-16.32792157773889,-52.92110731232016
+9e8d1178-bfc8-4c2a-94f8-f8c6fc0bc52f,completed,investment,Cash,3795.17,-64.23495553923291,35.582107292082185
+1d112322-574e-466d-a918-637a017cde04,failed,other,Cash,6288.21,-32.766943507065506,25.987854490256495
+ea02cbf3-12b7-4379-b7ef-5db076357d64,failed,salary,Direct Deposit,4789.63,76.60431809851832,-171.86011904125291
+25a755c7-baaa-486f-8053-2193b59fe951,failed,other,Wire Transfer,4056.05,74.45718284645756,118.59309028169082
+b2c34978-9d28-4a8c-9cbd-c93eace83299,failed,investment,Wire Transfer,9869.8,-79.92281261684248,108.53887854396356
+7b808ce2-7f3b-4257-81db-8cb3b6346b9c,pending,other,Cash,1810.87,-36.51504001071055,-106.32536957923969
+2b0c3960-5fc6-4006-a316-a51526b08595,completed,loan,Wire Transfer,760.05,50.89251568431797,130.3693913096264
+c3cb20e9-3dd9-45d8-b10a-e173ea4def18,pending,investment,Direct Deposit,2808.06,-68.89140331909772,-95.65426736249474
+db06a25e-dfc7-4075-8abe-f0f343bcb0e6,pending,investment,Wire Transfer,1046.12,-85.66766334920696,83.17001338593747
+22e4e3c1-601c-45a7-8c8f-e54d1e671f5e,completed,other,Direct Deposit,822.05,58.096287725165865,-77.97603005635462
+d7b81149-1d36-4c2c-a9b9-395564daea4b,failed,salary,Wire Transfer,749.24,11.18991017959911,95.75872475878799
+859e98d1-ae90-41bc-92f1-3a6db395f30f,completed,salary,Wire Transfer,69.02,-16.499396189372106,-67.31393126001603
+da68386a-4a32-4900-9e28-96b6805097cc,failed,loan,Direct Deposit,1115.99,-27.815623569711995,100.2146400863877
+40037017-1304-436a-875e-2157ff21f3cc,failed,investment,Cash,746.68,79.74092533822684,-172.30221473515164
+3928a1b1-1be5-445d-9cf7-b28e25887b8b,pending,salary,Direct Deposit,5042.98,49.72930828462779,-111.10378889536015
+b0593847-a5a8-4c8a-bc0c-33d64ffde332,pending,other,Cash,2098.93,-85.9823859596637,-23.696783757734806
+62a832fa-4b5a-4c63-85c5-ac4c0ad001b2,completed,investment,Cash,3831.41,54.80410119668966,14.360189647296579
+230fb77c-16ec-400b-b17a-51118f2a1792,completed,loan,Cash,7390.26,-55.665950800961205,-125.10275340996196
+97141570-838e-4328-9940-b2f27147796f,pending,investment,Wire Transfer,5421.75,57.6302177006049,-109.38006609212832
+faa66d2d-3bf4-476d-b24f-24c11d23b893,pending,investment,Direct Deposit,258.36,-45.40831780185137,-176.99899189697862
+491f305e-2ec6-4cf5-9c20-928b5d66163f,pending,other,Direct Deposit,71.14,67.16213030481632,76.92703245390265
+32382dee-cf9d-4b84-b16e-6db9766e6db5,completed,investment,Cash,61.0,-25.35322007622848,-81.21306372446998
+041ae766-3434-4ff5-9d35-5322427f9ec3,failed,loan,Cash,148.46,13.366500148540794,73.68796229801717
+9a48c148-59f1-4777-8ae2-00b528488aa4,pending,salary,Cash,673.48,-54.301593080753946,-67.36378403555882
+161aa231-f42c-4572-953e-5e4f7b2859f3,pending,loan,Direct Deposit,407.83,89.54833585737933,-89.84822801723821
+a6f383e8-de20-4168-91fc-ced4dcd4fc3c,completed,loan,Direct Deposit,5230.24,32.63871740905573,38.82555493134578
+4d0725d1-f5c0-4253-8e8f-ad165d35940f,pending,salary,Direct Deposit,5701.53,-28.46512779289396,167.3028555987953
+0e314f8a-d2f6-4378-b012-229953942c84,failed,other,Cash,746.51,26.16261686615381,126.85304612156591
+896c20f4-f896-411c-a9c6-9842c2b4015e,failed,salary,Wire Transfer,92.7,-84.20002452988683,-18.33708750012545
+2fd27f8e-0658-42b2-a74a-03f9407a2026,pending,salary,Direct Deposit,687.53,80.17310390125118,109.29616368890879
+3ebcc1e6-7234-40d6-bd6a-4af7cca7832c,completed,salary,Wire Transfer,4849.15,-46.397194609982066,76.36660302679991
+aa5dc191-6096-40b3-9d3c-fc1954f8ae31,pending,loan,Direct Deposit,5518.54,-44.52677294663967,-157.9927290072034
+17fe6c96-47af-452e-a6d3-b1aa990b2277,completed,other,Cash,102.53,-1.140713167101822,87.39002894656812
+3a21978d-e578-4908-bc91-88142169e438,pending,other,Cash,38542.63,11.520494621584845,-126.56265148561705
+36fc5075-d833-4428-bc43-13b79b02e0a5,failed,other,Direct Deposit,1383.33,7.038694299567084,76.24930206708461
+3846650a-c42c-491f-bf70-bdf0c157e594,failed,investment,Cash,3652.23,-30.189164005056426,-53.30934722874639
+b49be579-129c-408a-9139-ef1e0dbfae01,pending,loan,Wire Transfer,2116.45,-81.4323320822307,53.70579087283792
+4c218925-a0e3-4569-94e6-067ca40b1d04,completed,investment,Cash,109.87,-43.35872834251325,154.00098174913495
+eaa7c8fe-50a8-4f9b-b228-8daba64cd272,pending,other,Direct Deposit,70.62,26.068111005376423,74.59269285740584
+1f482c5e-f51a-4fcd-ac05-b191485669df,pending,investment,Direct Deposit,267.39,-71.72889707450202,-79.21134119551179
+d89416f2-be0a-4cc4-80c8-e9bf11c0b2bc,completed,loan,Direct Deposit,4914.57,30.858084097609634,-89.58742589436719
+4ca7ea3f-b3fe-4d7f-b8a9-552342e0c1c2,failed,other,Direct Deposit,1058.62,-34.9079432800701,59.5740594862454
+8019d779-7c96-43ad-9a3b-942d25744c2e,completed,salary,Wire Transfer,22.83,64.18513794972765,11.826808552728636
+cf0833c4-736b-49f5-b653-6724b5c0ebc4,failed,investment,Cash,6.16,40.65482068680501,-99.12756773235745
+b50dbb1c-9d19-4ba3-b94e-37b6043471ba,completed,salary,Cash,2213.11,6.756183980681229,167.49788830922773
+1529dfc4-8dbd-474f-84e9-56af990204e2,pending,salary,Direct Deposit,26790.96,77.60573743472543,-136.36313477440905
+88bc3d05-64b4-4793-b947-cfc84d32e195,pending,salary,Wire Transfer,5551.57,23.450294348425103,-34.74931834460966
+5129a9fc-3ca8-4990-b965-74ea49c4c6ad,failed,salary,Wire Transfer,32154.09,-42.04035824671782,153.2433141261834
+958890aa-99fd-42dd-9a1d-c5dda051024e,completed,other,Direct Deposit,211.67,44.58414997034913,-151.2455325468813
+fe805a10-2f73-4060-8a14-d6563f213c86,completed,investment,Cash,373.83,8.450865694210421,18.817078602240116
+5a9f7290-7f24-4616-bebb-430803b02163,failed,other,Cash,715.28,-37.978139567094004,20.745387544441257
+2fef2594-617a-4ace-a4a0-ffe2b9f1729b,completed,investment,Direct Deposit,465.27,-75.10069955329506,-38.871296513365195
+8edb4ea9-5e26-4970-a96e-1ebd0cd5348e,failed,loan,Direct Deposit,1304.08,58.33287552013297,134.53845265715273
+05df1384-4790-4404-8406-04bc739f2a97,completed,investment,Cash,55.34,69.24076997699422,104.23484451811788
+17642d1b-7b84-4f3c-b91b-acbb0273f312,failed,salary,Direct Deposit,260.53,32.06732557764667,58.88811928882828
+da074727-f1ed-490d-b554-4f339e3600e3,failed,other,Wire Transfer,18.76,-26.378158769895414,-27.388801989531032
+623296cc-c7a2-4adb-aa40-5ce1a356fc30,completed,investment,Cash,101.05,-57.6556340122188,25.946805916229238
+f825fdbc-0cf3-44fc-8294-e4f564ea4266,completed,other,Wire Transfer,34.37,-51.494089451740635,-4.4789961814001344
+fca51455-9330-4c45-9fce-c86911844d10,failed,investment,Cash,6734.87,-60.9522601430645,39.886171941972236
+c05a4fbc-1195-4242-a7f0-3b8358d29f6f,completed,salary,Wire Transfer,7217.23,51.34697649131675,-99.2503679077625
+1c318a8b-20ff-4016-b75d-c8b78c0a081d,pending,salary,Wire Transfer,10749.71,77.88155572508424,-144.56967887947093
+5bf978ed-9179-4c88-b05e-4d3f31894808,failed,salary,Wire Transfer,9403.62,-5.321228121232153,20.359727556011677
+5cdc6bcb-e210-446d-8259-e512fc020b3a,completed,other,Direct Deposit,1758.48,-6.661574140636191,131.21927617972017
+b500fad6-dec6-44df-832e-8fb8e8b42b3d,pending,investment,Cash,15083.73,74.21135738814439,30.794277396976554
+041cf2d8-747e-44f1-b833-814b1223f5d8,pending,investment,Direct Deposit,3364.03,28.367807004126206,-74.53103621946825
+7c9f36ed-62ff-4e56-9d6f-ceb86414a0ce,completed,other,Direct Deposit,108.21,-30.373634805598044,123.36322013026466
+e733e2c2-720d-40f3-86d4-8f982615826c,failed,salary,Direct Deposit,22.28,36.41663704290728,115.2935394459048
+50efb60a-2359-478a-a500-bd8524e3ccfb,completed,salary,Wire Transfer,232.06,-43.95495713865827,-144.60985064428684
+0847455d-840c-4a40-8a59-daa7264d0d4b,completed,salary,Cash,141.01,87.73722154406036,-37.981990992497515
+7f6b023c-c94a-4a2d-b2ab-939bae44dcf5,pending,investment,Direct Deposit,572.38,-84.67092733802586,4.053988733486847
+a3bde585-8d88-44c9-9d8e-a12e667a94fa,failed,loan,Direct Deposit,1292.3,-66.20353075527099,-60.51047073883436
+230f9f9d-d5b4-477f-b3b1-9ca3e10db179,failed,loan,Direct Deposit,1854.39,81.40265984701958,-11.6912582128586
+1f09f415-7bc1-436e-b80a-eec0a109e2b2,failed,other,Direct Deposit,355.82,21.346938103796404,170.55368114220863
+ba61db35-eb06-44d1-af43-e2f3f2090884,failed,other,Wire Transfer,2291.99,-0.5030676102529981,-3.3154377588637374
+2735f2e7-b3fb-43fd-97f0-305a9798368b,completed,salary,Wire Transfer,635.33,-57.801913833779196,-161.221684010704
+c1fdbe66-fcf8-4e80-a423-4ee045ccb0fc,pending,other,Direct Deposit,32.58,31.643295565594258,-157.7397563106727
+17e584ce-8995-4318-9b8f-cf73c2f874a8,completed,other,Direct Deposit,118.45,51.84687423614835,145.9797693229774
+75596dd5-2346-4941-9f0d-3f06ff00aca0,pending,loan,Direct Deposit,85.65,78.84489718970582,-21.848004941369027
+153b3c0f-0bca-464c-b192-1f5324873026,failed,other,Wire Transfer,118.74,43.600164954857775,-9.628179146778706
+20e63678-fb55-4088-84cd-d57554a59755,pending,investment,Cash,163.27,-2.8556524599107718,24.625860885949493
+9460e301-15af-4672-912c-b5c2a2573e02,pending,other,Cash,10929.51,3.494598215929642,-71.74631241251893
+7c0db319-ea1b-4d99-bef5-c4b0cde3d618,completed,salary,Cash,18562.76,15.736044692277588,73.14292722976037
+9e96272d-a6db-4ccc-aaf9-2ac41373143d,pending,loan,Direct Deposit,105.62,60.21995733033651,-90.74728518000927
+36ffe835-7149-479a-a004-bc253dae22c0,failed,investment,Cash,235.88,60.26112261960043,141.0300582141806
+3c0acdb0-cff4-4249-a838-19c9b65dafdb,failed,salary,Wire Transfer,254.15,-7.958993935002653,-112.53005437633979
+a87a9f5f-8063-4036-969c-9335d8fc35a5,failed,investment,Cash,114.78,-34.893703261927826,33.22537890346436
+9848e745-9ff4-49af-bbf7-7af69ce52ac3,failed,salary,Direct Deposit,146.52,-22.461868063333924,-109.49193780112228
+018c6417-8a00-4e48-9c97-14a227475e83,failed,other,Cash,679.86,-56.78107273318346,100.62628852312685
+5081bf19-c9c6-40c9-b27b-eae95aec93a6,pending,other,Direct Deposit,526.87,-51.8302840775321,66.35093649437835
+36d55a32-8f5c-4d7f-a2b6-0f805a60c1f0,failed,investment,Direct Deposit,719.83,-42.43526176954858,61.16868591537292
+5bac7b56-edb8-4891-ae3c-0bc303621456,pending,other,Wire Transfer,704.73,-40.151703174614546,91.49948410168355
+6a969c37-a931-4f23-a02a-9b8fbc9f8c53,failed,loan,Cash,481.0,-35.22528371300458,44.9286325753186
+3c389c5a-57b3-4f52-8aac-56452c7507c6,completed,loan,Wire Transfer,1874.21,83.16340448355004,19.4682909091469
+f360dd75-1263-4a4e-b6f1-895e68b012e0,completed,investment,Direct Deposit,283.79,49.83180195112129,113.13309256648733
+fb4f7c34-4962-493f-b7b5-6d52171edae5,failed,investment,Cash,4521.94,-86.10616206712453,-122.3282950690547
+21b0fd1e-a119-42af-b5e0-a55ca2021a81,completed,other,Wire Transfer,2686.63,-5.002489438954285,-51.240283393676066
+afa56819-f7d2-4a45-95fb-a4a3c6343e4b,failed,salary,Cash,38.3,35.58926675171725,165.20674650187362
+508d6d9a-6eab-439b-b2ce-d5a9a4e52d88,failed,other,Direct Deposit,164.9,-1.8342081883432684,-59.02596413298464
+78114248-a67c-4b44-bc49-b2086e7cf09f,pending,other,Direct Deposit,97.22,-49.8832475911795,131.48930678296335
+fa15b64d-8070-4f05-8033-7d1cf5319023,pending,investment,Wire Transfer,77.98,87.24792316102744,38.396390016067556
+ee3ff485-1f97-4bd3-a2af-ff19734a4975,completed,investment,Direct Deposit,905.17,-25.140050513984903,-162.06596216525807
+5e3a1b2a-3eee-4f7f-a679-92ebae7013aa,pending,loan,Cash,1473.29,-86.8929103465109,21.872201749933254
+e395d1db-911f-4a9d-a026-41b92bb55f57,pending,investment,Wire Transfer,1951.58,-22.758132705618692,71.55069749756527
+811241e1-dea9-46b7-9302-e29f909022af,pending,salary,Wire Transfer,1043.54,85.45289514484833,17.26532798811502
+a7b1de0f-ecea-45a5-b16e-9a2107582fc1,failed,other,Cash,163.86,-1.9082365075878442,134.12620462342034
+d723bbb3-ef3c-444d-92d0-b3a407885b5d,failed,loan,Cash,417.23,67.64090364393707,-14.426221790522419
+a9b47d4a-4b44-4459-86ee-5b26c8ddb350,failed,salary,Direct Deposit,10052.21,-29.960179919388082,-74.61374232131934
+686bf879-95f7-48d4-897f-6bc2cf454131,completed,loan,Direct Deposit,13297.66,-63.570020048777636,-34.20401191489847
+1a41f53f-6e28-4aa6-8ea9-d885801921a5,pending,salary,Cash,8827.41,-3.7838157199169586,15.54145888062186
+b6c82c02-8fa1-4ec2-8e79-5220d663cd9b,pending,other,Direct Deposit,3180.67,-71.85159073358919,151.9599916355212
+67a33399-286a-4907-837c-c03256c94395,completed,loan,Direct Deposit,8208.43,-37.54114181804582,23.057284805992452
+f683f2e9-6083-437d-96eb-758bbe007815,failed,other,Direct Deposit,182.91,29.082883142666518,-165.5889886807953
+5b980391-d16e-4afd-8cae-ad853a07cd58,completed,other,Wire Transfer,874.62,47.094689257092824,-154.94793588737934
+3f0de01d-5e67-4277-bbd2-a28ee604766c,completed,other,Wire Transfer,1863.2,-16.52569542386803,-50.38573838936776
+8c17fad4-4a5b-40f7-bbfd-c54f7f35975e,failed,salary,Direct Deposit,1722.49,-29.677145590667656,-174.16946394620643
+0c3ba19f-c931-4fbf-a462-40cafb231807,failed,investment,Cash,482.56,-79.92641383370757,-139.49955012356796
+c4e3c1cf-cb2c-4ae6-a57c-3eb7a8759d3c,pending,loan,Cash,21.09,84.59691308567221,-102.70902780208836
+809ae1f9-193c-4839-8b80-04e2cd4054b0,pending,other,Wire Transfer,8.68,83.50490477982518,-88.60966454505873
+e69d8e81-346d-4dfc-945d-12cc41c3181a,completed,other,Cash,4.7,-40.52080854093785,94.46955644486047
+9f51baa8-49d0-4e3d-9e0d-706564564bf6,completed,investment,Direct Deposit,979.77,-63.227466277732546,-48.79725825257967
+2986e5ca-d188-42cc-8a94-25d8dd37bebb,completed,investment,Cash,6789.24,30.22584113140337,-140.5703632341341
+e8e02ec1-4187-4a5f-be17-1fc2fd859096,completed,investment,Wire Transfer,3910.74,-68.46029318133249,-50.73140074058634
+fe0eeada-7495-40d9-a7e1-d51d88b8a3ee,pending,other,Cash,5756.7,24.176538499987743,167.18824794117188
+24dc10f5-4fa9-4096-b900-899a9b703110,failed,loan,Wire Transfer,6390.29,-53.81105184720108,126.42057692875437
+0a0c6ffa-789e-4de4-8870-219de1395d57,failed,salary,Cash,2085.65,24.59333162677396,-79.91621680372813
+e78e8664-087b-41a5-a444-faac67056380,failed,investment,Wire Transfer,1186.95,-0.40552673490614666,-72.66708895291544
+10276dd2-7952-4db5-bbea-06f08d3b2b79,completed,other,Wire Transfer,1964.07,-65.44612991819406,-53.43228200394077
+342eacc5-923c-4c21-97ee-16a29bd12c7a,pending,loan,Wire Transfer,95.44,-59.60456685150223,-157.88168651564803
+85284683-aa8e-4cb3-89f1-ba08978a4346,pending,salary,Wire Transfer,461.47,-78.85399700508293,-71.73247102746613
+1758e000-455e-42db-afd1-605852cb573a,completed,investment,Cash,681.94,6.983492526009115,-10.5800337863636
+91daaf71-de73-4b19-83f3-ec8910c024fa,failed,loan,Wire Transfer,782.79,20.109376144638418,99.17752026196047
+77123cfb-9d0d-4473-895d-0fae43380a4d,pending,investment,Direct Deposit,3679.53,2.3179646122118527,167.68402632328525
+494de1f7-7602-40f6-a7c3-81d97d54d172,pending,salary,Cash,1463.5,-75.08151231836229,149.3022206687424
+eb209efa-5944-414c-b4dc-36e336d78017,failed,loan,Wire Transfer,145.5,-51.72713695168633,-91.09540232070653
+ffca0efd-57ae-4bcd-914e-b8730af7c6b9,completed,other,Cash,1853.81,40.292332475369534,-70.2264613523227
+378ee693-bfdd-4bb2-bfb8-7dfcdbaed38c,completed,other,Direct Deposit,14593.41,84.5051934916429,-154.9814850423433
+9d044225-323b-4691-9e3b-fd2bd65d267f,failed,loan,Direct Deposit,9781.02,-51.87582438134742,99.25611869221484
+06bc4922-d705-41ac-91e0-79638c838ad0,pending,loan,Direct Deposit,7294.42,65.83219976653214,-55.54232872051041
+26ea3bea-0fbc-4667-b3ab-711ada2583da,pending,salary,Wire Transfer,4011.82,44.71971871038107,36.03305200556983
+5e71d0d5-02ce-47c5-a563-eb5c2fd74c12,completed,loan,Wire Transfer,199.72,0.6040282875411265,60.436536123027736
+6393f4fe-8cb9-443c-8729-25850bbfb1fc,pending,investment,Wire Transfer,567.23,-64.9943539872801,-72.10070194413058
+eb2f4990-eb95-47f8-a03c-5742371ee1fb,failed,other,Direct Deposit,2737.13,1.5645492473823879,-115.31332459185931
+0e8b8adc-6a31-4839-947a-68fef184776c,completed,salary,Cash,249.22,67.65022537008409,-41.79962218058063
+e1ec8b1e-a4cd-4302-84ed-980e6416b571,failed,salary,Wire Transfer,9.04,-70.89507569024119,5.872176953132367
+bc42e918-38ef-4b4e-94cf-e0758afcd6bc,failed,loan,Cash,11.78,58.99010601108219,-125.03635826979614
+05629617-df80-4053-a149-13473604b87a,pending,other,Wire Transfer,454.68,-86.90785157680487,-14.9296808973358
+1e28d60c-b786-4908-aa11-7a593e74c6bb,completed,other,Cash,641.69,-70.90352486042423,118.73490030424409
+a8e7cc7d-9aba-49ed-8fb8-11bd474e8228,pending,loan,Cash,21.97,82.01334383699361,85.53604793914468
+a38777b7-0b6e-42be-84f9-93c1ac36c615,failed,investment,Wire Transfer,123.25,-48.168589844408665,-27.152313272236285
+29d575e3-e195-415a-b2b4-9e34a477ea02,failed,loan,Cash,101.34,-49.09076910203417,24.8913522020689
+81d0360b-5de1-4825-bf24-7d4698277706,failed,loan,Wire Transfer,26.75,47.7880470280472,47.48490277500301
+a15d4ac6-d1eb-42b9-adeb-88d23a36f7ef,pending,other,Cash,1890.75,86.83922423467791,75.99462479937452
+2d426553-8e3d-4fa7-94cb-4dcdf1e8d2ad,failed,salary,Direct Deposit,1189.93,-54.86761460185936,-169.10261502348993
+5f48aa2c-c6dc-4d2d-ba83-827af710b4fc,completed,investment,Direct Deposit,3993.3,50.03659311638833,146.85121316041761
+e511f76d-5bed-4239-8201-58dcfbb245f1,completed,salary,Cash,2202.7,29.63271450686348,145.5149950175046
+fce9d083-c1f9-452f-a6ee-8310f578a555,pending,other,Cash,3974.25,21.817669433910652,66.67897459356405
+6a0242ce-ac8a-4cc8-a19e-b5e882aa9bc7,pending,investment,Cash,4420.14,49.58292783604256,142.7441769563505
+ee58ee57-eaf1-4955-84e4-ae5a56fe84c4,completed,other,Direct Deposit,3898.48,82.64320781218089,-96.51897074681276
+978c9ea2-ebbc-4d9c-9406-5444d03d33cc,failed,other,Direct Deposit,5355.64,-37.560346306250075,-41.527147776337955
+270c6b88-c3aa-422e-b2d3-74344120fdf2,pending,salary,Direct Deposit,19250.45,25.341821524622418,-132.3106356068162
+e4f67c46-8f7a-4889-9cd8-414fcd6c4103,completed,investment,Direct Deposit,20294.56,26.06132494873053,97.76746303063197
+11652274-9dac-4124-a98b-329da43e8d55,completed,investment,Direct Deposit,27869.9,-13.915211315424415,167.55117453007534
+7fcb2952-06fd-40f6-a0ea-2f70e63af2f9,completed,other,Wire Transfer,3441.58,62.515306910759534,63.72724136214262
+4ec12eee-3be7-4ef5-a705-8c6e0054d8e4,completed,other,Direct Deposit,75.47,64.93255863032726,-130.82347892891121
+8bf0b297-f4c5-48c1-b511-b8ec33583552,failed,other,Wire Transfer,145.74,26.734433030770646,-38.87977859578248
+b3bd845f-e3df-4203-9a4c-ace2fe97fc1c,failed,other,Cash,2157.85,0.5257032429054078,-41.78904322377957
+872172b9-d638-4491-8a27-ba14b81027c4,completed,other,Cash,2361.87,-42.32130678925587,128.79174285499124
+9e7ecf2f-7623-4fd5-9220-cd9d53c1a007,failed,other,Cash,11058.68,-62.40612997974263,-65.78113753249976
+9f5b94be-680b-4ccd-9ac6-4347223decb5,pending,salary,Direct Deposit,6431.89,-9.378858362174782,56.51522670356499
+8aa66786-93a2-4458-a58f-deaefe89fd53,failed,loan,Wire Transfer,11179.13,-5.616328320678846,-90.76714465947703
+1d2c7de2-3c70-4bff-995e-4aaefebd5843,pending,other,Direct Deposit,497.5,-15.118595493291593,-60.4158023196742
+0c7a0bbe-668a-4d10-949f-2288448b23c8,pending,salary,Direct Deposit,316.95,51.33235695347682,-96.76942255266556
+57a25302-ac2d-48a0-a464-4ea2da2cf244,failed,salary,Cash,353.5,-50.20842456907157,13.466997324375683
+cea7a349-e688-477d-af3f-628f5ec2c425,pending,loan,Wire Transfer,10.9,54.72286397274604,15.088858151413461
+312f807d-b10b-43d4-9bef-611fea093550,completed,other,Cash,1.77,-28.716782621757574,-4.16925779203612
+04afdb48-dbb5-462c-9a11-97b03eb21e0a,pending,salary,Direct Deposit,3.28,-80.47801564120698,71.84017047807436
+f4047432-1ffb-4dd4-a465-a52527485f26,completed,salary,Direct Deposit,8.1,30.236867657232978,-9.500913033665
+4b7f6739-bcb1-4dab-a403-c2ba25a57aba,pending,other,Cash,261.37,-44.68350900605251,-117.29406602744066
+1156eab7-2c58-4df9-87f5-31a9f9ca9f5a,completed,salary,Direct Deposit,108.99,30.368375217957308,-70.08296956843742
+dd2b98e5-36ff-4468-a74f-19dcb7f24e11,pending,loan,Cash,144.29,-26.710920075670394,132.30007776894678
+70fdfb79-2328-4688-9bc1-d90e2b6f0054,pending,salary,Direct Deposit,451.63,53.53880876942196,84.80247993342482
+1f47c6f2-f580-4d03-877a-064f6cfb5f91,pending,investment,Wire Transfer,2105.9,-58.31502076041844,124.15861778064362
+cdd77b0c-48d7-4e2c-bf24-55b5c99af808,completed,other,Wire Transfer,11955.81,33.81215331495987,-76.02107655671664
+3d54a551-fc8a-401d-95dd-426a7461acc4,completed,salary,Wire Transfer,282.65,-66.35046810131219,28.857667272809806
+cfc09578-0e29-4c3d-98e6-fa1b0d65cbf5,completed,other,Direct Deposit,702.19,88.79771376784797,59.46792589017059
+a63cf803-e62d-4c43-a6ba-60691702ac00,completed,loan,Direct Deposit,2279.74,53.25651699932203,117.69084657492772
+675e4798-65e9-446a-bc6d-f34cbdce40cd,completed,salary,Direct Deposit,6620.86,43.03723106261245,-160.46742971658767
+695607c8-5920-42d7-841f-b2075dbe04f6,completed,other,Cash,2115.35,28.845770958813375,-109.7804887278458
+fd5810f8-7367-481b-95a6-b6fdd9f2112c,pending,other,Wire Transfer,8270.29,-31.197875324666413,-34.82560454474836
+899cc9de-3129-466b-b259-1044bac88c2b,completed,salary,Direct Deposit,1592.17,33.19673283545039,40.58043206824752
+6748eab7-73b2-4661-b36d-3bce626eb70b,pending,investment,Wire Transfer,7822.65,8.973608751254218,-19.843295015199686
+f7c86df2-4385-4ba0-8527-ccec1a1f2f9a,pending,loan,Cash,4232.63,14.32863278404345,-105.0716468318146
+2bc5d226-3ce5-4400-9746-db6afa0c0c0a,completed,salary,Wire Transfer,5996.47,-2.65193974130554,-3.7696155063909202
+a7b8167a-adc9-47fe-84ea-f2f2a4d81e73,pending,other,Direct Deposit,11497.02,81.6137494522778,139.77109059422475
+29214825-8a39-4c7b-b61d-f186803ce612,failed,investment,Wire Transfer,137.56,-47.5324950752942,-107.16289798309776
+7e791b30-23bc-4574-9b95-2b710f84bb17,pending,other,Wire Transfer,14018.61,76.19809406643841,94.8813603204336
+5f70fd06-224a-4478-bd8d-a466b639a650,pending,salary,Cash,2802.06,70.7862591210583,5.730756173818804
+6a365041-3779-4d1c-b9bd-7b675f0c6f99,completed,investment,Direct Deposit,10327.87,17.31266587449207,48.97711908710997
+5c47636b-a8cd-41b9-a2e8-faa43b7c04b3,pending,investment,Cash,10001.18,-27.170404724672856,-36.41080599813424
+0b7176f2-5ca3-41d9-8fab-4e8410148d1e,completed,salary,Direct Deposit,14074.1,30.644095783441415,119.12193087771686
+53b869b1-63f6-4e40-bc95-41602d6ff3cb,completed,salary,Cash,39270.68,77.40790406823155,-97.45716296023815
+338bd302-f9ec-432b-9d76-742b105fd49c,pending,other,Wire Transfer,67424.72,88.05792523810047,-68.97841453004091
+e90b1d84-4ba2-4c58-9740-367048ad3ec5,completed,salary,Wire Transfer,2455.49,48.17097189821766,-129.0944760835095
+30ebf932-b2ca-4dca-a7ca-d07a57205c90,completed,loan,Direct Deposit,21392.61,-6.223685507864488,178.04439192041173
+dd473b27-a423-4f2e-8b29-f826deddcb10,completed,salary,Cash,29875.06,64.01775766294054,-29.19396007165807
+e09869e1-d3d9-4ac1-b63a-7e1ea18a18cb,pending,loan,Direct Deposit,49390.61,-37.18490279842455,-178.1757906207824
+6e300222-f3fc-4b02-a504-35d72ab15806,completed,loan,Cash,75061.3,54.709503413845965,-35.871556993666985
+c3056d21-75dc-45f8-a659-6a667931d86c,pending,other,Direct Deposit,6300.35,-87.10045947683568,-39.4113074354899
+99e9b60b-12d9-4bad-96c8-bfa0ba4694f6,pending,other,Cash,609.62,19.17454869758808,-55.0152945416347
+994b9e27-68f0-4835-8b73-accf72593f07,pending,investment,Direct Deposit,1876.34,38.4167058299725,98.09830107135991
+1b223d6d-1813-4f60-8e89-4421e1cd1dc7,pending,salary,Wire Transfer,42.31,-24.374463155743186,-128.4632538403994
+a01da9f6-7d1b-4df8-b74f-d71775c4a7eb,completed,loan,Cash,69.97,48.2387958478528,-113.33587522139383
+e6b3e3c5-8637-431f-ac88-0af94fcd428e,pending,investment,Direct Deposit,108.47,75.98545425995971,-103.53131370264781
+01bce46a-448c-4ad1-8d8f-b02747bfc97c,completed,loan,Direct Deposit,7578.33,-88.88563143854758,-129.05261659376868
+b1c5d171-2107-43eb-a46b-40ecdb5a0ecb,pending,loan,Cash,17953.0,75.6523938799372,-130.2165992922844
+b17cd812-8b29-4f7e-9914-d8d1cdbe7fc9,completed,investment,Cash,1936.3,-18.516513699503108,150.1420656328877
+55ce4de9-c4bf-4c45-9085-e9f2e6ce93fd,completed,loan,Wire Transfer,4360.1,-53.35540680184525,86.51215071907433
+1707d844-ddba-4958-9c80-2a1e9d936bef,completed,other,Wire Transfer,3659.85,-51.45901054561371,-174.41958411575416
+40c9d3e3-1e3e-42cd-a558-79d7afb71a12,completed,investment,Cash,34210.44,77.79060742524103,111.16335288318919
+1226b516-cce7-4782-87f6-34de1625e90c,pending,other,Wire Transfer,81.84,-53.083175657797746,116.82761507303144
+d0075ff6-f600-40c7-9865-2497e09130b1,pending,salary,Direct Deposit,353.07,-87.4472669757098,146.02743385213415
+6b334f3f-5b46-496b-83fe-321da26f2119,pending,other,Wire Transfer,1127.65,-81.46134150779388,38.35518186387708
+43133019-7710-43e3-a537-01e1da5bf6bd,pending,other,Direct Deposit,663.77,-11.779536782561806,-91.49724582218211
+4b71a365-ba14-4dac-9375-1e31fad62ac9,completed,salary,Cash,2389.6,-84.91418923705683,-45.70681170904791
+490e8e56-9439-406e-8ea9-bb568177cf1f,pending,loan,Wire Transfer,643.57,-1.3856796711910135,112.25382387836072
+d9f7c0fe-1c3b-49e8-9021-290f648f4234,completed,loan,Direct Deposit,1713.02,63.60614458065615,-9.277097880865512
+e6437c75-ae6f-4f62-839f-969e2a21eacf,failed,investment,Wire Transfer,3903.96,-51.50728069259327,12.496335247620067
+8ba7cc50-339b-4b55-bf7d-d84db6c4b2ed,failed,loan,Cash,2707.62,-37.31935326313796,-164.55146100926396
+630b65ed-c64d-4272-9964-3ecae91b49e4,failed,other,Direct Deposit,2194.71,-79.74680862415417,73.49561385810009
+6241b950-4697-4dc2-84a8-6447fbe71a1d,completed,loan,Direct Deposit,5838.57,-23.166848347535364,-54.17038302321674
+7055b2e9-425d-43f2-b211-880953f0b994,failed,loan,Direct Deposit,172.5,15.49318242389748,-108.08554185489716
+4a5d5bc7-f7e7-4186-8159-ae65c793a260,completed,investment,Direct Deposit,23514.63,11.495659323086073,-98.1838376078568
+5922511a-cf98-4c81-9c43-99a838b4cafd,pending,investment,Wire Transfer,407.17,-36.924847880069485,-122.9774081701074
+34e36a92-3585-483c-95ff-64ad59b8191e,pending,other,Wire Transfer,7053.99,-74.58486539270426,-154.55102650231177
+d0865dbc-27ed-4a51-98af-2cd1d6cc1486,pending,loan,Wire Transfer,7412.8,-24.76899392060527,-133.84390219973366
+db6ec7a9-6448-4840-a5b8-f4674d23d6d4,pending,other,Cash,9113.09,0.022423999856826526,-107.42376625765544
+f2c11934-3db3-4cb3-bfb3-2a482fc459b0,pending,loan,Direct Deposit,8716.38,-59.32669134036728,111.3330130033076
+9ffd68cf-67dc-4312-a21a-445f391b1964,pending,investment,Direct Deposit,5159.96,65.68122465396621,-17.92530957027546
+3ff757f3-1ceb-4279-806e-4cda1b0f72fa,failed,loan,Wire Transfer,1452.7,-2.5326755657250004,-2.844456786158588
+1c70f950-421b-47ef-b922-049dd0843520,completed,investment,Wire Transfer,61.74,-47.91785075253413,-89.16237794439904
+6966047e-a807-4a2f-a579-03a957f56f70,completed,other,Cash,1333.87,34.87622172067009,164.7592413227448
+29590deb-8e44-43c2-9983-becb47d968bf,failed,investment,Direct Deposit,2541.24,3.7375696581680984,-110.71188363159385
+b279a9cc-b16c-4230-9152-84c2c8b050a2,pending,salary,Wire Transfer,489.96,9.132643919411223,88.90095457679115
+8ae6c23e-7493-4f81-9661-c4a2ba84c990,failed,salary,Cash,1358.91,-71.11997305113186,59.73616322612824
+56cd4d98-7c41-427c-b28e-fd37c7fcef51,completed,investment,Cash,1895.94,-13.407470501515775,169.76940149386263
+f8216e9c-c991-4575-88b7-26d988a17c51,failed,salary,Wire Transfer,932.13,-39.42970020751504,4.234514877148229
+9ca4d696-8294-4283-b939-58ca5490c9e7,pending,investment,Direct Deposit,1617.67,-51.30927227575966,-57.924149799297496
+8af38981-afef-466f-af71-83d6fb15844e,failed,salary,Wire Transfer,1367.77,3.2576040089694516,104.40770850857473
+54156d58-54d1-45a5-844a-c19a9b8ffcd6,failed,other,Cash,476.43,-9.22616192773495,4.027508078752987
+3ee6c442-f769-47c8-8dfb-ba37ee836c79,failed,salary,Cash,1032.46,-68.96514219788709,-149.82821718076934
+bf30b589-f284-46e8-9ef5-5649eb88f5fa,pending,other,Direct Deposit,664.44,-39.381585912426154,-65.38953059928423
+76669fb9-9975-4f40-8840-9c7ae41ef571,completed,loan,Direct Deposit,2960.44,87.74578470535158,-75.72980237756363
+9b4e8925-20ba-46fb-8537-11066f9fad6b,pending,investment,Wire Transfer,3380.28,-22.422557908497012,57.895386637330546
+92070c78-05bc-4d68-9425-d2daa36115ce,failed,investment,Cash,5170.52,22.48764820553029,-64.23542674729286
+e80d5ac2-8440-40ae-9a6d-63c535b8c3ec,failed,loan,Cash,1745.31,14.868580174676069,-169.41517451429513
+44656c24-1e5e-4050-8624-7b39fc397884,pending,investment,Cash,147.04,79.66002762311587,-15.469396825556913
+ab67ff39-b178-4320-81aa-3e0b49f07667,pending,salary,Direct Deposit,13322.22,-10.503120610874944,93.67143903013158
+2fb805ba-073b-4ea3-83cf-685126fb4632,completed,investment,Wire Transfer,14408.94,-74.31880446658052,-21.146132470339012
+3f5ad0c8-6ca9-4ea1-b7ba-7aaaaf5eaaa1,pending,investment,Cash,15059.86,-64.01375198852236,21.923532511334173
+dfc94ca5-bf9d-49ae-b6fc-3abdf37807b8,pending,investment,Wire Transfer,6204.68,-58.252464829249135,152.4916388381103
+9ef5e1a1-1a07-40d5-811e-8e9cd45dfb97,failed,investment,Wire Transfer,15899.8,41.410794362790654,-150.4418649298149
+ad71f73c-64f9-42d1-a5a8-47ee44e1e3bb,completed,investment,Direct Deposit,13515.65,40.00110185318363,65.68505304780413
+8221840e-653d-4f7f-a5ea-5e43406578e8,completed,loan,Wire Transfer,24497.84,84.83880250893819,75.73308603779259
+8482fd48-3d9b-4903-92bb-50103c430549,pending,investment,Direct Deposit,16490.0,-30.363508656346916,-142.4067653367867
+f4434bac-6096-4464-8715-bd3b85a5036d,completed,loan,Wire Transfer,397.87,-6.391126824444626,-3.0107787847068153
+ff86dae6-3fe8-4854-8c52-63535911cc7f,completed,investment,Wire Transfer,2624.53,-10.891952573869773,-85.36464435727002
+aaf12b1a-0d9d-49a5-a57b-112537e64934,completed,other,Cash,9724.89,4.748092914225538,142.08950658665435
+3fddbc35-f21f-4b6b-b962-2d7783e9e58b,completed,investment,Direct Deposit,27916.11,-18.717196039922314,-25.93076312681484
+4eef872c-e68b-4f05-8b97-24b88be1b08c,pending,investment,Wire Transfer,2654.32,-50.16647797817156,145.89416846226078
+283e59d7-b3ee-41a9-b80f-4c83124e2a59,completed,investment,Cash,252.21,27.600471508338188,44.31316358289928
+1d45643b-36db-41a3-8df6-45de9bc91eb2,completed,investment,Cash,24351.8,26.872963338819304,-95.48617955451863
+28c3d725-8f82-49ee-a339-ef00dbce014d,failed,other,Direct Deposit,4851.28,60.270409079283496,42.53700457856047
+9ebf1528-1f4d-47de-82a9-f3f8e1b7851f,completed,salary,Cash,3831.85,48.35931477300437,-6.724000001438981
+846720e9-97ab-4941-8306-e01801e7dfa4,failed,salary,Cash,9269.72,-18.291441025212947,152.82196047298584
+41896280-c154-4c77-a60d-991f83ad9d40,completed,loan,Cash,387.66,10.94383617204295,-85.15120354093663
+3d11c4ba-6c86-49a6-8690-ac2d43afe8a1,pending,loan,Direct Deposit,446.01,-4.003957282553628,-151.6255287877204
+f23cbad9-e75a-44db-9cac-ee5139b1f480,pending,salary,Wire Transfer,1147.64,33.90892775299035,124.45115655941129
+50203240-f928-4dec-b835-6036d844c7ac,completed,other,Cash,365.12,17.246718917341028,161.89059230170756
+831143d2-3ac8-4b93-b62e-ef7aba5048f5,failed,investment,Direct Deposit,554.14,19.303091359830816,-172.6790089393674
+032ed8dc-479b-40e6-97aa-af29be2bac81,failed,salary,Cash,37.27,41.18797029532357,42.00150995055225
+84560387-301a-45e3-9ae1-e6e42632625d,failed,investment,Cash,17.44,37.80267425641729,177.17521941062859
+a2eb9ba6-ca91-47a8-841c-7198c6e72299,completed,investment,Direct Deposit,274.05,-10.959372717472718,-124.54634235344449
+0eca1f48-f915-4d28-b85e-5838b09aa686,completed,loan,Wire Transfer,3997.43,79.11739236586558,144.1083562436629
+6c4c8348-d1d3-47b4-96dd-5663568b6f2f,failed,loan,Direct Deposit,5090.62,-20.044528446984103,36.05058098101418
+e9221fa3-d5ac-47ac-be4e-c7c3c1004509,completed,loan,Direct Deposit,1821.41,35.79412477422585,-133.7874398679107
+e3e84553-6cb9-447c-b047-c3736a1807ff,pending,other,Wire Transfer,3024.19,35.36761615635194,170.7675595073128
+7b70e4f0-dea6-46c0-97cd-14d851b4ea5b,completed,loan,Wire Transfer,4671.49,28.82265156084975,-14.920762536342806
+138aed7c-0736-4487-a4c8-0fe2861e1734,completed,investment,Cash,377.87,81.2861591362591,84.97375285285284
+f47cddba-bb74-4290-b431-48cf680e84d4,completed,other,Cash,6294.26,-3.938931447121533,137.1272130932362
+854ee664-9324-4e19-8c5a-958a04e0c61c,pending,other,Cash,265.44,-57.87781666314068,58.13857541468212
+c28a39b6-8681-4acf-a080-1a890b0a25bf,completed,salary,Wire Transfer,54.06,42.9860959616137,124.08414879587593
+9c802548-775c-45c6-a3a9-6982a39a4251,failed,salary,Wire Transfer,54.69,-7.852487146472086,13.77702239593711
+8f5a678e-69e3-41dd-9ced-90e9744f6d6d,completed,other,Direct Deposit,140.57,-18.153967168705776,-16.606219629568017
+468729d7-7c2d-42b1-8cf5-646b26391238,completed,salary,Cash,23.75,-47.583953956877444,-77.36731362588591
+1185a595-219a-44ce-8208-3fd9458e803e,pending,loan,Wire Transfer,449.22,-40.40499000426022,161.52098933140428
+2b800a3a-9dd3-4f8b-acfc-fdef34789457,failed,loan,Wire Transfer,261.26,-17.08284077024257,144.671021591287
+d5f7525f-ee74-40aa-8d16-15f3900d0ddc,pending,salary,Direct Deposit,937.27,-45.67315468221679,170.96193197648626
+e9f43c1c-a6c7-4170-a84e-b6e417f5ce61,pending,investment,Cash,743.1,-16.322339184379075,-16.676720989684497
+05023a08-8a2f-42ae-9fd1-3f07ee4d96b3,failed,investment,Wire Transfer,62.52,-55.80185008215049,-7.0874208608456115
+78477ab1-29a7-4f17-b0dc-01d304ac5680,pending,other,Wire Transfer,743.81,51.64811686617804,7.096110193518001
+0ffc3ce4-79f8-4a16-b7fc-9ef9baa0b664,completed,salary,Direct Deposit,830.91,43.66145104765434,-167.0597165448401
+527caf0a-47ce-4103-a0c5-2c4926dddb8c,failed,investment,Direct Deposit,5.25,84.1563166864191,-140.49284391822857
+d7d61601-a426-4fd8-8204-31b9dbc0c525,pending,salary,Cash,2.95,-13.352689273798575,141.3069058294078
+cd716d93-2381-453e-980b-60d981a59453,pending,other,Cash,6.82,22.40330604693962,-59.787177325569175
+7180ca46-e13a-4401-8d66-102300e40730,failed,investment,Direct Deposit,8.92,8.225088996482611,-24.54620369139036
+f64b5ee4-63d1-4745-9055-37e3fb88fced,completed,investment,Cash,85.94,15.53705710385131,100.5054343769491
+dde6ef27-2ec5-4381-8ae7-42d73f456175,failed,other,Direct Deposit,182.19,-0.7011746732361956,-43.07758729461776
+88579654-0459-40ce-bef2-f5c4dea255d1,pending,salary,Cash,23.27,85.21885770981359,-99.10005005403553
+2d0963d5-86e4-4711-bdd1-a506ac690edc,failed,investment,Wire Transfer,817.28,79.61992278953088,23.175768295872615
+7ba93fd5-2a57-4301-abc0-1da1be54403f,failed,loan,Cash,1020.83,4.678495201997876,3.5437228798606384
+2fd34840-182a-45b0-a151-565be92854e1,pending,loan,Direct Deposit,1458.06,-32.9382213994108,95.55695212687374
+790aef90-92e2-4657-94d4-e579c64e904b,completed,investment,Wire Transfer,1620.43,73.16269516430552,-17.26044906256351
+7f24e0b0-b418-41a8-b198-52026db0326d,failed,loan,Cash,6973.83,-24.792797696142472,-57.931689401152624
+c3727440-e034-4f28-be6f-990423a647d5,failed,loan,Cash,773.47,-78.67362255721831,-106.48916446447112
+a96876eb-a9d8-4304-ba81-c37fecba21fd,failed,salary,Cash,1377.62,39.55097526400496,-82.77619401704135
+b47cb2c5-afc6-435d-81cb-5ca920cda8ae,pending,other,Direct Deposit,2816.79,12.050238873789695,-145.03436681434778
+ae477e2d-ac45-4505-89f2-7f8e45ee6434,pending,loan,Cash,4709.76,-81.69548503060761,79.67134408052203
+854dc0d7-d8c8-4c91-af78-662c5ec980e6,completed,salary,Wire Transfer,1268.9,16.890564633304365,-12.25942598629453
+8728cd02-08dc-49eb-9b45-1743586c0226,failed,other,Cash,1996.2,-30.70491391450011,-23.597990093965933
+7c55d03e-c3d8-4e35-a11e-d6c2f6438882,failed,loan,Direct Deposit,456.72,-2.3610206563887743,-99.63080537180586
+70afde6e-7f5b-4532-8f5b-69f4a26324ae,pending,other,Direct Deposit,2381.66,-20.332096192120133,-39.91612788585306
+b649b128-c844-42de-9af0-9f1667215ee3,failed,other,Cash,10074.38,-6.846105402857887,77.97381558037569
+616ff8c2-b00c-4720-8981-2267bec39da7,failed,investment,Wire Transfer,12950.52,-46.85178355983421,32.17739308518165
+05a1b878-5fc8-45f5-8b0e-f372979dadb3,pending,salary,Wire Transfer,1733.75,-15.990980974379667,89.0920394353331
+7c5915ba-3920-434a-afd0-ab9702dc53f3,failed,salary,Direct Deposit,3807.59,84.77411486122742,80.47282808924865
+63e7a12e-75f6-4b98-9edc-0f7fdc63fc37,failed,investment,Direct Deposit,701.7,-11.35638798909784,169.1993777667533
+5580e650-e0e4-4417-b83c-59bc928e7834,failed,loan,Wire Transfer,4562.89,-35.620142494646025,-145.855249124744
+435a8977-5b13-4265-9279-3047e676bfbf,completed,salary,Wire Transfer,4917.04,-69.05179021793883,77.22469230212948
+1cd8addc-45c0-4628-9dc4-13146d53835e,pending,salary,Direct Deposit,3234.14,-6.662237847370818,75.07746809931865
+95ca49db-afdf-4308-9c9f-baa9202eb30a,completed,investment,Cash,8043.66,27.175105556546853,-152.32934441512737
+31c95591-b141-4a0b-a11c-a63efa2751f8,failed,loan,Wire Transfer,32648.51,-62.2595001422669,103.4301123295491
+54cf5ad9-bdbf-4b34-85b3-31c7c2be39b7,completed,investment,Direct Deposit,7515.63,-21.508510844562792,131.49103296802843
+d6ba665d-a8aa-42e1-9604-19eee01b0e23,failed,other,Direct Deposit,2865.98,50.5000650838258,141.45357880826583
+2af2346f-d93a-4db6-b6dc-77cc01e9659b,completed,other,Direct Deposit,16717.5,44.11723372701857,-65.72259704735997
+953666cc-7a94-411d-949f-829b9aa9d984,completed,other,Wire Transfer,14003.35,-46.10228899015104,-147.69585501217483
+09b6d17a-4e40-4178-9586-4a14171ea209,failed,loan,Wire Transfer,38890.34,-83.19211374235222,-58.511729341433835
+5309d2d4-e63d-4b1d-8fa0-17e26f0469c1,pending,loan,Direct Deposit,6652.99,-74.82983057237894,-116.95680286868486
+c2425b51-755e-485b-8a16-725d7d18ece7,failed,loan,Direct Deposit,23531.43,-63.675887109806574,-159.14568660511398
+486327de-aa0d-47d3-9a99-d71502ee9093,completed,salary,Direct Deposit,118.47,67.58709162211616,-26.74199059424984
+6d18c145-7b3a-455d-bfb5-e2f757a9cdaa,failed,loan,Direct Deposit,1499.75,-44.324282407990324,162.2537455179405
+a4e90882-1db4-4654-9f7d-9fb490ca0878,pending,salary,Wire Transfer,257.35,-73.12184705198834,73.9952779389699
+59863d78-bada-4797-8dac-bb62102acf85,completed,investment,Cash,461.83,-42.96012197853562,164.8914109453729
+7cfc958e-c13e-460a-8098-e66a3432a32a,failed,investment,Wire Transfer,1639.78,-67.25709634786253,104.5221863878661
+f109b045-b183-4eee-bc85-1710774758ff,failed,other,Wire Transfer,1586.07,18.815840808235833,46.64027360684989
+79677f02-b7e6-4b86-a6cd-075ebbc9d763,failed,other,Direct Deposit,865.25,28.251996085906086,-34.001558598001736
+bdf8a795-f25e-48c3-82c5-5760787ae4a7,failed,investment,Direct Deposit,1081.81,88.88565720750967,131.69454320568553
+5d0de149-2d58-4219-8084-5a94f9262b07,completed,other,Wire Transfer,1422.24,61.041016186249095,-139.87380771869238
+0b15f0b9-877c-44dd-84e0-d3f21554397c,failed,salary,Cash,88.92,-45.055103919483855,-32.273697824296676
+d554c986-8a00-4d6d-8108-4e7dc65ee291,pending,loan,Direct Deposit,1926.74,-20.143507626713145,-166.63340509067012
+4dcb40fe-bebe-4609-b7a8-a039874a317a,pending,salary,Direct Deposit,1797.14,28.476396983965145,14.0293111164722
+bdd9640d-62c4-4c26-a8e0-2be74324a6c3,completed,investment,Wire Transfer,2054.22,23.928908029462264,84.91110167144939
+d905d18a-ebc0-4532-a081-3569ae25c801,completed,loan,Wire Transfer,444.02,19.77493783900492,35.374874468057925
+d88f69c5-d3d4-4587-a48a-fb79369216d1,completed,investment,Wire Transfer,743.04,-55.58287858998726,-105.59160912961448
+96443f9c-38d1-4c7a-b9da-424d1d93fbdc,completed,salary,Direct Deposit,425.64,49.02343292476732,65.31136104695781
+15e2539d-57be-49f5-96b9-bd03a0cd5f0d,failed,investment,Wire Transfer,150.69,11.284532923486267,59.291883030092265
+40333fdd-0805-457b-9439-970c9d151406,pending,investment,Wire Transfer,122.44,-28.501661957807215,-168.23330750930498
+2f6a31a8-c90d-41d0-9156-0693902a1124,completed,other,Wire Transfer,235.46,-11.726410350789862,94.02654074706055
+f49a1929-fe4f-40f5-81dc-1ba9c411bbc9,completed,salary,Wire Transfer,173.16,37.77597129639396,177.5739062446828
+1af82066-6519-416d-84e7-2356b7f51dda,failed,loan,Wire Transfer,595.95,-88.32919990344338,-87.59725263008825
+2421b2fd-8e6a-41d4-aea8-43e462d8bb0b,failed,other,Cash,11994.48,30.86216140407089,-131.594336116078
+0b7a36cd-7936-4277-994c-99bc2ad340e1,completed,salary,Direct Deposit,8492.38,-34.269122259828,20.670893805661592
+cb26fd1c-1ec8-41f5-ae3b-a2e699ab155e,failed,investment,Wire Transfer,19192.39,41.82319164219399,56.77383245828213
+6902f6d5-2d83-4f86-aa8d-59f8cb451082,completed,salary,Direct Deposit,18887.22,-56.51590329046756,-24.440555078836496
+37564d71-2846-4c37-ba2d-06489af813ab,failed,salary,Wire Transfer,35545.03,-29.64917142244399,-77.73532944293515
+7bf0059e-f5ef-48e2-838a-baf2645b0462,pending,other,Wire Transfer,36.02,-18.83224272024593,-157.67640627219808
+dffaf064-4d40-4c73-9a7e-ac6629477612,failed,investment,Cash,97.8,-44.59428456514814,-36.41204434358107
+4168323b-c5d7-4ddb-a7bd-baf1c04f1e7b,pending,investment,Wire Transfer,154.79,8.554311321882082,142.84262499963512
+54520793-233a-4e63-9576-f0a38bae0a7e,pending,other,Cash,16.92,74.62958214303467,45.38021568639459
+f5cee9ca-9f70-4651-bfd8-7a4fa0a2c333,pending,other,Wire Transfer,82.15,-21.60317925260354,-6.276514385933126
+9bc7b5ae-7caf-4373-9eee-18d70edce43c,completed,salary,Cash,356.1,14.83352289023297,120.58706206256227
+73603462-3344-46d7-905f-3e77b1944c89,failed,investment,Direct Deposit,1038.16,3.435420263793489,67.82716867077517
+880fae9d-14a3-4fe7-83e4-645921091ac4,pending,loan,Cash,5004.6,62.83315708807626,41.06689980888257
+cea15013-cad8-47b3-8d64-3248f41d0334,completed,loan,Wire Transfer,1868.8,78.0457849858224,7.551798594630782
+4ec33d29-fc24-4688-b819-4d7ff1a8fc58,failed,investment,Cash,5123.04,-21.623275110399092,110.08239673616828
+08cc7819-9fb0-4518-82e6-3f8b657ada59,completed,investment,Cash,40.55,-25.61291073860447,-99.11477216820558
+3f8b286d-584c-4a13-ad01-ce67c5e43e65,failed,salary,Direct Deposit,1058.19,6.639712923882215,-49.69099761399323
+1b1c801f-db90-4eb5-9cca-6cd91d8a004d,pending,salary,Cash,674.4,17.70791275442872,-126.35714193141516
+552f0ad1-e4c1-43c8-8843-f6513e57b1ce,failed,other,Wire Transfer,276.18,24.168839151625207,-75.54367833707633
+f1a0c178-05b4-4afc-a431-78e99cb947a6,pending,loan,Cash,107.32,46.331563167525445,40.56084114302695
+54afb5c4-3811-4cae-9026-47de28f06e3b,pending,investment,Direct Deposit,527.24,1.6185783927700612,89.17662468478824
+a11e6226-2f2b-44de-9710-f0061067d8de,completed,salary,Wire Transfer,104.61,26.711431991184966,77.32922355622964
+db2517fd-156b-4182-8a93-80347fa57f59,pending,loan,Cash,757.85,-66.8561043783836,65.64587373911371
+d1632af0-e1f5-4b22-978d-636842814024,pending,loan,Cash,144.84,-3.9137077819808326,14.030042279936055
+c3a27ea4-77f4-4f83-b3ed-15c13c62ce35,completed,investment,Cash,162.68,-80.01522928105356,-9.053081094126611
+cb28f635-3050-4002-a5e9-2d69b3528b36,failed,investment,Wire Transfer,350.13,26.419458266423206,79.50140141716355
+3194ea34-b8c8-4471-ac6a-9279201e95a2,completed,salary,Direct Deposit,124.95,-0.5923821328940733,100.01943326852984
+974bac4b-721b-4f55-bd0d-83904a39813a,failed,loan,Direct Deposit,1538.86,43.78727980209001,41.244979771524754
+43fe0650-68f9-4047-a2ce-5c1761078bfb,failed,other,Direct Deposit,150.26,37.16559718131205,151.51808203483296
+09ecb6ef-7396-474c-a46c-f6689fd48013,completed,salary,Cash,176.54,1.9602417007277495,-114.04486149886365
+19e8c360-6b43-40c1-b41f-fb3d64ea3b5a,completed,loan,Wire Transfer,60.53,-61.63554122154151,-101.040784082991
+07a90377-3843-4ef4-a212-804fd91156c2,failed,other,Cash,61.29,-75.48350619401522,138.47921726386852
+58fc82d8-f7d9-4eb4-979a-22df7c721813,failed,loan,Cash,979.73,-48.121814713613794,178.4334713747623
+288fcf4d-c13c-452a-8a06-e9838483d946,failed,salary,Direct Deposit,341.59,53.81603260221627,14.608212287614975
+64dd0367-6803-4f01-9a41-a13730968168,completed,loan,Cash,273.24,-71.51143272953752,154.7955419917261
+880ad5fd-b94c-447c-b9f4-17007f91774c,failed,other,Wire Transfer,488.24,-60.82191731321318,-20.22306540650621
+e38f57be-a4fa-481e-89dc-a08cbe7c2fdb,failed,loan,Direct Deposit,88.73,54.03467686100248,56.76004253453465
+3169b7cc-316d-41d9-9b38-7a6b464eb65e,pending,other,Wire Transfer,273.75,72.46553360634883,5.337569192457323
+b81e306e-dd5f-467e-9561-fe17cba740d5,pending,loan,Cash,6329.13,-61.8057952106157,15.597108480063184
+b7704f5d-e787-41fc-872d-27eb9e195617,pending,loan,Direct Deposit,7992.94,-4.243374726268897,98.13443026945401
+a452a8d0-4d62-4548-a671-d208d7b5d74d,failed,investment,Direct Deposit,3661.28,87.02028811845622,81.60389893308047
+659cb533-0ef1-40a6-ae10-0ff80c941c5d,completed,loan,Cash,4735.2,-19.33427801506275,-135.59255907132425
+f253d55b-44ad-476e-8478-b975285ebf35,failed,investment,Cash,11831.05,3.9383573327974517,7.584119076957734
+d0524f04-0260-4668-b4e7-56ede6ba6e8d,failed,loan,Cash,57.71,-75.64674228365698,123.42402562584948
+e8c93bd8-a075-46bd-b083-95d70fafaede,completed,other,Direct Deposit,21.49,79.68703872439858,-36.502864538151044
+bc3d7303-d019-4c61-a229-4094e2d7b2ba,failed,loan,Cash,32.94,38.343109230128675,66.91118833504709
+bbfb6a82-e8e0-4a0e-a1ab-cd0acfd2fa6c,completed,investment,Cash,74.83,-75.80369388219414,-109.24520333528754
+c0f74dc8-a6e6-47d1-bb62-4089e8d0d70a,pending,investment,Wire Transfer,822.32,-12.296468167874849,4.747852060190809
+f7cfb68d-0109-45ee-b2f7-65c973ca5e65,pending,loan,Cash,793.81,83.75219901218836,144.68005947909006
+d9fa2141-20b6-4a28-a542-2a8c2493f4eb,failed,loan,Wire Transfer,14.89,-55.03063223050411,-169.39299066933106
+47831d91-0c1c-42a6-af2d-1ad632ab9a3a,pending,investment,Cash,91.87,-10.014091505146894,-17.839147145379115
+2ed096d8-b353-4b90-aba4-ae4113860571,failed,loan,Cash,62.62,-3.6063908680188774,41.268211445508314
+c9f943cb-cdd9-4cec-bab5-460976bb1642,failed,other,Direct Deposit,341.9,-2.7688469906412934,-150.39304392801967
+eaa99d36-8298-4707-bccb-c91a328acf19,completed,other,Direct Deposit,1.19,56.023698157986786,-44.341102436100954
+ea3340ea-7043-44f2-a612-49b98bd08e5f,failed,investment,Direct Deposit,263.56,53.985119089876264,86.60822971142005
+0c095e78-142f-40b5-abf6-02d824aa77c2,completed,loan,Wire Transfer,1026.5,82.22054425197624,-1.4380230812076888
+33adfb0d-5ea8-4d28-9651-a11a136577d6,failed,salary,Direct Deposit,1088.85,-79.21482630856786,-27.091505987625567
+03cf6546-099c-41f1-a350-4846de43e4e5,completed,salary,Cash,3613.96,-7.030840992035465,-133.3620855783326
+88c92663-e4da-43cd-addb-912867327ab4,failed,loan,Wire Transfer,972.6,-56.54715093687225,-168.4444464078258
+652ed139-917b-4f4c-a9f2-295d22ec4efa,pending,salary,Direct Deposit,372.1,66.29428549217974,8.41790925063836
+49d63832-ff69-4030-b48c-3fad05fabfde,pending,salary,Cash,1596.12,-58.56700125854418,-128.93661329376698
+a546967d-37f6-442f-83dc-3b19b944122c,failed,loan,Direct Deposit,1011.47,35.400996340249904,-172.72518218669384
+9bd2ef4c-b1d2-4493-b073-3027da9ce886,failed,other,Wire Transfer,1389.03,21.26555449491758,-117.23529573811952
+2e3b404f-ed77-48ba-a8b2-78ca808a3e28,completed,other,Cash,4984.83,84.59517405677406,-35.09084282232533
+d4a712c9-d23d-4fb4-abce-c1578d94d284,completed,other,Direct Deposit,1510.95,-36.959493901648855,-72.50480906524017
+cf2e6c47-b070-4e28-b604-b29d13377c00,completed,loan,Cash,23.65,56.131654036744294,-63.066466542239496
+87bb41b0-dfc6-42a6-8f7d-d96532e65c65,failed,other,Wire Transfer,1047.41,86.92008448525758,65.66643215745324
+e9038f58-e047-4981-8296-4fc3f7056025,failed,other,Cash,527.44,65.76639908078474,-61.641971958930085
+485d6747-4fc3-4e6e-a49e-578a1a9f6707,failed,salary,Cash,153.79,-13.027146778589113,-6.332514043812523
+2b15caa8-39f3-448b-a508-6a03d9a98420,pending,loan,Wire Transfer,1977.54,61.80957548744615,-138.50858544116934
+f4aa2588-8ab2-4779-92ea-cd467ae0bf7f,completed,loan,Cash,8021.94,-37.66161213033446,57.21688292090687
+1850581a-66d9-4165-888a-6aa5349938b7,pending,loan,Cash,3314.74,-59.89001742478288,-9.388568417189589
+4471621c-05c4-47da-b2cf-522f92183fba,completed,salary,Cash,11149.57,4.781923037541546,-29.528570910914823
+a11d7ae3-6812-43c3-94c5-edb2cadd63e4,pending,loan,Cash,17110.53,-81.85922952212601,157.62766021136866
+e3bd121d-0018-4c62-924a-7c2208be602c,failed,salary,Direct Deposit,883.75,-50.323668529443765,43.24986943142693
+b75ba7c7-b89f-423e-bde6-f89cf40aa2a8,pending,loan,Wire Transfer,2552.95,-26.91436844186947,68.9443396012332
+1a48c842-fde8-4451-a230-54906777658f,pending,salary,Wire Transfer,1459.68,-52.99812658353497,19.263162990683696
+5fc1b506-46c8-41b9-a5dd-5c01839fa1e3,completed,investment,Direct Deposit,206.54,-89.1737277847004,83.02334036588138
+58600458-6382-4d3a-b51a-8371d95cf5cb,completed,salary,Direct Deposit,307.32,-60.374087132473875,-85.3325048801329
+0a4ac30a-5b55-4e70-a38a-d4bff795ae94,pending,loan,Wire Transfer,1804.94,-45.44529153288557,76.36018522057742
+4dfd700f-f831-439f-a798-a32aac1f9e1f,failed,loan,Wire Transfer,2151.6,19.92157733269093,-63.568915290206206
+abbd1030-30b4-47fe-9893-03ec821f85eb,completed,loan,Direct Deposit,1285.0,21.723593790068676,-139.70883117025681
+70f36140-7bf2-4097-98af-74fce8ec9d00,pending,salary,Direct Deposit,58.67,46.33483740250418,-7.412496756771759
+e1ce2d57-5e94-43e8-8d05-05461b69c0f7,pending,investment,Wire Transfer,1722.71,-44.02486150655276,-154.09218244473277
+44173534-5d34-4afe-8d5c-57157d0549ef,completed,investment,Wire Transfer,907.76,-79.4606833979817,66.0343110939825
+7938e4a8-36df-4fbb-a7f0-6686af237b4c,failed,other,Direct Deposit,810.79,56.511538277379174,-176.47743129667953
+1d8bd5d1-bedf-4af7-936b-326c64dc7215,pending,investment,Wire Transfer,14183.84,-73.35090466372735,85.3462313967604
+12c3a863-f6a6-4c97-8cd1-7e80f5ca4655,pending,salary,Direct Deposit,1820.42,-45.4245332990786,-79.73903002665504
+1e400c82-d6a6-48ea-9ea0-328a8f9d6abb,pending,investment,Cash,10360.34,-31.847891259187392,-118.00498247300357
+099c5901-5a31-49fe-9555-d94bae1f793f,completed,salary,Wire Transfer,2229.08,41.22686928641497,84.6602392676212
+1095f62c-9cc9-4ad5-9f3d-be9925a3e69c,pending,investment,Direct Deposit,4882.14,-69.24082127587224,178.218856179414
+4122b9ef-ca61-40fb-b1d1-564b0d4fe4b7,pending,investment,Cash,2797.92,-7.860318631590232,-138.0750906844874
+ac03f14f-704c-422c-b07b-93966b3e9267,completed,investment,Direct Deposit,2046.5,-40.43343982912158,-150.15156068393642
+10b640b9-47d5-4fe9-9e2d-59f6e92a47c0,completed,loan,Cash,3140.82,78.54358652666846,-64.53755822357446
+def66219-2ade-4f3a-b3cd-6ae0d42274c3,failed,salary,Wire Transfer,255.35,3.084144994115235,118.94366030450084
+87474291-20bc-4b0c-9d28-130236dd33af,pending,salary,Cash,493.76,-87.71828562344673,-89.27580399620481
+92bf8bb0-e574-4df0-ac68-3d432ee6f3f2,failed,investment,Wire Transfer,334.33,83.45230542337112,-170.69367315000775
+08ff0de2-944f-4b72-865b-ff228af30204,failed,investment,Wire Transfer,132.19,25.282532759797775,26.546561514047596
+b2e5900e-f686-4f89-ab21-7fe74d8b736c,failed,loan,Direct Deposit,128.91,-88.90360847754049,-38.367224220454915
+300ee408-c298-4a88-a4c7-aee78495e15d,pending,salary,Cash,364.53,-62.894516907854666,156.77202228737843
+1897a976-4738-4096-8d66-e9a3d334e85f,failed,salary,Wire Transfer,507.03,-72.43501318568073,121.95765305812938
+026a9cd8-c9b0-4345-b1d3-d9e553102f28,failed,salary,Wire Transfer,482.98,60.702364863134164,99.24128504616732
+e67be3dc-205d-4331-9240-403fc52835bc,pending,investment,Cash,199.51,80.9133174071938,157.45327172074343
+5f9cf9de-dd8a-4619-8683-7e97ca4afb76,failed,other,Wire Transfer,866.36,-22.932158977540126,146.49813337765346
+f1446fb1-08c5-4aba-9ebe-5c86f3368bf3,completed,other,Cash,2446.16,-45.16072197757625,34.24986722739797
+a8f2606b-febe-416a-83c1-29fe2515ce5b,failed,loan,Direct Deposit,6133.92,15.877739041868978,136.14156807045617
+678dc421-e2d5-4936-9422-d8b4a826eadf,pending,investment,Direct Deposit,14257.29,-0.3556834431446987,142.12729794636004
+ff6d9835-706a-4b71-94d8-637703790a99,pending,salary,Wire Transfer,2512.48,63.25894173607938,5.444159745320945
+9d6985d5-23ee-4723-b839-5ea7dfb8fe87,failed,investment,Wire Transfer,481.37,-17.350903365260095,-165.4416486912021
+3ddc371b-9d49-448a-ac5a-b942c08a4aba,completed,salary,Direct Deposit,301.73,-32.170531969994535,-82.62483686397476

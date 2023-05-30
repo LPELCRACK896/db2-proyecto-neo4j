@@ -1,549 +1,606 @@
-id,state,motive,type,amount,location
-ca4865c9-a1ca-4330-b964-20a9525264d2,completed,other,ATM,9029.03,"{'latitude': 32.453754965530635, 'longitude': -123.14930913181692}"
-1b1649c3-67f6-4d08-bd98-574b4fa4d5d8,completed,payment,Bank,2383.63,"{'latitude': -19.17405177806205, 'longitude': 89.28696084884706}"
-f7211d1f-2d0a-4c8c-b1af-a58ef226317e,completed,other,Bank,51.23,"{'latitude': 55.66648453153263, 'longitude': -64.29978040025975}"
-84fd7f34-54fe-44b4-8bbf-47c47692a16b,completed,investment,ATM,1431.83,"{'latitude': -16.829810750492754, 'longitude': -142.44822847673288}"
-a72aaa97-5828-472a-8208-67285f891d4d,completed,other,Bank,3158.1,"{'latitude': 89.86279100869507, 'longitude': -14.777606752088985}"
-9c22ea7e-05c5-40bf-9678-1e7947eba526,completed,payment,Bank,8390.6,"{'latitude': 36.256568605854525, 'longitude': -32.59085142160481}"
-4d335db3-77c5-423e-9036-df013e49155d,pending,payment,Bank,4214.55,"{'latitude': -64.76131392978252, 'longitude': -19.134834473286276}"
-292a6048-fe52-4da6-8898-a0f95ae925ae,completed,payment,ATM,4456.2,"{'latitude': -18.00409410303017, 'longitude': 127.28750689960515}"
-a33b2bee-9b62-4613-9e2d-a1c34bdcd699,pending,other,ATM,8405.03,"{'latitude': -26.339859010024263, 'longitude': 6.806452521343829}"
-b2994f9c-6240-4298-9bf3-f2c682a55aed,pending,personal expense,Bank,12089.2,"{'latitude': 28.21709288834454, 'longitude': 101.4329016857265}"
-14866471-975b-4d23-b53d-96fe8de11923,pending,payment,ATM,22523.84,"{'latitude': 8.941315801505283, 'longitude': 105.97639558908361}"
-9eef2a37-a8bb-4b9b-a743-5eb3a868eb6f,completed,payment,Bank,6934.99,"{'latitude': 55.22704996146632, 'longitude': -114.46902564827869}"
-0989eaa9-37c7-4cbe-9126-e2469b88e7d6,pending,investment,ATM,14968.38,"{'latitude': -82.97112279665237, 'longitude': -152.81606152901026}"
-f1a15ab6-d034-404f-b568-f89383af7954,pending,investment,Bank,23883.16,"{'latitude': -37.01160672192802, 'longitude': -90.52027555009263}"
-aa0f37f7-f4c1-4666-aaaa-65427b4fa9ba,pending,investment,Bank,26446.01,"{'latitude': -36.32650869276402, 'longitude': 19.295164000362035}"
-30111596-bb4c-426a-8a6e-28557a5eacd7,pending,investment,Bank,1215.49,"{'latitude': 29.136986227001714, 'longitude': -138.55169196269213}"
-900007a0-572d-45f7-83fd-a390df379ea5,completed,personal expense,Bank,9340.89,"{'latitude': 33.85218261808734, 'longitude': -173.17179141107286}"
-a623ac20-a770-4331-bbf5-0a22db7bf509,completed,other,ATM,837.21,"{'latitude': -85.07210659650887, 'longitude': 107.98843612232929}"
-9dff8bc7-aa17-45ac-9617-84bc9a034d78,completed,other,Bank,5599.76,"{'latitude': 13.03812917982961, 'longitude': 65.04252870225355}"
-3c0e9d63-6f7e-492e-87f1-65d3f49a4666,completed,payment,ATM,1250.03,"{'latitude': -50.821026153365736, 'longitude': -17.442420858221595}"
-4f670f2a-b49e-42ef-a46f-ce64224cf696,completed,personal expense,Bank,12446.22,"{'latitude': 7.477854342341374, 'longitude': 155.85944119571923}"
-ba23fb35-d388-4316-8434-4faa0bdb1e6b,completed,personal expense,ATM,1462.92,"{'latitude': 44.34224616520672, 'longitude': -156.71058225589053}"
-9568bfc7-cdcd-48e5-af8f-8dfecde03174,pending,personal expense,ATM,2167.38,"{'latitude': -56.20511524562221, 'longitude': -91.2014458554143}"
-7a9b65e3-bcf3-459b-9e21-926ca45dc32f,completed,payment,Bank,2535.86,"{'latitude': 40.12548329326688, 'longitude': 2.7169824432406813}"
-415fa692-db55-4be4-a772-44b0a25a353b,completed,personal expense,Bank,2335.27,"{'latitude': -77.04808354455486, 'longitude': 32.38461210991932}"
-d4af177a-7570-4be4-9e3d-6127924dc990,pending,payment,Bank,75.15,"{'latitude': -49.32204787453589, 'longitude': 141.35097518751775}"
-2a039b36-20f6-4e0c-bfdf-bb8f4983c712,completed,payment,ATM,117.7,"{'latitude': -6.204917472034168, 'longitude': 41.011053650196544}"
-c6dffd89-85a9-4e3d-876a-7eb64952b7e4,pending,payment,ATM,1499.21,"{'latitude': -42.20257253640326, 'longitude': 73.91747273924659}"
-250082e2-a1b5-480e-bda5-47c7b5c092e3,completed,other,ATM,20378.04,"{'latitude': 30.571529394624093, 'longitude': -99.40858281305978}"
-3cd5c021-f0c9-452e-a75b-810453366ac1,pending,personal expense,ATM,16472.73,"{'latitude': 4.644083091426708, 'longitude': -56.853145187246014}"
-7bfc6552-71e6-40d2-9ff7-6a45e6f2c945,completed,personal expense,ATM,14260.67,"{'latitude': 76.86232513700784, 'longitude': 51.49487769059854}"
-86f30aa5-03b8-4c49-afee-13e1fe79364b,pending,other,ATM,245.97,"{'latitude': -30.805793025027015, 'longitude': 62.2863685370566}"
-4f40f96e-a359-4f9b-8e45-e4af11b6f83f,completed,personal expense,ATM,840.27,"{'latitude': 64.68445493749962, 'longitude': 38.44699323539356}"
-83f400b7-6039-436c-a160-41577074a4e2,pending,personal expense,Bank,775.12,"{'latitude': 26.955858043825287, 'longitude': -128.847204869821}"
-6cd54bd3-6970-4bf9-83c5-2041efa9e70a,pending,payment,ATM,6351.02,"{'latitude': -58.374632050559775, 'longitude': 43.47171364812965}"
-7b3dba73-0dfc-4dd0-983e-75ad3b5fc677,completed,personal expense,Bank,452.75,"{'latitude': -43.199529982939424, 'longitude': 16.160520604896902}"
-0a9c2ab8-038c-4e08-b8e0-2219588ba57c,completed,payment,ATM,4280.99,"{'latitude': 22.196127447540235, 'longitude': -101.66783304084112}"
-8bf25df8-3aad-4353-ac01-698e8a5ec261,pending,investment,Bank,12934.84,"{'latitude': 2.40907873572084, 'longitude': 34.79230916757618}"
-b61eab21-8d49-4e2e-989a-cacbdd745dc1,completed,personal expense,ATM,427.43,"{'latitude': 40.03979249060052, 'longitude': 129.68555356404545}"
-0334cf24-716b-4e15-9498-0e817d0f97eb,completed,investment,Bank,4397.3,"{'latitude': 3.4407203818051784, 'longitude': -137.74647107005256}"
-6ba73a99-bfbf-463e-bbd5-61ad0663ee89,completed,payment,ATM,5085.21,"{'latitude': -75.32741112899222, 'longitude': 156.29431109292995}"
-2e6156ec-6acd-4600-882d-40ff03c0de3f,completed,personal expense,Bank,4169.52,"{'latitude': -52.0979953388663, 'longitude': 5.695875408717853}"
-a5ee4e13-b26d-4512-851a-2a695d4e3de6,completed,investment,ATM,3335.91,"{'latitude': 71.15486213151627, 'longitude': 38.839292169549}"
-88585e7d-4541-42a9-b023-381c1d3de613,pending,payment,Bank,1042.96,"{'latitude': -42.04050791514206, 'longitude': -24.64652869111447}"
-570fa8fc-5d1b-48ab-ab76-eef9a3476c73,completed,other,Bank,23582.61,"{'latitude': -6.854200643173968, 'longitude': 13.325070072545657}"
-19049a14-2d68-426e-a147-347ae26f2a99,pending,payment,ATM,2207.55,"{'latitude': 21.359320167015554, 'longitude': -170.74460500702412}"
-b92999d3-4871-4e5a-81b1-13b6c7da7ac5,completed,other,ATM,459.99,"{'latitude': -85.98740719661751, 'longitude': 33.2469120369598}"
-2f82da6f-562f-4d09-bc9e-14105c8cb9ef,completed,investment,Bank,4783.72,"{'latitude': 60.254109756720936, 'longitude': 108.27271193385155}"
-dec7520a-23cd-4de8-97ce-f031ddc42e87,completed,investment,Bank,10730.44,"{'latitude': 29.43681806406161, 'longitude': -172.99149644255502}"
-2de64b1c-fbab-4bf0-b83c-0dc1224079b0,completed,other,Bank,829.67,"{'latitude': 89.93032529422297, 'longitude': 29.069607079015157}"
-6924b7c9-8a07-4696-821a-dc8aa9f107f9,completed,other,Bank,37.02,"{'latitude': -68.7111768442085, 'longitude': 18.999079517697908}"
-a0fbdafb-a3e7-4cc5-a47a-5dfdaefe14ff,pending,personal expense,ATM,51.07,"{'latitude': 68.33117063223636, 'longitude': -106.2680488591155}"
-1cf41995-f539-4dab-84dd-9a68ca7aa7ff,pending,other,ATM,25898.61,"{'latitude': 67.42712226624184, 'longitude': 144.7273954695945}"
-d90363b5-82bd-45c2-b85d-0783e5463d5a,pending,investment,ATM,26943.52,"{'latitude': 41.25573186819932, 'longitude': -156.4812435152396}"
-12b01ad6-74ba-441c-a956-4853c651f6fa,completed,investment,Bank,25058.26,"{'latitude': 67.18758135627752, 'longitude': -97.8631452209505}"
-a6c1ebfd-8823-4374-90f2-1ef661c9a390,pending,payment,ATM,18275.66,"{'latitude': 51.355977065762204, 'longitude': 49.48440080295504}"
-93b11e81-df38-4032-9a49-fd75cecad6e1,completed,personal expense,ATM,8535.39,"{'latitude': 68.92749740555078, 'longitude': 63.82902678970231}"
-f9a415b6-7393-4ea1-832b-d5290cdd5616,completed,other,ATM,2208.27,"{'latitude': -30.387916643274572, 'longitude': -6.422167612124952}"
-66b194d8-6709-4ffb-9b00-52a33c7d151d,completed,personal expense,ATM,3120.51,"{'latitude': -58.452711962395654, 'longitude': 10.16421276212725}"
-801eab71-af21-4ee7-8e1e-13b8bbcbfaf7,completed,personal expense,ATM,2127.19,"{'latitude': -37.24165049366912, 'longitude': -4.17874604609608}"
-5d1d29d5-8f49-4457-ba33-078b973b2494,completed,investment,Bank,5097.83,"{'latitude': 28.830519724778682, 'longitude': 49.65137264639259}"
-00016782-458e-499d-9d86-b8f991067943,pending,other,ATM,452.36,"{'latitude': -86.92244585996849, 'longitude': -10.559226942387482}"
-42161b9b-93c4-485a-8b6a-d7ce6245069e,completed,personal expense,ATM,219.98,"{'latitude': -63.01590412975649, 'longitude': -135.98917650980638}"
-836afc7a-f39e-47a0-acb2-193e843bc85d,completed,other,ATM,232.55,"{'latitude': -39.001039708772076, 'longitude': -62.05107762093451}"
-87c6b217-7abb-4313-83e4-aa1b059ab919,completed,investment,Bank,8127.62,"{'latitude': -69.40740934604133, 'longitude': -90.19956824462062}"
-16756e1a-2c1c-4aa1-9b90-d4204eff4d8b,pending,other,ATM,409.69,"{'latitude': 73.14659904335929, 'longitude': 103.48499908286135}"
-83736003-57c4-4fde-8e2d-49357e0a0f56,completed,investment,Bank,13995.78,"{'latitude': -76.93985099806042, 'longitude': 82.32313253878328}"
-98e1d516-df2a-48f0-a2e2-27297a7654cb,completed,other,ATM,4486.52,"{'latitude': -76.3374038034743, 'longitude': -60.18882640700572}"
-e325d074-1307-456d-98a8-a2b4789d9289,completed,personal expense,ATM,17317.43,"{'latitude': -75.73435755665776, 'longitude': 37.306856836003135}"
-2a889306-9e89-40d2-a0fe-b342f769a596,completed,other,ATM,9760.59,"{'latitude': -65.99360625351582, 'longitude': 15.177239669688845}"
-a88bfca7-52de-4df6-9023-7f84d952d627,pending,payment,Bank,28120.32,"{'latitude': -60.56893749434838, 'longitude': 168.3180774870321}"
-aa8f0a79-9571-49cc-bff9-973ff269b031,completed,other,ATM,37306.78,"{'latitude': -8.016371381547188, 'longitude': -144.84056919823846}"
-06cec988-127a-4cbc-9428-b3f1525b3af6,completed,other,Bank,1468.79,"{'latitude': -3.8295870298934176, 'longitude': 90.0845503081074}"
-e53907e7-8eb5-415c-9f26-6494fe591664,completed,personal expense,ATM,35646.24,"{'latitude': -42.5968150483862, 'longitude': -75.48662224180349}"
-8ef1c35f-6e49-4bc1-b629-4d489d3c7cca,pending,investment,Bank,8530.64,"{'latitude': -25.218473600801417, 'longitude': -109.04614421762172}"
-38349124-7af7-494d-b544-0c0abfdde28b,completed,investment,ATM,4624.36,"{'latitude': 46.368385584430825, 'longitude': -154.92445092366248}"
-72a45995-d408-4c25-bf25-fd8f1a9f2a21,completed,other,ATM,25.24,"{'latitude': 59.61074746084827, 'longitude': 166.88893301356705}"
-8f90553d-1281-4019-b56d-f70388408e5f,pending,payment,ATM,10.87,"{'latitude': 39.273075948307024, 'longitude': -30.957569103344895}"
-a10da649-f99d-4cab-866c-749fa702a725,failed,other,ATM,41.96,"{'latitude': 51.472973618932656, 'longitude': -49.46841539302858}"
-808395ce-c043-46ab-bf7b-81e1ed0c9066,failed,other,Bank,48.01,"{'latitude': 7.958205882424068, 'longitude': 91.0544933704989}"
-2e6b0649-6666-4811-a939-8644a55a4cfc,completed,other,ATM,28981.58,"{'latitude': -39.95066239874305, 'longitude': 60.42746080745957}"
-bc1ee4a3-3511-4657-b49d-67d8f760d536,pending,investment,Bank,17286.98,"{'latitude': -52.57215560977467, 'longitude': 136.37883093661384}"
-0e16cc9e-f007-42d7-a98d-a0a7f61d6306,completed,personal expense,Bank,26079.34,"{'latitude': 89.6559123633626, 'longitude': -121.1729196208542}"
-672a2e85-f340-40c6-a417-16f656dc7bed,completed,payment,ATM,15423.06,"{'latitude': -57.54430647883903, 'longitude': -152.3455840612785}"
-2ea1423a-de61-4e1d-904d-ef7e27fda28d,pending,other,Bank,1528.32,"{'latitude': -46.322124267338786, 'longitude': -59.234649402187586}"
-d5ac720c-735b-4436-af77-e6fe74faf29b,pending,other,ATM,2895.14,"{'latitude': 40.00621374521259, 'longitude': 101.825632963349}"
-1ab0fd7f-70b1-4445-b3da-ccaf539ebb26,completed,investment,ATM,265.4,"{'latitude': -28.65740108988207, 'longitude': 122.1530389342592}"
-173cd836-7ae7-4302-af9b-8ffa6683547f,completed,personal expense,ATM,22162.15,"{'latitude': 3.8673520552624296, 'longitude': -177.00732722134788}"
-bc3a5431-b884-4683-82ff-4cfb1723abdf,completed,other,ATM,7692.31,"{'latitude': -67.75051425515572, 'longitude': -139.65005313318318}"
-898c398c-dc90-4140-af54-0f4b8e562b0f,pending,investment,Bank,3662.52,"{'latitude': 79.23478731946005, 'longitude': -4.192687468275722}"
-53f9deaa-dd79-4bf0-8a09-83d2bc516342,completed,personal expense,ATM,2583.46,"{'latitude': 40.58774645494893, 'longitude': -88.20549000426792}"
-24030147-2300-4b55-bdd0-b88f3e3bb54a,completed,personal expense,ATM,41098.66,"{'latitude': -50.59799744246844, 'longitude': 1.6025415283700397}"
-9b2c419f-6ff1-4b84-9ee2-384b3b63e394,failed,payment,ATM,33.03,"{'latitude': -15.47540041113787, 'longitude': 6.621119819554053}"
-058a0535-0357-49ff-8c49-a99642ecd0fb,failed,personal expense,ATM,25.44,"{'latitude': 51.80357833217644, 'longitude': 104.71216666084302}"
-1a77d287-d684-4de3-b959-ed59bfeccec2,completed,other,Bank,10.25,"{'latitude': -47.02582423726078, 'longitude': -46.608815698803966}"
-2c50dbe2-c6d4-48e2-bc2d-c848dddb3db5,completed,investment,ATM,40376.78,"{'latitude': 72.7859320386197, 'longitude': 72.551298111052}"
-a9e6244a-c8c3-461e-aa9e-e034e9627468,completed,personal expense,Bank,3118.05,"{'latitude': 37.884278500117475, 'longitude': -179.485789597364}"
-457147dc-f290-4470-bd3b-a86e1c8c42b9,completed,other,Bank,2178.51,"{'latitude': -24.81924588240574, 'longitude': 82.69287511476972}"
-84336b9e-c9b2-4cfe-957e-93ee643801aa,pending,investment,Bank,15780.6,"{'latitude': -3.117567151321083, 'longitude': 52.229251484335066}"
-c9a6d846-03dc-47cc-8771-39ad548fdede,completed,other,ATM,15124.38,"{'latitude': -40.12830338181403, 'longitude': -2.2744402144520848}"
-910c4e5e-c1c6-407e-9b3c-08dd5ee4454a,completed,personal expense,ATM,4178.16,"{'latitude': -36.57413308015773, 'longitude': 153.94744450831274}"
-263c70d7-a429-435f-a9f1-9b6fb6fda2db,completed,investment,Bank,214.86,"{'latitude': 56.292570706588435, 'longitude': -89.19680797283257}"
-64bb6238-3a20-4990-83c8-be5384712353,pending,other,Bank,504.0,"{'latitude': -16.377187971932457, 'longitude': 38.26921835114854}"
-ed3fc9f8-f97f-492a-80a1-2ada0a8c51af,completed,personal expense,ATM,18496.21,"{'latitude': -27.820310601377997, 'longitude': 36.396810083467386}"
-e72cad33-be43-4ee9-835a-a50a0cbf898b,pending,other,Bank,5860.43,"{'latitude': 46.5583058891815, 'longitude': -16.414688290872505}"
-25705715-ce3d-4c91-9a0d-ff2cf788f8a4,completed,personal expense,Bank,1912.13,"{'latitude': -9.39774615887606, 'longitude': -144.7908043475614}"
-1b53cae7-ef92-4606-af09-2b3367c4a931,pending,other,Bank,19470.23,"{'latitude': -27.569609558322313, 'longitude': 41.01235147617561}"
-4c6628c3-7223-4cd1-b56c-8919d90d1f10,completed,investment,ATM,5129.13,"{'latitude': 17.71207682396455, 'longitude': -125.36072264921623}"
-b21864cd-f935-453d-8aaa-9e52a199338c,completed,investment,Bank,1725.35,"{'latitude': 74.89157025138906, 'longitude': -58.73705522906958}"
-c61b643e-6867-4dc4-8230-b3741c3d30fa,pending,other,ATM,3877.09,"{'latitude': -34.282612546779085, 'longitude': 20.09903031307067}"
-66292bce-4797-45b0-9ca0-13eff1ada013,completed,other,ATM,21030.06,"{'latitude': -66.76058781609959, 'longitude': 170.26874825322352}"
-13d6b0b8-16b5-449b-93b8-32e2ad691db8,completed,investment,Bank,13539.33,"{'latitude': 38.62165025118608, 'longitude': 85.98284480074005}"
-dc5741e5-b908-447f-8216-7d344164a499,completed,other,Bank,13128.12,"{'latitude': -74.23381536719495, 'longitude': -144.79619760014563}"
-88c86678-79e5-4166-ba99-6c693e3f6fb9,pending,personal expense,Bank,268.18,"{'latitude': -14.646517972378987, 'longitude': -93.88053712183877}"
-c0e991c3-066f-4406-8340-019c078c7686,completed,payment,ATM,22435.43,"{'latitude': 83.53125483893604, 'longitude': -22.353310969793938}"
-fc72536a-1308-4e48-aae4-75b96cf1f166,pending,payment,ATM,38.37,"{'latitude': 34.43098732418743, 'longitude': -76.87521169109884}"
-6702139b-8d54-44cf-97b5-1137ecf8e9da,completed,personal expense,ATM,2772.77,"{'latitude': 33.33079310756386, 'longitude': 83.03401659110648}"
-170f400b-b1f7-4377-a9de-60eb41f9eae0,completed,other,ATM,373.66,"{'latitude': -60.734287790038124, 'longitude': 68.54972651695755}"
-9a4f5e9b-4c73-47b9-9c37-641170b6ea16,pending,investment,Bank,1817.81,"{'latitude': -8.683291863882417, 'longitude': 145.42066940424326}"
-b316c7eb-8fd5-4fee-8c3c-a1ba7785f7d1,pending,personal expense,ATM,932.74,"{'latitude': 12.745209860340793, 'longitude': 40.11835863846841}"
-b9dce585-036d-4305-baf8-2f331b6c8c60,completed,personal expense,Bank,1401.81,"{'latitude': 8.12856064400627, 'longitude': 4.695283434021434}"
-3ae825c8-b0b5-4547-9757-ea7862368297,completed,other,ATM,19.99,"{'latitude': 39.379245540984755, 'longitude': 158.45556798002985}"
-4231e63a-aa2c-4f46-b855-0f5e05517000,failed,investment,ATM,152.36,"{'latitude': -52.02223851340073, 'longitude': 64.41643553020745}"
-850ede40-7cff-4f83-8d72-89f6f94353fe,pending,payment,Bank,33096.03,"{'latitude': -50.26394284609365, 'longitude': 147.09296031674546}"
-df5e9390-045d-48cb-aa75-c163486a99e0,completed,payment,ATM,4801.85,"{'latitude': -10.000481591888516, 'longitude': -56.97339097484456}"
-34f625c0-8722-45b1-84a4-db21048ced9f,completed,other,ATM,30916.43,"{'latitude': -77.72113513611333, 'longitude': 30.668369836634355}"
-4ba852b0-f360-4ace-8c76-4c59032593c0,completed,personal expense,Bank,989.94,"{'latitude': 17.92585644068943, 'longitude': 17.82375703976328}"
-89b56fef-22ea-44d8-b42a-8c2971a35c98,completed,other,ATM,4860.68,"{'latitude': -38.146868978406154, 'longitude': 2.630467494133484}"
-13e5c9fc-342b-4e9f-be57-cdc689eefc91,pending,investment,ATM,972.28,"{'latitude': -81.77874273440946, 'longitude': -122.91822065932911}"
-1893bdef-f047-420a-b41f-f323b51229e6,completed,payment,Bank,3059.96,"{'latitude': 41.50495375305434, 'longitude': 29.063545439497744}"
-6500215a-102a-429b-a531-b0364a7f22ee,pending,payment,ATM,33461.54,"{'latitude': -76.3136311541571, 'longitude': -16.5129343884812}"
-847a21fe-a035-490c-aaa9-760023d8209f,pending,payment,ATM,30864.0,"{'latitude': 29.881613953521594, 'longitude': 100.25794202202331}"
-b62b45aa-e659-4328-b0de-cb1d38a01741,completed,investment,Bank,2926.7,"{'latitude': 82.15416199385817, 'longitude': -30.27957301371751}"
-4bfaec20-9431-49bc-bdde-8a5420cd0fd8,pending,payment,Bank,10987.53,"{'latitude': 32.20989820147183, 'longitude': 2.650095241310055}"
-ef430db5-7c9f-4376-89c7-7a5c5cb67488,completed,payment,ATM,9335.81,"{'latitude': 21.826822133944702, 'longitude': 2.5652024354752427}"
-63e6e0f2-4149-4cf7-bc54-c0465a26d9fa,completed,other,ATM,450.98,"{'latitude': 2.829123618162839, 'longitude': -109.691136711537}"
-0b35fd47-e059-4206-b304-98e613a16a72,pending,personal expense,ATM,105.11,"{'latitude': -74.0065263640696, 'longitude': -73.42978675085614}"
-5b49c162-30f7-46a3-949a-bfacfca73f1d,pending,payment,ATM,2930.61,"{'latitude': -80.25311836797611, 'longitude': 10.947417494586148}"
-1a684b97-b6cb-4fb5-8c17-8d13c765e00a,completed,investment,ATM,1475.66,"{'latitude': 44.576797213928074, 'longitude': 51.98299818234537}"
-2ba56b5a-2b35-44b3-a7d8-93da66d0e4bf,pending,other,ATM,2229.8,"{'latitude': -56.51152594620945, 'longitude': 8.859940021365077}"
-1aa49061-0a5c-433c-80ef-29a297e80cdd,completed,personal expense,Bank,6900.75,"{'latitude': 86.08745426280251, 'longitude': 112.47411420814927}"
-b46b4d03-48aa-4a4b-bb1f-bcea321bd8c4,completed,payment,ATM,299.57,"{'latitude': -14.166465731895784, 'longitude': 163.54033206850602}"
-fae3fe48-d725-43aa-bddf-f29c7788e60f,pending,investment,Bank,19626.26,"{'latitude': 32.90487390638829, 'longitude': -87.64604533410883}"
-78d952eb-35e8-489f-94c0-1855561b0602,pending,payment,Bank,5581.9,"{'latitude': -16.8908941662782, 'longitude': -150.12670932379416}"
-26ac78c1-b893-488b-b50a-85d9bf67a03d,pending,other,Bank,14990.06,"{'latitude': 56.1638273898117, 'longitude': 45.20038502933241}"
-43d47ff5-344a-497b-a820-f8df9d1b6a16,completed,other,ATM,5823.25,"{'latitude': 56.79690645796663, 'longitude': -64.91934495378214}"
-53edb500-affb-46b6-a061-95ababcd7148,pending,personal expense,ATM,17089.39,"{'latitude': 39.76854728279915, 'longitude': -48.83654575207777}"
-eff33654-5dc8-42ee-a49b-7dfb0e26ad6b,pending,personal expense,ATM,1473.38,"{'latitude': 54.28184718458627, 'longitude': -116.64418250523394}"
-b30353e1-a607-49d8-98e7-340102cb4f3a,completed,personal expense,ATM,3247.02,"{'latitude': 55.12425102297664, 'longitude': 53.531861296893766}"
-fcdb9195-10d4-4b57-9b01-071eda32f803,completed,payment,Bank,4177.86,"{'latitude': -72.1790927631745, 'longitude': -25.45112429294292}"
-6f3f62b7-5bb6-413c-80b4-1d1bd8318aa5,completed,other,Bank,764.61,"{'latitude': 23.601033818054376, 'longitude': -133.96817862168842}"
-1323e316-95d7-403b-aa20-65b05656bd2b,completed,investment,Bank,67.29,"{'latitude': -24.17424811914131, 'longitude': 112.92701907303268}"
-ea975afa-04e0-495a-988d-0b3290d701d5,pending,personal expense,Bank,324.1,"{'latitude': 73.07369817585413, 'longitude': -29.450155125539908}"
-b260a094-d7e0-485b-9f8e-abf7a0c9f9e3,completed,other,ATM,343.52,"{'latitude': 31.14336337415179, 'longitude': 137.43062319197588}"
-a0f3242d-322e-4421-bf79-c43ab54cff01,completed,personal expense,ATM,7.42,"{'latitude': -21.226849068841403, 'longitude': 20.37569822787566}"
-a8c3d139-e673-4887-a356-85f47156a7f4,completed,personal expense,ATM,15653.16,"{'latitude': -25.596810341223275, 'longitude': -103.83701272067391}"
-95a36ade-19a5-43c5-b307-a08d6c653730,completed,investment,Bank,4069.19,"{'latitude': -67.86045839385919, 'longitude': 67.91642207142363}"
-663b415d-5d64-4bb1-bd4a-3edfb03deaa2,pending,other,ATM,149.01,"{'latitude': 56.43986717606518, 'longitude': 43.480351150708344}"
-d87186e1-4170-4613-b807-24021a93084e,completed,payment,Bank,626.46,"{'latitude': -25.118100807172837, 'longitude': -28.347505936177555}"
-cc54d1d8-05ec-4784-8895-1d33e58defa1,completed,investment,Bank,15458.24,"{'latitude': -30.548639589389218, 'longitude': 147.84082057184452}"
-abff75b7-e7ba-467a-803b-dc4cfab8bd13,completed,investment,Bank,11501.33,"{'latitude': -36.72439361501894, 'longitude': 135.3996586538679}"
-ef261f17-705a-4d03-98b1-4c30ea806f0e,completed,personal expense,Bank,980.89,"{'latitude': -56.114719717043414, 'longitude': -103.7589151777077}"
-bbe3738a-350d-421d-8f86-5416f18b4d49,completed,personal expense,ATM,186.49,"{'latitude': 45.72058462166794, 'longitude': -33.61306345781631}"
-307cadab-a0d1-4da8-86ed-b6b2cf8f34c5,pending,other,Bank,266.19,"{'latitude': -42.633024421046024, 'longitude': 122.53381139396987}"
-88dbe32e-0bd8-4945-bc5a-55364b14f0c1,completed,other,ATM,7776.75,"{'latitude': 20.897218068516253, 'longitude': 152.54637193919115}"
-ff35160d-6e87-42a4-bb28-bc37794bc998,pending,investment,ATM,44843.17,"{'latitude': -38.96786010274613, 'longitude': 127.44933114672523}"
-6caff265-51cd-4ace-bbe8-2ee46f1d8359,pending,investment,Bank,6098.55,"{'latitude': 65.91669114932546, 'longitude': -94.8316612147543}"
-571a903d-c486-4f04-a13d-bcb9ff97bcd0,completed,other,ATM,6590.2,"{'latitude': 79.48675076570947, 'longitude': -91.31482133629672}"
-71bad27e-fe39-4c0c-81a8-3b33af5d85bd,completed,personal expense,Bank,649.62,"{'latitude': -8.708673888086068, 'longitude': -106.21900272538765}"
-b2b31acc-6575-4df1-8a7a-93b91987b251,failed,investment,Bank,640.66,"{'latitude': 32.45017029680939, 'longitude': -104.44579875683817}"
-938ca598-ee7b-4c5c-8ce2-2a2ab3a9f5e3,pending,personal expense,Bank,8068.61,"{'latitude': 81.37880764259788, 'longitude': -26.411953474921347}"
-38aa2b82-b377-4201-adc2-b1b3f26d6e0f,completed,investment,Bank,12559.16,"{'latitude': 4.925172083872482, 'longitude': -19.537407855707272}"
-aac78c5e-921a-4bc6-8993-4db9b152aecb,completed,investment,Bank,397.35,"{'latitude': -56.72332523720781, 'longitude': -164.3081551609642}"
-02e037ea-369f-40fa-96b3-0be3caf19d69,completed,investment,Bank,4998.91,"{'latitude': -53.87049633663848, 'longitude': 171.8013760818032}"
-342b3747-c4ab-4ba8-80cf-9cd95ec8b7f7,pending,personal expense,Bank,7609.77,"{'latitude': 88.34011126806791, 'longitude': -154.98008063594492}"
-a6dc9e9c-3d0d-400e-a2ca-9251a6038367,completed,other,Bank,4744.59,"{'latitude': -10.813752160140766, 'longitude': -46.616924610565974}"
-daf4630a-5213-49f6-b885-638a0cb10080,pending,personal expense,Bank,10098.85,"{'latitude': -5.813111403812343, 'longitude': 177.6644903494318}"
-dc96c378-72b7-47ca-accd-fc025f13acc2,completed,investment,ATM,2264.13,"{'latitude': 87.42635686314475, 'longitude': -108.55381579792265}"
-2bfe370d-a0aa-4eb6-8923-1479386d1b47,completed,investment,ATM,10143.24,"{'latitude': -3.2903267865563066, 'longitude': -54.74354770550191}"
-a8dd7166-0615-441d-a113-0ab41f50d136,completed,other,Bank,5602.8,"{'latitude': -51.10689651454014, 'longitude': 168.29404618666433}"
-2ba1e313-c84a-452b-a59b-fadb64efe6eb,completed,investment,ATM,5224.05,"{'latitude': -84.03327742997804, 'longitude': 177.87129807671073}"
-e2be5fab-ee47-4980-8b72-45587ee52941,completed,payment,ATM,35625.53,"{'latitude': -77.8257354350033, 'longitude': -86.1736906668304}"
-35136df0-00af-4457-8220-2be5c9224adf,completed,other,ATM,26392.78,"{'latitude': -37.37021550208645, 'longitude': -18.64248547310285}"
-700d4ca3-7940-4bce-90a7-5bda35eea25f,completed,personal expense,Bank,10293.57,"{'latitude': -20.600624046983114, 'longitude': -1.2044883936983695}"
-b5089a68-3085-4006-8eee-029fc6a5b7f4,completed,payment,ATM,3482.62,"{'latitude': 32.37190524270669, 'longitude': 145.41554331742907}"
-ad9c8ce3-b092-4003-af7d-b1e3af0499fc,completed,investment,ATM,183.96,"{'latitude': 12.113492773016233, 'longitude': 83.47265596903515}"
-6436abc5-e829-4bfc-ae25-6089f192dd80,completed,other,ATM,532.66,"{'latitude': -27.606588003668016, 'longitude': -62.061076673186534}"
-c2ffb904-fb13-488d-be72-b390d0bb101d,completed,personal expense,Bank,13950.32,"{'latitude': 70.59556393313795, 'longitude': -78.21470220071282}"
-8176d840-bff7-4c4c-aa5d-c3bd0d7fc515,pending,investment,ATM,16245.23,"{'latitude': -30.95857591567173, 'longitude': -119.30319255427773}"
-846adac4-934b-4d3b-a673-b6be1a86a8ef,completed,investment,ATM,2454.57,"{'latitude': -9.17984067692612, 'longitude': -111.22395253822161}"
-edc44d7f-85c2-44d7-89fa-cc61eed121f9,pending,personal expense,Bank,35959.45,"{'latitude': 6.341788401483896, 'longitude': 52.278563105466304}"
-3f228604-883d-44d7-b73f-69219f551c31,completed,personal expense,ATM,19101.68,"{'latitude': 84.97595738327988, 'longitude': 74.01080980276367}"
-d0fbfd40-a031-4c38-9800-74e677e85aea,completed,investment,Bank,18346.13,"{'latitude': -58.65325199995396, 'longitude': -88.16653853464861}"
-7447a750-c904-44fe-9034-3dac5cef24ab,completed,investment,ATM,23040.28,"{'latitude': -76.25288038864586, 'longitude': -54.92563901784695}"
-190d6ca4-7d7a-486f-8aff-3b12a793ccba,completed,investment,Bank,7568.51,"{'latitude': 34.30027092583727, 'longitude': 134.38107010463494}"
-f5944dc1-df74-47e1-8614-67225914df5c,completed,payment,ATM,16.93,"{'latitude': -34.48298293573862, 'longitude': -111.08477555252571}"
-8f3a24a1-6f1f-4123-8eb0-58ec7adc651d,completed,payment,ATM,603.93,"{'latitude': -64.06375449856365, 'longitude': -153.34718523615462}"
-b83234d8-921f-48fc-bf6e-3ca2cc14fcbc,completed,investment,Bank,34.16,"{'latitude': 61.81158134113841, 'longitude': 4.5530110310989755}"
-330a10b0-7126-4755-8549-a717660016a4,completed,payment,Bank,29413.9,"{'latitude': 25.271923835883925, 'longitude': -109.93879378011016}"
-c1b40780-2011-4302-8d82-2f8fa0428142,completed,other,ATM,629.18,"{'latitude': -35.929920871791246, 'longitude': 25.650940493718565}"
-d0eb859d-663e-4896-9cd0-d2f9ab5d9ce8,completed,payment,Bank,22575.78,"{'latitude': 32.821604217172265, 'longitude': 13.11332150251414}"
-9ce893ab-7796-4375-b881-8e2f0a1a056b,completed,other,Bank,1369.92,"{'latitude': -52.85461710976358, 'longitude': 15.439673543140316}"
-3466c497-e08b-48b9-8a14-020e05ae4992,completed,investment,Bank,130.45,"{'latitude': 26.929235550213946, 'longitude': 47.4533211488808}"
-57c89a49-4a81-47e8-bf6b-1df0d753aca8,completed,other,Bank,1018.45,"{'latitude': -21.557122864875424, 'longitude': -25.28014281630152}"
-60381bce-d826-4a75-847e-177ab01e9a26,pending,other,Bank,325.93,"{'latitude': 57.700497789507125, 'longitude': 52.795957266708456}"
-6c2c3865-8b2a-490e-941e-2981cbc10353,pending,personal expense,Bank,2928.46,"{'latitude': -57.45748668876806, 'longitude': -163.70757199373455}"
-129639dd-abb0-4d97-9b33-97647d3c69ae,pending,payment,ATM,10572.63,"{'latitude': 40.23902723257618, 'longitude': 61.44546629109428}"
-161181b9-91d1-45d4-9bb5-5aedfe2639d3,completed,investment,ATM,1716.78,"{'latitude': 79.23726729425289, 'longitude': 83.63258116343945}"
-c5fc6cfd-6b4a-4642-af57-2363334df01b,completed,payment,ATM,7503.35,"{'latitude': -26.432253401895387, 'longitude': 56.73913859312489}"
-9efa0d3e-92a9-4f3b-bab1-483bf614ebc8,completed,payment,ATM,4079.73,"{'latitude': -30.856424781330034, 'longitude': 96.97181112968423}"
-7b843631-5eae-49f6-af83-8c67097a8b86,pending,investment,Bank,34565.78,"{'latitude': -5.198550202903178, 'longitude': -78.53675170151543}"
-fcb6c03f-cdb1-4548-a93f-0b73cbb34407,pending,investment,Bank,6568.23,"{'latitude': -10.18932326235695, 'longitude': -0.06439685617729651}"
-e00d5450-1335-461f-8db9-bc9823502738,completed,payment,Bank,9575.24,"{'latitude': 76.55593368960041, 'longitude': -125.13941115542441}"
-4016e20d-8a97-429d-be56-b5921b132c99,completed,payment,ATM,4750.45,"{'latitude': 67.27802489267722, 'longitude': 164.4385690294335}"
-060fc8f0-86be-4f23-b8fe-6c826cc322c1,completed,personal expense,ATM,899.8,"{'latitude': -80.99299061089673, 'longitude': 4.968794109091135}"
-d0d3eb09-9d3d-4001-94be-411c15f3f366,completed,personal expense,ATM,131.11,"{'latitude': -39.65637581643355, 'longitude': 136.2371782469321}"
-d5586a2a-7b93-43a4-935f-2fe362b79e27,completed,payment,Bank,72.86,"{'latitude': -65.59769499171166, 'longitude': 104.17695637555187}"
-225d82c8-82e7-49da-b86d-8d90331a1984,completed,investment,ATM,2517.25,"{'latitude': -24.546763453674913, 'longitude': 171.60662217805918}"
-024682ac-6ebc-42e5-be96-c861758a7f1c,completed,personal expense,Bank,546.67,"{'latitude': 77.70822558495601, 'longitude': 92.41550686110912}"
-bf92405c-5a43-4cc3-932e-52f6c815a4f1,completed,investment,Bank,553.14,"{'latitude': 28.02556429298228, 'longitude': -34.36453803214101}"
-edc0b1d0-b17a-4608-b660-b049deeecf12,completed,payment,ATM,41.23,"{'latitude': -56.28590987386306, 'longitude': 33.29548955329483}"
-a847e471-e733-4166-9966-d86f37c7d4b2,failed,payment,Bank,11.5,"{'latitude': -0.6859087197659903, 'longitude': -28.99780931399306}"
-080fabc2-d650-48aa-b072-6f515d9e6206,pending,investment,ATM,10713.69,"{'latitude': -61.53552332350668, 'longitude': -40.3108744612569}"
-30fced98-07f2-4632-a6b0-d9f8fd27f3dc,pending,payment,Bank,5330.56,"{'latitude': -35.80077264205971, 'longitude': 6.607011869466248}"
-d1363bf8-637c-4df3-b15e-6993928c231f,completed,other,Bank,1189.97,"{'latitude': -39.3263722471783, 'longitude': -8.466684823225478}"
-d92718a0-5239-4b52-b044-89678f8f681a,pending,payment,Bank,7435.4,"{'latitude': -64.09141751701986, 'longitude': -66.29186137022114}"
-6d105f7e-b5e2-42d2-89dc-26ce1ca11588,completed,investment,Bank,3432.25,"{'latitude': 73.49298783615745, 'longitude': 109.42375485787221}"
-e989d15d-4542-4127-a422-58c4a5a5a688,pending,other,ATM,4395.96,"{'latitude': -47.99294195083365, 'longitude': -88.07734903711672}"
-9cf24e92-9239-4d0a-b6ed-de1441908a57,completed,payment,Bank,772.8,"{'latitude': 65.82710149015006, 'longitude': 65.10043273352281}"
-c41784ff-9265-4cdc-88d1-062c1d7a015a,pending,personal expense,ATM,1716.0,"{'latitude': 85.13867775283515, 'longitude': -62.698531195525916}"
-5edf641a-1f0b-4155-8c6a-a75da8ff363d,completed,personal expense,ATM,16919.14,"{'latitude': -16.677438773047683, 'longitude': 58.13937899448965}"
-267a4b12-c841-4fdd-88c8-79a2691d4e20,completed,personal expense,Bank,312.34,"{'latitude': 88.93519277377146, 'longitude': 135.08842937030022}"
-8d6d7238-beac-4f9b-ab6c-9ed54a9a4d86,pending,investment,Bank,143.06,"{'latitude': -79.76249305510017, 'longitude': -109.29416041149099}"
-b955a552-8abb-4ca6-a15a-8c0691f01068,completed,payment,Bank,12432.95,"{'latitude': 86.14762725929913, 'longitude': -28.284869630061195}"
-0716a436-6e84-4ce7-af12-fbf32a7447f2,completed,personal expense,Bank,1315.3,"{'latitude': 65.82847214972307, 'longitude': 118.40658762359618}"
-06189bdc-e989-4791-9552-6df325785e0c,pending,other,Bank,370.84,"{'latitude': 6.910304688137842, 'longitude': -151.70283184361014}"
-604c850d-eed8-4fb9-bb13-780f7e0d1617,completed,other,ATM,23765.88,"{'latitude': -42.44310809570488, 'longitude': 63.39225295842539}"
-3337deed-7001-4a40-a4be-ca2976791468,completed,investment,Bank,4995.87,"{'latitude': -54.413396170769325, 'longitude': -112.80087736722096}"
-694b8eac-cf40-4b2a-8797-fefef2a82db7,completed,personal expense,ATM,1312.57,"{'latitude': -69.60892794347217, 'longitude': 44.12822309703341}"
-1f49f15c-c576-4719-bf5e-5852cac49057,pending,personal expense,ATM,13126.51,"{'latitude': -46.20309797617198, 'longitude': -146.43455421783386}"
-d177e988-f97a-4e8e-9812-21b217223924,completed,payment,Bank,7247.23,"{'latitude': 21.51764718204261, 'longitude': -2.4501081867100254}"
-1d1de709-9fa2-4a07-b643-b5531861188d,pending,payment,Bank,1348.19,"{'latitude': 35.8372236892361, 'longitude': 6.129331167448015}"
-d7bce393-1949-4ee4-b20c-03164b496d7f,pending,other,Bank,20866.57,"{'latitude': 79.27311637305479, 'longitude': -32.81860651841157}"
-d9f76072-030b-4a3d-9dac-841b55d3da22,completed,personal expense,ATM,24597.93,"{'latitude': 34.10108075757985, 'longitude': -58.69914575830856}"
-5f4a635d-7a23-41a3-9320-aa482c9be300,pending,payment,ATM,1429.61,"{'latitude': 69.48072442969314, 'longitude': 23.5842245428029}"
-c41d7bc3-4ee8-451d-849e-cad8b8833044,completed,payment,Bank,2633.47,"{'latitude': 9.232725775767392, 'longitude': 41.30572765982981}"
-785a0667-450f-4563-a22e-9b2adfa15bc3,completed,personal expense,Bank,450.28,"{'latitude': 22.65678078724106, 'longitude': -91.21179558931637}"
-592caa00-fd01-4d32-a4cc-8fe724909807,completed,payment,ATM,555.07,"{'latitude': -50.687290918199075, 'longitude': 59.239331708093914}"
-f55cf9e5-5e1d-4536-befd-516838a422a3,completed,investment,Bank,9284.3,"{'latitude': -25.67201935036607, 'longitude': 48.33645979452672}"
-66c86e4c-e6c0-41a0-a05e-987f6ee22bcf,completed,other,ATM,10834.54,"{'latitude': -18.02719408184197, 'longitude': 7.068769408103265}"
-f8c890f0-8f5a-454c-a464-8860b9cc6737,pending,other,Bank,311.94,"{'latitude': 13.109714327609197, 'longitude': 11.574631243841367}"
-06314146-6dab-4172-8853-00123b6d1c1b,completed,other,Bank,1442.12,"{'latitude': -87.71891195385321, 'longitude': -59.59930744173327}"
-ff104f76-dc6f-4355-b968-486a88593fb8,pending,personal expense,Bank,80.06,"{'latitude': 89.06472719594245, 'longitude': -145.065802330152}"
-c9f09cfc-cc69-4b2e-bb74-deaff1937819,completed,payment,ATM,2057.84,"{'latitude': -88.89927695146082, 'longitude': 15.972872650066819}"
-3e412d5e-09b9-4a5f-a36c-4d8d1fcf3171,completed,personal expense,ATM,18850.64,"{'latitude': -30.388069879978524, 'longitude': -115.02521216779353}"
-55e93fa5-ec9d-46a0-bfae-460cccaf0ce3,completed,payment,Bank,1911.3,"{'latitude': -19.367166167121354, 'longitude': -67.75987378868179}"
-bca24b5c-81ca-4cba-a987-f2a2c2de6196,pending,other,Bank,3435.06,"{'latitude': 49.36784600527929, 'longitude': 38.34115666382786}"
-0d13a7ac-bebd-48b0-b093-465c51e9db38,completed,personal expense,ATM,2431.83,"{'latitude': 75.55123535537936, 'longitude': -138.2134586262137}"
-176de797-37bf-45b5-9e96-17c3ac13fb80,pending,investment,Bank,13956.94,"{'latitude': 78.840099670704, 'longitude': -51.602379459499474}"
-2c5bc91f-b204-4667-99ae-e851c868177c,completed,investment,Bank,13819.75,"{'latitude': 69.27520481600811, 'longitude': -101.1017552877883}"
-6b91597e-3d62-4716-b507-57f05f3c9f39,completed,payment,ATM,30451.18,"{'latitude': 49.93438581635459, 'longitude': 99.51864631111783}"
-aad15b64-3330-4768-9e94-aa042145d58d,completed,investment,ATM,23758.97,"{'latitude': 62.31874377273522, 'longitude': 146.784483127312}"
-b690e1ec-3881-4e58-830e-aa013558e6e9,pending,personal expense,Bank,3284.73,"{'latitude': 63.7261496597219, 'longitude': 32.058188612357156}"
-775eda76-b6f2-4b5a-ac85-43b44d7367b0,completed,payment,ATM,1397.65,"{'latitude': -1.0531472906884431, 'longitude': 46.67432546270612}"
-04e5fdff-1ec2-4b6d-a7a0-d58491505985,pending,other,Bank,4839.57,"{'latitude': 70.57817439587254, 'longitude': 77.36641219765073}"
-b96ef80a-713a-44e9-b3de-6dcae10fc2a5,pending,payment,ATM,3525.82,"{'latitude': -10.028664772833892, 'longitude': -30.016661773143255}"
-32b534af-43e8-4c24-a207-439a78ff71e4,completed,investment,Bank,14435.64,"{'latitude': 49.82140783181859, 'longitude': 142.52272264582177}"
-d65691af-1e1d-44ce-bccb-3bcfc557ce9f,completed,other,Bank,17884.52,"{'latitude': 42.92871275590986, 'longitude': -129.4479866596321}"
-2b76b92c-d124-4fe1-be61-0d68f38de477,pending,investment,ATM,1322.82,"{'latitude': -8.081545329787971, 'longitude': -131.46578158798016}"
-d7617257-135b-46cd-a5c5-7ffbcc9fbb17,pending,personal expense,ATM,3201.31,"{'latitude': 50.08745437859821, 'longitude': -151.63014851278166}"
-32f5bcb7-fa1f-4b2f-ab07-ed0bf1aad217,pending,other,Bank,9764.63,"{'latitude': -79.94018321134624, 'longitude': -104.08432108230141}"
-382b1e8d-698c-4aad-9fd1-8d307c4df3cb,completed,other,Bank,13884.74,"{'latitude': -63.683174222481256, 'longitude': -113.38478540786966}"
-83bd2270-8096-4c21-8cde-5e83cdaffdb3,completed,investment,Bank,3172.01,"{'latitude': -36.03609902982779, 'longitude': 65.36393764761218}"
-73cd5770-e1ec-4694-a271-0e33a142cf2a,completed,payment,ATM,2402.14,"{'latitude': -43.083204997893255, 'longitude': -61.70041023323428}"
-e0177201-afeb-442e-b5fa-4ef19fafc8ef,completed,investment,Bank,606.8,"{'latitude': 88.05840252227375, 'longitude': -168.76950695642296}"
-41d9f6d2-8560-496d-b99e-d348c1218d96,completed,investment,ATM,2120.87,"{'latitude': 85.42254067933928, 'longitude': -147.60024990066438}"
-f40d74b5-0ad1-4384-87bb-9cd49cce5fd0,completed,personal expense,Bank,2847.51,"{'latitude': -41.640171838851515, 'longitude': 22.57705518439107}"
-e24a7de5-3348-49d5-bdf5-8012e3409fde,completed,payment,ATM,18478.15,"{'latitude': 9.715313628756775, 'longitude': 52.80842088690349}"
-2c8db563-80a4-405f-8628-02023e197d47,pending,personal expense,ATM,2281.58,"{'latitude': -8.627854811296828, 'longitude': -170.5642242567166}"
-f9c69308-5054-4b3e-b379-fe1ed3406c2c,pending,investment,ATM,46.86,"{'latitude': 24.66482428506174, 'longitude': 66.3294737951004}"
-f710188b-9a17-48c1-9744-d488a7260087,completed,investment,ATM,208.17,"{'latitude': -14.117064040445328, 'longitude': -143.675747954553}"
-432cabf0-16e5-4512-82e6-6fd14d00b700,completed,other,ATM,17725.61,"{'latitude': 9.670221046253559, 'longitude': -77.11044927855733}"
-85525770-bbb0-447c-bb0d-af73951fc717,pending,investment,ATM,3795.83,"{'latitude': -36.22346173461594, 'longitude': -72.09410996257604}"
-215c3902-d429-4ef9-b260-a9d7042ad5b2,completed,other,ATM,6064.0,"{'latitude': 41.38546888771566, 'longitude': 32.07385004268636}"
-ca5f0596-79b1-4093-887d-3dd099c41740,completed,personal expense,ATM,4219.21,"{'latitude': 35.904027077756695, 'longitude': 44.058264856711475}"
-7b66679d-6503-461b-9955-72a11a28cd23,completed,payment,Bank,4158.69,"{'latitude': 43.47329893161097, 'longitude': -16.09242194349045}"
-e4f1e71b-e483-4991-97d4-9fbcf5066eb9,completed,investment,ATM,167.25,"{'latitude': 78.62766697827044, 'longitude': -53.02473625525673}"
-692b9678-cad7-4053-99c6-256e4484fa80,completed,other,ATM,47.74,"{'latitude': 44.204211847571855, 'longitude': -51.03975372204221}"
-272237f2-feb5-41b9-8781-75987b3e1093,pending,personal expense,Bank,20245.41,"{'latitude': -36.94306063984392, 'longitude': 49.0513973826786}"
-758d56a4-c2de-4967-ade6-70099b8c7049,pending,investment,ATM,13190.88,"{'latitude': -50.185906004804956, 'longitude': -60.07527070621704}"
-b73d1735-75c2-446f-866d-f519e4bd05f9,completed,personal expense,ATM,18809.35,"{'latitude': -58.9952332669108, 'longitude': -44.645397126193615}"
-b414a44a-9a41-4285-8bb4-617a9e7e0ce8,completed,investment,Bank,5069.79,"{'latitude': -64.81271341791839, 'longitude': -84.29173792808288}"
-24476448-c387-464b-9fe8-673b81ffca49,completed,other,ATM,501.6,"{'latitude': -64.8479678587749, 'longitude': 131.89913938997563}"
-6f1cbcf0-bb27-4548-a7e3-50af8afdaa5e,completed,personal expense,Bank,7982.31,"{'latitude': 56.680112404455, 'longitude': 52.84544169674314}"
-d481064d-c87a-4a06-8796-63610f344d29,completed,investment,ATM,3658.57,"{'latitude': -34.520717049764976, 'longitude': -8.552134725524098}"
-06108af6-87aa-4471-bae8-f115ff8fc527,completed,investment,ATM,17298.1,"{'latitude': -3.207796290281877, 'longitude': 46.563436467244514}"
-621ae791-5323-4751-92aa-19fc58efcaab,completed,payment,ATM,1705.06,"{'latitude': 0.29281953711694086, 'longitude': 75.28259607513576}"
-634d30b9-b547-4483-ba42-a2eb2a90df37,completed,personal expense,Bank,2063.6,"{'latitude': 12.745764527381027, 'longitude': 164.6051654425765}"
-45a4e79d-ee12-466c-947a-b07fdd64c020,completed,investment,ATM,923.77,"{'latitude': 41.6896707482573, 'longitude': -152.2758018831825}"
-c42fb35b-7831-47b1-a22a-2c25cba66eb6,completed,other,ATM,8659.35,"{'latitude': 66.63048111897498, 'longitude': 38.23358883259391}"
-557160ef-d359-488a-a0af-19f078f18fa1,completed,investment,ATM,18459.98,"{'latitude': -6.459216254324062, 'longitude': -78.51135736698028}"
-ec2cce6e-fcf2-423b-bc30-b85e500a5b32,pending,other,Bank,1149.62,"{'latitude': 14.618201046428041, 'longitude': 109.32525385234129}"
-d1388b2b-ef96-4f80-9f1e-4aab0b3266c9,pending,investment,ATM,10757.77,"{'latitude': 20.6355650058931, 'longitude': -155.3261519523351}"
-210f57bd-5ea3-40b5-b194-700bc555c69d,completed,payment,ATM,1488.98,"{'latitude': 60.2122096829616, 'longitude': -178.99147458580933}"
-ce6b69d6-c9c1-4141-b074-b974e3cdbe8e,pending,investment,Bank,1394.35,"{'latitude': 82.401063357661, 'longitude': -19.494372823663326}"
-db0a082a-fdbb-4fb5-81c5-9d97a8fb4eb3,completed,personal expense,Bank,1421.42,"{'latitude': 87.26248556015662, 'longitude': 135.1216616035735}"
-b7a58627-8134-4080-ae56-43ec61dd080d,failed,personal expense,ATM,206.5,"{'latitude': -78.42742403097252, 'longitude': 160.12351926875385}"
-c3bd96fe-0317-4fe1-a8a8-b04b7e500277,completed,payment,ATM,191.95,"{'latitude': 61.39587066480604, 'longitude': 3.341237534810091}"
-14acb1af-8527-45eb-9c92-e88bb18d6efd,failed,personal expense,ATM,8.43,"{'latitude': 67.03137677756933, 'longitude': -179.97871033829222}"
-e67389bc-e225-4e5a-a696-78ad26066a3e,completed,payment,Bank,1.53,"{'latitude': -53.03539242075481, 'longitude': -86.8697532117042}"
-f85ba97a-33d9-48dc-81be-f67911050cfc,completed,payment,Bank,6887.96,"{'latitude': -21.130694521462814, 'longitude': -84.07009213666889}"
-93c370fb-c495-4c1e-9c31-1325323088ea,completed,payment,Bank,6066.69,"{'latitude': -46.77173810071172, 'longitude': -128.64936331322542}"
-d176abf4-1e1c-487c-a025-a867caead1d5,pending,personal expense,Bank,661.11,"{'latitude': -37.708303431726776, 'longitude': -106.99027354536939}"
-26be4c1d-a8a8-4b8b-b3cc-059ad0a047d3,completed,personal expense,Bank,8064.66,"{'latitude': -34.98317756236032, 'longitude': -148.471634915128}"
-44f0ef4c-33a7-49f0-84af-8f809ca15fc4,pending,other,Bank,28394.65,"{'latitude': 81.55698416296013, 'longitude': 64.20393960379232}"
-55648be6-28ab-4b1d-a416-b685a4bb366b,completed,personal expense,Bank,7219.71,"{'latitude': -23.906655451360848, 'longitude': 176.91879186373353}"
-ef85cb83-c4a6-40f5-848e-9f3123fdbb8a,pending,other,ATM,10041.47,"{'latitude': -71.72839993028944, 'longitude': 142.49909510552823}"
-2b38fc66-2d93-489d-9e69-3366a6337397,completed,investment,ATM,3877.08,"{'latitude': -54.36327736531918, 'longitude': -89.87254731529744}"
-16c6e829-7d39-4254-9de1-a245bc3102c0,completed,personal expense,ATM,1585.2,"{'latitude': -38.95982121552038, 'longitude': 16.239986834626393}"
-65b4fd15-3e31-473f-b27b-8fa847f7ee8c,completed,investment,Bank,18.3,"{'latitude': -77.03172349057616, 'longitude': -162.9886407691595}"
-81c2f04d-5b01-49ba-b859-2acd8e75c403,completed,payment,ATM,1172.33,"{'latitude': -13.42656920735763, 'longitude': -27.523251572796283}"
-1274953e-13fc-446b-9af8-a216e7d7700c,pending,investment,ATM,232.45,"{'latitude': 27.696784882434088, 'longitude': -130.10199884628489}"
-c4726597-6075-4351-9b50-7ae7477dbcd5,completed,personal expense,ATM,1668.66,"{'latitude': 11.407917092789162, 'longitude': 162.96846419513548}"
-3598e9da-8e7d-4888-8f18-1baca5a22753,completed,other,Bank,1517.27,"{'latitude': 3.7221498899238554, 'longitude': 16.341996260696277}"
-03eef351-f10b-4e37-bda7-44044a48f402,completed,personal expense,ATM,5868.12,"{'latitude': -5.17862095331634, 'longitude': 66.92142573577289}"
-48a82664-dce8-40b9-8988-136804da22f8,completed,personal expense,ATM,4824.82,"{'latitude': -53.953788235018436, 'longitude': -139.4913039265513}"
-45091df0-7582-4e40-afdd-c2a860320c57,completed,investment,ATM,1289.75,"{'latitude': 20.899824065370467, 'longitude': -79.63990721564612}"
-b55fc552-541f-498b-a8a7-7b91c375815a,completed,investment,Bank,2036.73,"{'latitude': -23.23142610594948, 'longitude': -38.34989444881336}"
-49a6ef24-bb6d-4dd2-bb41-2723239854be,pending,personal expense,Bank,170.24,"{'latitude': -60.44415678648156, 'longitude': -45.36434819328798}"
-20d5aa94-a2f3-496a-ba7d-9887db488ad7,completed,investment,Bank,8527.12,"{'latitude': -8.453818998315967, 'longitude': 176.65696057025207}"
-415ae868-a422-4f8b-a0be-09c7d55a1e4b,completed,personal expense,ATM,5827.15,"{'latitude': -50.44405729630092, 'longitude': 170.36698477895476}"
-da3c1287-64c5-4de0-824d-195a88587d11,completed,investment,Bank,289.02,"{'latitude': -9.467290632434512, 'longitude': -20.500940603414676}"
-06f489ad-fc0c-41c9-a9a2-ef47842d2514,completed,personal expense,ATM,126.43,"{'latitude': -35.002936922857906, 'longitude': 173.11046828408985}"
-891e9829-c80d-4f57-81a1-ce8a85dfbda4,completed,personal expense,ATM,28.79,"{'latitude': -58.61819658455768, 'longitude': -138.32736125503828}"
-30f1b3cf-b5cd-4689-890e-1373babb74bf,completed,investment,ATM,23670.72,"{'latitude': -70.46117491076035, 'longitude': -138.70807317408102}"
-6990de2d-de26-4935-a20c-736af257dd9c,completed,payment,ATM,7410.79,"{'latitude': 23.93093793263202, 'longitude': -17.43514293622073}"
-2af9a6f0-8455-4f99-a173-b15ca1b4018f,pending,other,Bank,1918.54,"{'latitude': -54.67256443337074, 'longitude': 8.859315529883219}"
-aff44130-a6b2-4f0d-99b6-64f7e4df50e7,completed,other,Bank,529.89,"{'latitude': -54.25880714073253, 'longitude': 39.57443743210192}"
-5ad40a65-0280-489f-8683-9d9385bc80ef,completed,personal expense,ATM,5151.64,"{'latitude': -57.38396522867302, 'longitude': 28.800029692963676}"
-30f11847-7df1-4b2d-a181-f7059d683539,pending,other,ATM,30355.92,"{'latitude': 80.34924776848638, 'longitude': 40.166371438102146}"
-f135f249-f8bf-4054-893f-44302198729b,pending,payment,Bank,29884.28,"{'latitude': -53.27241229903553, 'longitude': 124.36328834846586}"
-a9eaffe6-6fda-4076-8d97-0356d3a91dfb,pending,payment,Bank,21472.36,"{'latitude': -47.50872955240107, 'longitude': -87.49326539094247}"
-52834ad2-fe2c-43c8-a93d-ddfeed6e2d26,completed,payment,ATM,18007.24,"{'latitude': -59.428692090699904, 'longitude': 1.6058472500310188}"
-5e1fbd67-da01-4038-975c-60bce80b2f99,pending,investment,ATM,219.35,"{'latitude': 55.29810170822563, 'longitude': -147.29975445574135}"
-245aca71-7d41-41ea-a621-60230da076cc,completed,other,ATM,623.1,"{'latitude': 8.82507819642278, 'longitude': 0.3258673823871163}"
-a791b650-2875-4b79-86e2-14f8b10a1777,completed,investment,ATM,4847.96,"{'latitude': -78.27267072340943, 'longitude': 92.0023262069318}"
-87e1287f-c319-4a2d-b696-5aa485a33ed9,completed,payment,ATM,7839.16,"{'latitude': 50.880920152414035, 'longitude': 137.57256621553034}"
-79e4f7e9-75ff-466f-b613-2520cfb0ca31,completed,other,Bank,5331.31,"{'latitude': -11.547039795121023, 'longitude': -78.95730082065354}"
-ba871414-0fef-4824-bf41-667cafbde09e,pending,payment,ATM,1075.13,"{'latitude': -61.37028388509924, 'longitude': -62.31878832975238}"
-e9e2aa2c-fe2a-425f-a02d-fdc4dd4bb947,completed,payment,Bank,728.83,"{'latitude': -44.163679540860976, 'longitude': 63.3728680064811}"
-2cb961b0-35e1-40a7-9564-74f094426a5e,pending,investment,Bank,879.07,"{'latitude': 6.065260729619993, 'longitude': 48.220861815200834}"
-58f9fb4a-8f50-4904-8157-2d2d91b086c5,pending,other,Bank,437.76,"{'latitude': -4.037798148316952, 'longitude': 102.6855362804393}"
-4bad299b-dc24-436e-8d8f-1cf25db92e54,completed,investment,ATM,2611.17,"{'latitude': 74.79612018830525, 'longitude': 179.89086137437187}"
-c087a55c-0488-4a43-a439-c83ce45b33dd,completed,personal expense,Bank,1954.66,"{'latitude': -86.27658117037987, 'longitude': 33.55029233885037}"
-6ac2a77d-2bef-473c-9260-4ae9ad2f63c6,completed,investment,Bank,2178.9,"{'latitude': 84.20951300974716, 'longitude': -101.78132970674794}"
-c0e96d63-bb80-4979-8726-d2ffef057a21,completed,investment,ATM,11.07,"{'latitude': -85.31393725358845, 'longitude': -172.3423245814285}"
-48269cec-d077-4b49-a3d5-3bcc5170bff8,pending,investment,ATM,1.75,"{'latitude': -66.6022155650251, 'longitude': 168.86065767935912}"
-9514ddbf-fed2-4737-87e8-4d19d4c47385,completed,other,ATM,1339.01,"{'latitude': 12.704277594239173, 'longitude': -29.520847566815235}"
-51330131-4be1-4fbf-8677-0f28dc385685,completed,personal expense,ATM,1688.82,"{'latitude': -61.3051110806743, 'longitude': -123.41057590593203}"
-930fe6e4-fb27-49da-ae5a-7e3fbf19654f,completed,investment,ATM,444.64,"{'latitude': 17.463740815115642, 'longitude': -75.16423651252924}"
-91504489-b48a-4e66-8c15-b8c5eae402bc,pending,other,Bank,223.95,"{'latitude': -18.329340795837524, 'longitude': 12.230467825708757}"
-6264e9a0-8bf0-4879-9f32-28152fb9cbec,pending,personal expense,ATM,399.49,"{'latitude': 78.07134018395172, 'longitude': 37.04889447283435}"
-e1d57294-ad14-4fab-8fe5-ac9e0eba06f0,pending,other,Bank,171.08,"{'latitude': 67.88319352972931, 'longitude': 43.392527508937974}"
-4207b8a0-043d-4502-a81a-3e9dcd6e562f,pending,payment,Bank,19027.82,"{'latitude': 1.043312946894872, 'longitude': 108.78478223380182}"
-2f91657e-dd42-4123-89c2-f7cf99aacbf6,completed,personal expense,ATM,35522.27,"{'latitude': 26.495815248898367, 'longitude': 104.89118887178194}"
-d565b515-5ff7-4ba8-91db-1289dfada3c9,completed,other,ATM,4722.42,"{'latitude': -24.57985574335663, 'longitude': -73.0331373137805}"
-d846dfce-442c-4b5a-9673-12c320e247dd,completed,payment,Bank,4.96,"{'latitude': 66.7365733060694, 'longitude': 20.35131539110469}"
-d13ae598-6abc-47fa-afb4-1aa4302164b7,pending,other,ATM,4904.43,"{'latitude': 38.55511334509916, 'longitude': 103.64962758480164}"
-df6f1026-1072-44cb-8a6b-9a219407b1c9,completed,investment,ATM,6680.45,"{'latitude': 77.05322418499895, 'longitude': 159.00122884101006}"
-1a6bf2a3-e986-4be2-ad69-b7b5f7262b0d,completed,investment,Bank,4860.09,"{'latitude': 13.419827540068297, 'longitude': -169.28829971073387}"
-6648a771-d4fd-4f32-a2ee-82fe3ae60bed,pending,investment,ATM,3118.23,"{'latitude': -53.196210486066335, 'longitude': 21.473764888285245}"
-ece0f7e1-ac38-425d-b1a0-e52118d78eb1,pending,personal expense,ATM,7248.04,"{'latitude': 77.27918894629468, 'longitude': 22.292742306567078}"
-580c5f23-6675-44fe-bc83-cf175e8c737e,pending,personal expense,ATM,5821.04,"{'latitude': 67.28919697848133, 'longitude': -109.87716007192216}"
-32664dcf-fe05-4c3d-ac0f-c746ccd1805f,completed,investment,ATM,13120.86,"{'latitude': -45.01136006866068, 'longitude': 44.01563772615103}"
-128902a0-6c83-44ba-b88c-7337eeeb10f7,completed,investment,Bank,5820.89,"{'latitude': 30.064936135116653, 'longitude': 21.62573034129076}"
-705d8232-52c4-4519-afc3-2ba81a7bb86f,completed,investment,Bank,94.57,"{'latitude': -8.663460909958843, 'longitude': 73.76283023195481}"
-ba27a5c0-e096-475c-9824-43f012ff90ae,pending,other,Bank,1199.01,"{'latitude': -47.04635365469207, 'longitude': -152.47260781790064}"
-9e30b64f-aa9a-406e-b94e-807b8d0b1c44,pending,payment,ATM,27869.19,"{'latitude': -27.410912932964337, 'longitude': 83.41081811631756}"
-3910170f-02de-4e24-9ef0-8478235fe87a,completed,investment,Bank,36016.78,"{'latitude': -9.62327895566041, 'longitude': 126.97080168273453}"
-d32b7fc6-371c-4e37-aa35-6f58c7d7ad5e,completed,personal expense,ATM,28198.29,"{'latitude': -71.75427844472007, 'longitude': 39.40550897154898}"
-7477ae1a-54d0-4d32-84c9-790a8baa7d5b,completed,personal expense,Bank,9013.81,"{'latitude': -57.644817334396286, 'longitude': -85.66631306123293}"
-b300017e-85fe-4f64-941d-b954aceb76a0,completed,other,Bank,204.5,"{'latitude': 83.14501426990824, 'longitude': 3.1096159176543097}"
-bd8d48b7-a71d-4f5b-8ff3-2eac6a0509f6,pending,other,ATM,452.2,"{'latitude': -83.79234379260669, 'longitude': -94.9141118544729}"
-2496724d-93d7-4ab0-9130-3fc5870aec63,completed,personal expense,ATM,410.78,"{'latitude': 46.82008026837855, 'longitude': -63.411922564351585}"
-d1e8e830-749c-4122-8b65-c7c9e2a8efae,pending,payment,ATM,20177.05,"{'latitude': -9.02083203961729, 'longitude': 80.80718828169546}"
-7b046700-c6be-41d3-b5a2-1c2886d5120b,pending,other,ATM,23127.7,"{'latitude': -10.5718949855479, 'longitude': 34.08883466975993}"
-488ed798-4a8a-4c3d-87b5-a8289e0697eb,completed,investment,Bank,5260.67,"{'latitude': 31.74055291604725, 'longitude': -135.00385221678732}"
-516c1720-c7d3-4590-8b05-bb4cb3f944e8,completed,other,Bank,7915.62,"{'latitude': -66.98339617897935, 'longitude': 1.3383897985756334}"
-762f0b97-3e70-4b3c-b31b-5e02138ff438,completed,personal expense,ATM,8240.67,"{'latitude': -44.01241344953825, 'longitude': 116.73417315811184}"
-8a0d297f-4d9f-4668-9a17-ec1484c36a0e,completed,investment,Bank,5468.71,"{'latitude': -60.769597220313855, 'longitude': -7.778628396740203}"
-be8b58fc-a653-4ed4-bfb8-748c08d1b81f,pending,personal expense,ATM,1424.74,"{'latitude': -29.256321317881635, 'longitude': 160.70481097073196}"
-22ad8384-d6e0-4bed-bc46-7aabac8e07cf,pending,personal expense,Bank,11331.42,"{'latitude': -56.88535115810398, 'longitude': 169.85646179328478}"
-a2ba913c-53fa-4bd9-9666-46d702b4de7d,completed,personal expense,Bank,6701.36,"{'latitude': 62.56241039707584, 'longitude': -23.86901548175601}"
-7dcc83fd-1267-4609-958c-9c401651f459,completed,personal expense,Bank,9687.65,"{'latitude': -45.93616662120321, 'longitude': -141.99565788630818}"
-49777e00-ec46-4604-8c52-839542aaf1a7,completed,personal expense,ATM,179.42,"{'latitude': -55.5198007948967, 'longitude': 141.34827043365817}"
-1641ab25-2a4d-4807-ad41-44fd7e570ea3,pending,investment,ATM,5306.82,"{'latitude': 13.673952621612457, 'longitude': 113.77691341068606}"
-d2ec3c9b-82af-4730-abf0-b1fab0db15bb,pending,investment,ATM,8989.9,"{'latitude': 87.20834010385997, 'longitude': 115.97983527916199}"
-85673e81-94db-41fd-b9a9-69c3a17bd037,completed,investment,Bank,123.68,"{'latitude': 60.174450975020164, 'longitude': 128.49670300744413}"
-e5a027a3-93dc-4e3c-9472-9d154b75c11e,completed,payment,ATM,19732.74,"{'latitude': 32.94451342996841, 'longitude': -36.93958283829423}"
-0ae19ec0-6cbe-4b06-9ee7-b5da54d98957,pending,payment,Bank,27786.94,"{'latitude': 85.96193854418001, 'longitude': -7.718923315991589}"
-7a91dddb-6be2-443e-8b40-f1d59b661821,completed,other,ATM,29084.97,"{'latitude': -19.474666774449318, 'longitude': -125.7881438017705}"
-3a5e4c9c-1f8a-483c-a461-639341b93b67,completed,investment,ATM,2763.8,"{'latitude': -22.578831517568133, 'longitude': -32.00355972978136}"
-d21237b0-3147-451b-b73a-fecf75533835,completed,other,ATM,43.69,"{'latitude': 34.1445963647604, 'longitude': -9.081495284180676}"
-6c6bdab2-660d-4b7a-a6af-9a0355c1eb32,pending,payment,ATM,20963.12,"{'latitude': -70.5322568251041, 'longitude': 109.88073845542806}"
-0a1c447f-c0f6-4c6c-ba39-d1e167cc3d2e,completed,payment,ATM,9890.11,"{'latitude': 25.027758649509096, 'longitude': 23.58905968130884}"
-44099bc1-dec2-46de-ab63-1c4bb011295e,completed,other,ATM,8325.19,"{'latitude': 81.73056615750045, 'longitude': 173.1827233979929}"
-91aef51e-fd56-4d55-b199-1cf2a681b296,pending,payment,Bank,25.15,"{'latitude': -30.542952038374104, 'longitude': -59.13091302409073}"
-cbc04b7c-3e7b-4e5e-ba45-7a8720dc4120,completed,investment,ATM,24179.71,"{'latitude': 70.72028306807417, 'longitude': -16.39368402660139}"
-d2662d23-e89b-4381-8d73-3f6c91213a95,pending,other,Bank,4954.71,"{'latitude': -83.25678895891558, 'longitude': 126.89064054497982}"
-bcc7cb94-cbfd-4d61-9879-2575566fadc4,pending,other,ATM,3117.43,"{'latitude': 13.881846532411572, 'longitude': 96.46301672756641}"
-58665642-20b7-40ca-9c50-0656a518a6d8,completed,investment,ATM,4743.64,"{'latitude': 60.43598250041879, 'longitude': -16.17442939698924}"
-c1247ed3-40a2-4801-9e5a-ccf66c38618f,completed,payment,Bank,1045.2,"{'latitude': -37.00687569624155, 'longitude': -9.645530227385393}"
-20d9e78b-fc1c-4125-88c7-276f34537b3d,completed,investment,Bank,109.47,"{'latitude': 21.86178255040565, 'longitude': 120.03374635101204}"
-17fa23fa-e1e5-495c-990c-e121ab76444d,pending,payment,Bank,32504.27,"{'latitude': 28.932892588779026, 'longitude': -69.5407111537921}"
-c048e22b-074f-4378-9421-3eb34049797e,completed,personal expense,ATM,9645.98,"{'latitude': 1.500962631244093, 'longitude': 102.68813620176388}"
-be5d6e47-f130-407c-90d7-f9063b75ca98,pending,payment,ATM,5959.72,"{'latitude': -79.78809697531318, 'longitude': -129.41550153488902}"
-3f4fc2ac-f7ac-4df6-94de-20651feff4c7,pending,payment,Bank,23232.09,"{'latitude': -14.769214262820014, 'longitude': 42.92596820236008}"
-4929af4b-e773-42bb-95f4-711e902f5ec4,completed,other,Bank,5939.03,"{'latitude': 2.015850422411077, 'longitude': -5.320051120439189}"
-2cbd4f3a-81e2-4cc5-b975-268922b547f1,completed,personal expense,Bank,6075.55,"{'latitude': -53.426998639249, 'longitude': 54.7656409661669}"
-c8bf206a-050a-4183-a21e-70b58f73c43a,completed,investment,Bank,7999.67,"{'latitude': -86.47543496910934, 'longitude': -64.66433785270301}"
-4ab4aa8d-5355-4dfe-91e3-51d8028678af,pending,personal expense,ATM,17918.24,"{'latitude': 11.663647256120143, 'longitude': -144.30383858091778}"
-2dc417cc-ad10-425b-8e26-00c525f56618,completed,personal expense,Bank,22022.47,"{'latitude': 29.778528548918814, 'longitude': -41.444953565107994}"
-d85a886f-16f6-450f-ae25-61acade076f8,pending,personal expense,Bank,1233.28,"{'latitude': -54.764727193632105, 'longitude': 84.71162320284526}"
-552ec2bd-476e-4452-a8c3-4ceb3c6d139c,completed,investment,Bank,824.72,"{'latitude': -53.175107912842, 'longitude': 104.58471777300929}"
-46810ee2-e13a-471b-9fe8-8805a85022b9,pending,payment,ATM,990.95,"{'latitude': 47.0201668806709, 'longitude': -118.72221327685185}"
-de7d6163-3e32-4859-a9f8-d4256bbcee28,completed,investment,ATM,22098.22,"{'latitude': 5.613296988650021, 'longitude': -41.56113538312772}"
-a0da9672-b72c-4e01-bc73-105b392b6379,completed,other,Bank,351.2,"{'latitude': -62.00076062559523, 'longitude': 164.82360110985235}"
-690e5045-2eb4-4163-958d-9d4bef938a08,pending,personal expense,ATM,4594.07,"{'latitude': -16.633177597073256, 'longitude': -119.47745751242553}"
-bddc8ae3-7849-422b-94d2-298308116102,pending,payment,ATM,41405.04,"{'latitude': 66.68636489199602, 'longitude': 112.44336143187587}"
-d2c01567-6b08-4fb9-9801-f5cce7a1ce2f,completed,other,Bank,3588.04,"{'latitude': -16.680533159449425, 'longitude': 170.2104668546615}"
-0ad6e41f-5f4c-46e3-8bea-d1f670a19a58,pending,payment,Bank,653.98,"{'latitude': -55.899764019884095, 'longitude': 104.4614160744091}"
-e08eef15-1f6c-4bd0-a8bb-6a4db56c039f,completed,other,ATM,239.0,"{'latitude': -71.61519727954432, 'longitude': 39.07062540907782}"
-45f13818-ca6d-452d-a9d0-57bc6126ee2b,completed,personal expense,Bank,24450.81,"{'latitude': -73.45260689834848, 'longitude': -8.444867231759702}"
-d65fea9f-ae9f-4a07-9ad9-64c816224753,completed,investment,Bank,13890.96,"{'latitude': 38.67516378977942, 'longitude': 1.2924092705532644}"
-f21e295f-3525-4f25-a7d1-aa20c8706378,completed,personal expense,Bank,10142.52,"{'latitude': -24.093100286758826, 'longitude': -39.05440507827379}"
-32813166-481c-483b-9f37-c91629239c05,completed,payment,ATM,12441.43,"{'latitude': -39.3265729212511, 'longitude': -173.89252972422068}"
-2532f5d2-a78b-476c-bc96-e2a909d71fe0,pending,personal expense,ATM,139.36,"{'latitude': 7.849947199633576, 'longitude': 22.931404778830228}"
-06383749-665d-4ffc-b8ee-a6a6e63cf43f,pending,other,Bank,15362.3,"{'latitude': 67.36067407906322, 'longitude': 99.08689759883015}"
-39f881d9-60b4-4732-8aba-e0bda9ae14f1,completed,personal expense,Bank,19658.37,"{'latitude': 38.069469975073474, 'longitude': -91.1659321330649}"
-b2e6ba2e-1144-440b-86a8-2c048ca37041,pending,personal expense,Bank,34258.18,"{'latitude': -42.95819969519505, 'longitude': -30.51324050221868}"
-612e3b98-4bee-4e21-b531-dd2ae30107f3,completed,personal expense,ATM,679.78,"{'latitude': 84.89260923462459, 'longitude': 57.73151437011501}"
-ead5b673-6a5b-451e-b4a5-b303c14887ad,completed,other,Bank,15885.07,"{'latitude': -50.14157823259203, 'longitude': 57.88306345124104}"
-17d2686c-37d6-476f-afff-bed17eeaeefb,completed,other,Bank,909.96,"{'latitude': -74.55364343659498, 'longitude': 172.4866455557862}"
-aecc46ac-b8d7-4a6e-a391-2aceaa673d8d,pending,personal expense,ATM,7167.78,"{'latitude': -53.846734935386905, 'longitude': 73.49865230257251}"
-447219c8-a728-42d4-997d-799b5d2984ee,pending,personal expense,Bank,29580.59,"{'latitude': -87.56564734278405, 'longitude': -22.253364085436033}"
-37afa16a-99d4-4c27-b0fa-ed26d0bcb247,completed,payment,ATM,11271.5,"{'latitude': 4.350906660121268, 'longitude': 16.097441282951706}"
-b55a1898-fd4f-4555-8573-9bbd347e05ca,completed,personal expense,ATM,8138.84,"{'latitude': -25.636131512611115, 'longitude': -56.97329544007263}"
-1d774046-f8d9-4bc2-80f0-29f27d45de48,pending,other,Bank,1272.22,"{'latitude': -86.90708179726767, 'longitude': -66.16841463018753}"
-ae952677-bd85-48ed-b9e4-461e62e6a21b,completed,personal expense,Bank,3878.53,"{'latitude': -38.70585234350944, 'longitude': 80.86324322441408}"
-c94d01c3-c515-423e-b33b-6b79ce1afabd,completed,other,Bank,9032.89,"{'latitude': -36.3911929369403, 'longitude': -147.1544700954978}"
-ddd8e5fc-7fea-4014-9652-d244f93dd51f,pending,personal expense,Bank,1888.74,"{'latitude': -24.163664313168397, 'longitude': 171.15448024304857}"
-21ccf463-6e52-45e7-83a9-4c51dfa07ca2,pending,investment,Bank,1619.53,"{'latitude': 33.20764384915702, 'longitude': -40.218793659666034}"
-2a608d19-4712-475e-a4eb-d2aff7717bc5,completed,other,Bank,1616.57,"{'latitude': -13.541486477008533, 'longitude': -140.8933616058809}"
-939069e4-b014-4d6c-b333-0cdf9f075971,completed,investment,ATM,323.32,"{'latitude': 79.33809345491025, 'longitude': -42.655717022184774}"
-431bf1df-e4fa-47f2-9cf8-51820e80774b,completed,payment,ATM,15166.01,"{'latitude': 45.79878799422377, 'longitude': 32.3530148273683}"
-1ea761f0-2016-4c22-8a92-4cd0788b1063,completed,other,ATM,12996.91,"{'latitude': -26.28018717942986, 'longitude': -45.05965423700164}"
-e9d5b8b4-acc8-4953-976e-609a521fb1a0,pending,other,ATM,7844.6,"{'latitude': 50.8786676770429, 'longitude': 166.4529207595054}"
-b9556f43-6f36-4123-829f-fbfa567ac67a,completed,payment,ATM,4977.04,"{'latitude': -29.08621095645698, 'longitude': -76.32621334348914}"
-aaa5b3dd-930d-45b2-9005-08aa450eb900,completed,payment,ATM,15780.76,"{'latitude': -52.295577786125435, 'longitude': -27.351951806619837}"
-90cc96f8-51ac-4b9d-a952-b1ee9f8a9e53,pending,personal expense,Bank,2998.51,"{'latitude': 58.4518310758599, 'longitude': -42.9003834791005}"
-27093c15-c1b9-47a2-a5e1-eda6a01882bb,completed,investment,ATM,19187.53,"{'latitude': -84.17818440246432, 'longitude': 41.464165663249304}"
-e43b1014-3c17-4be4-b7ce-cc4e5674e187,completed,other,ATM,18630.65,"{'latitude': 88.45592797297368, 'longitude': -50.25349225292865}"
-8b59ddd5-26af-4e8a-a1f0-090a1d9f2259,pending,investment,ATM,8174.64,"{'latitude': -13.235853476377343, 'longitude': -33.42844559009015}"
-0118b1a0-db5a-4fa8-91f0-1c695ca91bff,pending,personal expense,Bank,4546.33,"{'latitude': -9.224178575917932, 'longitude': -105.87149844768479}"
-b32023cd-47ef-43a6-951f-b6f21ee7be42,pending,investment,Bank,10382.95,"{'latitude': -31.334666250635244, 'longitude': 25.6325588369792}"
-a92f0b56-9902-474f-8401-4312cd72b957,pending,personal expense,Bank,1848.37,"{'latitude': 77.4944888247675, 'longitude': -134.39684275998312}"
-97abe0fc-fde7-4526-82a2-c57751858b99,completed,payment,ATM,22490.89,"{'latitude': -46.45286546115986, 'longitude': -153.08945471328863}"
-3ca7fcb8-61fd-4c64-a240-d14ced2cd436,completed,other,Bank,7076.98,"{'latitude': -60.45566405569916, 'longitude': -110.76123091740104}"
-98e393a3-7935-4fe8-8226-09cb78f3b532,completed,payment,Bank,5723.67,"{'latitude': 44.33111508361105, 'longitude': -107.75453722809502}"
-0798fd28-4a63-4ce8-a2d2-2411d2f94d82,completed,other,ATM,1429.97,"{'latitude': 47.889473525593445, 'longitude': -52.492471562555366}"
-f606981c-bdb1-4fa0-a5e8-33364ac20b42,pending,personal expense,Bank,6222.11,"{'latitude': -33.58845414311313, 'longitude': -84.77147099368261}"
-d14d1541-6621-41eb-961a-6a7445e492f5,completed,payment,ATM,7908.45,"{'latitude': -15.59993959589228, 'longitude': 144.06194234039015}"
-db1ef121-37dc-4be0-93be-7396c082eea8,completed,investment,ATM,15648.05,"{'latitude': 59.55445797540028, 'longitude': -52.55551363527873}"
-4895fc3f-6486-4846-aedb-6e381fcab489,pending,personal expense,Bank,442.79,"{'latitude': 86.67308534786827, 'longitude': -23.91188794735345}"
-b4a4f3d4-4202-4e86-9955-5ba539080557,completed,investment,Bank,10560.57,"{'latitude': 15.747821857097804, 'longitude': 111.1546516209994}"
-f1174a0e-a068-44ad-99d2-12878782923e,completed,investment,Bank,628.81,"{'latitude': 28.03965534540518, 'longitude': 29.024489274499444}"
-91fdb254-0da6-4871-b20e-c2df7d0a3431,completed,payment,ATM,1953.88,"{'latitude': -28.233550985583868, 'longitude': 117.98470139237384}"
-e17fe548-5b6a-4e7a-908c-73a62cb2bc60,completed,investment,ATM,1084.64,"{'latitude': -58.59526249402023, 'longitude': -21.929034112526892}"
-bdd7ead0-8ede-4fb8-8363-6ca844023c7e,completed,investment,Bank,612.37,"{'latitude': 29.24495427831802, 'longitude': 17.65904637731964}"
-31245663-5166-4c85-a44e-de04615f9e78,completed,other,Bank,94.73,"{'latitude': 60.580750259703336, 'longitude': 174.39875065080395}"
-69f50c9d-c6de-47e1-ba03-dbeec7e3dc0c,completed,payment,ATM,15657.55,"{'latitude': 18.6685676922084, 'longitude': 18.748202159994378}"
-0b7663a3-af7d-4652-bb99-dd1e7e321d9f,pending,payment,Bank,6699.27,"{'latitude': 66.96980135035352, 'longitude': -124.11607605962064}"
-52aae8ff-cc4f-4ed0-ac71-2d37bc774693,completed,other,Bank,2410.31,"{'latitude': -85.04587498775936, 'longitude': 174.10878741558304}"
-5bf6426e-dd96-404b-8d3e-f2b16ce28ba3,completed,payment,Bank,197.75,"{'latitude': -4.417308708401961, 'longitude': 57.43392319076915}"
-b4d8cc77-552f-4bc2-978f-b71c2c84ffad,completed,other,Bank,56.64,"{'latitude': -56.69042255153227, 'longitude': -94.3997514158866}"
-9ce5fca8-8caf-419a-a7ed-d3b72403b9d5,completed,personal expense,ATM,563.94,"{'latitude': 37.56201057013939, 'longitude': 90.74997340733228}"
-2e517678-a942-41da-ac62-e816c51e94ce,pending,investment,ATM,116.87,"{'latitude': -86.53716921653572, 'longitude': -154.73389777031122}"
-3b1745cd-5bc2-4941-96ff-3a0184a3af5a,pending,personal expense,Bank,1153.77,"{'latitude': 69.4445281769114, 'longitude': -171.3943297150019}"
-cb0d7b3e-42bb-45ed-932c-3bfd4145cbd8,pending,personal expense,ATM,6495.6,"{'latitude': 7.063725895486172, 'longitude': -83.62079100366326}"
-e0887b71-2cb2-4dca-8aad-69da81a63602,completed,payment,Bank,1579.34,"{'latitude': 77.70318400181401, 'longitude': -99.95280050048198}"
-b79297aa-647c-4866-b9d6-e564cbc1bd89,completed,investment,Bank,336.85,"{'latitude': 36.44583373937381, 'longitude': -159.89991824711385}"
-02676552-c6d2-4569-aa42-0ed25aa1b042,completed,investment,ATM,3599.94,"{'latitude': 31.030963893829366, 'longitude': 46.89840939087648}"
-1f656311-d5b6-4e2e-b50c-b776acbffe78,completed,personal expense,Bank,18289.45,"{'latitude': -83.90541282123142, 'longitude': -107.83769554660866}"
-418440b6-925e-403f-a1af-3387421d2e96,completed,payment,ATM,11480.3,"{'latitude': -67.08844018529206, 'longitude': 6.230744910318862}"
-63c170f6-adac-4c63-9ada-2e4842744a68,completed,personal expense,ATM,4375.01,"{'latitude': -31.475064016115155, 'longitude': 146.06159937957136}"
-0a9c8116-5de5-4db5-82b6-06077607eb8b,pending,investment,Bank,12158.18,"{'latitude': -29.53610911799599, 'longitude': -69.2283495954926}"
-72b5831f-712f-4fb7-92c0-06bb971c518b,pending,other,Bank,33111.43,"{'latitude': -62.79839713100417, 'longitude': 175.74441032842384}"
-6f8f50da-ad9b-448e-9a1d-ad49d1d77823,pending,investment,Bank,25849.79,"{'latitude': -28.11262454555427, 'longitude': 126.3031689127343}"
-ab6b6675-9798-44a6-a168-15b198e45d91,completed,payment,ATM,7125.18,"{'latitude': 54.42136250725861, 'longitude': -155.75135766107496}"
-519cf15c-37d7-4682-bbc2-e3cf0816b777,completed,other,Bank,19632.77,"{'latitude': 37.460371828725954, 'longitude': -91.86107798487281}"
-156e9405-74b6-4db5-aab5-985714ee3cce,completed,personal expense,Bank,2693.18,"{'latitude': 59.961751416546605, 'longitude': -145.29216843283743}"
-c4f3ae22-ed3d-43d0-bf54-eb15e6dd1af3,pending,other,ATM,8750.11,"{'latitude': -13.829469832641422, 'longitude': 155.81540503565168}"
-b4e90a40-0bbe-451b-a9f9-a359ed140f0e,completed,investment,ATM,7274.2,"{'latitude': -79.58927021666923, 'longitude': 61.967398820690306}"
-fa04a78e-7278-4a63-8cad-8c8a2bc86d6a,pending,other,Bank,25171.65,"{'latitude': -61.171564635140044, 'longitude': -166.97085351748694}"
-a9816383-9ad7-4575-af34-1cbdafe8c261,completed,investment,Bank,48831.98,"{'latitude': -85.26698196663459, 'longitude': 83.12926478336828}"
-71679305-48ee-41c5-8ae6-b1a344869e57,failed,personal expense,Bank,7.98,"{'latitude': 70.88351455755182, 'longitude': 166.8846060577663}"
-02973ace-f875-4d2f-ae0b-42c1f9bfccb5,pending,payment,ATM,10211.8,"{'latitude': -81.40053306902266, 'longitude': 13.741930420810917}"
-80b6ea65-f701-4628-97d0-974cb4de013b,completed,investment,ATM,7110.9,"{'latitude': -75.19826326356343, 'longitude': 147.91355568690187}"
-19757bde-141e-49b8-b330-24f7bb89cf02,completed,payment,Bank,94.63,"{'latitude': -64.42140098245736, 'longitude': -19.567321882626203}"
-b7118985-c37b-460e-a1ba-5808e9a715a2,failed,payment,ATM,7.35,"{'latitude': 43.88096974787777, 'longitude': 168.51440197624845}"
-27af1283-f908-4af0-afdd-29b7508bee79,failed,investment,Bank,4.45,"{'latitude': 78.31936028048631, 'longitude': 89.73738639413762}"
-d1c6b909-1aba-4859-924f-dd6b39bf6114,pending,payment,ATM,23271.07,"{'latitude': 11.736733778273745, 'longitude': 39.50607203059809}"
-7c159e46-769f-48e1-a940-ea380b520c82,completed,other,ATM,9528.46,"{'latitude': -5.416567902819693, 'longitude': 55.54619023210904}"
-a14cbee7-732e-41fd-956f-fb35c1496945,completed,other,ATM,827.91,"{'latitude': 84.95922441921775, 'longitude': 119.14451703130146}"
-745e5268-359d-4354-81ec-ee12e0446b6d,pending,investment,Bank,3459.75,"{'latitude': -62.068083740774, 'longitude': -119.34878071453012}"
-8afdbcb1-e517-4f36-800d-94d49221f88b,pending,investment,Bank,10041.81,"{'latitude': -10.935432667989872, 'longitude': -152.4483048451516}"
-4e6cf3df-0d14-4086-8379-3dd5aace1197,pending,personal expense,Bank,46383.79,"{'latitude': -5.9252928254085475, 'longitude': 29.912592670436652}"
-9795cc54-0be3-4d34-b5c0-b81c97b43678,completed,payment,Bank,13033.81,"{'latitude': -33.00795152667244, 'longitude': -150.74966414434908}"
-95d60f06-b13c-41a5-849d-49ede708018a,completed,investment,ATM,15988.44,"{'latitude': -84.63698238999483, 'longitude': -84.14151698942241}"
-c233133f-8b5f-4bf6-bd27-4419fd7d24f7,pending,investment,ATM,207.88,"{'latitude': 27.27462997464042, 'longitude': -65.15969348812737}"
-b5ceb2c7-8fae-4026-8c29-013df7efb5b7,completed,personal expense,Bank,17997.12,"{'latitude': -79.50590311356335, 'longitude': -11.787574988921762}"
-426e4241-199d-4aa5-a087-5e73a97239fc,completed,payment,Bank,9321.02,"{'latitude': -19.958791849428863, 'longitude': 31.068828482348295}"
-2b64150e-e0cc-44ea-9502-7b1e479bbc78,pending,personal expense,ATM,4903.95,"{'latitude': -71.90611015098942, 'longitude': 41.9295493406197}"
-4a315f6a-2bd3-4e5a-9010-c61c1abb8da7,completed,investment,ATM,7837.38,"{'latitude': 70.49664494098647, 'longitude': -126.5299742288172}"
-37d37b2e-2425-4791-8a5d-cc97d2704215,completed,personal expense,ATM,252.56,"{'latitude': 38.55165785483268, 'longitude': 19.218588665078528}"
-84cbbbff-d57c-40da-98cd-0a007701d235,pending,investment,ATM,2214.06,"{'latitude': -38.81306786212701, 'longitude': 37.48408779492877}"
-06767205-350f-4e63-bbbe-4715a65e94e4,pending,investment,ATM,2213.82,"{'latitude': 36.131021681824194, 'longitude': -72.47735475455715}"
-97d59e85-ca5b-46e6-ab5a-f2aef1552c4c,pending,investment,ATM,687.24,"{'latitude': 65.4102625406972, 'longitude': 8.171291514647066}"
-d07f2036-8809-4179-b767-b88b11147f81,completed,payment,ATM,10180.45,"{'latitude': -79.13379229236537, 'longitude': -7.942863918440253}"
-15d2ec61-8e58-413c-b656-25edc0dabd32,pending,personal expense,ATM,881.0,"{'latitude': 28.91952707632042, 'longitude': 2.9814185329702525}"
-4f1efb90-0bf4-49d6-8028-a5d30bcb8d19,pending,personal expense,ATM,275.11,"{'latitude': 68.03270772945353, 'longitude': -89.51186961925133}"
-fa162223-3728-4d96-8cb7-70048057e5e1,completed,investment,Bank,368.12,"{'latitude': 71.7835495338262, 'longitude': -95.97004501228704}"
-f9f6a53f-99aa-4e58-b1c1-75371758c0b3,pending,payment,ATM,3412.84,"{'latitude': 2.5866201748952875, 'longitude': 29.284867944023745}"
-e127070c-c3eb-4d72-be55-000d3869ac5f,pending,investment,Bank,7786.09,"{'latitude': 32.3340172550071, 'longitude': 37.99936483413205}"
-b613d136-f2f9-4900-b1c3-9bf19ddeb109,pending,investment,ATM,10041.08,"{'latitude': -53.934522709198, 'longitude': 63.294016617099004}"
-1c760b9f-935d-4d89-86ba-e28bf30bf7b6,completed,investment,Bank,4996.68,"{'latitude': 36.031591128631035, 'longitude': -7.20960984238161}"
-fb5c675e-7e6b-4a89-90cb-b435c16e9789,pending,personal expense,Bank,2842.95,"{'latitude': -59.98451553842985, 'longitude': -72.65912738148491}"
-5b16a5e2-4a63-4200-a35a-d7db5bcc2e46,completed,payment,Bank,4836.82,"{'latitude': -72.42083502431612, 'longitude': 120.02536205443442}"
-c26a66d0-ef3c-4a51-b162-09289fd2cb48,completed,personal expense,Bank,309.59,"{'latitude': -9.703954411818899, 'longitude': -147.68167963058875}"
-dbe9af93-7203-403c-be1c-f2cc7074ee46,completed,investment,ATM,2626.48,"{'latitude': 81.94577258994906, 'longitude': -39.56596274833757}"
-a0c6177f-6518-47b7-bb78-90faef68914f,completed,other,ATM,2928.67,"{'latitude': -53.619695946567745, 'longitude': 177.578537662236}"
-a46cbd12-be17-4de8-88ad-0d5fbb303e65,completed,payment,ATM,2069.83,"{'latitude': -34.22006975677839, 'longitude': 107.40190670379252}"
-6897c88c-ed59-4502-a371-5823c7a5a48f,completed,payment,Bank,111.11,"{'latitude': 19.999009948985133, 'longitude': 42.18008663286244}"
-69441918-f8a9-4dad-a9c3-cc8f99482a9a,completed,investment,ATM,154.39,"{'latitude': -77.16016137745186, 'longitude': 62.39289237926994}"
-ea422e9b-db72-4f6c-93a4-85245442b960,pending,personal expense,Bank,10981.05,"{'latitude': 50.1639004906763, 'longitude': 63.85103826386444}"
-b107f216-650c-4c18-b30b-61d2e19afc7f,pending,other,ATM,8172.54,"{'latitude': 4.4737878043382295, 'longitude': -108.74461218683392}"
-be449902-74c9-4095-8992-6769648fe896,completed,investment,Bank,4486.68,"{'latitude': -23.207403583250013, 'longitude': -43.74974967188652}"
-956b69ec-f379-43e7-8686-b4164f1c19b4,completed,payment,Bank,528.56,"{'latitude': 3.4539211388474627, 'longitude': -54.195308559946085}"
+id,state,motive,type,amount,latitude,longitude
+db1d599e-cb37-4b55-8855-f679768757e1,completed,other,Bank,21523.19,1.8639034838181345,-117.09282335464388
+15c79514-1eca-4f4c-ae13-c7c179a650c2,pending,payment,Bank,1458.37,35.96048308109698,-76.44806386987693
+853507d3-e552-46dc-9451-cc8a88e62afd,completed,payment,ATM,2535.01,-59.26620635524682,127.55174756811272
+701c82f1-777b-4752-8d7c-e1d84bb8c4ce,completed,investment,ATM,4733.24,47.36931359201665,-88.58601391942034
+a45ad06a-3e0f-430a-9db8-c0abfc08df48,completed,personal expense,Bank,11712.72,35.32898339966236,-5.996123599634387
+31c01492-cc13-4f5b-925b-a6240c4bff54,completed,investment,Bank,1362.03,-84.10417673492138,-153.58330148613666
+44d00191-4721-493c-b325-c04d057cab74,completed,other,Bank,6094.66,55.26256812681257,-153.34397654820756
+23b75404-25aa-4214-afd0-cbbacc40f9b5,completed,investment,ATM,4136.76,17.99513000236729,-173.4054175621127
+a213330b-77c5-4a83-98d5-ded1c5396b68,completed,personal expense,Bank,4267.69,43.83330639155301,-138.05180022648761
+c01c7dc0-8f43-4d9a-b4ae-80f1bae487bc,pending,investment,ATM,838.76,-7.108657854489508,177.69154618438824
+9b22fc06-9fc2-4f76-bb08-d7d3c20ec15f,completed,investment,ATM,3231.82,9.290403124021239,150.79032029349827
+f838efdb-b27e-4753-a4eb-c920a034310f,completed,investment,ATM,6098.61,-71.302993427176,-56.43750677341106
+d5060afb-c3e3-44cb-9ca3-e076a180c969,pending,payment,Bank,1125.49,25.962206300091466,-110.73768329269939
+02d93953-0418-4575-a790-97a835418a20,pending,other,Bank,25961.32,-58.93838886861937,-162.28302068965326
+2f6e0f25-692f-44c7-887a-7d5919f75e4e,completed,payment,ATM,522.61,55.12564931037747,-24.783639832150186
+a4760a81-65be-4e34-aa48-47f4ddc0b594,completed,personal expense,Bank,350.84,-75.88485029177764,-172.67941589025838
+a65f2b80-5b4d-4351-a145-f3792a65a2dc,completed,payment,Bank,229.71,66.18481717810494,148.00797591186887
+2184f403-7e3c-48a8-a9dc-b5b16d9d8946,pending,other,ATM,186.05,59.626120058361664,-172.539111062306
+507ecc07-0574-4748-ab3f-53da0061cebe,completed,payment,Bank,3662.13,0.8139184755732742,65.69497560773661
+4f959f86-ddbe-4b94-93ae-b9831df2d92b,completed,payment,ATM,10451.18,-7.790231943831813,-5.999050166524654
+5a2dcd8f-4bed-41f6-8644-6e8dbdd154e1,completed,other,Bank,10849.66,38.91759462594109,-124.16211569322019
+9d12ed41-0266-455d-9d53-8f7afe883bbf,completed,other,Bank,4457.87,-22.032920235966216,109.08051947881376
+bedfba3d-3f87-4f4c-b99d-a21407f20fa4,completed,other,ATM,17362.13,-43.510449967874614,52.0871571060018
+efb8b70e-109f-49da-9964-ca492acb368e,completed,other,ATM,12863.75,4.446927651890007,102.87324333004034
+7929593d-8d9f-4cb1-93ac-8cd39566ae14,failed,personal expense,ATM,72.88,60.73795554633401,4.586644936435732
+6e45d775-c650-468f-9e4f-88271eba7064,pending,other,ATM,28068.33,-2.367915309373359,-7.7021077334068195
+c7b14b5d-4e32-4ad2-a596-0ddc48a168a4,completed,other,ATM,31146.88,57.35544286903328,43.54843524685771
+38548800-8130-42f1-a2c6-40721e64ab38,completed,other,Bank,3024.5,-51.925993259963484,-86.01595007621577
+03ef1be3-b6f6-4237-8cb2-077c3771822a,pending,investment,ATM,5704.51,-81.70680196110692,128.85063604019786
+209adee1-fc1d-4119-a19b-6db7ef298b25,completed,other,Bank,31917.2,67.7924651474776,127.68821309744033
+6d694014-8fd3-452a-9ddf-dfd5d6455bb1,pending,personal expense,Bank,43075.47,-29.245961015417905,151.28583162550137
+97d3a55d-efa9-4849-814b-3c5cf61cf9d0,completed,investment,ATM,35824.63,-44.576487552346435,-62.77603082941009
+458b7e9d-da0a-435d-9939-7b6d40ffec03,pending,personal expense,ATM,10103.19,-53.33365345280356,86.8091512496469
+137bd37b-785b-414f-8b53-82fff89e0190,completed,investment,ATM,20457.62,57.56437218173048,148.8972219057257
+24253c7f-869e-47e1-9357-bf653713c9e6,completed,payment,ATM,13241.04,44.66304513729668,-125.70004611748973
+c5790de9-e1a5-484a-96f8-f3e906b20f7c,completed,other,ATM,204.14,-44.90845169133781,-161.10384836367263
+24aa2c96-f82f-40b1-9ec3-5fb21304dc4a,completed,payment,Bank,14932.33,14.695047107435457,61.69983128350131
+1bce580f-e54b-4428-937e-c2cdea377d2e,pending,personal expense,Bank,1424.58,-40.37667071747438,115.46830220019746
+15ddf7dd-9d33-4b6e-b84b-a92e1a1e5cf6,pending,payment,Bank,2561.99,82.75652814175433,79.04629391696801
+787e1c49-d272-4cc4-9d67-4203520eb365,pending,investment,Bank,1745.13,-80.03743919250628,95.26974822645792
+dc1c5bcd-d15b-4359-9c11-6f2d166de251,completed,personal expense,ATM,1894.91,-76.47860701966802,31.295361786941953
+9a824aaf-5a58-43f6-ba44-aed7b97e525c,pending,personal expense,ATM,6401.97,-1.2508474313890616,-158.33153907169705
+7970f985-3431-4f72-b2f3-59498bcd79a0,completed,payment,Bank,3764.48,33.12049648375621,-3.5109309650292744
+376c0301-797a-41ea-92fb-8fda9350967e,completed,payment,Bank,5568.47,58.08438287419983,-133.80286621418094
+8a1aa797-8d48-4d37-8325-47333ddbe5ea,completed,other,Bank,5583.29,-83.88267316548053,142.5805909390072
+5442f965-a28a-4d73-b86b-5b825a0702eb,completed,other,ATM,2147.84,-2.8882553104806306,-47.35499055940764
+e1fea78f-6ad3-4dbb-a66d-58270828b76a,completed,payment,Bank,10.53,-86.02569616721169,62.369129916659176
+88174f29-9e9b-4a25-96fb-cf20f49a5768,failed,personal expense,Bank,9.39,8.885664624195059,-175.18537381499183
+829bf1d0-f21e-4a40-a4b0-5e457586b020,failed,payment,Bank,2.48,6.397772697071673,167.7270800221237
+8590af42-7599-4db3-b8db-db0124eead15,pending,investment,Bank,22935.99,2.4700878063516996,-133.0321839293072
+fbaf1307-099d-4551-8ec3-1a7652827c18,completed,payment,ATM,13446.42,77.4070416492608,82.42149102707083
+14e92ce8-29b8-4e70-93bf-f01b5a1193b9,pending,personal expense,Bank,7419.26,-56.86510113247699,-125.37934208321336
+efd4ea9e-6261-44c9-8934-6d3047c35032,completed,payment,Bank,9151.81,-74.30528000997685,-118.87464034669074
+7d2f4e9c-b51f-4997-be9f-48cad8fe6433,pending,other,ATM,2205.32,-59.581542192550955,-142.74404462857376
+8f96b76e-c1bf-41fa-bc50-9f8e8562d11e,completed,other,Bank,11529.76,-46.008297142182705,18.48651719272422
+ca280a0c-cd19-4140-8e5a-b8b84b85fee0,pending,payment,Bank,7323.09,-83.44298577650149,156.2737750577109
+18467ad5-277b-4df4-b971-25c3b33dfba6,completed,other,Bank,35870.35,20.049517077439873,-170.0908974766117
+c1c31c3b-aca6-4bb3-b8dd-ddfe252e87dd,completed,investment,Bank,4527.7,42.959870900031746,156.9320380500278
+0397d552-0781-4e52-a038-115c4b8a162d,completed,personal expense,ATM,3543.8,72.13699633894359,168.97700249371303
+9466d37f-45eb-49b8-97af-31b99cd43e62,completed,payment,ATM,221.3,-43.34554727096617,11.076625447823034
+4d36ae5b-394b-430e-9d89-f98b86f3d774,completed,investment,ATM,13284.56,-68.10943553839621,52.85119689842901
+f8404290-3f8d-4682-adb9-f4aafa467a34,pending,personal expense,Bank,3233.24,-35.890316116846094,177.1994531068296
+1eacb005-6101-4a68-b714-752ed87d3bcc,completed,other,ATM,1147.55,-69.10603276221275,128.1565594006862
+f608b074-625a-43b4-aa7b-345ab16a4a37,completed,payment,Bank,2282.54,-19.288919745507258,-2.9598793571137207
+60f4751f-4e34-47a5-ba33-8e841ffc57bb,completed,other,Bank,447.87,21.497502538130874,37.55141950007291
+df996895-d919-4f3b-ad39-c4cde7f34e37,pending,investment,ATM,1836.27,-51.565954529939354,2.2439859517533023
+79acc0d1-ce95-42e7-ab0a-6d7a94c3b0be,pending,personal expense,Bank,27880.91,88.14162564470874,-120.16866087251566
+74a82446-7c65-4043-bbf2-a459cd4a4eef,completed,other,ATM,19938.0,-3.998484723581072,-134.29541781269322
+60bb2c05-0a00-401f-889b-83d1bd54f7ce,pending,investment,ATM,14226.33,9.405885086183574,2.236046115804868
+fb8c27d0-8620-411f-944c-5d48cd0db812,completed,payment,Bank,3427.08,-0.9607695494939179,98.29288930839778
+4edcf6ee-3493-4dd5-95bd-35353fbe3cb1,completed,payment,Bank,3872.26,-73.13345825215889,1.02100260461674
+1ac5c9f5-844c-4560-8b42-f65c45b3f881,pending,payment,ATM,48.73,10.49206931824682,-66.14852430823497
+e5c8f9dc-6e95-41db-aff2-d2a72b02646b,completed,payment,ATM,668.68,-85.97792463240619,74.41769669671291
+38d3ef29-0b07-4ce6-86c9-c5c0740f9a0e,completed,personal expense,ATM,22482.24,19.841696072630697,149.01616233127032
+9ad06fd5-3c03-48f9-828c-331bc11db90d,completed,investment,Bank,23908.62,80.39510376066991,-21.605745351711562
+79743d15-2668-4e0c-b3ea-09f7013d7145,pending,payment,ATM,7180.52,20.068109448045718,-92.28284325290846
+486278c9-3834-4fbd-ad18-c8002c5f3412,completed,other,Bank,25879.79,-55.22800651604085,120.02881879424797
+91f1d511-85b9-4a2d-b6fc-3b6b1f278f83,completed,payment,ATM,13606.99,54.807105291780545,30.18733945853637
+94777108-5c4f-4250-8bae-c19da6818383,completed,personal expense,Bank,17817.32,-55.65111875363666,-13.354962843733176
+479eeca8-65ca-465a-8df8-0d4747569b25,completed,payment,Bank,1331.04,-64.94915992013667,-83.39418228117245
+46ad2903-b315-4753-9fa7-480863f334a6,completed,payment,ATM,6759.01,-86.13085538568683,18.056600585966237
+859ee5f9-2070-45b1-9368-073c0291d0f3,completed,other,Bank,831.95,-49.26549621040691,-57.98892757484613
+6ed4e6d6-428f-4310-bc1b-4e881657e188,completed,personal expense,Bank,1340.96,-64.20420317242818,-125.11721033361117
+f4b0c665-6449-4f48-b7f8-fc06488ba6a6,pending,payment,ATM,238.95,89.55781230335796,20.45616765324158
+33409bbf-303d-41e1-a894-d6a7f36481e7,pending,investment,ATM,153.15,-78.20263024717558,-57.306844697110776
+4f08697e-c746-49a8-a8f0-cdf5e9752a8b,pending,investment,Bank,229.62,13.598515652184346,-1.671143467114831
+7f6849eb-eee5-48fc-8481-83fe06f96ee4,completed,other,ATM,28256.43,83.43809796468608,31.75378754048063
+6251232a-7396-4c02-b657-657dd1238990,pending,payment,Bank,3435.19,-24.173495353041275,67.2924409068633
+85f10522-7be2-4724-886d-4c61057b7360,completed,payment,Bank,4422.9,-7.508769947483103,-103.10497998620849
+acfa47d2-c44f-4847-a985-c2ef58337990,completed,personal expense,ATM,18.69,-12.775243236363096,179.20137510201232
+9410ba85-df24-49aa-b086-8f94fac857f5,pending,other,Bank,369.2,-33.589039211849695,-78.25055148446825
+904f6c57-54bd-45bd-af07-b66ae97916c2,pending,other,Bank,6926.25,-79.87765109468714,-167.68631505038542
+f6d10d43-0728-42e1-af68-9230eb3ac361,completed,payment,Bank,3226.19,-26.25968859263022,-116.17121131134436
+6a786acc-1672-4b30-a3ba-d04cbeb16798,completed,other,Bank,557.47,44.725919592345576,100.65096835654947
+ec205de9-13fd-4e0c-a3f7-ea67131a447e,completed,payment,Bank,31904.25,-52.877974685492,-11.626830999223273
+29046ecb-ff03-42a3-bd00-312eddacd097,completed,investment,Bank,11507.62,24.539837251219097,-68.59238775038484
+1e9c8074-20d8-4db3-a0b9-5af33635e10f,completed,investment,Bank,33.96,52.62561953836834,-12.541916212190074
+090cd7a4-f127-4807-897f-0ec97e7ae03f,completed,payment,Bank,245.98,-63.712038845596126,-9.982248415989517
+562be5a9-5844-4a6a-b1f2-4a15d4376e5f,completed,investment,Bank,3077.03,53.35409781616775,-58.2447413359282
+c03306f5-6e61-4e84-8436-e409bcda04e2,pending,personal expense,Bank,5980.86,2.330684708915925,20.144099080066212
+b1b4ac12-1a4a-4f77-ac60-edfb8c451d3a,pending,other,ATM,3866.1,76.37098445842938,67.08226795471091
+f811b1d5-805d-4157-8cd5-9b69cfd9ad01,completed,personal expense,ATM,5468.14,15.64471187989075,-172.5558360748642
+646c84b6-7199-4f61-b756-e68558554715,pending,other,ATM,2149.79,0.23828648133807917,-37.130183279095576
+fd25f428-da20-4b07-88d9-396020405de4,completed,payment,ATM,28088.42,22.03196230443298,-50.22965245646705
+b498a864-67e5-472f-be24-cf11e40c7516,pending,investment,Bank,2712.91,89.3360713594968,141.45733065108072
+142c167d-5fef-41f0-aeef-ff84b15839be,completed,personal expense,Bank,3179.08,56.47387145504885,179.39405570595704
+bd80518e-3930-42a7-8fe6-c3c89e9ae424,completed,other,Bank,1842.09,65.68434482508792,-175.0372727642103
+515804aa-71e7-4cdf-b2df-8b5c8e5c6117,pending,payment,Bank,2378.54,20.740405343270396,-128.17653781678058
+3f8ce91d-f5fb-46f6-93cc-740dfa7f4c93,completed,other,Bank,5762.82,-49.932451803697674,32.95697120576344
+228b6f12-187b-4a71-9d3d-3c025ce3ab59,completed,payment,ATM,2015.57,-63.227747357031326,70.9700010128301
+d61e5fad-4f94-42a1-b486-48ca429ef6d9,completed,payment,ATM,163.13,-89.84600439086279,-65.86006053889675
+45c3320a-1479-470b-867f-f50387c5a62e,pending,payment,ATM,13946.78,55.55601940689735,-43.83725914772276
+350b81d0-8c75-4be2-83a9-01c772b42f7b,completed,payment,ATM,15428.85,-72.67834073041834,-52.79378207404922
+3fb52140-6df9-4c56-a0e6-da1190ec3c59,pending,other,Bank,8689.6,-10.2820908550392,-131.89265508726635
+40c261d4-d2fd-4c58-b9aa-333255c4e007,pending,payment,Bank,857.47,-53.465257780902505,61.38357331648541
+ef8ccd79-bedc-4bea-af24-2b80c89f5454,completed,other,Bank,27145.03,-10.731211421286659,-93.74102823661362
+98a42897-0aa2-4c85-9d4f-1e89135949dd,pending,other,ATM,8169.66,-66.03860051795178,58.758390301373
+c1e7dac6-9647-44fd-983b-d4b11613fa02,pending,payment,ATM,8079.05,-30.538421316733043,143.70831731919162
+2621a48b-2f2e-492e-adf6-c8d655d5b69e,completed,payment,ATM,4011.71,-27.61511916829962,157.87261099293266
+17f05849-03ca-44fc-9b2a-de7c9c32c7ae,completed,personal expense,Bank,8578.09,-30.275345114206146,12.7339326086487
+7aeeca6a-4921-4b5c-a1a1-1fe8f3e0f2a5,completed,investment,Bank,16764.75,-55.154330104395974,127.47226945758445
+2e701338-5d59-4b52-ad8e-e525453f661a,completed,personal expense,ATM,506.16,10.150058457012676,110.93770688638705
+8400838f-6870-428d-8ba7-5fb732134d4a,completed,other,Bank,4849.38,72.28475602877603,54.937765772299656
+ad8dad79-28a9-4427-8e45-d59efa250681,pending,payment,Bank,3423.28,-8.736469267591318,12.273231330887796
+ae1a08d6-d6e1-457e-903d-053fc6e41ea6,completed,investment,ATM,25450.57,16.12819564924922,102.80298350072758
+3a16b8e3-c226-43bd-be39-d71451263d15,completed,personal expense,Bank,103.53,52.90922639436556,39.79087718378685
+6f326296-b028-429b-9f5f-38097957fc72,completed,payment,Bank,56.69,-68.58011193006875,-168.8067499765114
+f0dd1419-2482-4e91-8c4a-c040a2c14141,pending,personal expense,ATM,106.54,-78.39697925800165,74.10336237165657
+2fded611-a5db-4ae6-9155-ea93baef3e95,pending,payment,Bank,17104.12,-66.32214304529356,-69.62904157816239
+01f8b61c-efb1-43b9-bfa5-5e50555ccf89,pending,personal expense,ATM,19760.25,55.10073914063227,-135.91575108896433
+28b5a515-8ab3-47ea-8597-eee2e9f15b3a,pending,other,Bank,19924.19,20.254827622721123,96.75996024528297
+f2fbf6e6-3b65-4315-bcd3-849452e98802,completed,payment,Bank,8660.0,29.437779866774363,80.28027864940867
+a8471c5b-6da4-4dc7-b780-1109b6318537,pending,payment,Bank,21031.3,-58.90379596386144,-24.74359351170102
+3ea69314-8471-448b-b07b-c7f27e6554a7,completed,other,ATM,22126.46,-48.68865832168796,-171.6852663627669
+258e719c-233b-47c1-a18a-8398e7519515,pending,payment,Bank,558.0,72.63351979052777,-173.50648107260395
+cd7f7129-ad39-456a-bad1-50debba16caf,pending,other,Bank,21166.08,-48.56482424194836,114.90264692956544
+6e0a34ea-a7dc-42e2-a278-db257a55ee60,completed,investment,Bank,19258.33,9.270298949473741,83.01691742141708
+9413a6a7-64e9-4562-a1b4-e314b209ba1a,pending,investment,ATM,4896.45,13.28409517083756,56.49419528552326
+91b5ad83-6769-4396-b6c2-93541166beb6,completed,payment,ATM,2459.89,26.487601625294843,53.92171106456888
+35df37ca-9cd7-48e4-85eb-0740c53cc87d,pending,payment,Bank,34168.46,-77.02934308333008,-100.21556899984573
+cbca240e-f8f1-4b58-880c-dd15e76f4fec,pending,other,ATM,35065.9,68.86305194735624,111.70028062678574
+01449fbb-ef5b-4acf-856f-0ac1bbc3db45,pending,investment,Bank,40339.37,38.1142495082905,-29.760518916266875
+a6810d7b-f8d5-4acc-b728-d8d35c88f7ff,completed,personal expense,Bank,7175.82,-5.632205120394289,-93.36699805199619
+49960bdd-fcb2-42a3-b011-b221fc90b98b,completed,other,Bank,20475.43,37.1339047546865,-175.9247520592603
+a1c6344a-9997-4d09-8746-75e5930eee72,pending,personal expense,Bank,3032.53,-82.51644905062707,-175.58915955348837
+fae9d8f6-bd9e-4b89-be21-dc174bae0551,completed,investment,ATM,1985.06,71.26703609467577,43.072611269292025
+c801be18-3188-4d13-9667-b6e72f6bffe9,pending,investment,Bank,4612.99,-58.534590469278406,-32.116434211884126
+3b6b60b0-fd76-49cd-9a29-ddec5f93c87a,completed,personal expense,Bank,27320.94,-87.46595476202006,61.710152581208064
+cadd3fa5-968a-44e8-acad-6b271a6a2d6d,completed,investment,ATM,4908.32,63.98271684315759,149.79205031506535
+10da681d-8af8-4f63-8ece-37fcc22794e6,completed,personal expense,ATM,3942.67,81.48885194845153,69.22190420342474
+287978b3-4d91-42ee-94d1-a9842bb29f03,completed,payment,ATM,2765.89,57.06817790317021,142.30178100883455
+6e4bbc10-56fd-4fdf-807a-eebb99094545,completed,investment,ATM,38751.37,48.56109148742436,-52.17399126145095
+2864ab99-5083-4ea9-bbcd-91d8573a91df,completed,investment,ATM,3809.34,-5.489324952655835,164.8480187164609
+da199020-1328-4c43-8cf0-5aec459cf03a,completed,investment,Bank,880.75,36.96553093559439,178.99220448047413
+53a3a0ad-94cd-4c74-882c-59c253f8c887,completed,personal expense,ATM,4596.15,28.87008506709101,23.2086799407453
+ac5e5c26-04c9-4e28-b006-ee43d3cf284b,completed,personal expense,ATM,3302.07,-56.18365686887304,56.737541092356224
+432b0be0-4f2e-4756-bd09-36ecd8bd6e5d,completed,other,Bank,2357.61,-36.56204868255477,-54.249278615627844
+53599713-bbc7-4689-aa68-f297c9532413,completed,personal expense,Bank,1029.24,85.23173511402425,-147.8877996411858
+6dd7c0ba-1d97-4f6e-ad81-45be4d2bbe00,completed,personal expense,ATM,5069.48,55.973190861256256,109.62081468060404
+dc7a9190-5dae-4754-8148-4721ff4df86c,pending,payment,ATM,2152.36,69.82577031241814,82.5563681482817
+37d85a66-81ac-4a19-b8a9-6659416bd998,completed,other,Bank,7114.51,61.12722777743883,-60.448100982807645
+1fc98ea0-e28e-4025-9bba-34dfedc9da76,completed,other,Bank,4341.51,28.695168948141628,-35.04859978192192
+3369a283-6681-48cb-b638-e869cd860ff2,completed,investment,Bank,6318.14,-25.099832724538444,-112.9770589466012
+9b49cbb4-060f-4666-bf7b-e8f47ebc8054,completed,personal expense,ATM,492.26,-37.25922022266673,-109.6093908629871
+42423c56-90d6-4f19-b9d3-390d0de06f2b,pending,other,ATM,10715.42,28.98622662585943,52.66709807642934
+13334cc6-bca9-424b-a681-81c1cc77b856,completed,payment,Bank,99.02,-8.40486836477217,159.90447803702574
+59cd1613-eec9-445c-9999-9c6307cbee87,completed,payment,Bank,20430.41,-28.642074013687647,101.0230974124886
+56c47080-bace-4473-997f-c9f2eba2ad53,completed,investment,Bank,522.64,-81.83895866273053,-65.54651177222587
+6ea36149-ef06-46a2-a900-d7ab4f00fd2d,completed,other,ATM,9861.51,-10.942170923442518,-149.27695711528358
+6e668abb-ca94-4f42-b892-faa82e4f0b75,completed,investment,ATM,3247.6,-50.351973418627146,-110.82801451753917
+dd7feeb5-8f0e-4771-9639-f556d49d7706,completed,investment,Bank,4639.23,71.29092552161629,-108.86067903662219
+a938587f-7f55-44fb-8021-1607cda60b00,completed,investment,Bank,3784.28,1.8960980875927618,-134.2997092860021
+0247d4b0-5d51-455a-9b14-9b6bea0dbbb5,completed,payment,Bank,115.18,4.492685137576757,108.35213601916018
+ec7909e8-b1de-4ff6-8d20-3eb390787888,completed,other,Bank,2872.98,24.051015247392684,-95.24884657491233
+041d5454-7a45-493e-9bc9-11d6b74ada94,completed,payment,Bank,1481.25,66.20014142818829,138.22692965121865
+d139e9f8-bdb9-4fcf-841f-c3b90d711efb,completed,personal expense,Bank,7574.16,-50.64289864292966,-62.00119942036821
+e319a0f4-3948-4ce4-a8bf-ec9a82551f5d,completed,personal expense,ATM,11901.63,-1.1320112320149036,139.19830946518925
+bb0cc2ac-84bf-476a-ad89-3f963ee6b268,completed,other,Bank,16034.56,15.044417101889024,74.3265169776349
+f0c2ffc6-62ea-4c1c-9cce-261b8fbd2e75,pending,payment,ATM,793.91,36.14604804674251,25.340711782920465
+516669c9-605d-48a9-995a-c7f68b86d8ad,completed,payment,ATM,981.12,79.4087067519803,-117.63119683004143
+bb549159-0df6-4fb1-b228-9977f3f64fb2,completed,investment,Bank,27514.6,22.95443152946963,124.28285168874072
+0f26f26d-65c8-4b7a-8225-4c64d9ef384a,pending,personal expense,Bank,3374.42,-31.902813317616037,-139.3941090336484
+009c3e4f-ffcb-4fb7-9313-2d71f729a6c3,pending,other,Bank,3431.49,25.587936428150783,-75.22754815844733
+d55a1355-49f9-43f6-987a-630e4fdb1b4e,pending,other,ATM,3053.02,77.15141223645506,-141.5478779910268
+a9f5c5e4-23b8-4f48-a478-760ff621bad0,pending,investment,Bank,9225.8,4.563736735562998,-74.74977768713461
+3fd0af71-697c-47fc-ba3c-3ae4ac5d00f7,completed,personal expense,ATM,20506.74,-60.22512767363553,9.72443606635241
+ca28917b-4efc-40e4-a284-e5ec50c309a9,completed,personal expense,Bank,8878.47,47.38394346157514,82.78196552530295
+3e19fb00-f0a8-4536-8a0c-fbc906cbac6a,completed,payment,Bank,27340.4,-30.72745935808529,134.49121070420983
+ec37e354-21dc-414d-bc33-084a80c146d9,completed,payment,Bank,5529.23,58.605537550729196,37.547835533767596
+af111afd-d85e-45e5-b9f4-1304014998f3,completed,payment,ATM,1106.44,88.4712143610931,-125.2923765664708
+4b8dc967-92c0-4ee0-9b37-eb940ed0d15c,completed,payment,ATM,23009.39,17.374813206851783,121.20038867416258
+242eadeb-50d5-41e4-990d-1cafe72b4685,completed,other,Bank,879.12,32.34655099511363,-128.6547951593666
+28154342-2bca-485d-b57d-ae867c6123a2,completed,other,ATM,4732.42,-73.33722512757268,50.91465939807679
+c19fe30a-e1a8-4237-a867-444f1a7e331b,completed,personal expense,ATM,5568.09,-60.5054957286132,-162.96609034405003
+8191fcb7-c64f-4a44-bdd4-43ed9e477c6c,completed,personal expense,ATM,4662.53,-5.860579608089964,-159.94454109429947
+91c23085-31ef-486c-825e-5a2dc5893ba4,completed,personal expense,ATM,33003.46,27.423008147330734,174.74341343793208
+72151b92-a284-4bd5-9d0c-0c1bc4f01cb2,completed,investment,ATM,2831.74,-73.04149577190904,26.978822681877887
+96a1d710-7617-46ac-b4c8-98651401887e,completed,payment,ATM,4751.14,-33.6829677771152,-154.6087381474821
+c500d623-8646-4204-8ec9-4be0db8030b8,pending,other,ATM,84.61,-85.93735300933197,91.90736910800467
+05a48343-48f2-4610-b282-b945e62b1a40,completed,personal expense,ATM,13333.84,66.31756140920751,94.46291139471668
+79bd7293-8b90-4e33-9d06-a3e7684f0015,completed,payment,Bank,12238.99,-25.482878122971243,159.65556286956405
+2a0f0f1f-ee00-4015-95aa-0860ce875c2d,completed,personal expense,Bank,40802.29,75.07089826504091,144.93268025483258
+f00ff153-01b5-4de6-a2fc-7a1df6c15c28,pending,investment,ATM,12.45,25.02339109996437,-32.238090847159356
+df48a89d-aebc-4466-93ac-44b1c04b2257,completed,payment,ATM,20307.88,-14.18991083774911,-132.5181576489967
+9a372995-ef2f-44d4-addd-410b985a22dd,completed,personal expense,ATM,565.29,82.07073796259664,-13.28361444438741
+58e0126f-be51-4be6-93ed-dfce4ca49a4a,completed,other,Bank,3298.43,-48.191873048567004,-28.23747953320816
+415d8a0f-ece3-4f25-9d81-8b5b4b75c1cf,completed,payment,ATM,7097.17,-55.07474092255172,-14.296909129001165
+2ec3d6a0-f717-4dfa-856a-8679a9f80db3,pending,payment,Bank,31113.88,-0.3732771289214156,71.07974590718393
+bd5df678-4aaf-46cf-b6a5-fa6768a192b1,completed,investment,ATM,2241.88,-41.602980690177624,-96.49533506717859
+4e725303-4034-465a-a2c9-a812ae9155d1,pending,payment,Bank,15119.39,75.57467518012817,-130.67281890829292
+431d7af4-7779-4279-8d86-eff754efd45c,completed,payment,ATM,33513.05,2.8832904512772757,128.73245421613524
+1a64a5d0-eaa8-424f-93c4-4ec6e32c28ed,completed,personal expense,Bank,4098.11,-60.222970837181904,17.982540054414812
+e51e4f1e-fb4c-425f-aaf4-e2785fa3f7b2,completed,investment,ATM,1570.93,7.690857566379165,-163.6750434377758
+cc1836bb-cdfc-427d-ba89-1af3812c677b,completed,investment,ATM,383.37,44.37291059574147,-172.02740046021907
+da849368-9e53-4735-a3e4-515f3dca2fbc,pending,personal expense,Bank,1067.78,-70.10470134973396,-48.67629944756359
+87b4cfbe-dc60-4c82-b2cd-5ce8acb914da,pending,other,Bank,291.55,-81.75171213910754,-41.45940081648126
+9c433bb7-e1ea-42ac-8d4d-e4aa8bba88df,completed,payment,ATM,11121.21,74.05503820194363,-137.3388573895836
+4c8466d8-9fa6-4531-8b16-c1298f09b513,completed,payment,Bank,31121.37,37.51884488998442,85.54607290368602
+907a7b1d-bc06-4e70-bd80-44064bd22bc7,completed,personal expense,ATM,2917.02,-71.55627846320193,-28.7354754914775
+0256d6b9-1cd1-460c-8d7c-ff8db7638802,completed,personal expense,ATM,5998.31,48.607761693728605,137.90385253749588
+93fd1827-39e6-4d2b-b892-e75e3c4db504,completed,investment,ATM,3045.85,38.24318059130974,-55.78059358259375
+7911d527-e74a-491e-acb3-c902db1eba02,completed,other,Bank,522.12,-80.90260055313765,-50.170223311897416
+eb72e6fa-b6b9-4cdb-881f-b24206da6aa8,pending,other,ATM,208.42,-23.82206196370302,33.21886075712058
+5907aa22-2b51-4e63-9532-e79dff1b7bac,pending,investment,ATM,1670.05,74.64018342723514,167.77228820800798
+f39bb285-49f9-44e9-907e-c1d81855b403,completed,other,Bank,28689.41,-16.711166707220514,-83.09674414175008
+b27874e5-8f67-43c1-bebd-c14b325166f8,completed,payment,ATM,824.15,29.808690714223587,34.271225420702194
+3176abc4-8f35-43ca-a8d5-809e21e04f26,completed,other,ATM,2558.54,37.337985772832695,-81.06002534781959
+fc311664-d16f-47c7-9d5e-49f9f0f1bff2,completed,personal expense,ATM,8066.97,-61.7725466539349,3.923914459285186
+a1a57096-f836-4b3e-afef-4bb10b587d60,completed,other,Bank,1041.0,16.41302388466643,-132.83047007486712
+e7ca1c36-a178-464d-9235-d458e67a0117,completed,personal expense,Bank,7542.67,-1.8890276518295508,31.974756705126083
+b5045941-c4e2-46ac-a85c-061f21cb6f83,completed,other,ATM,6411.24,36.28588549008292,-10.980797702553076
+f826688f-9f48-4c0a-b6b9-82164b068610,completed,investment,ATM,4808.24,-75.19140180896753,13.924219405318098
+6bb06108-9b1d-4ed7-9ca2-24bf5662bd8a,completed,other,Bank,5729.09,-2.7593504044531016,168.20306621207334
+9a1f29c7-12e7-4bfa-82f7-6dcf5eadee37,completed,personal expense,Bank,4512.27,-3.2256787828462308,-134.93850700675034
+adecc29d-9dd9-48e5-836b-31439da81c63,completed,investment,ATM,170.21,46.36146412276415,12.575586026706759
+97ad9c45-3949-49fa-a5e1-a2eb2c984af9,completed,personal expense,ATM,498.99,-6.194045294747497,56.30636010942206
+c1cd4567-1843-43b1-aebd-eb3c32166c29,completed,personal expense,ATM,70.25,82.44411048099408,-108.4214575812613
+faa195ee-9624-4315-807a-e932c42bb363,completed,personal expense,Bank,6771.57,-87.26276374039496,126.62497366635245
+2b26f28a-ac12-4259-bbcc-1c13ba476f47,completed,other,ATM,5899.25,62.26774142196422,160.93101673123874
+752823c1-8925-41db-9a50-ed242d5c967b,completed,payment,Bank,13446.89,82.52278611338153,-58.897572660792136
+1431230f-2f1f-4aba-a89d-1923c6ad7364,pending,investment,Bank,20698.34,25.481964500001254,29.484920052860275
+17798bd8-2c3c-4ca5-88e0-d2ea370b2b00,pending,other,Bank,12840.24,-54.16698730727281,-0.8723801361954884
+99f4e5d0-fe0d-4f13-a417-75d78547a81d,completed,investment,ATM,20686.13,-32.19719210202936,15.083808998479498
+671dcf96-d59e-48b1-989c-56c5bd3d190c,completed,investment,Bank,3400.11,-72.83926403615864,-155.1225285523335
+08c5a11b-bdc8-4fd6-b73a-81d776647dde,completed,payment,ATM,1047.08,62.386786266762556,177.11387402254724
+af4b37f4-c42c-4954-bf3c-7c183f29ab44,completed,payment,Bank,889.62,25.5434883726342,-35.44848912866155
+cb769aca-1256-4de4-9f43-3e7e209b1cb8,completed,investment,Bank,2198.54,40.98323954660344,-108.07846928280574
+d73032bf-9c0a-4552-9465-93c16e2a7785,pending,other,Bank,12705.43,-24.302883797763783,-156.6762929145004
+b0e4ab30-2d1a-4e63-9b2a-5ba31e4a5cc6,completed,personal expense,Bank,10398.08,54.07727586354787,135.58889345226856
+c21d56ea-dabc-4936-ae7e-b7e12e4ceafd,completed,investment,ATM,12172.88,46.97377306650256,-155.93482375285154
+d702ec39-ae84-4ee0-b93f-6e22d4ad0177,completed,other,ATM,6856.0,-35.84769950680978,80.97602607831823
+0d5ae3c7-70b2-4b68-bd5b-c53a1e10a9da,completed,personal expense,Bank,5533.53,-35.72998479442081,3.9703081424769664
+ecdb245e-3e66-46de-924d-d297e41510e6,pending,other,ATM,272.78,-89.75569184434876,-65.40402213455785
+b76e4064-649d-4b5b-a0f6-3c52fb3697b3,completed,payment,ATM,219.64,-12.287808226537479,-18.987474035022615
+541fe508-5d4a-4deb-8548-64853c24d179,completed,other,Bank,6442.86,37.734328907711244,41.8150845329088
+016c4ff6-df70-499f-a101-89ef22a37cae,completed,payment,ATM,11740.49,38.76918746958813,-153.54797657200038
+586312da-d305-4e73-b13a-910815085bc9,pending,payment,Bank,11165.42,-73.21523622659545,-22.947987170159877
+35ef386f-cd9f-441b-8600-725d33b70435,completed,personal expense,ATM,11815.67,-50.85294694295766,-161.49856440912657
+faf91128-e0b6-45dc-a62d-32de95871a9f,pending,personal expense,Bank,4735.3,-61.99990238549832,-169.3991337970381
+a8a3b835-403b-4f9b-a007-f5c6cbf8d83e,pending,personal expense,Bank,14745.34,68.53349069496485,95.546695118593
+a96848d5-6fb1-4183-bedf-2258dc6c226c,completed,personal expense,Bank,2424.37,32.30427660686681,-178.46946614791938
+03f57cf1-d19f-49f6-bdb2-a8780b218918,completed,payment,Bank,3609.24,41.431411529884514,157.9325932070231
+ad13ac5b-ef62-4c68-b3a1-396cd53da515,completed,personal expense,ATM,3913.91,85.09695445188638,-73.0955876439639
+87bae5b1-e7bb-4857-95bb-f648616fc904,completed,personal expense,ATM,22735.47,54.16193289534638,-157.94801161399914
+8c8c82d8-5e8e-489c-887e-aec39b6255fa,completed,personal expense,ATM,477.74,-74.74761277167087,99.87902851581526
+7017d4bd-7fc4-4974-a907-dfc59f479d2e,completed,payment,Bank,2321.93,53.269170997396,-86.17380011187714
+248a9de8-a59b-435d-936e-f1e097d1c0a7,completed,personal expense,ATM,138.02,21.53072230839787,108.68297549777776
+b27b3368-4dd1-40ef-ac80-2773805386d0,completed,other,Bank,12.67,15.793937255931993,-122.38366187859685
+d21f8cac-0d2f-48c0-b4b8-56fa53fa0acd,completed,personal expense,ATM,5754.74,47.15530176906901,-179.61721984243522
+bb994e25-8e13-4a7f-85a4-d4db9eb5fc39,completed,personal expense,Bank,914.57,-23.42447095287845,-138.00476495095182
+27899b9d-be42-4e85-a92d-bf65dbb6f5b7,pending,other,ATM,1202.01,-60.94812355280159,168.67237069578613
+9cb4a645-b917-454d-b95c-e288c22340e5,pending,payment,Bank,168.1,50.75533542242911,-62.107023072638086
+955903c3-20d0-491a-8425-2b16baf31f45,pending,investment,Bank,10.69,16.199467979775562,66.50660899937509
+3fa9a7da-2606-4b69-bbed-f52b5c9b51b3,completed,investment,Bank,848.15,49.27211173878925,-23.12533817540691
+7a5c9654-30b8-467f-b20c-9d4abe216dd9,completed,other,Bank,474.95,80.44027146847321,-130.42680119445626
+b339df12-34d9-42ae-8c5b-2299f1c29459,pending,personal expense,Bank,435.52,-45.421596891165734,-85.86349943792182
+1ac4784c-14e1-4922-848d-6331953cdb28,pending,payment,Bank,423.35,35.80997044578177,-39.16937521561255
+0019d5b8-703d-4963-b283-e0dfca64122d,completed,other,ATM,422.88,-89.42531260244608,-79.89835312895356
+6accff58-2d23-4c79-83e3-501c64d54a3f,pending,other,Bank,5646.2,-22.856661022287824,-18.67292314297515
+b368a61c-02dd-46c2-8f95-72350a274c9b,pending,investment,ATM,24286.69,-47.85571693655724,-6.430676871495649
+c33fdb8a-bf66-40c8-940c-1d86cd7527ce,completed,personal expense,Bank,68.66,36.64154217863904,-123.43866833340277
+6048809e-9872-49a3-bb0a-a05926069b41,completed,other,ATM,6327.42,35.43973887223467,136.51108409210343
+522d2482-7b31-4b6b-84c5-1788ba228303,pending,payment,ATM,8827.52,-39.40609538777456,61.12615731204883
+f8a395c3-5c85-454e-98ab-201e7d6d96b3,completed,payment,ATM,8793.84,64.30767455587252,61.554293157661135
+465703d5-88b3-40ab-bc12-9d3fe116955c,completed,personal expense,ATM,6540.35,39.635592382845175,142.12119353000764
+be66bfc3-693d-4e96-a287-04fc40363bdd,completed,personal expense,ATM,3353.73,-30.349047864596066,178.951494258426
+c6dd8385-b6a9-4aef-81cf-f27a04d2f6dc,completed,other,Bank,3399.99,70.82686654392475,-53.98098373767671
+6d8e027e-9a68-49bd-a094-0e554e3edc91,completed,other,Bank,4447.75,-31.83360884972177,-21.01955944934093
+61eb92b0-7b76-4fa9-bac5-63eadfe31d7a,pending,other,ATM,2336.86,-14.114403831380912,14.971675126582767
+029d593f-74f9-4e0a-b6f1-076b2cec1b5c,pending,investment,ATM,431.78,56.90306619238518,1.5111165921404393
+f8781040-a56c-4168-a564-281d6827f915,pending,investment,ATM,1342.4,89.97294960235203,151.49091068092866
+342306de-f9d6-4506-b522-60d74cd8998e,pending,payment,ATM,1349.98,11.313990672718475,-111.2705315120083
+bc972e4d-e872-4821-9747-66cc98962b87,completed,other,ATM,2101.04,-60.53189497495839,89.54315535477218
+6f1ae488-f37e-43b3-bc83-6e37027c2a07,pending,other,Bank,18505.86,-43.366338001690366,-174.47476679981693
+2fbfde05-75b6-4cc7-b592-e9c6c1806f45,completed,other,Bank,929.46,-65.33383338153425,28.695167352624054
+4f292a52-f815-480f-96fe-2903a8ee6053,pending,investment,Bank,17708.72,-88.8110583097916,160.6721330814292
+050a7bfe-5a49-4b9f-bb26-8fa3436f8859,completed,personal expense,ATM,19194.59,78.39591685915445,117.80964197453835
+26f6a6f4-f8f2-4125-b7a9-0c408743b8a6,completed,investment,ATM,44401.7,80.2721349174083,-11.434441353068166
+0ba00dbc-1b00-40db-a36c-d594c23b02a1,pending,personal expense,ATM,118.85,-48.716107160549555,-70.08580271878691
+3e554ff4-e585-42d4-91b6-6b45688ae4ae,completed,other,Bank,896.56,-7.0309620381480755,18.01978089445157
+231ee284-cafd-4ccf-ab7b-13ce25c159f3,pending,other,ATM,113.33,59.112394655223255,-169.42432010948087
+4dd20ea6-9a03-4320-a5a2-906381487c79,completed,personal expense,Bank,188.67,-49.98157510204095,115.54446479984784
+d0961798-7810-4439-8a7c-d04c89bcbde0,completed,investment,ATM,962.47,-13.504031194402955,-20.769150214599563
+d5f17eef-e535-42cf-b782-d2afe393aa05,completed,personal expense,ATM,7809.59,-73.77374725553112,-53.86950797005525
+aaf92ea1-d8a5-442a-a06a-d6beb048de3a,completed,payment,Bank,23259.22,2.7803217899799506,-22.451603833708646
+9fadb86c-5406-4800-a391-35342d1556f0,pending,investment,ATM,4814.35,-33.38089028248023,-87.97884525761545
+395831b7-5f45-4702-b77c-840ad69ba3af,completed,personal expense,Bank,1937.97,-41.27656428166516,-151.428262054793
+e0b3c3d8-8765-473f-9016-7554cc36e2f2,pending,personal expense,Bank,1633.84,-76.16662122764039,-174.48392972827406
+6cd2586b-f402-40d4-aeb5-8ce2e9d7cfd9,completed,investment,Bank,961.61,-80.39325513522782,-52.61643864558451
+a2b4c13c-c413-4669-bff0-3bf2ae0f973d,completed,payment,Bank,578.65,-29.0294478541619,160.6373250969836
+da7eb792-82d5-47e0-983a-f05fd1a61f4c,pending,payment,Bank,100.78,-24.16079007368056,-111.39998953995068
+5648a420-3829-4cd0-afa0-703e4fc7cba5,completed,personal expense,Bank,35.81,37.06141701014535,16.67672024413835
+b38c1f96-2bd1-4f17-9842-2646b72c825a,completed,personal expense,Bank,5.14,-48.43653119250775,64.53389365426753
+4316907b-3c43-44e5-865c-c456e85753d8,pending,other,ATM,1347.97,80.37220782612351,146.28267576073688
+26f85faa-16ba-41c6-9edd-06005e674c39,completed,other,Bank,6396.99,-82.55419362630393,-86.64272304284434
+1b84eb6a-1a21-40f5-8980-4f0cd882cf18,completed,personal expense,ATM,17129.28,59.665070403758705,-58.841751446228756
+d808aec5-c478-41b1-a381-a81f2529d125,pending,investment,ATM,2276.24,-8.80235251576866,64.05659376298317
+9dd2376a-9b5d-408b-b365-2bcd435b9b92,pending,other,ATM,6414.41,-57.490139931528255,56.75888868498282
+69a8c56d-d45a-4a7c-95e4-f48826c8c632,pending,payment,Bank,15811.96,-16.25800874246289,168.59899719773864
+ca9c6b00-842a-4391-8ad0-f859671847c8,pending,personal expense,ATM,4762.4,63.5037114681661,-99.13867080200909
+84d19a30-60fe-440f-9efb-9a9b1e1e34aa,completed,payment,ATM,971.06,45.168010492038235,43.08979023661965
+0b90877a-d257-4f2b-bd28-64548ae82041,pending,personal expense,ATM,19319.45,86.50532935699547,74.74156180639025
+70bc9990-4b1d-4752-a721-bce1dd6e85a5,completed,investment,ATM,7950.31,11.796780593325721,18.260332340868956
+5990622a-cadb-4235-a6a5-decc9601fff0,pending,other,Bank,22405.83,-83.24969158682251,179.1380933794881
+040364ee-7bcd-46d7-b01f-3a9a5e78af74,pending,investment,Bank,6292.02,80.60829446848271,-51.004917270546116
+8ea2fd0a-3902-490d-ba0c-d93120af4e8a,completed,investment,Bank,14418.49,1.3935412204594684,121.92189831558562
+de868ec9-4577-4007-a2cb-f8cf446df13c,completed,investment,Bank,8785.84,71.88256157062008,-94.04542476789314
+dd81d453-ad4a-4971-abed-0f139f20e25e,pending,payment,Bank,5710.51,-34.09771897328874,-65.80332388013622
+5735cc7e-9395-4c9d-a0e0-0914604f3920,pending,investment,Bank,313.98,-54.95843922985076,-26.27484491226477
+0fa34147-ec01-47fd-ab48-1980741bf25b,pending,investment,Bank,1787.65,18.663499092278315,125.80720773900333
+f652c5b3-08f6-4834-9b2b-e3fea913f941,completed,personal expense,ATM,2314.58,82.28585879398923,8.099659606453287
+d6a4b5d8-d3aa-4753-b952-cb7bb47d0130,pending,other,Bank,1883.4,-52.43365081342542,93.01368557350071
+cd75e56a-8223-4ae6-bfba-10ebff30f2a2,completed,payment,Bank,4461.02,51.755779131626895,17.81768858875327
+02810272-7fe4-4d8e-ad5d-7ad8ee71f9ba,completed,personal expense,Bank,328.37,-72.3386066991504,-118.84746559595777
+85e84d8c-6f7c-49a1-99b0-7b6e51660ec2,completed,investment,ATM,133.39,69.82904079345076,145.11851653100098
+8deac3dd-1b78-4676-b166-2803af2d4283,completed,investment,Bank,1819.45,4.1158386270610094,28.57605939267333
+cae46439-edb5-4ec6-8a59-e6077259f637,pending,investment,Bank,5250.66,30.73868881320348,16.39184935347103
+458092f9-1341-4608-91b9-122cd2e8a9b4,pending,payment,ATM,7068.51,15.564221118461106,-48.00981801978176
+392f1b59-595f-4ce9-960f-d6e3ee93f6b4,pending,personal expense,Bank,28252.94,-69.65042136713785,-3.075271860824813
+d1dcd5a6-8afb-4fa1-a348-d5ea4ece005f,completed,personal expense,ATM,866.41,-83.79005615457194,155.0876238012603
+26b26bf5-c0db-42e7-a0ca-97a5251c37b6,completed,investment,ATM,2839.33,80.50915865597904,-73.70387520334008
+0040493c-5a8b-468f-bbd1-ba55c5a041ce,completed,other,Bank,10318.48,78.16602937219716,86.33565720021699
+e83c88fe-26be-4f64-9824-c0e1b4ff3ef5,completed,payment,ATM,1000.76,83.19997586632388,-82.90114898163193
+070ab890-d536-47fc-8142-4428120afca7,pending,investment,Bank,44018.83,-87.3418706285647,-154.58864959255925
+ed2ff481-8eeb-4e1e-94c8-cff4f81eeb08,completed,personal expense,ATM,22177.87,-67.05373060011432,-155.2169372731008
+5523c11a-1052-4099-a07d-8c60eeb4d8ab,completed,other,Bank,18674.23,3.7208454018394264,-30.46076303638418
+c5eb4a76-ea40-4e3b-b17c-94a3d99cea6b,pending,payment,ATM,4354.43,68.42680853501503,-74.91951109200153
+620d0576-d442-4055-8b19-612fd67e2fcd,completed,payment,ATM,2702.15,-4.857436784571291,-103.4038519346352
+80b060fd-ff09-4d6d-a95d-3ce95398d0cd,completed,investment,Bank,2346.22,0.5661750317948417,-81.6150218028587
+bc0676f1-43e4-4b98-bade-66770fbe22ed,pending,other,ATM,1115.7,12.966307947335878,-95.0937904749785
+bd0709cb-de94-43c8-8e01-834975b26bee,pending,personal expense,Bank,963.63,62.81311266725268,-132.94304566623106
+28c2ed04-c2df-41ad-97b4-bdb77733293b,pending,other,Bank,38.93,35.02712116858366,-144.4321389808415
+f67bff5a-ffb7-4dc2-96c0-6738d9b1788e,pending,other,Bank,1447.82,-34.337873201591364,16.97428485008976
+5e824f9f-759b-4e47-a323-5db4a47a9b39,completed,personal expense,Bank,4447.01,23.718706722083198,-70.66108484264743
+dcc05bbb-e33f-4980-81d6-dcb1ab86e0f3,pending,personal expense,Bank,697.62,-15.376276976144553,-32.90327926593997
+f72917f1-e1a4-49eb-baff-e97a321bcf81,completed,payment,Bank,3085.24,15.8528774923127,70.12525128394867
+308df99f-8c73-44f1-b424-601dba0757e1,pending,payment,ATM,7704.29,-60.64506824046929,177.25210456679355
+62f94e9b-2faa-43fc-8d9a-6b6e731f1cda,completed,investment,Bank,397.95,54.85254493136557,-78.5377359142539
+dab6e5bc-ed61-47a5-a62f-8f5a3196ed84,completed,payment,Bank,16428.92,-89.57931593951112,-66.8405179381998
+e820df34-edce-4ef8-955e-f84cf209997c,completed,payment,Bank,36.67,-82.76951264564948,169.77211357118227
+6749b11f-2ff9-41ef-84ee-96a6539aae93,completed,investment,ATM,4331.0,-39.99506391505477,76.85428866878016
+03f6a78c-485f-4afa-abaf-73b5834019c4,completed,other,ATM,428.89,14.083796123217482,101.60566909909892
+72c40033-2988-4357-a743-f392cdd22381,completed,investment,ATM,10167.05,38.19068353751203,62.8580203104664
+69b43f13-15da-4a53-9f9e-151fb9a197f4,completed,investment,ATM,3838.34,-36.33081520096839,-95.01428038717312
+62f77d1a-7d81-4d06-ba2b-35b0fc5d362b,pending,investment,ATM,8837.94,81.11918405905953,118.64755036260306
+cb794282-faf1-4779-94f5-1972a6e34b05,pending,other,Bank,8185.69,57.62400999243232,4.184250852596421
+9595f00e-639b-4167-8a7a-01e1411d930e,completed,investment,Bank,17856.89,19.07877197447965,-163.93219200480456
+3b05eea9-87a0-4cfb-bd21-25cd0c0fe073,completed,payment,Bank,5204.15,-0.34771790424952087,174.74542390077477
+896a2739-08fb-4a2a-8242-edd2ca431f23,completed,investment,Bank,13985.65,71.82492054794247,93.09074256189882
+fc2fe87c-74e0-45db-94ad-ffd909fc615d,completed,payment,Bank,6469.44,-52.13252826786831,154.8368504306069
+9b9488d4-e807-46bd-a5a7-a5af31770c72,pending,other,ATM,227.56,15.80213276211073,-104.80090546787608
+d3b108e9-5b57-41dd-909e-22e60a477a1c,pending,personal expense,Bank,3858.85,24.48169614936272,29.866022686875624
+7d950d23-f3c9-4d14-aca2-25c76864baaf,completed,investment,ATM,13352.3,23.221461068015614,-62.83266294166651
+e041ceb0-6d60-414c-97bb-fdd436da8984,completed,personal expense,Bank,780.42,58.076397611302156,102.43364778770967
+55b49876-77ad-4474-b898-05ac0b097edf,pending,payment,Bank,1081.82,-28.373042113148436,-36.96604945202756
+4fb8ef23-87a9-48dc-9df6-245e449f2eaa,completed,payment,ATM,4506.52,3.8494184654884407,65.4408201978375
+c034cd7b-bd82-4f30-a46d-d3922ac39fff,completed,payment,ATM,25164.14,20.562629221028118,109.41941977864866
+09a568c8-9ba7-47a3-a58c-474a26b4f456,pending,payment,ATM,2337.82,45.13078417091501,-83.40328147688999
+82e9ff3f-8162-46e4-b20a-48c6175cdc2a,completed,payment,Bank,1875.8,89.94995320749712,9.756978797315071
+9d978766-bd08-4615-b559-9c33fed8258b,completed,personal expense,Bank,17158.0,47.61503005433613,16.364197637656616
+9ac775d3-5432-477d-9665-65cf4d1fab87,completed,personal expense,Bank,13081.19,75.58260295000494,175.08022319773755
+7c199701-1530-4516-85a1-9b24c0feab5b,completed,personal expense,Bank,521.2,25.53744013900038,-136.23848548403197
+7dfd00a5-a371-4e10-b2d3-72f21097b2ae,pending,payment,ATM,1731.57,70.6526530125467,-115.98957855254123
+04afbbc8-3e2e-4124-a69a-3fdf667cc485,pending,personal expense,Bank,291.32,-24.239656632477207,42.67243046309949
+0ba72dc4-8938-491b-9c0d-be7cfa6134ae,completed,payment,ATM,9880.29,36.97650422681271,15.90821515024055
+056fbdd4-8bb7-4d6f-b06f-89671f86d454,completed,investment,ATM,22866.56,-64.85510495127008,145.80522395740888
+c7cc201b-174b-4afe-86e2-47f743ce3a29,completed,investment,Bank,4094.99,-38.30460828463344,-156.87359948296464
+d49e2302-eb83-4ed2-82e1-bcfdefa92baf,completed,personal expense,ATM,82.25,5.2545282934226805,57.72816547360188
+283b78d3-79a0-4e9a-b19b-f871c35f4168,pending,investment,ATM,287.71,13.757426160871049,94.51205394782357
+96decb72-e463-4574-ae8e-8c6acabc4ff7,completed,payment,ATM,318.2,37.65744606057507,86.81111765238438
+0043b4a9-3c30-4539-937e-bf6c8806647d,completed,investment,Bank,250.47,-57.850921078286476,-148.9755336863334
+fdc5d3eb-1264-46a6-9392-4eafac5ab14c,pending,personal expense,ATM,999.5,-78.71890261025185,141.50979049874564
+07842ee9-9027-4ac7-804f-0d7dfca39e3d,completed,other,ATM,747.24,10.578745714730175,-179.75295763189152
+18b40fc2-adcd-4b0c-84a7-313598224c42,completed,personal expense,ATM,2270.15,75.23988250563951,-25.416671186604844
+ba9032fb-d611-49e4-86bc-65026892c8a5,completed,investment,ATM,840.17,10.20124290611217,88.78388909759491
+8e2de1ef-6a23-4408-acee-b5bab64fe522,pending,payment,Bank,13062.76,6.530133821895518,-179.69856156864012
+cee42999-1136-4df9-ac4a-961fd3711b73,completed,other,Bank,9332.43,-47.718533493675,-63.5417746111888
+726373a6-2f16-41fb-9e40-3637c32d9a04,completed,investment,ATM,3609.27,74.35388698234541,158.1539387157291
+679955cf-9d71-419a-9bc4-ead48f005249,completed,other,ATM,129.03,1.2989553273702654,10.39457122659681
+d8781056-72cc-4428-819b-cb5c207d4d90,completed,other,Bank,1422.45,-54.70822475036411,-86.77785902278796
+4c17dc4c-5c73-4d81-b0d1-119564664ba9,pending,personal expense,ATM,3384.88,-29.376467749464602,-160.7443613747563
+e78489c9-5dd3-4ddb-9f8a-0169f3980ae0,pending,other,Bank,2534.79,-63.10974967837069,-125.76626946729255
+18f0cb9d-6b2e-4785-9143-3b9ed1bc21b6,completed,investment,ATM,25531.43,-23.81817776827168,-125.26676136873748
+d48fc989-50ea-4a79-a4a6-cf1300aac702,completed,other,ATM,801.97,-22.38974255975866,0.17944083837690528
+f79fcac0-67da-4e58-8021-5037f4faa012,completed,payment,ATM,5827.42,24.63310607461615,-60.20144676729606
+4587d2aa-1f0f-42a1-a4f4-65a3f2c4e0a3,pending,other,Bank,1180.57,33.191579458152276,-111.83523775416603
+b2b98334-5830-495d-aeac-236e386b8e4f,completed,personal expense,ATM,5969.61,-62.18245597762583,17.892953385574287
+3dc35636-12b1-4a8e-ae21-8b04d307679b,completed,personal expense,Bank,1431.82,52.62316556201344,67.70456021302127
+3d15540c-1db7-4ff9-a190-df44e82e130e,pending,investment,ATM,2386.33,-77.02523716691793,-163.77652497680342
+65ff35cd-940d-4627-a48c-135a1dead0bc,completed,other,ATM,1384.98,30.899425594111918,-132.04970589130147
+9173cea1-d53e-4022-ac9b-375b628415a8,completed,investment,Bank,595.71,-11.349733548409262,101.3930283160766
+31487c02-1f69-418e-b952-f4e2620f103a,completed,investment,ATM,3888.32,-25.698978464868432,114.01321111329565
+07d7bc4f-62aa-4a62-826e-2d9e95fdcfde,completed,investment,Bank,6226.71,-51.458929088455236,-149.44821052192248
+fc36dac4-85a3-4c95-bb61-8651e6990de8,completed,payment,Bank,1304.11,-28.44026305808744,-177.26428285458485
+49f038f8-bf35-40a2-a9fc-25a4a52094b7,completed,personal expense,ATM,1322.51,14.409081539378207,-28.51844354562877
+ac1ee139-ba2b-4896-ac7b-0ae53074a330,completed,investment,Bank,3344.01,16.517623341720153,-110.09034255332486
+ef2e8c72-e0e7-4b7d-803e-019d1ad3185b,completed,personal expense,ATM,682.59,11.171884700967965,130.63188099131168
+de5376b9-e029-4f9f-91eb-f789cc604843,completed,investment,ATM,165.68,38.51210984670584,-16.416583555354123
+16b94416-401e-4759-bee3-ed1de9bb7548,pending,investment,ATM,18082.34,19.381164313459493,163.73206154906552
+36cdb748-eb3c-492f-a816-64aae34e0545,completed,payment,ATM,19686.23,73.03811638761488,35.89848808441997
+89b0ae88-1d90-4e8f-a64a-8ead66e9e5b8,completed,investment,ATM,16443.24,-17.496947330176894,17.64103713872109
+330c8486-9fb4-499c-b49c-a78c2107df3b,completed,personal expense,Bank,1733.73,-62.16405308265739,116.77186297511707
+83169363-bcd3-4c94-9c3a-7b6d0fce1f36,pending,personal expense,Bank,5754.41,8.992719435542796,-1.986891740917116
+a8d43369-61d8-4ac0-b12d-6eb50118028e,completed,investment,Bank,3014.91,14.196389627959093,-63.71706680077003
+6250fb00-24c7-492c-a4c5-ea94e4148bf0,pending,investment,Bank,1053.73,-87.40688845484823,-31.977884916898063
+f058ccb4-a26d-4bd2-8b41-c54993f298b7,completed,payment,Bank,5205.24,-20.80922174282975,57.71816286195656
+b1660a9e-56d5-4195-8405-8d11c7036227,failed,investment,Bank,9.2,-45.35878851217648,-100.46479329858826
+bd9b3c78-aedb-40b1-85b8-45bf3521635e,completed,payment,Bank,14443.61,-57.896088645175354,9.168007688625522
+1da58d73-c0e1-4213-a426-7a35b11d4e58,pending,payment,Bank,2782.44,55.19616916196074,107.10669004491785
+180deb05-17e1-4c26-98c0-3e8e0eb104d6,completed,other,ATM,15705.64,-26.80429839294119,11.80700336556609
+ff47d7a1-dd78-4254-89ae-c95219bb3d33,completed,investment,Bank,2445.46,-42.163703622360394,-119.0608808060758
+84515d05-bd00-4ca8-b07d-53f896654e82,pending,personal expense,ATM,1034.88,15.275914123391686,22.920894803901092
+eea07b71-9850-4802-8556-53f31160b3ef,completed,investment,Bank,1851.02,63.768836539259155,-28.893501788470417
+605e72c6-b64c-4944-b298-438d59047401,completed,investment,ATM,995.35,-88.35659406554734,-49.93860468027174
+0ba2e126-ac19-4fdf-ab1a-372d98540ea7,completed,personal expense,Bank,292.51,-53.49216646698309,-17.94542427087569
+1864bc9a-5f58-4cf6-a6ec-7a328a2c79d3,pending,other,ATM,3978.49,-41.08813743544356,83.99873753625849
+719fbd3b-d21a-44d4-8462-5665b071a4a2,pending,personal expense,Bank,3478.56,72.80082252086055,96.2112362446154
+31de2a8d-29a9-4f8d-af62-5b52f2eeb686,completed,investment,ATM,14914.78,-36.841421473261335,-25.772900243002113
+e491096f-96e6-45c5-b8e9-d8f49f270d11,pending,other,ATM,2954.55,28.102672878320533,70.77604314391607
+964802d3-e477-4231-8504-ff4fdc515125,completed,payment,ATM,9457.01,-53.987101633205356,63.735935175655754
+242e8270-0605-4378-9a71-d5bf7efd9043,pending,investment,ATM,12780.0,61.10911652774794,58.2979372591507
+4e8941d2-f92a-4adc-ba39-9316aefac3d9,completed,payment,Bank,586.43,-72.33503832056702,148.23878979708348
+d172f8d5-cd45-42ff-8c66-b66a43c943d8,pending,personal expense,Bank,1824.55,55.00186881648784,-64.63425853495622
+7020ae51-e270-4b22-87cd-5aa60427c773,pending,investment,Bank,3485.09,-22.766056925085664,39.63588997120908
+5f0fc4d7-38f5-4649-aa3e-051e900dc911,completed,payment,ATM,3985.06,-66.46041787371331,-12.029725947120681
+3f95eb48-45a6-4609-abe0-e66d4f8014c8,completed,other,ATM,1711.08,-79.2729708987538,-81.43209713422796
+b261bab4-b64e-45e7-a89c-550d76ba7283,completed,personal expense,ATM,3510.17,-5.559330104392984,-141.69801563421282
+e7a28fda-8057-4998-85a1-3b94861edc5b,completed,other,Bank,4828.57,66.77441246186908,-97.54997341482056
+88653f9a-f4c5-4029-a15e-22605d9b5de0,completed,other,Bank,2384.3,38.20449842799681,2.293875845803683
+fe1485ac-6c7f-49d4-b8d2-140d1db64b51,completed,payment,Bank,6512.59,19.349970843971988,37.68135912147409
+34c8a0ed-84c5-4d13-8a91-6f59d6339e22,completed,personal expense,ATM,9211.12,-54.81253279992701,-84.1103397339639
+941553b3-b7fe-4b24-ba1e-1e303f689c58,pending,personal expense,Bank,8811.84,62.72083533933417,125.36940500421207
+2de6648a-eea6-4219-9d25-4abe30a23b03,pending,investment,ATM,1967.41,-14.386027333095925,-110.85667499792433
+6af8878d-be7c-4859-91ec-cd3781b6e807,completed,other,ATM,6895.61,34.3253812201248,-60.61041696394555
+51c7bc77-da72-4d24-9ec8-7c778d35f07f,completed,personal expense,ATM,6502.81,66.42576286119606,-31.58894020622526
+983eade5-71a7-4558-882e-b6483e586de2,pending,investment,Bank,11505.92,66.27094015507942,55.870194357616896
+b2162a14-a1b8-46f4-b6ac-582d8b220068,completed,personal expense,Bank,26048.37,87.87450615995792,-161.79496691183942
+7c25860f-62ff-43a5-86e2-aa034ffd9b2f,pending,investment,Bank,1580.6,33.62866655901864,161.6338353466041
+7eb0fa06-ede5-4c0c-a302-1c4214c3eaa1,completed,other,ATM,5418.7,-37.479351875078024,8.540493024834916
+77a1e80b-fadc-4fe8-bb52-c193129029cd,completed,other,Bank,4253.29,-73.01022826448431,169.70112042152726
+392496ab-111a-4a19-866e-de5e9e748033,pending,other,Bank,198.87,-32.03720431303891,-133.22034043609509
+494c5a1e-bc70-4a1c-837e-c710198d8db5,completed,payment,Bank,22413.57,-81.48060092553393,-146.92203398880307
+931f6d08-8c8f-474c-975e-a6cb48474f51,completed,personal expense,ATM,19516.88,80.65398736032648,-146.67984757155736
+b306737b-ab37-4f43-9a88-723716978385,pending,other,ATM,106.59,-50.796892647255675,-115.05706542498723
+89fd431d-b8c4-49c0-af11-6e3ccb4cb2f0,completed,payment,Bank,115.46,-31.077647431903422,-142.90924770541153
+b08c66f2-aa8c-4664-bdd7-9dc6352af32d,pending,investment,ATM,921.15,29.69766838276672,-98.80844711325634
+c35c20ca-207d-438b-90ee-df2d6d18d64a,completed,investment,ATM,1189.13,87.71258294446662,-94.39706580315227
+a4ec776d-b5cc-452e-994e-1c63bcf9d7ea,pending,personal expense,ATM,6026.05,87.93363873984168,-111.81083188514397
+5b77ee6e-89ce-42da-a0f6-910944616a53,pending,personal expense,Bank,3317.67,-62.514989511801545,129.887450820014
+fc55175c-e732-41b1-a231-a946332c6b0f,completed,payment,ATM,1843.71,41.909086089912165,174.76137502905027
+c59e12f3-ba25-4294-9b3a-435265b3c07d,completed,personal expense,ATM,1429.18,-33.7770354062338,-35.45474615712354
+0776c777-20f9-4b4a-9fa3-61969dffd46d,completed,investment,Bank,1678.53,17.639981268882664,15.625653295459728
+adea88e1-eeb3-4744-9b62-d0dcc74b38de,pending,payment,ATM,35056.55,47.26770262243551,111.86917421531524
+c96b318f-3775-4df5-938e-e21cd94de4b4,pending,other,ATM,14414.26,6.021695344922364,-56.646114139603
+41360d29-5490-43d4-84b3-9c8e563270b2,completed,payment,Bank,12137.1,-29.727080599930893,10.538890210462597
+d5b9e6fc-675a-46fc-9bc0-7f76c3d276df,pending,other,Bank,1105.93,-0.8058677995540506,-106.48949890201145
+dab9bbeb-84f5-499b-be1b-2bcbd757ca52,pending,investment,Bank,18143.58,-31.126839585184655,29.104059431397133
+2efe0a61-0101-4d17-8e04-12076be1286a,pending,personal expense,Bank,29900.83,31.38111628250705,172.879412042806
+961c89a7-8945-4a56-b4d6-773f362f6cbf,completed,payment,ATM,13804.4,7.2167715602737275,161.82935269441288
+8e04ef8d-792e-44b7-99f8-ab3afaabc09d,completed,payment,ATM,18479.67,46.58120428693141,-18.92696948378878
+30c32f43-fc3b-4373-94d5-4729f8f5a745,pending,other,Bank,25484.5,-57.159153222617235,126.16600970290654
+9c59f7e2-6d5e-4ad4-b693-6cb130945e08,completed,payment,Bank,47348.8,8.848020434644567,-176.56155351457863
+9223f21d-70d2-4adc-b784-99c9799c39f4,completed,other,ATM,115.04,-80.66999933707697,105.83988985393148
+1931d673-f76d-41b8-8b79-f09569cf4e45,completed,personal expense,Bank,70.43,-88.25751138636734,27.080843214509088
+5f5c4836-07ba-4ae0-a2b6-a620398c36d9,pending,payment,ATM,18966.59,28.296513987240644,60.99821196734257
+b3043f72-0b69-42c9-9365-fa422a1e0e74,completed,payment,Bank,4027.88,57.41316143495004,-166.24760603843475
+32945afb-9a9e-41d1-a385-bbb82f86c99f,completed,investment,ATM,3199.72,71.00164104463701,152.3997316185363
+ea4aac85-353b-4782-bc35-faae6fd42401,completed,payment,Bank,2282.92,80.80608907855702,-104.09879282349685
+5a50b404-476b-4df9-b6d4-dc3df6f11c26,completed,other,Bank,18722.2,39.84647356288366,83.94653605063115
+5fe638a0-6822-4b25-a445-54554f69651c,completed,other,ATM,17261.47,-84.9456095303278,137.1631687104104
+c994590e-925e-460f-8ee4-44a1fa42e877,pending,other,Bank,24206.94,-76.77154161391519,137.25373261943514
+04c893d1-e85c-45bd-b3ac-9629c7f1a5e7,completed,other,ATM,9269.15,-15.045338072566906,-127.775497340111
+66d58da3-4d5d-40c2-b1f5-56dc775ed34d,completed,payment,Bank,9835.81,1.6977025147946279,27.66312774405418
+0c9c5ffa-644a-416c-bb8f-6696c19446ba,pending,investment,Bank,8242.3,14.599875200892257,136.05336972871424
+bffa5351-5d7d-439c-a5b0-2db63a87b181,pending,payment,Bank,19979.35,83.55048451138248,130.3911790699563
+a2df39dd-7d39-44b9-b48a-f190fa9d9e7b,completed,personal expense,Bank,17528.04,56.0518466167928,105.7420407673601
+c2693f2f-7e73-4660-a1f1-aa0d22cb5e77,completed,investment,ATM,7574.98,5.74690224988646,-49.546082742370686
+7541f50f-05c6-4a1d-b97b-6be96b6b5058,completed,investment,ATM,4569.98,21.88161511229984,96.1891102941239
+1d5beb90-4fcc-4688-ad11-23a2176a7671,completed,payment,Bank,727.55,-71.3587871768529,41.669647976335256
+71d4cd36-065f-4dcc-82f2-d0b0b5f0e630,completed,other,ATM,29920.85,-86.90812089537103,0.17345652114573795
+5426dc2f-c5cb-494f-b1c9-b8ac9e931e4a,completed,other,Bank,3991.43,55.681019850401384,67.48806735056309
+3c6639d3-0fee-4fe6-a67d-01f1bc8addbd,pending,payment,Bank,2188.66,-61.63215031904741,165.55545744410364
+ba68952d-8692-4841-932e-1915e2c1e55a,pending,personal expense,ATM,1868.9,-45.32642470693478,-88.15587654177854
+6b625f5e-e6b5-4ec0-b1c2-0e640e1b0a28,completed,other,Bank,2401.2,56.32597423359104,163.57649078648427
+cfd933e7-34d5-4a40-a598-04256a78f9f4,completed,other,Bank,10657.8,58.37184013019274,54.25889360472209
+940620be-5dd3-45e4-ba0b-73ff5859bd7b,pending,investment,ATM,4503.42,-31.73404211223766,-108.05655696183028
+491fe848-fe52-4e6e-8dee-0e504e7076dc,pending,other,ATM,8428.99,13.58789875444883,-94.94187118639427
+a8d6cc73-45a7-4b24-bbf6-00d14eaf9609,completed,personal expense,Bank,5010.72,85.81452414932264,150.9847769448587
+ae79e887-5f75-4a0d-976c-47c98f1ba9e8,completed,personal expense,ATM,1932.29,73.10520457586796,40.443365751876144
+0bcb14d4-f64f-4ca3-b1f4-8bb3f4766f53,completed,personal expense,Bank,2095.01,48.07033940056823,-2.5471036892793677
+5797ab2b-da51-43eb-80f9-95bb9f0685be,completed,other,ATM,5663.68,48.86963032755651,-165.54375935029933
+364f4f73-e43a-4116-8eec-ef01bb25b709,completed,payment,Bank,2202.89,-85.78592047445179,-167.34253793168816
+cec2dda3-85c9-4980-ab6b-f51f2ec950f1,completed,payment,ATM,4302.48,-33.94833158702797,129.8762840479585
+b8341fde-5d2c-452b-8304-4e5ff3671e99,pending,investment,ATM,31.78,-77.43878080132646,-144.19451832710627
+0477de17-2893-4e87-b92e-61b3f5f817f8,completed,payment,ATM,1424.47,-25.244396768063112,-164.28637859191656
+4da5cf85-b0c3-40e7-9bb0-ac3e909cce9d,completed,other,ATM,5107.71,40.96662279811673,102.55178677310357
+4b74b1cf-b41b-4e34-ae88-defbd27c40cb,completed,investment,Bank,189.47,-84.67405881782749,-78.61617644289302
+ec8b6a19-be84-4d5b-a42e-aedf2764c8a9,completed,investment,Bank,2494.41,39.87189949212552,-176.05072377190015
+d9385969-a043-4071-9b3e-53bf7525fd37,completed,payment,ATM,12439.12,75.11881998807243,-22.479828232944698
+c7bf0506-ba9a-4aa8-aa9e-eb00fa5714b7,pending,other,ATM,1137.27,-43.512527135974295,86.08071221830085
+87342957-0560-4982-bceb-b985e1a9b88f,completed,investment,ATM,341.52,-28.27885771680149,-32.85986539684586
+f790b834-4898-44a4-b668-31843c3a64a5,completed,investment,ATM,10517.5,88.91253274693742,-145.80914448960345
+22034df1-6b32-4bab-a412-cba1467b2a03,pending,other,ATM,112.05,-74.01977733738426,47.51861952677987
+4636a6fe-2b5f-4d07-be4f-eb2716bb1e36,completed,investment,ATM,304.31,52.23770693781191,3.6546212247633605
+ded7cef6-3167-4035-9451-3321ba99b46b,pending,personal expense,ATM,659.05,-58.8531188771337,104.89373537312929
+6febe9c6-175a-4830-88b3-dad5c34e5eb6,pending,other,Bank,1849.72,-8.685442453607394,-34.30076722251664
+e380107f-dd9b-4dd9-ab37-b02599347390,completed,investment,ATM,219.44,-30.836795993060377,-59.52003412854063
+151aebbd-2032-4f17-b25f-95d9670d8883,completed,personal expense,Bank,3320.14,-39.87917923108738,-66.11386371161825
+38792a6b-b717-4e19-9be9-d51583269602,pending,payment,ATM,2258.07,-69.38836986032743,39.56749631039901
+ca3fad1e-a81c-42bf-84f0-7b3d07a338ba,completed,investment,ATM,1694.42,-82.92046237483805,4.458092303013501
+f9838078-7ee9-463f-9dc9-44ef88588939,completed,personal expense,ATM,3596.62,-16.12396824837934,171.04517230838195
+f392df33-2108-4ce3-ac0b-b07c662d7bd4,completed,investment,ATM,148.53,34.08340710624162,-162.0687148466692
+98531379-18f2-4ee8-8d2a-1141432f5b4b,failed,other,Bank,76.02,38.54017767765171,-78.26119974020229
+f6aeae1e-fc65-4190-b61c-9d886c855c39,completed,investment,ATM,30676.03,41.758623315255875,125.5950519646974
+48a0e93a-ab25-4e12-847e-24dc507a2c55,completed,other,Bank,14535.31,37.37935233216098,31.981438964811048
+99297384-ec31-4431-ad03-4e21485ed4ae,pending,investment,ATM,631.43,-69.84512485250491,-164.68287146051966
+67790be7-46a1-45a5-8d89-06d68e81a225,completed,payment,Bank,28922.56,81.51160787295626,159.64964630798914
+aea007d9-2ba2-4286-80a8-7a2e922dbe2f,pending,payment,Bank,123.58,28.666569039227824,-124.2039765944217
+ba3f4a42-991d-4e42-a70e-37669e3b7df1,completed,other,Bank,3395.91,-27.93044120024374,76.07923037489377
+cec82300-514d-45ce-9443-9b9d32858aa3,completed,other,ATM,10228.64,30.914237489750974,-168.4078253667983
+a25c9371-c166-4d4c-a1b2-227f39693399,completed,payment,ATM,11694.67,-59.51348763745625,114.78756031174242
+7a0ee2f8-d8f8-4ce1-b20b-434956b529e9,pending,other,ATM,2249.42,54.90197145244767,84.59261432815731
+2914aafc-e5ba-4530-8118-0e8b7e7b1145,completed,other,ATM,4614.09,-54.36878674818206,50.07014983588789
+44324c5b-bcfa-4693-a25e-5ef20f9fd9d9,pending,personal expense,Bank,5545.7,-23.373922915946892,-93.94493913377137
+611f4cef-3d5a-45c4-9068-c6fc77266d8a,completed,other,ATM,26267.18,4.034430632380577,-129.7431068891255
+868076ae-6af2-4454-89bf-9f748146064a,completed,personal expense,ATM,2521.03,-69.69620413730664,43.65086233470856
+5d061d23-c511-4ba3-a35f-243285d9787c,pending,personal expense,Bank,13536.47,-50.31021279756534,120.87104182392721
+4e72017f-19c6-4889-9031-9709186d827f,pending,payment,ATM,10127.09,78.48374266228285,146.75658539256256
+943cd9f1-4e8a-46d7-92e2-1d18b774746a,completed,other,ATM,19795.39,-75.26843143485145,37.583145907797444
+1b7a8737-73a9-41cd-8fa5-cf0472540978,completed,other,ATM,5009.77,79.05085846511557,108.57844517980811
+acc87b69-4328-45ef-ae8e-04a065dfbe0f,completed,investment,Bank,1663.16,87.92430004610935,-127.10735525664519
+ec18f71d-f672-472c-8842-dd20f06fc703,pending,payment,ATM,178.79,79.09043874298962,-89.55890796616599
+fedc8fb1-c8e8-48a3-b80c-ffa1e1532aa6,completed,payment,ATM,547.68,71.02821524064456,87.97457427719513
+65ef8606-af2d-49ee-af3c-ef08c844d9cf,completed,other,ATM,16154.73,57.417837949209655,-47.65874021463327
+5d7030a4-9c8f-430c-bfca-adc3606a847d,pending,investment,ATM,21253.91,85.63251359413655,53.87138453279616
+2c50dd7e-27ac-42ba-b74f-7a8281fb509d,pending,investment,Bank,13633.92,-85.64943748404703,12.011934029893553
+0ea2b593-80c4-45f5-9cfe-0418a621ba13,pending,personal expense,ATM,8599.38,-77.18551614898645,31.887617087835565
+496325f2-7a7c-49f4-9d74-3f00f973875f,pending,other,Bank,12385.93,-88.78174875687094,-118.57018029510269
+e8789bdd-a4aa-4a82-824e-c8dfccfc10f2,completed,other,Bank,18923.46,45.42024678229083,-156.68357205537663
+fd391ab5-8f81-488c-a3f6-fb1308823b72,pending,personal expense,Bank,10872.32,41.94724432209691,136.41628714625512
+46226c4e-b7a4-4d3b-b978-d0c747255711,completed,personal expense,Bank,29198.09,63.85453340575643,68.17017812345784
+9f603003-95c9-4224-8e95-08df4d10df68,completed,payment,Bank,7134.51,-60.01989768419727,-8.210706720529714
+a3bb131b-c950-4dcc-a635-1053ac667bd7,completed,investment,ATM,6892.3,-39.44589775655521,-120.32914125662876
+dbe3a8e4-62cb-4ab5-a90a-d34320f2d1da,pending,personal expense,ATM,3389.14,-9.103998260858901,160.9435619818148
+14a4ab60-f3b8-4af1-8e90-7dee56d23b56,pending,payment,Bank,10194.82,29.1040405024426,-40.46754056860735
+37d3f9f0-0c20-4510-9ce9-dc5dbaa5fb09,completed,other,Bank,2509.32,-60.61228444050557,13.969565983029923
+80f7258c-dfe6-414a-bd78-d3ba7a887fe0,pending,personal expense,Bank,31694.4,12.187029703886438,112.38564506250998
+a9ca9042-69ee-470c-9c6e-34a602cdbc5b,completed,investment,ATM,24896.79,30.93697884806612,98.18071035442148
+f8e62c1c-1a09-46e7-8035-87d266d92e1b,completed,other,Bank,8975.72,-76.65052118254962,-4.2397005481522285
+41264971-e769-44f9-88b5-a99a0e27720e,pending,other,Bank,1310.7,48.74781992820962,70.58740824716267
+cd3c8da8-ca68-4254-a5a7-0056489e134d,completed,investment,Bank,2785.31,39.30840279202013,162.12751898918526
+3bff6937-2903-4fe4-a262-eaf8e00048ef,pending,payment,ATM,2778.27,14.671508051066866,-126.82599969042121
+991a0d51-5814-4ee2-b744-955e52e1196f,completed,payment,Bank,579.22,-75.29335944854905,-125.85355176009807
+543f51fb-8989-4970-8a7e-11283d71373a,completed,investment,Bank,1099.36,6.735468018492256,28.490865075566603
+a61e2b2a-b535-4ff4-b157-82288a44f38e,completed,personal expense,Bank,11265.89,45.99633706229079,93.7833596150951
+22d53a2d-042a-45f3-b78a-0fe4f1949222,pending,payment,ATM,1830.49,-57.946071520406896,21.28766777533133
+0e6e34d1-aaa6-4a6b-b7ce-1cfbc28f40d7,completed,payment,Bank,536.9,-62.32366470798617,35.040509197518645
+2950c683-eb92-4b5d-941e-b1b4ec1dbfec,completed,investment,ATM,578.49,-32.2365078254056,100.91446861387078
+6a1ac1e1-b436-4c8d-9386-02d4b256311a,pending,other,ATM,33790.71,11.641539627329905,7.016434549502094
+44b3ddd5-43b6-42c2-9419-62c88ff680ad,pending,personal expense,ATM,17647.64,83.90784741934101,-144.21387213696204
+9d58abb4-3be8-4b9b-ad9d-72aee1c3ac57,completed,personal expense,ATM,26324.67,5.396155821164754,31.899473536038414
+356f9cee-2942-4437-a233-8e6948e2b021,completed,other,Bank,4126.77,78.55944969166501,-54.18729928607863
+f95a59ed-4767-471b-b05f-45c9c5d22bb4,pending,other,ATM,5881.72,-60.447157304244584,37.44434901671099
+bec2ab54-6538-4a88-905e-1c0e71dcceda,completed,payment,Bank,23928.55,-42.13553088788357,-3.532522359075955
+eacf2275-ae29-4cba-aa28-c2f64fb427a4,completed,investment,Bank,5645.02,-72.15466940639976,-5.476912741651233
+370e592e-8fd6-4dc8-8f40-68bc3deee0f5,pending,investment,Bank,13666.67,4.5467505161132635,-7.109140827118409
+e36ae8b0-ec97-42ed-a9a6-f844e3d5668d,pending,investment,ATM,2017.64,70.27014892168671,4.788635930027482
+c968dfca-af79-4a21-856b-6bf38da128c3,completed,investment,Bank,34561.28,-86.03593644986394,-99.82341013668282
+4fd4eb5d-5ac3-4772-92dd-39e0fd8812b1,completed,personal expense,ATM,12429.84,-38.2613728706905,169.8187023407566
+ca4f43c9-799f-4e70-a03b-6b291c303dbc,pending,payment,ATM,6787.74,-20.344246785436468,-116.30511869610397
+c67aa56e-dfc1-42f9-9904-5463e3768999,completed,investment,Bank,750.99,44.648413906236726,-64.56655680164755
+0d127635-a89c-488d-9c74-97125956beb3,pending,investment,Bank,6228.62,38.39204953622908,34.22223808838842
+61515114-2207-4c60-93f9-62a1ea61f9cb,completed,payment,Bank,30957.37,42.23727768359106,-65.50235910375076
+04b18d97-9344-45af-83bb-e45ab835718f,completed,other,ATM,212.06,-56.366527424848776,139.6215783486905
+8a399a6e-d24c-494e-8e8b-3458e1df3d9a,completed,investment,ATM,1561.63,46.41857387226827,53.76317143097452
+d8911967-c2e2-4082-945b-b8ed70196256,pending,other,Bank,450.11,40.102111773076075,160.33815668428463
+a73aa1df-ceed-4313-aa74-68e669f62606,completed,other,Bank,16846.76,-61.64868103844681,-9.92484258072227
+fa658400-fdd2-4cdf-afc6-93c94257c94e,completed,other,ATM,1405.07,0.35602270076816467,-140.06942213722562
+9d72fc23-cc58-4613-940e-6c7b20b0f9c1,completed,payment,ATM,2223.34,66.01621140515024,-0.8720134541275684
+8b08988e-00c8-4508-99eb-af598d750a9f,pending,payment,ATM,539.8,16.703931532999476,-101.301632124206
+46ff07af-c517-464f-9b6d-6291e300e1c2,completed,personal expense,ATM,286.66,-76.63378669452744,45.83787985286949
+8b8cbd2c-0f53-43b4-b1a1-a90b06e8eadd,completed,investment,Bank,15622.83,50.49757349429268,-41.61349181812682
+4ddba764-07c8-4816-9b24-5675eef2eae9,completed,other,ATM,4800.47,9.750686873567432,141.1181285643441
+eb7ef897-c564-4e0c-ae56-78da134dbfe6,completed,personal expense,Bank,731.91,-47.75129520803491,85.97808262544379
+48253df4-3e4f-4f2a-b8a2-b79639ec34bd,pending,personal expense,ATM,1276.39,38.09958041849745,-64.20167649209155

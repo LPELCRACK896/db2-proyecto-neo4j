@@ -82,10 +82,8 @@ def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Clien
         'motive': random.choice(withdrawal_motive),
         'type': random.choice(withdrawal_types),
         'amount': amount,  
-        "location": {
-            "latitude": latitude, 
-            "longitude": longitude
-        }
+        "latitude": latitude, 
+        "longitude": longitude
     })
     if allow_log:
         if state == "pending":
@@ -323,10 +321,8 @@ def __create_single_deposit(account_row: pd.Series, person_row, type = "Client/P
         'motive': random.choice(deposit_motive),
         'type': random.choice(deposit_types),
         'amount': amount,  
-        "location": {
-            "latitude": latitude, 
-            "longitude": longitude
-        }
+        "latitude": latitude, 
+        "longitude": longitude
     })
 
     if allow_log:
