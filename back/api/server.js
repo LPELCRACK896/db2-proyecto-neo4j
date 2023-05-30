@@ -8,6 +8,8 @@ const cors = require('cors')
 dotenv.config({ path: './config/config.env' })
 const driver = require('./config/db')
 
+const app = express()
+
 const whitelist = ["http://localhost:3000"]
 const corsOptions = {
   origin: function (origin, callback) {
@@ -25,7 +27,6 @@ app.use(cors(corsOptions))
 //Route files
 const clients = require('./routes/clients')
 
-const app = express()
 
 //Body Parser
 app.use(express.json()) //Sin esta linea, los controladores no acceden al req.body
