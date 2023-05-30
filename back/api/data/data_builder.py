@@ -259,15 +259,15 @@ def __create_single_transfer(account_row_origin: pd.Series, account_row_destiny:
     })
 
     account_transfer_made = {
-        ":START_ID(Account number)": account_row_origin["number"],
-        ":END_ID(Transfer  id)": transfer_id,
+        ":START_ID": account_row_origin["number"],
+        ":END_ID": transfer_id,
         ":TYPE": "MADE",
         'date': create_date  if state == "completed" or state == 'pending' else None
     }
 
     account_transfer_recieved = {
-        ":START_ID(Account number)": account_row_destiny["number"],
-        ":END_ID(Transfer  id)": transfer_id,
+        ":START_ID": account_row_destiny["number"],
+        ":END_ID": transfer_id,
         ":TYPE": "RECIEVED",
         'date': create_date if state == "completed" else None
     }
