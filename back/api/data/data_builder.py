@@ -29,7 +29,7 @@ def __get_fake_addresses(num_rows):
 def __get_fake_emails(num_rows):
     return [fake.email() for _ in range(num_rows)]
 
-def __get_fake_id(num_rows):
+def __get_fake_ids(num_rows):
     return [fake.uuid4() for _ in range(num_rows)]
 
 def __get_fake_phones(num_rows):
@@ -40,32 +40,6 @@ def __get_fake_ocupation(num_rows):
 
 def __get_numeration(num_rows, start = 1):
     return [i+start for i in range(num_rows)]
-
-def create_persons(num_rows, dpi_start = 1, to_csv = False):
-    df = pd.DataFrame({
-        'name': __get_fake_names(num_rows),
-        'dpi': __get_numeration(num_rows, dpi_start),
-    })
-    if to_csv:
-        __write_csv(df, 'persons.csv')
-    return df
-
-def create_clients(num_rows = 100, dpi_start = 1, to_csv = False):
-    df = pd.DataFrame({
-        'name': __get_fake_names(num_rows),
-        'nit': __get_numeration(num_rows),
-        'dpi': __get_numeration(num_rows, dpi_start),
-        'address': __get_fake_addresses(num_rows),
-        'birthdate': __get_fake_birthdates(num_rows),
-        'phone': __get_fake_phones(num_rows),
-        'ocupation': __get_fake_ocupation(num_rows),
-        'average_income_pm': [random.randint(100, 50000) for _ in range(num_rows)]
-    })
-
-    if to_csv:
-        __write_csv(df, 'clients.csv')
-
-    return df
 
 def __random_pick(df1: pd.DataFrame, df2: pd.DataFrame):
     
@@ -86,76 +60,10 @@ def __random_pick(df1: pd.DataFrame, df2: pd.DataFrame):
     else:
         return None, None  
 
-def __create_single_account(client_row: pd.Series, from_date = None):
-    account_types =  [
-        "Checking Account",
-        "Savings Account",
-        "Money Market Account",
-        "Certificate of Deposit (CD)",
-        "Individual Retirement Account (IRA)",
-        "Joint Account",
-        "Student Account",
-        "Business Account"
-    ]
-
-    account_states = ["active", "inactive", "closed"]
-    create_date = fake.date_between(start_date=from_date) if from_date else fake.date_this_century()
-    end_date = fake.date_between_dates(date_start=create_date, date_end=dt.date(2023, 12, 31)) if random.uniform(0, 1)<0.2 else None 
-    account_number = fake.unique.random_number(digits=10)
-    capital = round(fake.random.uniform(1000, 50000), 2)
-
-    account_client = pd.Series({
-        ":START_ID(Client dpi)": client_row["dpi"],
-        ":END_ID(Account number)": account_number,
-        ":TYPE": "Owes",
-        "start_capital": capital, 
-        "is_favourite": random.choice([True, False]),
-        "create_date": create_date
-    })
-
-    account = pd.Series({
-        'number': account_number,
-        'balance': capital,  
-        'account_type': random.choice(account_types),
-        'state': random.choice(account_states),
-        "create_date": create_date,
-        'closing_date': end_date
-    })
-
-    return account, account_client
-
 def __generate_random_location():
     latitude = random.uniform(-90, 90)
     longitude = random.uniform(-180, 180)
     return latitude, longitude
-
-def create_accounts(client_df: pd.DataFrame, min_accounts_per_client: int = 1, max_accounts_per_client: int= 3, to_csv = False, allow_logs = False):
-
-    accounts = []
-    accounts_clients = []
-    if allow_logs:
-        print(cs.s_magenta("=========ACCOUNTS CREATION LOG========="))
-    for _, client in client_df.iterrows():
-        num_accounts = fake.random_int(min_accounts_per_client, max_accounts_per_client)  # each client can have between 1 and 3 accounts
-        start_date  = fake.date_between(start_date=dt.date(2010, 1, 1), end_date=datetime.now() - timedelta(days=1))
-        for _ in range(num_accounts):
-            account, accounts_client = __create_single_account(client, from_date=start_date)
-            accounts.append(account)
-            accounts_clients.append(accounts_client)
-            start_date = accounts_client["create_date"]
-            if allow_logs:
-                client_name = client["name"]
-                account_num = account["number"]
-                print(cs.s_green(f"Cuenta creada para: {client_name}: {account_num}"))
-
-    
-    df_accounts = pd.DataFrame(accounts)
-    df_accounts_clients = pd.DataFrame(accounts_clients)
-    if to_csv:
-        __write_csv(df_accounts, 'accounts.csv')
-        __write_csv(df_accounts_clients, "accounts_clients.csv")
-
-    return df_accounts, df_accounts_clients
 
 def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Client/Person", allow_log = False):
 
@@ -168,7 +76,7 @@ def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Clien
     withdrawal_motive = ["payment", "personal expense", "investment", "other"]
     create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['closing_date'] is None else account_row['closing_date'])
     balance = account_row['balance']
-    w_id = fake.uuid4()
+    withdrawal_id = fake.uuid4()
 
     amount = round(fake.random.uniform(1, balance+10), 2)
     state = random.choice(["completed", "pending", "completed"])
@@ -178,7 +86,7 @@ def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Clien
         state = "failed"
 
     withdrawal = pd.Series({
-        'id': w_id,
+        'id': withdrawal_id,
         'state': state,
         'motive': random.choice(withdrawal_motive),
         'type': random.choice(withdrawal_types),
@@ -190,15 +98,15 @@ def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Clien
     })
     if allow_log:
         if state == "pending":
-            print(cs.s_yellow(f"PENDIND withdrawal ({w_id}): ${amount} from {balance} in ({latitude}, {longitude})"))
+            print(cs.s_yellow(f"PENDIND withdrawal ({withdrawal_id}): ${amount} from {balance} in ({latitude}, {longitude})"))
         elif state == "failed":
-            print(cs.s_red(f"FAILED withdrawal ({w_id}): ${amount} from {balance} in ({latitude}, {longitude})"))
+            print(cs.s_red(f"FAILED withdrawal ({withdrawal_id}): ${amount} from {balance} in ({latitude}, {longitude})"))
         else: # completed
-            print(cs.s_green(f"COMPLETED withdrawal ({w_id}): ${amount} from {balance} in ({latitude}, {longitude})"))
+            print(cs.s_green(f"COMPLETED withdrawal ({withdrawal_id}): ${amount} from {balance} in ({latitude}, {longitude})"))
 
     account_withdrawal = pd.Series({
-        ":START_ID(Account number)": person_row["dpi"],
-        ":END_ID(Withdrawal id)": w_id,
+        ":START_ID(Account number)": account_row["number"],
+        ":END_ID(Withdrawal id)": withdrawal_id,
         ":TYPE": "MADE",
         'date': create_date
 
@@ -206,7 +114,7 @@ def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Clien
 
     person_withdrawal = pd.Series({
         ":START_ID(Person dpi)": person_row["dpi"],
-        ":END_ID(Withdrawal id)": w_id,
+        ":END_ID(Withdrawal id)": withdrawal_id,
         ":TYPE": "RECIEVED",
         'date': create_date if state=="completed" else None,
 
@@ -255,42 +163,169 @@ def create_withdrawals(accounts_df: pd.DataFrame, clients_df: pd.DataFrame, pers
 
     return df_withdrawals, df_person_withdrawals, df_account_withdrawals, accounts_df 
 
-def __create_single_transfer(account_row: pd.Series, all_account_numbers):
+def create_persons(num_rows, dpi_start = 1, to_csv = False):
+    df = pd.DataFrame({
+        'name': __get_fake_names(num_rows),
+        'dpi': __get_numeration(num_rows, dpi_start),
+    })
+    if to_csv:
+        __write_csv(df, 'persons.csv')
+    return df
+
+def create_clients(num_rows = 100, dpi_start = 1, to_csv = False):
+    df = pd.DataFrame({
+        'name': __get_fake_names(num_rows),
+        'nit': __get_numeration(num_rows),
+        'dpi': __get_numeration(num_rows, dpi_start),
+        'address': __get_fake_addresses(num_rows),
+        'birthdate': __get_fake_birthdates(num_rows),
+        'phone': __get_fake_phones(num_rows),
+        'ocupation': __get_fake_ocupation(num_rows),
+        'average_income_pm': [random.randint(100, 50000) for _ in range(num_rows)]
+    })
+
+    if to_csv:
+        __write_csv(df, 'clients.csv')
+
+    return df
+
+def __create_single_account(client_row: pd.Series, from_date = None):
+    account_types =  [
+        "Checking Account",
+        "Savings Account",
+        "Money Market Account",
+        "Certificate of Deposit (CD)",
+        "Individual Retirement Account (IRA)",
+        "Joint Account",
+        "Student Account",
+        "Business Account"
+    ]
+
+    account_states = ["active", "inactive", "closed"]
+    create_date = fake.date_between(start_date=from_date) if from_date else fake.date_this_century()
+    end_date = fake.date_between_dates(date_start=create_date, date_end=dt.date(2023, 12, 31)) if random.uniform(0, 1)<0.2 else None 
+    account_number = fake.unique.random_number(digits=10)
+    capital = round(fake.random.uniform(1000, 50000), 2)
+
+    account_client = pd.Series({
+        ":START_ID(Client dpi)": client_row["dpi"],
+        ":END_ID(Account number)": account_number,
+        ":TYPE": "Owes",
+        "start_capital": capital, 
+        "is_favourite": random.choice([True, False]),
+        "create_date": create_date
+    })
+
+    account = pd.Series({
+        'number': account_number,
+        'balance': capital,  
+        'account_type': random.choice(account_types),
+        'state': random.choice(account_states),
+        "create_date": create_date,
+        'closing_date': end_date
+    })
+
+    return account, account_client
+
+def create_accounts(client_df: pd.DataFrame, min_accounts_per_client: int = 1, max_accounts_per_client: int= 3, to_csv = False, allow_logs = False):
+
+    accounts = []
+    accounts_clients = []
+    if allow_logs:
+        print(cs.s_magenta("=========ACCOUNTS CREATION LOG========="))
+    for _, client in client_df.iterrows():
+        num_accounts = fake.random_int(min_accounts_per_client, max_accounts_per_client)  # each client can have between 1 and 3 accounts
+        start_date  = fake.date_between(start_date=dt.date(2010, 1, 1), end_date=datetime.now() - timedelta(days=1))
+        for _ in range(num_accounts):
+            account, accounts_client = __create_single_account(client, from_date=start_date)
+            accounts.append(account)
+            accounts_clients.append(accounts_client)
+            start_date = accounts_client["create_date"]
+            if allow_logs:
+                client_name = client["name"]
+                account_num = account["number"]
+                print(cs.s_green(f"Cuenta creada para: {client_name}: {account_num}"))
+
+    
+    df_accounts = pd.DataFrame(accounts)
+    df_accounts_clients = pd.DataFrame(accounts_clients)
+    if to_csv:
+        __write_csv(df_accounts, 'accounts.csv')
+        __write_csv(df_accounts_clients, "accounts_clients.csv")
+
+    return df_accounts, df_accounts_clients
+
+def __create_single_transfer(account_row_origin: pd.Series, account_row_destiny: pd.Series):
     transfer_states = ["completed", "failed", "pending"]
     transfer_motive = ["payment", "personal expense", "investment", "other"]
-    create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['end_date'] is None else account_row['end_date'])
-    
+    create_date = fake.date_between_dates(date_start=account_row_origin['create_date'], date_end=dt.date.today() if account_row_origin['closing_date'] is None else account_row_origin['closing_date'])
+    transfer_types = ["Internal Transfer", "External Transfer", "International Wire Transfer", 
+                  "Automated Clearing House (ACH) Transfer", "Person-to-Person (P2P) Transfer", 
+                  "Bill Pay Transfer", "Third-party app Transfer", "Direct Deposit", "Money Order", "Bank Draft"]
+    transfer_id = fake.uuid4()
+    amount = round(fake.random.uniform(1, account_row_origin['balance']), 2)
+    state = random.choice(transfer_states)
+
     transfer = pd.Series({
-        'id': fake.uuid4(),
-        'state': random.choice(transfer_states),
+        'id': transfer_id,
+        'state': state,
         'motive': random.choice(transfer_motive),
-        'amount': round(fake.random.uniform(1, account_row['balance']), 2),  
-        'destiny': random.choice([acc for acc in all_account_numbers if acc != account_row['number']]),  # select a different account as destiny
-        'account_id': account_row['number']
+        'type': random.choice(transfer_types),
+        'amount': amount
     })
+
+    account_transfer_made = {
+        ":START_ID(Account number)": account_row_origin["number"],
+        ":END_ID(Transfer  id)": transfer_id,
+        ":TYPE": "MADE",
+        'date': create_date  if state == "completed" or state == 'pending' else None
+    }
+
+    account_transfer_recieved = {
+        ":START_ID(Account number)": account_row_destiny["number"],
+        ":END_ID(Transfer  id)": transfer_id,
+        ":TYPE": "RECIEVED",
+        'date': create_date if state == "completed" else None
+    }
+
+    if state == 'completed': 
+        account_row_origin['balance'] = account_row_origin['balance'] - amount
+        account_row_destiny['balance'] = account_row_destiny['balance'] + amount
     
-    return transfer
+    return transfer, account_transfer_made, account_transfer_recieved, account_row_origin, account_row_destiny 
 
 def create_transfers(accounts_df, min_transfers_per_account = 1, max_transfers_per_account = 3, to_csv = False):
     transfers = []
-    all_account_numbers = accounts_df['number'].tolist()
-    for _, account in accounts_df.iterrows():
-        num_transfers = fake.random_int(min_transfers_per_account, max_transfers_per_account)  # each account can have between 1 and 3 transfers
+    account_transfers = []
+    for i, account in accounts_df.iterrows():
+        num_transfers = fake.random_int(min_transfers_per_account, max_transfers_per_account)  # each account can have between 1 and 3 transfers    
         for _ in range(num_transfers):
-            transfer = __create_single_transfer(account, all_account_numbers)
+            transfer_destiny_index = np.random.choice([index for index in accounts_df.index if index!=i])
+            transfer_destiny = accounts_df.iloc[transfer_destiny_index]
+            transfer, account_transfer_made, account_transfer_recieved, account_row_origin, account_row_destiny = __create_single_transfer(account_row_origin=account, account_row_destiny=transfer_destiny)
+            
             transfers.append(transfer)
+            account_transfers.append(account_transfer_made)
+            account_transfers.append(account_transfer_recieved)
+
+            accounts_df.iloc[i] = account_row_origin
+            accounts_df.iloc[transfer_destiny_index] = account_row_destiny
+
     
-    df = pd.DataFrame(transfers)
+    df_transfers = pd.DataFrame(transfers)
+    df_account_transfers = pd.DataFrame(account_transfers)
+
 
     if to_csv:
-        __write_csv(df, 'transfers.csv')
+        __write_csv(df_transfers, 'transfers.csv')
+        __write_csv(df_account_transfers, 'account_transfers.csv')
 
-    return df
+    return df_transfers, df_account_transfers
 
 def __create_single_deposit(account_row: pd.Series):
     deposit_states = ["completed", "failed", "pending"] 
     deposit_motive = ["salary", "loan", "gift", "investment return", "other"]
-    create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['end_date'] is None else account_row['end_date'])
+    create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['closing_date'] is None else account_row['closing_date'])
     
     deposit = pd.Series({
         'id': fake.uuid4(),
@@ -323,8 +358,8 @@ if __name__ == "__main__":
     clients = create_clients(num_rows=clients_count, dpi_start=1,to_csv = True)
     persons = create_persons(num_rows=100, dpi_start = clients_count+1,to_csv = True)
     accounts, accounts_clients = create_accounts(client_df=clients, allow_logs=True, to_csv=True)
-    create_withdrawals(accounts_df=accounts, clients_df=clients, persons_df=persons, to_csv=True, allow_logs=True)
-
+    withdrawals, person_withdrawals, account_withdrawals, accounts = create_withdrawals(accounts_df=accounts, clients_df=clients, persons_df=persons, to_csv=True, allow_logs=True)
+    transfers, account_transfers = create_transfers(accounts_df = accounts, to_csv = True)
     """     accounts = create_accounts(client_df=clients, to_csv=True)
     withdrawals = create_withdrawals(accounts_df=accounts, to_csv=True)
     transfers = create_transfers(accounts_df=accounts, to_csv=True)
