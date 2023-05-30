@@ -1,395 +1,425 @@
 id,state,motive,type,amount
-6843446a-b19b-4820-98bd-5ed8d17a9f25,completed,personal expense,Bill Pay Transfer,1636.11
-5da97cb4-1083-4379-ae41-978a700ad3e9,completed,other,International Wire Transfer,1446.59
-a7a7bb1a-ab65-47ba-965e-8cecc4d88299,pending,personal expense,Bank Draft,137.9
-85bdb0bf-0fed-480d-af11-1936832d2dab,failed,investment,Bank Draft,2414.62
-0512194a-4d26-4d48-9df2-0ba837a1f2c2,pending,other,Bill Pay Transfer,5378.95
-61adf0ff-29c6-4bac-8977-8ad394644666,pending,payment,Money Order,6973.13
-0edb4817-69f3-41d6-b65a-a2bfbef25ac2,failed,personal expense,Direct Deposit,2.43
-cafcbeb8-30ab-4626-b14c-4d0db3658dd6,pending,investment,Internal Transfer,4.19
-1e92f3fa-b0e3-4a7c-9981-6abb7b1ae83b,completed,personal expense,Third-party app Transfer,439.29
-ca68324d-b6a3-48ec-939f-1856e2c58ddb,pending,personal expense,Direct Deposit,2070.14
-ed58fc37-e5c9-4000-8572-ee2a6d6c2fe4,completed,personal expense,Bank Draft,381.34
-8c00fd48-4e3f-4483-b98c-ba1b9a6b1944,completed,payment,Bank Draft,7028.21
-03e64d8a-71d3-4e9f-9ed2-d7ab494f6fd7,pending,investment,Direct Deposit,6715.64
-8984bc95-68e9-40d9-94e1-b2324ee0ad5b,pending,personal expense,International Wire Transfer,3951.46
-cdf34905-6830-4ae6-965e-b930f6f6e6b3,completed,other,Internal Transfer,356.88
-92ab0a2d-e6b1-4cba-9fab-ce0ad0272a60,completed,investment,Internal Transfer,7372.01
-9f126dab-b50e-4b66-a77f-032111da9645,pending,personal expense,Internal Transfer,198.53
-9abedd92-73aa-476b-92ba-d2c9903327b8,pending,payment,Bank Draft,250.03
-9e9a14a0-110d-4373-9544-800ad6f199cd,pending,investment,Person-to-Person (P2P) Transfer,2699.84
-7da0e46b-e980-4b6b-9a56-e7b702e47754,pending,payment,Automated Clearing House (ACH) Transfer,865.97
-35229fad-610a-472c-bc4d-d4b10d07c063,pending,other,Internal Transfer,2849.64
-b2cf0aa2-b304-4315-837d-10590ee67df3,pending,other,Third-party app Transfer,5787.82
-00e4c0c4-9afb-40d3-a978-02460f26f280,failed,personal expense,External Transfer,473.45
-c4a80ef9-480f-41c5-9a8c-f8126de67ea1,failed,personal expense,International Wire Transfer,46.42
-754328b4-c0cd-4d07-970f-b4f8ba8bb4d9,pending,other,Bank Draft,8312.04
-c6272a1b-2567-4bc8-9167-3f617c7d8844,pending,payment,Bank Draft,711.83
-b08f14e3-0371-4ec9-80c7-7ce8f7de1ad4,failed,other,External Transfer,209.54
-c28544ec-da31-43ee-bf53-5fbb4a3da4a8,failed,payment,Bill Pay Transfer,1.34
-bab412c6-29ac-45bc-866c-a0fe0095de88,completed,personal expense,Bank Draft,175.85
-665ba3d0-a6fe-4bfd-b9c3-385a9daed1c7,completed,investment,Automated Clearing House (ACH) Transfer,193.53
-529598fd-95a1-4c96-9ea9-2909ad7d0468,failed,investment,Bill Pay Transfer,5446.88
-ac751df2-9c84-43e2-ba67-9fe4eae9fc77,pending,personal expense,Third-party app Transfer,4792.97
-25c44912-28b0-438b-b023-013278882ff9,completed,other,Automated Clearing House (ACH) Transfer,15318.16
-820b39ee-789a-4811-9758-cef4b1cb1129,failed,payment,Money Order,9988.43
-f79e8f33-357a-4803-a9ad-d20d7ec0a380,completed,personal expense,Internal Transfer,18576.66
-f713123f-74ff-4fc3-9fc2-fb777bad4f21,failed,investment,Third-party app Transfer,628.4
-1410f547-cab7-4e41-9bec-5d42a7a2a948,failed,payment,Bank Draft,10750.8
-311aa6ed-48a3-4b1a-94bc-f42e0f2ba19a,failed,investment,Direct Deposit,2742.76
-3cb1c93b-7bd4-4e60-ac3c-9bb925b5a75f,completed,investment,Money Order,1124.16
-e6efc317-ff64-4ade-9386-977c83c961f0,pending,payment,Automated Clearing House (ACH) Transfer,2596.3
-ea61098c-a4e0-42a4-9090-65629b1381d5,failed,investment,International Wire Transfer,324.45
-6f1ce6eb-628c-4537-b863-46fc606f444d,completed,personal expense,Person-to-Person (P2P) Transfer,1294.34
-6b466f56-ef1c-478c-817f-425d3a72cd76,failed,personal expense,Money Order,970.61
-b7a9de4c-3d80-4ff0-9781-bb9c9c4aad82,pending,personal expense,Third-party app Transfer,3.3
-96267f9b-9c99-49e8-8b4d-62eecea1e3c7,completed,other,External Transfer,3.92
-7292515a-1bfc-4e01-be8c-28e2f59520a6,completed,other,Internal Transfer,1635.52
-4b25be0d-305f-4ee2-b584-81b814b3deff,pending,other,Person-to-Person (P2P) Transfer,630.53
-6d270799-b584-443f-9c14-a88095231cbb,completed,investment,Direct Deposit,7172.58
-5544c67d-7759-4532-b24f-860d27b1222f,pending,investment,Third-party app Transfer,3192.34
-0ee05473-f4e9-403d-8172-48f63b986051,completed,investment,Direct Deposit,24060.72
-b6c0d3f5-8f41-4cf7-bda4-b613cf476d56,failed,investment,Money Order,17593.58
-5bad0fe3-ea76-49f1-87a3-99e4a70a2373,completed,payment,Third-party app Transfer,7981.24
-a7cd0483-2142-4b9b-b545-07596f0e8432,failed,other,International Wire Transfer,19897.17
-08b51596-2a84-410a-86c6-f9d4964d44b1,failed,personal expense,Bill Pay Transfer,3546.6
-502e6eca-aa33-4de5-99cd-badab9a4a3a9,completed,investment,Bill Pay Transfer,4619.17
-4266bfef-5597-42d4-9dcb-e078ef076d30,completed,payment,Direct Deposit,12086.29
-8ef4e98b-48f1-4fa3-a4d5-8925d7b55ad0,completed,personal expense,Third-party app Transfer,703.92
-1db0f641-aeb1-4447-968f-f779f8e47a14,pending,personal expense,Automated Clearing House (ACH) Transfer,1951.48
-5e97022c-19be-435c-86b7-750a6ce2a98e,failed,investment,Bank Draft,160.26
-1946cb18-36f2-40f5-8230-cc8aaf6ae371,pending,personal expense,Automated Clearing House (ACH) Transfer,15868.06
-8a1aa474-6abe-49b4-9ec7-7020acfbb9d8,completed,investment,External Transfer,7289.83
-2b5a0008-59d8-4222-b9ee-c96d13facfa9,pending,investment,Money Order,116.44
-a2982a80-6309-4690-a01c-cb246933dd7d,failed,personal expense,Direct Deposit,60.56
-1149e77a-2ae7-4e2d-b340-aefff6da6ef2,failed,other,Automated Clearing House (ACH) Transfer,3169.41
-2f829e0f-4b28-4cf8-9516-9afab3b11818,failed,payment,International Wire Transfer,3938.99
-6ceab224-52a3-454c-9d52-2deed64b4ff4,failed,investment,Bill Pay Transfer,5345.14
-23bc34ec-a0ae-45bc-91df-ba2f7cee03f9,pending,investment,External Transfer,1283.96
-19d430c8-e9c9-4c5b-b1fe-8badd3753f3e,completed,personal expense,Bank Draft,18909.76
-d06f0bf9-1421-4e6f-b3c5-443177e6ba4e,failed,investment,Third-party app Transfer,2743.43
-8ceac3e8-3b66-4bf2-9165-dc9e4256ac71,completed,investment,International Wire Transfer,1601.65
-39284a5a-bef6-4e68-8bb1-223100ad9c34,failed,payment,Bill Pay Transfer,251.68
-653f4486-57ff-46d8-b31d-4c20f408f297,completed,personal expense,Person-to-Person (P2P) Transfer,4024.29
-efe505f8-5177-4420-aafc-cc73723fc022,pending,investment,Internal Transfer,803.14
-bcc57dbe-3129-499b-a2f1-7a39b08a8032,pending,investment,Automated Clearing House (ACH) Transfer,4112.49
-0b9acb56-1110-455c-b201-f3ea301e456b,completed,personal expense,Money Order,265.11
-02e66b04-3803-4343-a35f-fa785ec91423,failed,payment,International Wire Transfer,439.32
-5a9fde01-ba47-461d-a63b-27ff1ee8e183,failed,other,Bank Draft,369.83
-11700120-f393-412c-bea4-bf861772c7b4,completed,other,Money Order,475.67
-b1821084-1910-43fa-8b43-365b029cfc8c,completed,investment,International Wire Transfer,193.51
-9ed9b4c1-d67e-4986-925d-ce761c0f6781,failed,personal expense,Bill Pay Transfer,319.64
-fd6b07ed-81d4-4c84-a6f9-9eef9cb70058,failed,investment,Person-to-Person (P2P) Transfer,85.34
-72782a06-26d7-48a3-8740-b711127003a0,pending,payment,Automated Clearing House (ACH) Transfer,25.46
-5ac4a8df-444d-45f3-beab-670dd051e4a2,completed,payment,International Wire Transfer,3542.82
-0cf34402-5d02-4067-b0c7-e1a99a048f88,failed,payment,Automated Clearing House (ACH) Transfer,1030.08
-460a1096-2bf7-472d-96cb-15bea254c01c,failed,other,Person-to-Person (P2P) Transfer,15846.34
-b0892e18-8a7d-412a-88e3-482d8bf0d411,completed,personal expense,Money Order,4611.92
-eb34a8a7-d4f9-41f7-bc5d-80b58a96fc73,failed,investment,Bill Pay Transfer,3519.83
-b16c3ff0-9f2b-4556-8125-ec9597a8f7e3,pending,personal expense,International Wire Transfer,142.41
-5d133a31-c9f2-4033-99a5-ed6f3e79ee88,completed,investment,Person-to-Person (P2P) Transfer,238.85
-7159c88c-1a64-40c3-9dc6-c5bdc7198494,pending,investment,Automated Clearing House (ACH) Transfer,245.47
-df1fcb06-1ed0-4cfa-bf96-817bf6feacf2,failed,investment,Internal Transfer,2447.12
-e7d0770f-5e3d-478a-b18a-1105a3319047,pending,personal expense,Bank Draft,2204.47
-8f66d2c4-b101-423c-878c-2534129241f3,failed,personal expense,Automated Clearing House (ACH) Transfer,542.05
-8f374ea2-2606-48c3-89a9-e2f1a79372e4,pending,personal expense,Third-party app Transfer,2131.04
-8fd81189-1fc4-417e-8738-cc99eb0ded09,pending,other,External Transfer,1321.34
-6ce9cc07-4fcc-45fc-8c06-044cd4da7919,pending,personal expense,External Transfer,898.97
-e83acc19-6824-4782-a648-6a315c3d0788,pending,payment,Bank Draft,3931.97
-ba96356a-39f5-41f6-996b-1d0640d29336,failed,investment,Money Order,460.5
-ba24fa2e-9abd-4942-9cac-8d104454e7cf,pending,investment,Automated Clearing House (ACH) Transfer,573.45
-1df35c76-3ad9-41fe-a81e-afd81f68c1ee,pending,other,Third-party app Transfer,762.11
-1dce9c48-b979-4c86-b7e5-78efab245d0e,pending,investment,Third-party app Transfer,11339.41
-34e1828b-91c0-415a-a194-e63da807e40c,failed,personal expense,Bank Draft,34573.31
-ec5682f4-8b71-48b4-87af-11f7470b7012,completed,payment,Person-to-Person (P2P) Transfer,5397.45
-f65a1183-b910-456e-922c-b3e76bd1ecf3,completed,personal expense,Direct Deposit,25076.15
-daf4c0a8-99dd-4f9e-b237-29cca76dff93,completed,personal expense,Person-to-Person (P2P) Transfer,8757.77
-4388f5e5-453a-47d9-b2fe-215fd789b48a,completed,payment,Internal Transfer,366.11
-168c0047-8503-4a9f-8db4-b36b40153ef7,failed,investment,Money Order,2652.62
-88a37d8e-52be-4f4f-9475-c7c80bf5074e,completed,investment,Third-party app Transfer,343.67
-cdd9c3c9-8e8d-4c2c-a083-1c0c58db209e,pending,other,Person-to-Person (P2P) Transfer,35.06
-9772cc9e-7d59-4546-a321-90edc165b2e4,completed,investment,Internal Transfer,2.39
-f08c896d-a2ba-41e6-804b-d7c30299a98c,pending,payment,Internal Transfer,10455.22
-c112baf3-5e33-4583-adf3-a4097f4be9bc,failed,personal expense,Person-to-Person (P2P) Transfer,656.26
-6717b95b-c277-46c4-bef7-d50d2e265350,pending,investment,Person-to-Person (P2P) Transfer,20956.67
-58bef44c-44d1-49e0-8808-2c914c74acc8,failed,investment,Internal Transfer,287.99
-4b464653-0128-4f9d-a4eb-d7550eeca37f,completed,investment,External Transfer,366.52
-1c969c8c-8c31-4a42-aa4c-cc12d334889a,pending,other,Money Order,1366.83
-c7a1123b-f234-41e6-ad01-8b03ce74f48b,completed,other,Direct Deposit,10422.96
-6e4289bb-7696-489a-bd37-9348bb69fb39,pending,personal expense,Money Order,11043.88
-e0e7b6c0-3488-4a03-a429-c2a72b40588b,completed,payment,Internal Transfer,309.48
-09a5fbec-4463-4e37-a288-22de91b8aae2,pending,other,Automated Clearing House (ACH) Transfer,1456.07
-4d12c20c-237d-49b5-8690-c83769442bd6,pending,other,Money Order,11092.82
-b787d84e-e7b6-459b-8ce0-b57fc465b655,pending,investment,Bank Draft,2512.52
-00e86dec-2b1a-4ede-a08c-0f11a112ff43,failed,investment,Third-party app Transfer,327.75
-62c10237-4004-4030-a329-b7072fc098a0,completed,investment,Money Order,422.34
-3fbdb834-21eb-4d84-8029-04e2564df7d0,failed,other,Third-party app Transfer,224.03
-3c7ea247-4ef8-451e-b41c-25be931ef134,completed,payment,Bill Pay Transfer,696.85
-c341230a-1e31-476c-98dc-e54fbd75ac97,pending,other,Bank Draft,311.57
-c125e153-c1a5-4da2-9678-bb4a23aaf798,failed,investment,Bank Draft,272.51
-2223180a-5cfb-4f0c-8df6-6c1a18be4477,completed,payment,Money Order,40468.63
-0f4f1616-215a-4d1c-9e7b-c062fbe13538,failed,other,Third-party app Transfer,5763.18
-b5fee277-da68-4834-87fa-ecbd2d82db85,pending,other,Automated Clearing House (ACH) Transfer,3092.15
-9a31883a-4302-4b6b-9056-522a54611bc1,failed,investment,International Wire Transfer,154.98
-1b9681c9-b454-4a3a-ad77-d7eb68f91966,pending,investment,Automated Clearing House (ACH) Transfer,88.7
-037b2473-146d-4f94-8756-3cb879360840,pending,personal expense,External Transfer,197.77
-60b79d4c-eb17-4bc3-aa9f-b755007b10d1,pending,investment,Person-to-Person (P2P) Transfer,98.11
-11f29431-f689-4dbd-8c9a-6a001f8f31d5,completed,investment,Bank Draft,12.27
-f487696d-41c5-4eed-afd7-8d592b08a117,failed,other,Third-party app Transfer,1547.19
-1e94e813-776f-4f9d-acf0-42c3d20de186,completed,investment,Bill Pay Transfer,2757.77
-5794b45c-91dd-4c3a-a407-2bfd69ceb87e,completed,payment,Bank Draft,22515.33
-2505697e-539a-425f-a3e0-fb2d051ebeea,pending,other,Person-to-Person (P2P) Transfer,111.2
-70dda071-8454-4bd0-926d-d636417090ee,completed,investment,Bill Pay Transfer,109.38
-c0a41776-9284-4704-af77-2e30467e1768,pending,investment,Direct Deposit,6039.56
-0ab73408-78f2-47ed-9eb8-fb4c875c9efd,pending,payment,Person-to-Person (P2P) Transfer,3934.41
-f39c2d0f-90e1-47d8-9f9f-a761f540bc7e,pending,payment,Direct Deposit,892.44
-d934ee06-4ba7-492d-af08-e3435ece971b,completed,payment,Internal Transfer,20275.78
-878a1881-d7d4-4dda-9a7b-0ab5636379d2,pending,investment,Internal Transfer,2805.12
-84fd9010-f819-4297-aaae-079ff00a2e0a,completed,investment,Bank Draft,3996.99
-e975fa5c-8254-40b8-8795-04da6677072b,completed,other,International Wire Transfer,19120.58
-7e62f61e-34b7-4383-a5c4-3efe47587967,pending,personal expense,External Transfer,8409.49
-8a05a18b-295a-47fc-8c73-04032eb47a70,failed,payment,Direct Deposit,12537.98
-6428af33-326d-4195-9732-159664486024,completed,other,Person-to-Person (P2P) Transfer,16000.97
-7280e15f-d189-4507-921e-ca9cf8541c38,completed,payment,Automated Clearing House (ACH) Transfer,22559.3
-e5c5a36b-59fe-497c-9477-ac6f13c45265,failed,investment,Automated Clearing House (ACH) Transfer,2576.5
-9cb45993-1db6-44d9-b63c-63b1c7c7d729,failed,other,International Wire Transfer,29283.57
-fbc434bb-9934-4542-970d-4a25007f4d7c,pending,personal expense,External Transfer,2063.18
-94ac885a-2c68-468e-a5c3-8e3f48d53b47,pending,investment,Money Order,3516.11
-a10b9a36-3c9f-4931-afe4-675ded9e81d0,pending,personal expense,Money Order,4168.66
-78d3f562-900b-4f48-af49-9fdb2bcd86be,pending,payment,External Transfer,5100.22
-d7fd0db4-442d-4d9b-a0fb-51c0efa34dde,completed,personal expense,Money Order,834.76
-94f860d1-c591-45df-83aa-809e47db55ef,pending,payment,Internal Transfer,4104.57
-d7817af6-2236-4384-9b2b-1661dcfd44ea,failed,investment,Third-party app Transfer,6.86
-8d6e4749-9f4d-4c99-a999-436d25caf748,failed,other,Automated Clearing House (ACH) Transfer,38.46
-5f5971c3-4ac9-40ac-8bfa-d57fa4080f41,pending,investment,Direct Deposit,51.9
-4414f88b-4d41-4149-94d5-d1b2b6296096,pending,other,Person-to-Person (P2P) Transfer,970.24
-64087ee7-3ab5-44ed-b862-a69a4583a5f5,completed,investment,Money Order,10348.08
-64ae46c5-1644-44c8-b067-c900a2b03d8a,pending,personal expense,Third-party app Transfer,1684.91
-aff03a55-5674-4a0d-93bb-da4c47f3a5fc,completed,payment,Person-to-Person (P2P) Transfer,8165.06
-e6cb606b-e420-49c6-b8d9-e0a5e8b238b0,pending,payment,Third-party app Transfer,3294.49
-34358473-e9a9-4429-b3bb-90415847d837,pending,payment,Automated Clearing House (ACH) Transfer,2747.94
-2534d708-bfb8-422a-8d95-7521383481df,completed,investment,Person-to-Person (P2P) Transfer,218.0
-15efd08b-56d3-4172-b539-bfb6aa98e127,completed,other,Automated Clearing House (ACH) Transfer,1.22
-7918f448-f7c2-4682-9e40-2956aa606c3f,failed,personal expense,Third-party app Transfer,426.13
-8495ccbd-b0f0-49a0-99f8-8c2b0bfd3786,pending,investment,Automated Clearing House (ACH) Transfer,305.29
-30609c9d-4107-4a25-aec8-0c52728f7d46,failed,other,Third-party app Transfer,5504.0
-c59f76f9-1e29-4c37-84d4-8181ac35d572,failed,payment,Direct Deposit,53.78
-48255ac4-977b-4e23-a580-fefdec5340ff,completed,personal expense,Automated Clearing House (ACH) Transfer,29.98
-64481d33-e548-4d5d-8cb4-e6fd4c47557a,failed,personal expense,Automated Clearing House (ACH) Transfer,52.97
-be7aa508-0f6f-456e-892d-9f25acdb022c,completed,investment,Automated Clearing House (ACH) Transfer,782.77
-29b3e9bc-bd0c-4059-a5ee-81409bc2083d,pending,other,Internal Transfer,36.2
-72666eef-ac27-43e4-8ceb-eba085154041,pending,other,Bank Draft,76.51
-64a049f3-7208-40e7-a685-39754dc0d2a2,failed,payment,Bill Pay Transfer,10158.39
-eed7ac0b-6bbb-43a3-a4c6-b716eff2fde1,pending,investment,Direct Deposit,7535.77
-ab78c272-2e3c-4205-85c5-23c475faeccf,pending,investment,Automated Clearing House (ACH) Transfer,2873.03
-a48c0fd0-a2ed-4844-8d2e-b42efe94737e,completed,investment,International Wire Transfer,36992.03
-ea545f52-7397-4d02-9745-da6bf0beeb5b,pending,payment,Person-to-Person (P2P) Transfer,1425.0
-d6df6939-b0ca-4e52-950c-d2dbc38aac6e,pending,other,Third-party app Transfer,4978.5
-a1ce9377-cb32-4f24-97ef-1a4def9c799a,completed,other,Direct Deposit,4276.01
-7f5f16fe-1c14-49e3-95d2-a97b57920907,failed,investment,Internal Transfer,1445.78
-0100b01d-f7e3-4a8a-acbf-747c8cd76dfd,failed,payment,Internal Transfer,330.3
-e7d97787-ceba-4ae4-a523-98a494fab847,completed,personal expense,External Transfer,295.58
-c60aca20-cffd-437c-8f51-0f9415759306,completed,personal expense,Automated Clearing House (ACH) Transfer,38.9
-7f4dcdad-597c-4f68-9e26-8e88abf19883,failed,other,Direct Deposit,264.94
-4b5f9e2c-60c1-44a8-818e-5aa90b4a2671,pending,personal expense,International Wire Transfer,477.34
-422c67a7-1808-46b3-9c60-d17c42ec3305,pending,other,External Transfer,31739.94
-582e3221-598b-46a5-9227-89c39e93c257,failed,investment,Person-to-Person (P2P) Transfer,6102.33
-96f8c1e1-5bff-4e42-ae23-c121fbf76d52,failed,investment,Automated Clearing House (ACH) Transfer,18249.45
-56c14c40-4cbd-438a-ae3b-7d8c12d76f6a,failed,personal expense,Third-party app Transfer,567.92
-6abd703d-3953-42a7-aeb3-50fe485ac02e,pending,investment,Automated Clearing House (ACH) Transfer,16.95
-cb6898ee-8f30-43d7-8a14-9eeba84c91cf,pending,personal expense,Person-to-Person (P2P) Transfer,6464.29
-b29c508b-37f3-4082-a942-5b8ff297a508,pending,other,Third-party app Transfer,7627.17
-8a96a164-f29e-4dbc-ab51-765946f0d006,pending,personal expense,Bank Draft,196.27
-cd2e5f9f-1b15-480d-bd0b-e1c3cc6d4c6f,completed,other,Third-party app Transfer,882.57
-c3a4cc3a-a772-4f72-913b-e99b953b3ce8,failed,payment,External Transfer,74.45
-438126bd-608f-4ea5-93e3-85ae142e8099,completed,other,Direct Deposit,23979.36
-f31397c5-5ca1-4d4e-83e2-575c0baf3a24,pending,investment,Person-to-Person (P2P) Transfer,698.56
-6afc49de-dc61-405b-9199-f8ea11ad50f9,pending,payment,Bank Draft,42229.85
-183dce93-813a-4a08-af48-d2730b5322f2,pending,personal expense,Internal Transfer,23147.92
-d61db5ef-b1ae-4375-82d5-9a2f7a790471,pending,other,International Wire Transfer,20399.55
-8de43f40-8263-4e93-add6-798b8da680ed,completed,personal expense,Direct Deposit,139.34
-a82a1753-cd1e-4759-806b-91ba909cb1ce,completed,personal expense,Automated Clearing House (ACH) Transfer,4.18
-f94b14c3-635b-49ae-8cf3-fff050cc1733,completed,payment,Direct Deposit,4140.06
-dfbc6c61-1ddd-4a45-bec6-e041257413db,completed,investment,Direct Deposit,1778.15
-4a558877-6a2a-480a-b8ca-2373f29e351a,failed,personal expense,External Transfer,67.72
-92a1e3f3-f7ee-48f0-88cb-8b5f416d6360,failed,other,International Wire Transfer,129.89
-2c54e9b8-cde9-45f4-8a4a-1a438376c552,failed,other,Internal Transfer,2423.21
-87a43030-f379-4612-a576-4143324ad232,completed,other,Bill Pay Transfer,33.71
-993447cb-a5bb-47c7-8166-c66a4b581764,pending,other,Internal Transfer,9.35
-321bcba2-e394-45de-b1dd-6e440057f974,completed,investment,Internal Transfer,8.18
-92172a98-8226-413c-9769-0483ac7b5f98,failed,personal expense,External Transfer,20535.59
-87481cc8-3388-46c0-97b0-b35da4eb0b15,failed,personal expense,Bill Pay Transfer,5326.35
-f01dd474-4f8d-4d57-b781-2cc29c03578b,pending,investment,External Transfer,3139.91
-86f41058-4d29-4e7a-bed0-2ed207883e78,pending,payment,External Transfer,1070.77
-d8fe0663-a31e-4673-acc2-cb94f263ea74,failed,other,Bank Draft,15547.74
-ba46db8c-bb64-4e57-9b80-949699920806,failed,personal expense,Internal Transfer,96.68
-190655fc-6ab1-419e-bd0d-d306b34f0f6e,failed,other,Bank Draft,2882.6
-3d37b2c0-8a10-4c97-8085-5ed92a0221b1,pending,investment,External Transfer,2595.38
-da33d670-628d-4f02-b5ad-1036ecf5e8f7,completed,personal expense,International Wire Transfer,5567.53
-cdad6015-e5d6-4cce-a007-0ee20ed1994f,failed,investment,International Wire Transfer,23.3
-fb951448-eaa2-4ff1-b58f-39a307d6474d,failed,other,Bill Pay Transfer,20.0
-baf946da-485d-4f57-b7ac-3c93e45c13ae,pending,investment,Bill Pay Transfer,8.68
-53f21216-25c6-43c0-bc7f-63b84118721d,completed,personal expense,Third-party app Transfer,441.63
-7e5ed0dc-c2bb-4020-b8a2-1a807115a69a,failed,payment,Internal Transfer,54.69
-77ba9c94-0cfe-41ae-bef3-b17d7fe3819b,completed,personal expense,Third-party app Transfer,409.33
-46d432cf-dfa3-43d2-96a9-e9f58aad4691,completed,payment,Bank Draft,1886.75
-df1d3a4d-ef33-4af0-8f6e-3295b07705ef,failed,other,International Wire Transfer,42.7
-2538cf9f-6d2c-4fba-ae4a-0d52345f181e,failed,payment,Bank Draft,26.13
-13a06677-eb93-449c-a239-122bb498efda,pending,personal expense,Internal Transfer,1356.34
-0849e9ef-1e20-4586-87aa-5b6bc9629d10,failed,personal expense,Automated Clearing House (ACH) Transfer,8440.08
-4bbffec1-b2a3-44d6-b302-246cd99912fd,completed,payment,Money Order,526.4
-7123cf69-d8ee-422e-bf58-eadb0a228f1a,pending,other,Internal Transfer,1018.35
-636c3db5-61fc-4cb6-898e-511d2e8fc664,completed,payment,Person-to-Person (P2P) Transfer,8.32
-7a3bdf6c-80cd-46fb-b18d-5411863268c2,completed,other,Automated Clearing House (ACH) Transfer,19.64
-7593a816-c1f6-4464-8010-fade15ca782b,completed,other,Internal Transfer,137.19
-2582715f-473c-4931-b208-59a630ff3a50,completed,payment,Internal Transfer,4060.97
-4d70d744-59ac-4cc1-905c-cba242f7c92a,failed,investment,International Wire Transfer,12886.73
-cd2b2b0d-16f5-4772-a615-3371ef53222d,pending,personal expense,Automated Clearing House (ACH) Transfer,27.11
-6d535a11-dfc1-4b0a-806b-3229fcc6ba50,pending,other,Bank Draft,281.1
-1870c6d4-ca15-4796-bdf0-e8d5cdb1584c,completed,personal expense,External Transfer,21.13
-04a2ffb7-7cf0-40cb-a2cc-64f99202014f,completed,personal expense,Direct Deposit,410.28
-fe02aa77-aea9-47b9-9521-7d6819597ce9,failed,investment,Money Order,5.5
-a252853a-8dae-4720-8584-4bf79b76f0f5,failed,investment,Bank Draft,26.19
-c28119d2-dbab-4b58-a16e-fd287114a7f3,failed,payment,Internal Transfer,142.89
-5c5b4a44-cd54-48be-8a41-d8360836f014,failed,payment,Bill Pay Transfer,1547.48
-e33d37f8-2da1-4939-871d-4d7251731db1,failed,payment,Automated Clearing House (ACH) Transfer,4605.03
-074ce37f-9417-4015-9f85-e8426786dcc0,pending,personal expense,Person-to-Person (P2P) Transfer,2934.2
-f9f79171-f7eb-4e86-907f-9c3335d1e527,failed,payment,Automated Clearing House (ACH) Transfer,5.72
-91096355-787f-430d-a84d-ad46e6261594,failed,payment,Bank Draft,1192.86
-8fc94f11-102f-41f1-8f7d-5dccf306daa8,pending,other,Automated Clearing House (ACH) Transfer,38700.09
-35bad9c6-bc86-4066-b7e9-752222206f63,failed,personal expense,Direct Deposit,19799.75
-4e41d48c-b61e-4cdb-bc7b-bd50d57890f5,completed,payment,Automated Clearing House (ACH) Transfer,59.96
-cef277d8-a9a7-4b62-b980-25719ab98c87,failed,personal expense,International Wire Transfer,6345.91
-b27115ab-f2f0-41cb-b56b-45ed0d7e344f,pending,investment,Direct Deposit,6546.49
-d580df2d-0aa1-4e9e-90fb-094f7e6dd806,failed,personal expense,International Wire Transfer,8716.09
-caa4773b-6147-4ddf-b052-f4a1103ce48a,completed,personal expense,Bill Pay Transfer,23738.74
-caac0543-6a09-4ef8-bb54-6adc5ee818e7,failed,payment,Bank Draft,7946.55
-676d357e-84db-4a95-9729-0ac3cb86b080,completed,investment,Bill Pay Transfer,5382.9
-24ca0989-2785-4f9b-9778-c9dfba418791,failed,payment,Person-to-Person (P2P) Transfer,184.83
-685b9578-53fb-4896-8f86-d2078a0144de,pending,investment,Person-to-Person (P2P) Transfer,1071.81
-2994b67a-c411-4d99-8997-7c750d455c62,failed,investment,External Transfer,5118.12
-dec3a390-e7c4-42ad-8905-cd927b25b505,failed,personal expense,Bank Draft,2305.26
-f957fda0-3423-40f2-925b-ed25be862b8c,completed,investment,External Transfer,204.49
-90a89e49-eb80-44a3-9144-bbb6bfda6a4c,failed,payment,Automated Clearing House (ACH) Transfer,12.52
-09b1865f-af93-4434-b95c-efb759144b3c,completed,personal expense,International Wire Transfer,1.72
-0df3f1e6-6016-4528-bd68-7e70b13a74a1,completed,personal expense,Automated Clearing House (ACH) Transfer,60.22
-0f64a97e-2c28-4dfe-9f1e-deebdb9e5936,failed,personal expense,Third-party app Transfer,4152.06
-73e4b002-01a1-4b7b-9e2d-95c7d1292090,failed,investment,International Wire Transfer,1673.43
-25dc9232-7957-45d7-bfe5-2223eac0fd20,failed,investment,Third-party app Transfer,17741.8
-4a86cb7f-ea17-4915-ade2-62f8a245d32a,failed,other,Internal Transfer,37768.13
-4776ee49-b175-4eef-a116-0e4329f623c3,completed,other,Automated Clearing House (ACH) Transfer,19.43
-868a4fc8-5daa-464a-b536-0ce3800572d0,failed,other,Money Order,4.01
-53706a63-690b-45c2-a3f7-3bf8c3025776,completed,investment,External Transfer,1.42
-9be01734-bacd-45b5-ab2c-2d2241ceed9e,completed,personal expense,International Wire Transfer,1077.37
-a6170d0c-e2ad-4c44-a7d3-71ba209488a2,pending,other,Automated Clearing House (ACH) Transfer,165.94
-0ffc9ad7-f62f-4c83-9703-283ab66482e5,failed,personal expense,Automated Clearing House (ACH) Transfer,1500.04
-7b9098a0-6441-424c-9907-65a9f9a286f1,failed,other,Bank Draft,2117.16
-e911465f-18f9-4a3d-94c7-f67c24dc4a41,failed,investment,Automated Clearing House (ACH) Transfer,417.88
-a8b5d108-f685-4ed6-b7b5-670a30f5d103,pending,investment,Automated Clearing House (ACH) Transfer,226.28
-647e66c5-fb4a-48c6-8c88-338b961ebde6,pending,personal expense,External Transfer,439.2
-be16a33c-b68b-4ad7-883e-c343323fa6e0,pending,payment,Direct Deposit,940.43
-6e2dc309-ff63-4ffb-b4a0-f5592b529264,failed,investment,Internal Transfer,3375.42
-38b7fe80-88f2-4f9e-bf98-8b92096e2f7c,failed,other,External Transfer,7653.25
-5c3efeec-7211-43ff-b1bc-df8a7b4bb9c0,failed,payment,Internal Transfer,3927.5
-6b3817a6-ebe9-4a61-ae1e-66671233db74,failed,personal expense,Bill Pay Transfer,2418.34
-6526f367-58a9-43b2-8c3a-7872c703c43a,failed,payment,Direct Deposit,37553.97
-98be37f8-0878-4fcd-b91d-ed644af66aec,completed,payment,Automated Clearing House (ACH) Transfer,549.02
-07d9fc8b-11e9-4135-8b75-d7c382fb39e5,completed,payment,Money Order,7515.97
-42cfe172-3aa2-48eb-8c81-462786b10f76,completed,investment,Third-party app Transfer,29.21
-5a437393-efaa-4803-8306-ccfd9680d5ce,completed,payment,International Wire Transfer,541.71
-c2680e6d-442a-4393-b44c-b557b660fd82,pending,other,Internal Transfer,230.75
-aa48481a-40ac-49df-bd15-d29a8872ec30,pending,payment,Bank Draft,281.39
-011c637b-f672-4ddd-a792-885106f74e06,failed,payment,Third-party app Transfer,458.96
-1a8309d5-261b-4eb7-84b4-760c2170f29d,failed,personal expense,Bill Pay Transfer,52.69
-243a47d3-08c7-45b5-b1a8-3725a7233b27,failed,other,Money Order,3685.1
-1873b799-1e4d-4035-b18b-b85e367e6c91,completed,personal expense,Money Order,551.65
-4eebb1c7-816e-47f5-a9e6-3f94bcb60b2d,completed,personal expense,Bill Pay Transfer,13363.39
-f3e40df1-d413-4d85-be87-ef0f70947b8a,completed,payment,Direct Deposit,606.27
-479be343-5ef9-488d-916b-fd0eb1884c83,completed,payment,Bank Draft,913.13
-a6e16edc-3a2e-4ab2-b42a-8a542244dd91,completed,payment,International Wire Transfer,6962.78
-ccb21238-af29-43b3-9f0c-d262cf3dc766,failed,payment,Money Order,3709.54
-fb623d49-69a8-4968-b62b-645a287bc311,completed,other,Person-to-Person (P2P) Transfer,6934.17
-3078ea46-ba2c-42ba-8c1e-a59211c2961e,pending,other,Third-party app Transfer,1766.68
-625b1a06-b85d-4914-bd95-0e221621d50c,completed,personal expense,Direct Deposit,1843.44
-807dfe6e-2869-419c-94d2-d2b0231f0a6e,pending,personal expense,Person-to-Person (P2P) Transfer,1846.09
-15c1da97-5bfb-4f82-bdf3-60413acebd40,pending,personal expense,Direct Deposit,6001.52
-c8a0c30c-4a4b-43b0-b425-9b69c2cfc59f,pending,personal expense,Bill Pay Transfer,8150.26
-38cb70f2-c2b2-4970-a7b4-e08aaaab3489,completed,other,Bill Pay Transfer,5881.07
-765c64ea-c466-44c8-876d-f1ba46d3e34c,pending,other,Bill Pay Transfer,6452.71
-e05cd450-a32b-42bc-8491-efd2b1381594,pending,personal expense,Person-to-Person (P2P) Transfer,259.44
-283b67b4-8bc0-44ff-b523-2a95dbb61efb,completed,personal expense,Bank Draft,519.41
-0da6ceba-54da-4c7a-9328-9a89339347e4,failed,investment,Bank Draft,453.74
-f5f35fd5-6e34-42cf-93e3-81517f05f13e,completed,investment,International Wire Transfer,217.55
-f1521d9b-633e-4478-9d08-c6266b033cb2,completed,payment,Bank Draft,281.68
-4d39712d-07ba-4733-b79e-534e9f32f0ac,failed,personal expense,Money Order,1.88
-65b0dcde-b9fa-47fc-89fa-551fa8af57ea,completed,payment,Direct Deposit,3.61
-fe1abaed-4e96-493c-a3b9-c79e56627b08,pending,other,Bank Draft,63.18
-4e8d5954-9389-4a5c-920c-a8b6633aa7ae,pending,investment,Direct Deposit,303.46
-be052914-e8a6-48b9-a4d4-904fa99bba4b,completed,payment,External Transfer,354.11
-631cecf1-cb17-4ff2-8d77-ea9f38217f18,failed,investment,External Transfer,36.44
-3b5403c4-a3e5-4ccc-87c4-4611c909f6c4,pending,personal expense,Person-to-Person (P2P) Transfer,16339.98
-4df24039-eefa-4e52-bc6e-5dd093af1665,completed,payment,External Transfer,2764.62
-03d74f0a-62a2-40ac-8a98-8ce51be05b6f,completed,payment,Bill Pay Transfer,855.59
-b634eca2-0e4b-4d66-969f-7ef6364be769,pending,other,Internal Transfer,379.71
-8d0820a6-7926-4145-8cec-79e220f9a8e7,completed,payment,Person-to-Person (P2P) Transfer,697.45
-d1bb74b3-e2b5-464d-bac1-6a3ffa20e450,completed,investment,Automated Clearing House (ACH) Transfer,115.28
-899adb0b-d179-44bb-86ff-6e379a46a0d9,pending,other,Internal Transfer,5.71
-0e2db38f-841e-4e91-9f98-02a7b1d86076,failed,investment,Internal Transfer,5.93
-c3537dae-b5bf-4a01-989d-8cc9901f8d86,completed,other,Automated Clearing House (ACH) Transfer,1161.38
-29a4fe15-fb0c-49b7-bac7-4a0cee4508ea,completed,personal expense,Bill Pay Transfer,5583.98
-9ca4752a-4954-4d5b-966e-2d34c3254ed0,failed,payment,Direct Deposit,10921.14
-7529e5f8-c829-408a-9e2a-8250e4114939,completed,personal expense,Bill Pay Transfer,4488.45
-b96ca0c5-e018-4bad-853f-73ef948c8718,failed,other,Internal Transfer,8341.93
-6059656f-533a-409a-86ca-1c4f5a5c990c,completed,personal expense,Automated Clearing House (ACH) Transfer,571.77
-9eaffab0-7ee7-4551-b6dd-a5dd109f95d0,pending,payment,Third-party app Transfer,10237.56
-793196a2-a7fc-4184-8c14-f1961826c3a8,pending,investment,Money Order,2325.72
-92afcf2a-12e3-4a36-a1d8-e82ca531de28,completed,investment,Internal Transfer,1381.53
-6be196cf-1ae2-4e5e-8395-395c45eb23af,failed,personal expense,Automated Clearing House (ACH) Transfer,1059.7
-cec0dde9-32ee-49af-b18b-140d3da28c53,failed,payment,Internal Transfer,4685.81
-0094610e-0192-49f5-b20f-88a33a154db4,failed,investment,Direct Deposit,10.64
-c36905a9-3128-444b-9159-011e20dd5f46,failed,personal expense,International Wire Transfer,3.18
-c566da01-8951-4154-8b61-38878141d70f,failed,investment,Money Order,414.75
-8f57edd3-3052-45f9-83e0-3d93eef1ca43,failed,payment,Money Order,309.91
-33af50f2-2de4-4e0e-baa1-e5de13f67e9c,completed,investment,External Transfer,308.48
-d3bf933b-ef35-4fce-b3aa-0996640d7e45,completed,investment,Person-to-Person (P2P) Transfer,3248.9
-b8e4b502-cc32-427e-ab80-ade92dcdf680,pending,personal expense,International Wire Transfer,656.23
-4c48fe68-4793-45bc-b77f-bc9c2de5fbe0,pending,investment,Third-party app Transfer,1150.72
-4646ca27-d202-4eb9-be4b-c197f99eb44f,pending,payment,Third-party app Transfer,6042.81
-8c93c5f1-de91-4802-8dbd-49e8754cad7b,failed,payment,Direct Deposit,6979.11
-16777dd4-7658-43f9-be80-926bfd6ba069,pending,personal expense,Person-to-Person (P2P) Transfer,18243.23
-900c797b-f4a6-4ccd-bebe-1f0f9510a75e,completed,payment,External Transfer,60.83
-6120ad2a-13a8-4365-aba3-6a75246b3cca,pending,other,Bill Pay Transfer,380.22
-4795a16c-67c6-427a-bba5-8a19ab5a180b,pending,payment,External Transfer,247.19
-18c2c0d4-e0cc-4b7d-b350-0afac3dd4433,failed,other,Third-party app Transfer,9911.73
-9a4f4190-1925-4888-8b07-248a131cf42f,pending,investment,Money Order,3689.17
-75d1c776-7c92-4ed1-b120-0f53a1405dd3,pending,investment,International Wire Transfer,34.59
-781dcd59-7010-4029-a3f1-9a06d1aae99b,completed,investment,Third-party app Transfer,1184.8
-f56663b5-103d-4cf2-8229-c868f707ae93,pending,investment,Automated Clearing House (ACH) Transfer,396.6
-e1b819f6-e67c-4e65-9a72-7b363a4079bf,pending,personal expense,Third-party app Transfer,1723.74
-cc954c34-5881-4b05-ad76-7246c958aaba,pending,personal expense,Automated Clearing House (ACH) Transfer,437.26
-075916f1-b4d2-4f89-8413-98bc4d6dfe5a,completed,payment,Direct Deposit,1335.64
-c938a92d-3cad-4c08-881f-fcf3b690f921,pending,other,Person-to-Person (P2P) Transfer,2593.79
-fe003b43-7b43-486c-bf29-4f64cf63a895,failed,other,Bill Pay Transfer,1124.1
-3aadbef9-2767-417e-afba-e16d7574fc5d,completed,investment,Money Order,1250.8
-d49ada1b-aeea-4516-a49b-097621894637,completed,payment,Internal Transfer,189.8
-e5983650-616f-49f8-92d5-0f2b0988de86,failed,other,International Wire Transfer,1.24
-1c8b6a67-ae13-4f3b-93c7-d73cd710fd90,completed,investment,Bill Pay Transfer,24.84
-d1184c4c-31ad-457b-b95a-8b7b2bf5b360,pending,payment,Bank Draft,49.97
-1262fa34-05eb-4a1f-a6bf-37ab2cc07778,failed,personal expense,External Transfer,35.15
-c4e3abfd-15d8-4e5d-892a-2b4e6e8d2225,pending,other,External Transfer,476.86
-da783aae-2e84-49ec-beea-95b6e49a69b9,completed,other,External Transfer,3876.67
-ab0a81e6-f333-4841-b1e1-3d20fddff3d9,failed,investment,Internal Transfer,517.64
-4c857d69-aca3-46f3-bc2a-0487faba4635,completed,investment,External Transfer,34.11
-2874a138-6145-49a7-be16-f07685359e35,completed,payment,Bill Pay Transfer,6.95
-6544d205-3740-486a-8ee3-6fbc970bdac1,failed,other,Person-to-Person (P2P) Transfer,51.2
-7b41617f-a16a-4a42-9064-fa94f508ee3c,completed,payment,Automated Clearing House (ACH) Transfer,24.59
-a366feff-3d2b-48ae-b330-b38acde31d20,failed,payment,Bill Pay Transfer,7.69
-5fb73186-9129-41c7-ab83-fd43670c9f81,completed,other,Direct Deposit,11.3
-46b438dc-31b0-4aa6-9255-08ecba48cd6e,pending,other,International Wire Transfer,2557.2
-1fc1f164-b5cd-48fb-bea6-3d47aa75c264,completed,investment,Internal Transfer,3980.34
-dc8ba0d3-3fb7-4f5a-9d8a-d841119e338d,completed,other,External Transfer,830.53
-a5e37322-49a3-4ba4-84dd-19adb1696efc,failed,other,Internal Transfer,219.28
-9b11b875-c93a-4245-85f9-3f3a5965b8f6,completed,investment,Automated Clearing House (ACH) Transfer,280.14
-4840a230-d7e4-4733-92a2-df611f01b19d,completed,other,Automated Clearing House (ACH) Transfer,50.95
-38c5fcb2-9eb4-4265-a2f2-8f6484be710b,pending,other,Person-to-Person (P2P) Transfer,14977.32
-625b4d8e-70cb-4d7e-b73a-8707c0b5d371,completed,personal expense,Person-to-Person (P2P) Transfer,7002.14
+58096237-8a03-4253-868b-819df3d1abb0,pending,payment,Money Order,137.62
+96a979e1-df88-4780-b4e0-b1dea011d6e6,pending,investment,Internal Transfer,119.95
+717ba379-c019-45c0-84f7-d42fc14088be,failed,personal expense,Person-to-Person (P2P) Transfer,6701.22
+77059864-2dbe-42f0-ad14-cce00a13d0f9,failed,payment,Third-party app Transfer,28965.28
+1773ff42-02b6-4ca5-8c4e-03759d3ad74d,completed,payment,Third-party app Transfer,35894.24
+f14d36d2-3496-4538-8301-92ac8af5e1ce,pending,other,Internal Transfer,13.41
+ea6f3bf9-2ba6-438f-89c4-2dde6088a136,pending,other,Third-party app Transfer,3841.72
+45240d83-37ca-4183-9ec7-5ae81c7ec2bd,pending,personal expense,Internal Transfer,7666.56
+01ed75ea-84d0-4b8a-8dae-dddec26d86e8,failed,other,International Wire Transfer,88.98
+f7699487-23b8-4cf5-b3d7-ad3d47af48e1,pending,investment,International Wire Transfer,6852.61
+dfa5cfda-d6b4-4cd5-85c8-4f2356d4eb9b,failed,investment,Money Order,19286.0
+5c745c5c-72a0-4bfa-b840-0d74bbe615be,completed,personal expense,Automated Clearing House (ACH) Transfer,25835.57
+0c471fef-2877-4de2-8328-3eb000527563,pending,investment,Third-party app Transfer,7.61
+02ca9750-eec7-4d13-a85a-b5527398c4e9,failed,personal expense,Bill Pay Transfer,1237.66
+c33dbf13-857c-45cd-8a05-5dad4cf0e4c3,completed,personal expense,External Transfer,246.4
+75dcb1b1-1a2a-418e-a7d2-7dabc69f68cc,pending,investment,Bank Draft,831.67
+cba153c3-c905-4201-80c8-7ae74d7d41a3,completed,payment,Bank Draft,494.26
+53615481-78ef-4b61-90a8-ce17487e79f4,completed,other,Internal Transfer,584.51
+23c3934d-45f2-472f-8d6d-f7d9cc428dd2,pending,investment,Bank Draft,2698.99
+270cffb8-4e73-433f-9775-fc1240bde59f,pending,investment,Internal Transfer,4682.98
+393038e5-5cf2-411c-99f1-a07c0fc37327,completed,payment,Bank Draft,258.75
+96976a88-468c-4b47-be6b-1326099089f7,pending,other,Bank Draft,9.36
+2fa8f8d2-e6b0-48fe-a8f6-773ca4fd3ebd,completed,personal expense,International Wire Transfer,110.11
+b203c09f-4791-4b4d-8808-9dc7b04ffe44,completed,personal expense,Automated Clearing House (ACH) Transfer,3354.72
+26d5aff9-4ac4-498b-b27d-679795adc6c4,failed,other,International Wire Transfer,2593.56
+832b135a-5979-4f62-9125-9ffa510ddf3d,pending,payment,Automated Clearing House (ACH) Transfer,10619.23
+e78cf229-aa47-4994-9d90-90cb1fa457a9,completed,payment,Money Order,3327.38
+7c5f4d93-caf1-407a-bbe5-9f478e5d5c75,pending,payment,Person-to-Person (P2P) Transfer,1429.84
+f0ef084a-0094-419d-8872-804110ba54e9,pending,payment,Direct Deposit,596.47
+01736186-7604-4496-8a90-686f2063190b,failed,investment,Money Order,3420.66
+d300cde5-174a-47cd-b69d-d066f4902f2d,pending,payment,Money Order,7828.88
+da2fd619-d224-40dd-b304-34714deff4ec,failed,payment,Third-party app Transfer,1458.71
+b4371694-d484-45af-a745-a7bd3edbe0db,pending,investment,International Wire Transfer,4.01
+8525d382-a1d6-4793-acef-191e6b4497c8,pending,payment,Bill Pay Transfer,6270.22
+0befaeb2-ecc5-4326-933d-5b44d7a133b6,completed,investment,Money Order,2086.12
+a2d9d948-76a9-4de9-b22e-412d77ecade9,completed,personal expense,Internal Transfer,4193.0
+2cfc9f34-4e11-4f59-8dc5-4584866edbe5,pending,other,International Wire Transfer,3310.8
+40d35d9c-1147-4204-9de6-784f6fc4a707,failed,investment,Person-to-Person (P2P) Transfer,1464.24
+2ce40899-e70c-4c23-96fb-54ddeaa504e0,completed,payment,Money Order,10080.71
+21d88d73-96ed-4ce0-9666-4089e09ada4d,failed,personal expense,Internal Transfer,1901.69
+19fa19fe-bb74-45cd-bdd6-5b394b7edc15,completed,other,Direct Deposit,3460.39
+194aa61c-5ad2-438b-baac-c21ac3b9b2b1,pending,personal expense,Money Order,4911.46
+41196dbc-6ea8-46f9-8f76-dd2e0046b2bc,failed,payment,Third-party app Transfer,1363.84
+ae8442bf-0b83-47be-91e0-c9167b12d11f,completed,other,Direct Deposit,1195.09
+3b274b8b-1fcc-4bb6-9d46-43923e6def16,failed,payment,Automated Clearing House (ACH) Transfer,775.29
+d54a0ecd-23f6-46a8-a0e0-e2f8c8d9ec57,pending,personal expense,International Wire Transfer,838.45
+fca2b03d-1377-4a9b-aacc-e02a96b3df93,pending,payment,Internal Transfer,1301.1
+b61b418b-72a5-4167-aca2-3f0ea8530d1d,completed,personal expense,Money Order,1746.39
+17089138-e06e-4816-b770-66c5f3aa9954,pending,other,Money Order,46.47
+9d96ac36-2b0a-4694-a284-ce0d3957b149,pending,personal expense,Person-to-Person (P2P) Transfer,333.98
+e51870e6-89b4-49c3-a7fe-99755190dd91,failed,payment,Direct Deposit,832.49
+39cc4db0-39b5-4eee-8fc4-59f0b86417b8,completed,personal expense,International Wire Transfer,7380.09
+6e06044d-c4f8-46c9-b049-e7770bc1b936,pending,other,Direct Deposit,33.0
+6471426d-961b-41c4-9abd-762734574706,completed,investment,Money Order,163.84
+33a5c1e8-52d2-4da8-a107-cc637c50a39b,completed,investment,Automated Clearing House (ACH) Transfer,51.25
+de5fc085-7632-4279-a1aa-d333d7c77a25,completed,payment,Direct Deposit,58.88
+d8352d6a-e64a-418d-bc9a-76b1761edc2a,failed,payment,Bill Pay Transfer,1001.18
+28fc90ff-6e6e-46d9-80ab-eb06018ea6b0,failed,other,Third-party app Transfer,287.05
+c0c84f52-35f6-4647-99e2-812d86e5b681,failed,personal expense,External Transfer,1089.99
+856f86ab-22a8-441f-bd97-d75049954802,completed,other,Automated Clearing House (ACH) Transfer,516.88
+1d03114b-353c-46cd-9468-54420ab2c731,failed,personal expense,Money Order,373.7
+fa0e55e5-2272-475c-a2b5-fa21f825714c,failed,payment,Automated Clearing House (ACH) Transfer,688.28
+fa3eae36-8c13-4ac2-8057-ef6925b72da0,pending,other,Direct Deposit,239.08
+dff4b422-8f88-469a-b44a-9f90248f0c6f,failed,personal expense,Bill Pay Transfer,454.31
+2ad7baa7-5c0e-4d0a-a8a0-4e517210fcc0,failed,personal expense,Person-to-Person (P2P) Transfer,174.25
+27fbc9d4-e454-4c5f-926b-ff091e514be0,completed,payment,Third-party app Transfer,1112.55
+d72ce857-d08f-41eb-9e9c-9fe565367786,completed,payment,Bill Pay Transfer,33.86
+5df73b04-2a76-423a-a698-f3e308d12afc,completed,other,Bank Draft,42.34
+81c30542-3073-4b17-b0f8-c25a34876ec6,pending,payment,Direct Deposit,32231.62
+fa69d841-8337-428f-9e55-2aa9699e3e16,completed,payment,Bank Draft,31464.53
+54f09978-538c-4437-8888-15e40e282623,failed,investment,International Wire Transfer,26554.63
+1b1eb2bc-500d-4090-a2e6-1ae505a6a381,pending,investment,Bank Draft,27820.42
+10a0d663-ef49-491b-ba27-cda85470e4ef,failed,personal expense,Automated Clearing House (ACH) Transfer,6509.14
+112b1d0a-c615-4400-ab9e-1d6d80a40646,pending,other,Internal Transfer,81.78
+aa630009-e3ea-408f-9ec8-9094772ec1e5,completed,personal expense,Money Order,7919.19
+db87be9f-5176-4694-bc64-471f4cdbf4e3,pending,personal expense,Automated Clearing House (ACH) Transfer,931.14
+9affaa2a-95ec-4259-86b0-ed75cd4c61ac,failed,investment,Direct Deposit,1237.31
+bbbbb906-014f-4b57-8a42-da6ff6d636d6,failed,payment,Bank Draft,104.17
+5edf0f65-51ef-48cd-827d-3215811e4069,completed,personal expense,Money Order,379.71
+487021a2-cd7b-4173-a894-cdb200242c68,completed,other,Third-party app Transfer,139.39
+058735ed-acf4-4bb5-a7fa-9715a4582a0a,failed,payment,Automated Clearing House (ACH) Transfer,202.45
+41793c5e-9151-4f2f-b425-76b387c333cf,pending,payment,Bill Pay Transfer,282.68
+f8334b33-065d-4cd0-97a0-13690ad68715,failed,payment,Internal Transfer,174.42
+5b2e4892-c613-4f1e-9343-952d54be5430,failed,other,Money Order,22135.7
+cafa4651-3791-4433-b5dc-8231adc187ea,completed,investment,Direct Deposit,760.52
+f1aa536f-70f6-4248-b65f-3927ec0f3e59,pending,payment,Bank Draft,624.13
+8e73b6ee-7bc3-462d-a22d-f360bc5601e2,pending,investment,External Transfer,2115.84
+175318ed-8189-4af1-9e6f-5d2c91ae6f02,failed,other,Bill Pay Transfer,457.35
+f906978c-d655-49c3-9e5f-a62934d37a1d,failed,investment,Automated Clearing House (ACH) Transfer,72.97
+c63c9fef-96bf-48d0-a614-b59aa5acbfc9,pending,personal expense,Direct Deposit,426.39
+48107b0e-c6ef-4c43-9fed-48ad9d7e7a29,completed,payment,Money Order,21579.78
+5ec727ec-fa0d-4a04-a47a-e88c7b885500,failed,investment,Internal Transfer,5006.97
+e56096a4-2930-47c1-9610-ce4bf77a85de,pending,other,International Wire Transfer,3689.51
+6d18ce29-142c-48a6-a2a2-63b4016b266d,pending,payment,Person-to-Person (P2P) Transfer,775.9
+b03d31ee-f207-412f-9b4e-ce82dd60630c,failed,investment,Third-party app Transfer,1340.45
+bb7a1a7d-5748-4a2d-84a9-0e25e1d1f091,pending,investment,Person-to-Person (P2P) Transfer,1358.82
+e1e2fec0-f0a1-4837-a978-013e2d19615e,completed,investment,Bank Draft,4137.47
+deea106c-b21b-44e2-9c47-8c83c4d97c33,failed,payment,External Transfer,581.87
+f5edc728-9a95-4231-a146-68969e7d71bd,failed,personal expense,Person-to-Person (P2P) Transfer,765.8
+17a9216d-ec18-443c-8b4d-b526857843de,pending,personal expense,External Transfer,2661.6
+d955a448-dd67-44e7-b9cd-a288ead18672,completed,personal expense,Internal Transfer,4944.0
+b6326903-c1f3-4636-b8db-21e1293cffcb,completed,other,Money Order,93.06
+430487b5-d9a0-4b50-97b7-08133bc69f99,failed,payment,Internal Transfer,233.29
+bac56e59-c48b-4c0c-9df7-61f61ba98dd8,completed,other,Money Order,883.87
+c42d553b-c95d-4563-9bf8-a3ffb9f59507,completed,other,Bill Pay Transfer,231.44
+e73b3ac8-2aa1-47c3-a2df-9349889a64af,pending,other,Bank Draft,2839.94
+b2cb7e03-71de-413d-95c1-eadc64f52e73,failed,personal expense,Third-party app Transfer,3541.63
+83c9fa89-a916-4b92-8017-67a9442cfc03,completed,investment,Money Order,30.49
+fe67f830-0f9e-4600-bf39-d88ebc57aa4f,failed,investment,Third-party app Transfer,0.62
+d272584c-8251-4a79-b6a1-0ef11b7f675d,completed,personal expense,Person-to-Person (P2P) Transfer,2886.43
+bea53a64-0791-4487-a1fd-eeb76b404ca8,pending,payment,Automated Clearing House (ACH) Transfer,2331.82
+a2206f4a-2313-4d91-afa7-9ee3495c2862,failed,investment,External Transfer,284.64
+41313837-ea59-440c-bcf3-4c4fbf0e32ab,pending,other,International Wire Transfer,1698.85
+3a584aa4-50dc-4730-9bf6-38b7eb06be77,failed,payment,Person-to-Person (P2P) Transfer,873.49
+d6be7ef5-7797-487a-9246-70555528f6c4,failed,personal expense,International Wire Transfer,432.68
+ef5bbec9-8421-4c02-b8f2-655372542ed2,failed,payment,Person-to-Person (P2P) Transfer,32369.57
+04bb1675-6ecc-408f-9ee4-18fed78764a7,pending,personal expense,Money Order,28277.4
+e9a3f5a4-f57a-4351-8619-ee16a63510de,completed,investment,Internal Transfer,14.89
+735b5d7c-e607-4859-8c7b-5f47ad6e5e9d,failed,investment,Money Order,27.83
+5039ba82-b08e-4305-95f3-e96c15a2ce14,pending,payment,Person-to-Person (P2P) Transfer,49.74
+15534576-3549-4792-bc61-61e87028f350,pending,investment,External Transfer,604.04
+3ba9b3e8-eee3-4d89-bc71-8fbb84e4fdb3,pending,payment,Person-to-Person (P2P) Transfer,1526.59
+550ad9ce-e348-4c3b-969a-52bba556ff62,completed,payment,Third-party app Transfer,1209.28
+1923393a-d52e-4242-a8e2-745c71b5ee51,failed,personal expense,Automated Clearing House (ACH) Transfer,601.4
+2d9c8a30-589a-465e-bf64-d8a6fe436cd6,failed,personal expense,Internal Transfer,282.36
+223b3afe-4728-4d7b-bb49-35594442db59,completed,investment,Person-to-Person (P2P) Transfer,80.49
+d040e58a-2a86-4ee3-9358-871fffb4d028,completed,payment,Bank Draft,41.03
+9f362764-7dfb-4db4-b6cb-9a79a94decde,failed,other,Bank Draft,3236.47
+6d5e6867-d739-47b9-9fa2-22dc59df8917,completed,payment,Bill Pay Transfer,2710.52
+a4a5baec-0c75-4c84-8256-48665dbcd287,pending,investment,Internal Transfer,4744.07
+f407fd4a-d65f-472b-b48c-8b52e0ab2de5,failed,investment,Direct Deposit,971.64
+9373e660-c71e-4d47-b711-80b039c93c80,pending,other,International Wire Transfer,239.35
+ac1d3486-637a-4fab-a9d4-1b98a9fa0dc2,completed,investment,International Wire Transfer,748.37
+20d5b2d6-705e-491b-b5b6-9786d7375ba0,failed,other,Internal Transfer,95.92
+04e3d323-0c00-4bae-97e3-ec98ba94b907,completed,payment,Automated Clearing House (ACH) Transfer,5.5
+86499539-71ba-4ef0-bea1-08ffbb9797c2,pending,personal expense,Person-to-Person (P2P) Transfer,0.79
+279c4d28-16f7-4fb9-bfd0-98f6e84fc933,failed,investment,External Transfer,0.57
+d26b8ea8-b8fe-42d4-9010-7677a74f0d05,completed,payment,Automated Clearing House (ACH) Transfer,176.17
+39deebb7-c808-4154-a1db-192e0539f2a5,completed,personal expense,Bank Draft,252.89
+49c1d381-13b7-4f89-b383-90543fc82bed,failed,investment,Person-to-Person (P2P) Transfer,214.16
+0f9ba136-4fb2-460e-a7cb-881969e57609,pending,personal expense,External Transfer,6631.03
+f012a651-2322-444d-a334-1d89ca924da1,failed,payment,Internal Transfer,4531.23
+5feacd5f-b404-4f19-9eda-12b24623b129,pending,other,Person-to-Person (P2P) Transfer,278.97
+05dbf349-ab2a-4c36-963b-73abfb5c5103,completed,payment,Bill Pay Transfer,4262.09
+a71dd5c5-cec8-4cc6-bd7b-78b00910874f,failed,investment,Third-party app Transfer,4474.91
+a017c1c5-d81f-42c3-94e6-e84de26e8069,pending,payment,Money Order,6062.89
+eda69a80-24f7-42d9-bb28-05b13712b821,pending,investment,Bank Draft,2324.49
+c1d7c642-aa17-4aed-a61f-5623a4e834cf,failed,personal expense,External Transfer,52.98
+689530a5-dce6-4155-bc72-2d81ce049842,pending,payment,Third-party app Transfer,1615.63
+1b436c81-db64-43ba-889e-20248eadafd7,pending,payment,Bank Draft,2154.2
+0149ae36-799b-4523-8789-76e5e15e248e,failed,investment,International Wire Transfer,459.89
+32107332-b13e-48e6-b602-e047b4389c36,completed,other,International Wire Transfer,551.0
+e049e3ea-2093-4fcd-a986-ddb9c8f2a22b,pending,investment,Money Order,84.55
+3e6d047c-7f6d-4311-82e4-c83a31b9877c,completed,payment,External Transfer,283.32
+1e9bbfd2-2008-47b8-94b5-74cc2094d36e,failed,payment,Direct Deposit,6.13
+490fac21-16f8-457b-9a27-ae6a7259d18d,pending,payment,Bank Draft,8.54
+18f7d4a3-28d0-4c3a-99f5-f776e6aca58f,pending,other,Person-to-Person (P2P) Transfer,23954.79
+dc216252-8a59-42b7-8f4b-439a549ec0d7,completed,personal expense,Internal Transfer,21186.4
+2b3e4436-a6e4-40a3-9cbb-138647c3b262,completed,payment,Internal Transfer,1131.92
+a597909f-4387-42b5-9d49-908e0fa32d0f,pending,other,International Wire Transfer,173.62
+69909986-25e9-4838-9d24-6c34add2284b,completed,personal expense,Person-to-Person (P2P) Transfer,4811.79
+eec5d8e5-ef7d-4719-b203-a026c60f490e,failed,personal expense,Person-to-Person (P2P) Transfer,46.67
+44ac3983-43b0-44ae-bacf-ce4fe4af0f53,failed,personal expense,International Wire Transfer,14.42
+4acaf661-d6db-4c2e-ada2-703e85cad968,completed,personal expense,External Transfer,396.35
+9ba6061d-0316-480c-a8cb-0d3e0dd5d582,pending,other,External Transfer,78.47
+2aa8fba6-7d3a-4057-9dfb-45657d4efa58,failed,investment,Third-party app Transfer,26.85
+0da91a17-87bb-438d-81d0-6fa899b99a87,pending,investment,Money Order,9.38
+a9863013-b14e-437e-a325-e90c180256b2,pending,personal expense,Internal Transfer,31.0
+af8eaf1c-a78a-43b7-afd7-40d1f021b116,pending,investment,Person-to-Person (P2P) Transfer,924.94
+ccee815c-9050-4eaf-b48e-9ab8d3cbfe30,pending,payment,Person-to-Person (P2P) Transfer,3.16
+5df33cbc-8dd5-466e-9e88-b4fa0ab2ff31,pending,payment,Third-party app Transfer,275.89
+d69e9dab-5539-4081-994c-808476b7f6df,failed,investment,International Wire Transfer,7.47
+17644934-cb37-4d8a-a86d-d04cd3461674,failed,payment,Person-to-Person (P2P) Transfer,4997.47
+7d633a6c-f106-4f0c-a970-66196479e21f,failed,investment,Person-to-Person (P2P) Transfer,2290.85
+dfc2af2b-f016-4cff-b132-a8be8534a9ed,pending,payment,Third-party app Transfer,5527.5
+7fa23c03-9ad2-4f44-bedc-71b15c6db541,failed,other,Automated Clearing House (ACH) Transfer,45.75
+7cc30f74-c4e5-4fea-9a72-09007a34c458,completed,investment,Third-party app Transfer,52.82
+312bfbd9-818c-4687-9708-212d7f2f419c,pending,payment,Third-party app Transfer,52.0
+856286ef-976d-4721-8be6-9a2751cac8e2,failed,other,Bank Draft,1791.45
+5521af92-5228-4a01-9f09-4db62dd0da63,completed,personal expense,Direct Deposit,1933.39
+ee2e3b34-42c7-4931-bed5-92ec10bd073c,completed,other,Third-party app Transfer,7716.21
+f9f9167b-47ce-4d81-8c47-fa64a4ed622a,failed,investment,Person-to-Person (P2P) Transfer,169.02
+4145573e-934e-4b38-89a8-4daee2e0b86c,pending,payment,International Wire Transfer,67.36
+e618b442-7a1a-4450-aba6-4707a812a578,completed,other,Money Order,6958.32
+e20441ed-5876-410f-bc20-cb1d5becae28,completed,payment,Bank Draft,2829.11
+547266c6-0e67-4b02-991d-86f512bd7a7a,pending,other,Automated Clearing House (ACH) Transfer,1235.8
+d75ea0bd-86d9-4fc4-a2e4-e682c588e1fc,pending,personal expense,Automated Clearing House (ACH) Transfer,675.44
+0e62dcc7-403b-4f6e-b6b8-db6cab7963ee,completed,investment,Automated Clearing House (ACH) Transfer,556.47
+077d0483-e20e-4fe9-80b7-59f314e19c02,failed,payment,Bill Pay Transfer,16.97
+0c7ba7e8-12cd-40e8-99da-387ffbd67348,failed,personal expense,Person-to-Person (P2P) Transfer,4.06
+4d87f008-c774-454b-a65f-e605e3f08043,completed,investment,Third-party app Transfer,15302.29
+59ed3f97-974c-4af9-a892-fb8d3ecd924f,failed,other,Third-party app Transfer,3516.16
+0083ef69-e33c-4c29-88e6-f5556597e1f4,completed,other,Bank Draft,647.52
+21b24d52-6154-479b-a538-1e0862e36500,completed,investment,Bill Pay Transfer,10.76
+271c46da-4240-41d1-9579-3ca545ab93df,completed,other,Bank Draft,5476.98
+381b4927-e61c-4c68-921a-d3a91baa53bd,completed,other,International Wire Transfer,15103.92
+dd578aa1-d981-44d9-bfa1-76e78498b00a,completed,other,International Wire Transfer,3380.21
+1ff67a90-be00-403f-b959-ecc4c50fd8e9,completed,investment,External Transfer,427.2
+e226cc11-e333-410d-b527-359d9665b9cd,completed,personal expense,External Transfer,124.01
+d7757dd8-7ec1-443b-847f-d20bb1b91537,completed,other,Money Order,5278.83
+2dd0102d-267e-4196-a5df-aa3d9efa0909,completed,investment,Money Order,820.54
+2ae2e6b6-fa03-49dd-9687-e958bed4738b,pending,investment,Money Order,260.91
+c5c070bb-a412-4cd6-a64d-d35780104886,completed,payment,Third-party app Transfer,1049.6
+db828b0d-3225-4238-a8db-832fb8d37763,pending,personal expense,Money Order,19507.75
+028062f5-25b8-4040-a67d-98b269bb8c70,failed,other,International Wire Transfer,5098.98
+a675a7bc-aad8-43c8-8545-a20e5afef066,failed,other,International Wire Transfer,14825.58
+b5a88493-62b5-48d1-a4e6-56254e78bf5f,failed,other,Direct Deposit,11852.04
+71a4c8d2-d397-4b5d-878c-250b3fc03c34,failed,payment,Third-party app Transfer,4064.65
+d5e6bd03-fdfc-4c2f-a358-d3914f091a73,completed,investment,Bank Draft,3165.42
+50f4e781-b1fd-4194-88c0-29d7479c06e2,failed,investment,Bill Pay Transfer,8714.96
+a518ffb1-f7f8-4793-9bd2-b9289d889d17,pending,personal expense,Internal Transfer,3455.78
+72d45e76-658d-496a-aa49-fd9361e5f127,failed,investment,International Wire Transfer,11916.28
+48a8cff6-0edb-407f-8053-69410241918a,pending,payment,Internal Transfer,4523.25
+6a04267f-8ccd-4322-8839-69a1c0a2933d,pending,personal expense,External Transfer,2129.42
+487d597c-f614-4972-963f-2a2d820dc6a8,failed,payment,Person-to-Person (P2P) Transfer,1845.78
+06b14eb0-c80f-4b9f-9dd7-c3577f0072db,completed,payment,Automated Clearing House (ACH) Transfer,14406.55
+243e8abe-13dc-4a26-a2dc-08985516f584,pending,payment,Direct Deposit,16203.65
+a5bdbdb8-236b-4bb9-9d60-542d0b3ae54b,pending,other,Money Order,8160.25
+b2c2404c-4ce2-4ee1-bb6b-f5c7285c7d08,pending,payment,Automated Clearing House (ACH) Transfer,9089.08
+38bcaa8a-ffb6-4cda-9735-298476043e55,completed,investment,Bill Pay Transfer,514.98
+cec5c293-47cd-44b7-80c4-7107cf1b0f92,pending,personal expense,Bank Draft,2216.72
+97807390-68d1-40a1-b805-29c1f453e509,completed,investment,Bill Pay Transfer,1788.51
+08682dca-e767-40d6-bf81-005add8de0f0,pending,other,Internal Transfer,524.89
+ec601732-7910-49b8-9201-3719073b5936,completed,payment,Bank Draft,191.49
+ee02b2bb-df34-4833-838b-23b1ec75f329,pending,payment,External Transfer,2184.07
+2a04226c-8ce9-4ff4-8ebe-7d9665de218f,completed,investment,Internal Transfer,936.26
+35f527d8-816d-4087-bf27-f39d1d2dfd4b,failed,other,External Transfer,9377.63
+d2ab0af9-1c30-43ee-9890-0c8d2d650a6c,completed,payment,Automated Clearing House (ACH) Transfer,15847.74
+30bfc8f2-0b6c-44e5-8742-28bf7a1b54f2,completed,payment,International Wire Transfer,11371.1
+fb6e3196-3c04-499a-bc89-3cf679c21c8d,failed,other,Person-to-Person (P2P) Transfer,1315.76
+aca903dc-9ef2-4ecb-b7ce-7f1e0247146d,completed,investment,Third-party app Transfer,8445.09
+c6562376-bd37-4d27-ab69-f9fc173c3bad,pending,other,External Transfer,1894.9
+bab5b94d-c544-4c68-8ab3-3cecf8e07365,completed,investment,Bill Pay Transfer,1225.18
+cf38f70a-4e62-41b2-9d64-64ac38463d1e,completed,payment,Bill Pay Transfer,92.0
+11f9fe7f-5eb3-41ba-a189-a39bfcbf9acc,pending,investment,Bank Draft,250.94
+786f467b-f209-47fc-9d31-d197c6639c58,completed,payment,Money Order,130.81
+ad4a809b-e646-4ac8-9990-4b0c72325c52,failed,investment,Automated Clearing House (ACH) Transfer,2.28
+cd329422-7375-42d6-9b8a-01ac94763cef,failed,other,Automated Clearing House (ACH) Transfer,2.24
+c6c9112a-adc7-4f35-a80b-edf7510bfdd5,failed,other,Person-to-Person (P2P) Transfer,5.46
+97cb7439-d962-4c5c-af09-ffc8af71db41,completed,other,Direct Deposit,4.79
+72d5663c-7587-4e0f-bc0c-da1cd35e9ebc,failed,personal expense,International Wire Transfer,0.77
+ab88d4cc-47dd-4b68-8dcd-f489597df4ea,pending,personal expense,Bill Pay Transfer,1116.23
+c038df7c-8a0f-4386-bc49-e4d279e2c693,completed,payment,External Transfer,2352.84
+a8b7ca63-23e7-491b-afa6-49e80d955d29,completed,other,Bank Draft,146.0
+b23c010a-9fe3-4c77-8730-9d94d5c3a995,pending,other,Money Order,84.0
+ee8724b2-c7d7-4d50-881a-6a5bc246c44e,pending,payment,Bill Pay Transfer,66.05
+aef37030-88e4-4d94-a8b7-f145b519ce4f,completed,other,Money Order,35.85
+6aee93e5-6180-4969-81c0-09c9834c2cdc,completed,investment,Direct Deposit,2560.35
+b1b5acf6-2897-4dc9-bc06-73684d608754,completed,investment,Automated Clearing House (ACH) Transfer,176.6
+23366835-6d24-43a5-b1da-ab26d0b64540,failed,other,Direct Deposit,173.25
+a4aed33d-45b5-489f-8567-5126d41bce81,completed,other,Third-party app Transfer,311.59
+2ed7b76a-b21f-4ef2-a241-6161eb93caec,pending,investment,Direct Deposit,18.2
+48b4404d-0e15-4893-b695-9388ae1bd881,failed,other,Automated Clearing House (ACH) Transfer,2.74
+77f85eb7-812c-4311-a189-18b064ae8bf4,pending,other,Person-to-Person (P2P) Transfer,354.28
+57887e89-5e7f-4120-9102-ed65e8f61efd,pending,payment,Automated Clearing House (ACH) Transfer,226.41
+915dc438-2e5d-4fae-bb7a-c9fede7481ca,pending,investment,International Wire Transfer,355.72
+3943856b-fddb-471a-9aaf-362622a42fd1,failed,other,Bill Pay Transfer,694.8
+b63ce0e1-5163-4b92-a568-ffc945ccd9fc,completed,investment,Third-party app Transfer,1164.89
+90418f90-2421-4607-8953-273d778ccd1d,completed,payment,Third-party app Transfer,1925.68
+fd1f3cf8-6268-4e24-845d-0b70619e7371,failed,personal expense,Person-to-Person (P2P) Transfer,13548.51
+6a838b74-dbb3-4a91-8ae5-8136996ae713,failed,investment,External Transfer,896.27
+e06a2089-48c4-4583-857b-4d66572bba4a,completed,other,Bill Pay Transfer,37.57
+5db6f7c0-4a24-41ec-9a79-75e2e809e3a8,pending,personal expense,Direct Deposit,14981.12
+a503bb34-eb33-48bd-a9ac-ee3441c77c1c,pending,investment,Bank Draft,3598.09
+001db24d-afce-4e61-91cd-39700cd01f20,completed,payment,Person-to-Person (P2P) Transfer,15417.6
+0c580a4e-f74e-4475-b52c-0a385f04a81a,pending,other,External Transfer,10866.3
+3d813fef-ab85-4515-acbb-5e05ee1b09a4,pending,personal expense,Money Order,3901.82
+a3469e96-095c-4aae-a6a0-7d0db9aad8bc,completed,other,Direct Deposit,11.83
+0fa97cd3-c97d-4e3a-ba97-d1e03d819ac0,completed,other,Third-party app Transfer,304.41
+9c607ed0-ba52-406e-b88b-d8a3a0269d74,pending,investment,Third-party app Transfer,106.2
+b4629f75-56a7-43de-b628-525ccfff17e1,completed,personal expense,External Transfer,103.25
+0efb78d1-0fea-479f-a193-689b6e8bd6d3,failed,personal expense,Bill Pay Transfer,547.69
+50a093ba-6661-4edb-8bc1-6c0db4e845c3,failed,investment,Automated Clearing House (ACH) Transfer,3284.92
+ba4f578d-8b4b-4ca6-ba8a-18ece775afac,completed,payment,Bank Draft,2777.92
+9fab7bae-1527-4e4f-868c-d2fa446cb096,failed,personal expense,Bank Draft,15.54
+f8eebd3d-2ab3-4179-8a68-1d93fda4dbfa,pending,investment,Person-to-Person (P2P) Transfer,33.02
+65f2ca60-7ebb-4967-a4ee-48bee4f4de66,failed,payment,Direct Deposit,104.92
+e15e491f-13cd-4885-aeee-6ab73d1c2241,failed,other,Bill Pay Transfer,161.21
+2fc4dd48-3df8-4ef1-82e8-2ebdc8f5b86d,pending,investment,Person-to-Person (P2P) Transfer,1402.81
+4ac15b15-e991-426c-8bcd-54785dcf6204,pending,payment,Third-party app Transfer,15575.44
+b9b96823-2e7e-42fd-962d-680a1d63c077,completed,payment,Internal Transfer,3861.91
+7e0d0d60-f4bb-4edb-8dc9-29727ff7ecb0,pending,investment,Person-to-Person (P2P) Transfer,4863.11
+14077b7d-f47c-4489-94d1-e539cfb8d4e6,completed,personal expense,Automated Clearing House (ACH) Transfer,40407.7
+32c48d43-8719-4e4d-b40f-72f045aa5cac,completed,payment,External Transfer,1873.18
+b9beac2f-5361-4957-9f33-612ccb5de995,failed,investment,Money Order,299.6
+7ee1683a-e801-4e0b-96d6-be2868f2368d,failed,payment,Person-to-Person (P2P) Transfer,77.69
+272fff19-32ec-4f7e-ba50-f7e7d334335e,pending,payment,Money Order,1657.14
+3fe107b7-0ae7-42df-9d88-68b87e07db9d,failed,investment,Third-party app Transfer,17.62
+764a7d09-5df0-41b8-a94f-15b75edae267,pending,other,Direct Deposit,1725.28
+1661cdd0-5b53-4eb8-8903-427aed9733ef,pending,other,Third-party app Transfer,2032.15
+50d62915-0e5d-4954-b3d1-a49a6e159d99,completed,investment,Person-to-Person (P2P) Transfer,31.02
+7a42fcda-5403-4a4e-818b-175049995ce5,failed,payment,Bank Draft,19.77
+17a8679a-d879-4e6f-9e3f-40dc8c352562,completed,other,Bill Pay Transfer,2.83
+4caaadb1-3f3d-4735-a520-93c8835eab84,failed,payment,International Wire Transfer,2.13
+f99f9bcf-0f56-490e-8303-1d32d1864275,pending,personal expense,International Wire Transfer,359.02
+a2dfac1c-0680-4213-80d2-0e9efefd6424,failed,payment,Internal Transfer,233.82
+61c9a677-5f78-46d2-a280-19cc4755c32d,failed,personal expense,Person-to-Person (P2P) Transfer,295.76
+ebfe079b-0179-42e4-b46d-4ebbc328447c,pending,personal expense,Third-party app Transfer,6115.28
+77de18f8-3d3f-473f-abc8-50f23ad69e03,pending,personal expense,Internal Transfer,33.63
+9e414fd9-c018-4aa4-a378-624e77e4a93c,completed,personal expense,Bank Draft,22.56
+66da81b4-b3d2-4d5a-bdc3-fc963ed7c58e,pending,personal expense,International Wire Transfer,38.86
+4efff2bd-1f41-490c-a831-cfcc3d26c4f3,failed,investment,Direct Deposit,10168.33
+1f5e8120-78e3-42ce-960c-ecf672145338,completed,investment,Automated Clearing House (ACH) Transfer,183.73
+e34c25fb-d714-49a8-b7b8-7505dc1ef206,pending,payment,Automated Clearing House (ACH) Transfer,5575.38
+b70f8ee9-2e00-4f4b-9196-4499140536c7,failed,other,Bill Pay Transfer,1146.52
+da9dbbfa-73c2-454d-a097-03f4ea849d2e,completed,personal expense,Bill Pay Transfer,1939.05
+6bc72622-0644-47f3-a36c-282f03557622,pending,personal expense,Money Order,5012.32
+6ce54c10-08d1-41c7-990d-8d49cfaed976,failed,other,Internal Transfer,865.96
+c6e359a9-4f35-4252-af55-455317e5be04,failed,personal expense,External Transfer,4240.65
+ae1d1695-23c7-47c5-ab76-0536e09e4707,completed,personal expense,Person-to-Person (P2P) Transfer,0.83
+4e82be52-4e3a-4bd1-b947-b9acf4a99d2c,failed,payment,Person-to-Person (P2P) Transfer,0.23
+869533e8-3679-4ac6-a0cc-04d71e4d97ee,failed,payment,Money Order,22583.44
+82de6b35-7fe3-4c3e-b810-05b6b5216d77,failed,personal expense,Money Order,6776.38
+f21b9ee6-5f4a-40b4-9f8c-2d429a059956,completed,investment,Person-to-Person (P2P) Transfer,1716.45
+2b4c65e9-5bfe-448d-9b11-9667ae0f7053,pending,payment,Person-to-Person (P2P) Transfer,3.0
+cd5bde25-b694-44c2-bde2-01ab2913f673,failed,payment,Internal Transfer,3281.01
+60b8b87f-0212-443d-81a8-9dd95d662957,completed,personal expense,Internal Transfer,3801.43
+69226156-5710-4753-aaa9-789f0106d282,completed,personal expense,Third-party app Transfer,1837.36
+505ef66a-1c6d-48c5-9bd9-8aaa0329b0fa,completed,investment,Third-party app Transfer,1408.69
+24449703-7667-4f44-ac47-23205465feab,pending,personal expense,Bank Draft,13255.91
+b3843be0-4c96-47db-ade5-3cc0166358cd,completed,payment,Third-party app Transfer,4048.47
+ab72ed43-1b5c-403a-95e6-357718661788,pending,other,External Transfer,17892.6
+ba149537-4bca-422d-adb0-73e81f3b5821,failed,investment,Automated Clearing House (ACH) Transfer,136.79
+3e0e1543-7c28-4444-b792-e3412c97b3c5,pending,investment,External Transfer,433.73
+b6c000d2-3ddb-4bdb-be8e-583bcc76ee5a,failed,investment,Bank Draft,864.25
+adc646d1-ffeb-40c5-8e8c-5ec470b18ac1,pending,investment,Bill Pay Transfer,711.92
+5c0afd33-80ab-49fb-b4d0-1e1a2374c238,failed,investment,Bank Draft,1361.98
+3ea5a87b-7b55-48f7-b5c9-a749cb667ba8,pending,other,International Wire Transfer,42.61
+c93e4269-b20b-43a5-a765-1e02a50e2974,pending,payment,Person-to-Person (P2P) Transfer,903.62
+5f7e653c-eee8-46a8-bf68-b6166a00d3cb,failed,personal expense,External Transfer,1465.6
+bb338124-22a9-4140-8daa-5f94f0ad2172,pending,personal expense,External Transfer,3313.33
+b2043237-4a87-4141-9d74-123059390871,pending,payment,Person-to-Person (P2P) Transfer,19790.62
+93e566af-4ed1-4b48-841b-f7c4e86902d7,failed,payment,International Wire Transfer,1733.36
+ee4180e6-7c71-4f0d-b1d0-5002499dcd7b,failed,payment,Internal Transfer,10519.58
+f90fa5b2-62c7-4561-8890-0a0de42a1753,completed,investment,Person-to-Person (P2P) Transfer,18559.71
+eaaf35ea-66d7-418f-bcd4-c1abbfd9c9c0,failed,other,Third-party app Transfer,46.13
+e5fe6131-1de0-4e64-b631-c4a4f66d629e,completed,other,Money Order,56.63
+955e0bec-9fb5-433f-8692-78d7966d09c8,failed,payment,Internal Transfer,26405.94
+09be8caf-8af7-462d-a74c-986093c26909,failed,payment,Money Order,24199.98
+0100d280-da0f-4bf9-9cf9-72320b831365,pending,personal expense,Person-to-Person (P2P) Transfer,13732.76
+44f81ddc-e5e8-47ed-b853-a6502172892e,failed,payment,Bill Pay Transfer,7273.16
+a4c35a4f-7625-4462-8500-40444483b92e,completed,other,Direct Deposit,14331.82
+a6e078c6-3183-4745-bc00-891799ac838d,pending,investment,Direct Deposit,149.3
+ee5bf4f6-2aa5-4d7d-a354-597a2210c15c,pending,personal expense,Internal Transfer,355.58
+c140ccf5-3bce-4d4a-b386-925c861f5fda,pending,investment,Bank Draft,359.65
+1c3014e6-5a43-4cbe-beed-c9230193d5d6,failed,personal expense,Bank Draft,1712.47
+43c67e3f-cf76-4013-ae9c-54c41064445e,completed,other,Third-party app Transfer,1003.44
+1ed8da8b-f122-406c-b611-61bb12ec5e66,completed,investment,Money Order,1098.43
+4b98da7b-eded-4199-832f-4eb8586b672a,failed,other,External Transfer,746.04
+438f5458-e60d-43a5-81f8-071d3b9c5542,completed,investment,Money Order,161.12
+6ca011c3-2e27-48e3-8d35-26106f2565df,failed,payment,Internal Transfer,1212.1
+7b81e73b-7fd4-4927-b873-607f46fbc702,pending,payment,Bill Pay Transfer,1652.01
+727d52f6-56bb-40c6-ad1c-6c695d2288ba,completed,investment,Third-party app Transfer,502.05
+b71dba7e-7029-4e91-a7fb-9b996d1dd265,completed,payment,Bill Pay Transfer,31.75
+6d96904a-ec67-4f92-a6d0-a05d4a17831a,failed,other,Bank Draft,14908.41
+bd58ebf4-62e0-4ced-a076-9adc9100fc10,failed,personal expense,Internal Transfer,11550.24
+9517b793-ca5d-4e2b-8bb2-638c35b314f0,failed,payment,Person-to-Person (P2P) Transfer,12452.45
+8201bfb9-9f93-46fd-b6ef-0f725d2e1a4f,completed,payment,Person-to-Person (P2P) Transfer,11917.08
+4340fcbc-5190-4187-a4e6-1d1e7b5a723c,failed,payment,Money Order,5591.11
+8d13261b-0237-45bd-bf32-e284c9010a8f,completed,payment,International Wire Transfer,1229.26
+2023301a-9753-4d45-a399-ec17cbe370d8,pending,payment,External Transfer,1617.33
+314cb8da-2cda-4bbd-8cd0-a703078b20b9,completed,investment,Bank Draft,4129.0
+bfecf053-2952-44a7-b7ec-4de2e459ad71,completed,investment,Automated Clearing House (ACH) Transfer,6894.54
+afa643c8-69a6-4974-9681-c40c02dba35d,pending,payment,Person-to-Person (P2P) Transfer,1715.98
+c266af59-872b-4327-bab6-f7f2840d5ca6,failed,personal expense,External Transfer,321.47
+8fc2f9d6-0fcd-461e-939c-367f5f30fbbd,completed,personal expense,Internal Transfer,1269.98
+a4bdfa5a-47c7-4ee6-8776-dce9b58a2f18,failed,investment,Bill Pay Transfer,500.82
+d18b4920-37e5-4c53-a8ea-c1dac57b6d9f,pending,other,Bank Draft,1617.93
+0b8643e8-829b-477f-a537-999285babfd3,completed,payment,Person-to-Person (P2P) Transfer,963.04
+ae111cd6-dd03-472f-b8e9-93430f03837d,failed,investment,Automated Clearing House (ACH) Transfer,1756.16
+97388c05-2088-48dd-9b7f-cc8337059f2d,pending,other,Bill Pay Transfer,929.55
+bded33a4-4576-443d-9e51-8ffaa6524019,pending,payment,Automated Clearing House (ACH) Transfer,3463.03
+1cd0ed5d-a4e0-4517-9dad-895463d1150f,completed,personal expense,Bill Pay Transfer,3083.46
+9b2d96a2-aec9-4b09-a482-11bdc46c867c,completed,other,Direct Deposit,380.59
+98998d44-5608-4bae-b89e-b5dead7ff2b5,pending,other,Internal Transfer,4955.48
+385f9fab-5722-40bb-9039-f842b2fe6af6,completed,personal expense,International Wire Transfer,4324.57
+a5d9031c-6880-459a-a362-75933c726832,failed,other,International Wire Transfer,27235.31
+f97af117-a314-4451-9ad9-002f5936f23f,completed,other,Automated Clearing House (ACH) Transfer,18336.85
+5666ef8c-dd8d-48c0-bb5b-623b83707683,failed,investment,Third-party app Transfer,1570.88
+63fac984-59eb-436a-80ad-f41a16b4ed37,completed,other,Person-to-Person (P2P) Transfer,21.42
+0d0ccccf-41b3-4723-bbfa-df2f2c4a452f,pending,other,International Wire Transfer,12.06
+1e10a7d3-6ce0-47ec-b34d-5c36a47a2468,failed,payment,Bank Draft,40.33
+35faec6c-20d1-4491-b815-dced0cc072a9,completed,investment,External Transfer,10048.04
+765f1ae6-570d-40e5-bbb3-7e66f3a59e93,failed,investment,Direct Deposit,42.05
+d863cc6b-5518-4769-bae8-47205edcbd87,completed,payment,Bank Draft,327.15
+f5c7369e-77ef-4cf8-8d82-f09cf8ce9dc9,completed,investment,Automated Clearing House (ACH) Transfer,27.88
+922896d4-3ad4-40c4-a3cb-ae24f92a14a4,completed,other,International Wire Transfer,1224.39
+3e827aef-a34c-46b3-b3d6-2b39545b0c04,failed,personal expense,Bank Draft,76.43
+e3f606ed-e42b-417e-bf8f-cb4d8e65579f,failed,payment,Bank Draft,21.94
+5eff61de-ed3a-48aa-bde9-6aa1a0b9f04f,pending,investment,International Wire Transfer,838.11
+b940aeb9-1391-4812-8004-30e622c41416,completed,investment,International Wire Transfer,440.85
+dde7250e-0d1d-4649-8a95-eaa770dc892e,pending,other,International Wire Transfer,399.04
+ae3b8ccd-e900-48b5-832d-390adae150ae,pending,personal expense,Person-to-Person (P2P) Transfer,640.42
+257474ab-8932-4475-aac3-3df691545d0b,pending,personal expense,Money Order,6498.74
+a32f0320-aeaf-451b-b2d8-488e0b7e4270,completed,personal expense,Money Order,23270.09
+db067b7b-4868-41a6-8fba-0cecf87a18a0,failed,personal expense,Money Order,1169.34
+41d11c2e-f856-40e1-a496-99e6c1766ba3,completed,payment,Person-to-Person (P2P) Transfer,207.08
+15f76f90-a055-4b0e-8f4e-0de733eaf0b3,pending,personal expense,International Wire Transfer,917.6
+fbcdf7cf-c384-49fb-960d-701035b02632,pending,other,Direct Deposit,16563.85
+5ae0c45f-410e-4897-8eb0-7b2d473e5d26,pending,personal expense,Third-party app Transfer,2067.3
+da18b5d9-1b01-4255-8893-7e90f82f0427,completed,personal expense,International Wire Transfer,6442.78
+30b097bf-51bc-4ff2-8ca0-5584e1b7d155,failed,other,Money Order,230.86
+1c584319-3257-45a6-bfa9-4d99a8720c63,failed,other,Internal Transfer,10613.88
+36f86808-35eb-4672-875d-0ec624a327eb,pending,investment,Money Order,10041.11
+e1055cd0-2bbc-4de8-bbfc-eb0323d28103,failed,other,Person-to-Person (P2P) Transfer,15964.01
+8e5ba2f9-5c50-4fd1-81be-3b42d638ac49,pending,personal expense,Third-party app Transfer,10215.73
+68e93482-46bf-4aaa-84da-2b99fd334c38,failed,personal expense,Automated Clearing House (ACH) Transfer,35.88
+27b7540f-9e40-4590-8b67-a44fe3580eb6,completed,personal expense,Internal Transfer,10.09
+f176568e-4f26-447a-9995-e8020b372e92,failed,payment,International Wire Transfer,640.2
+e0369f7b-878c-4513-8cfe-c0d14ece177b,completed,other,International Wire Transfer,1058.02
+720f856f-3ef4-429e-a496-e5bb840917a2,failed,payment,Money Order,361.91
+907f5fd6-844e-4b32-bc91-c8ce6d938ab3,failed,other,Third-party app Transfer,2160.84
+a2fbc2b5-0894-471b-b4c6-47dfc0aa8d83,pending,investment,Third-party app Transfer,3037.5
+8fc7167d-27d4-4643-8eeb-05f2db08264f,completed,payment,International Wire Transfer,5.76
+9ae398a9-aea7-498e-9f2b-ae1bb4a59f82,failed,payment,Automated Clearing House (ACH) Transfer,10.91
+8fdd2c04-f2ce-4a79-afd7-77e1616b2029,completed,other,International Wire Transfer,5.66
+509ee3b5-6431-493a-8305-a1f1a51b6297,failed,payment,Money Order,8370.98
+6b2ba661-d1e3-4e32-b318-54180fb07d7e,pending,personal expense,Internal Transfer,6002.98
+fa5d5bb2-a677-4527-9a59-6a67fb16f68d,failed,investment,Automated Clearing House (ACH) Transfer,5477.0
+d5059c6a-31ff-499f-a5ff-99ec56d26548,pending,payment,Automated Clearing House (ACH) Transfer,2253.44
+e14cb1e6-b482-4534-8e64-220c40159521,completed,payment,Internal Transfer,1958.61
+fe4ba2ba-5d18-4839-aa59-ccc8261826eb,pending,investment,Bill Pay Transfer,0.96
+ee4a3cba-52a2-49f8-8d6f-9956fa3db907,failed,payment,External Transfer,13474.17
+eb692ea9-010d-4d5e-8678-c61514c1466a,failed,other,Money Order,15556.16

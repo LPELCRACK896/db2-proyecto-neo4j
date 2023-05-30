@@ -65,7 +65,7 @@ def __create_single_withdrawal(account_row: pd.Series, person_row, type = "Clien
 
     withdrawal_types = ["ATM", "Bank"]
     withdrawal_motive = ["payment", "personal expense", "investment", "other"]
-    create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['closing_date'] is None else account_row['closing_date'])
+    create_date = fake.date_time_between(start_date=datetime.combine(account_row['create_date'], datetime.min.time()), end_date='now' if account_row['closing_date'] is None else datetime.combine(account_row['closing_date'], datetime.min.time()))
     balance = account_row['balance']
     withdrawal_id = fake.uuid4()
 
@@ -243,7 +243,7 @@ def create_accounts(client_df: pd.DataFrame, min_accounts_per_client: int = 1, m
 def __create_single_transfer(account_row_origin: pd.Series, account_row_destiny: pd.Series):
     transfer_states = ["completed", "failed", "pending"]
     transfer_motive = ["payment", "personal expense", "investment", "other"]
-    create_date = fake.date_between_dates(date_start=account_row_origin['create_date'], date_end=dt.date.today() if account_row_origin['closing_date'] is None else account_row_origin['closing_date'])
+    create_date = fake.date_time_between(start_date=datetime.combine(account_row_origin['create_date'], datetime.min.time()), end_date='now' if account_row_origin['closing_date'] is None else datetime.combine(account_row_origin['closing_date'], datetime.min.time()))
     transfer_types = ["Internal Transfer", "External Transfer", "International Wire Transfer", 
                   "Automated Clearing House (ACH) Transfer", "Person-to-Person (P2P) Transfer", 
                   "Bill Pay Transfer", "Third-party app Transfer", "Direct Deposit", "Money Order", "Bank Draft"]
@@ -309,7 +309,7 @@ def __create_single_deposit(account_row: pd.Series, person_row, type = "Client/P
     deposit_types = ["Direct Deposit", "Wire Transfer", "Cash"]
     deposit_states = ["completed", "failed", "pending"]
     deposit_motive = ["salary", "loan", "investment", "other"]
-    create_date = fake.date_between_dates(date_start=account_row['create_date'], date_end=dt.date.today() if account_row['closing_date'] is None else account_row['closing_date'])
+    create_date = fake.date_time_between(start_date=datetime.combine(account_row['create_date'], datetime.min.time()), end_date='now' if account_row['closing_date'] is None else datetime.combine(account_row['closing_date'], datetime.min.time()))
     balance = account_row['balance']
     deposit_id = fake.uuid4()
     amount = round(fake.random.uniform(1, balance+10), 2)
