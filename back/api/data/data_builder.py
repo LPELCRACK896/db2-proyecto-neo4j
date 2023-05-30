@@ -334,15 +334,15 @@ def __create_single_deposit(account_row: pd.Series, person_row, type = "Client/P
             print(cs.s_green(f"COMPLETED deposit ({deposit_id}): ${amount} in ({latitude}, {longitude})"))
 
     account_deposit = pd.Series({
-        ":START_ID(Account number)": account_row["number"],
-        ":END_ID(Deposit id)": deposit_id,
+        ":START_ID": account_row["number"],
+        ":END_ID": deposit_id,
         ":TYPE": "RECEIVED",
         'date': create_date
     })
 
     person_deposit = pd.Series({
-        ":START_ID(Person dpi)": person_row["dpi"],
-        ":END_ID(Deposit id)": deposit_id,
+        ":START_ID": person_row["dpi"],
+        ":END_ID": deposit_id,
         ":TYPE": "MADE",
         'date': create_date if state=="completed" else None,
     })
