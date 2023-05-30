@@ -1,7 +1,8 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
+import './Home.css'
 
-const Base = () => {
+const Fraud_Behavior = () => {
   const [users, setUsers] = useState([]);
 
   const URL = 'http://localhost:5000/api/v1/clients/';
@@ -38,11 +39,11 @@ const Base = () => {
   ];
 
   return (
-    <div className="App">
-      <h1>TABLA TEST</h1>
+    <div className="inicio-container">
+      <h1 className="titulo">Fraud Behavior</h1>
       <DataTable columns={columns} data={users} pagination />
     </div>
   );
 };
 
-export default Base;
+export default Fraud_Behavior;
