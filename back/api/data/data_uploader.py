@@ -139,7 +139,12 @@ class BankNeo4j():
 
             print(cs.s_yellow(create_query))
             print(cs.s_magenta("============="))
-            self.service.query(create_query)
+            res = self.service.query(create_query)
+            try: 
+                print(res)
+            except:
+                pass
+
 
 if __name__ == "__main__":
     # Test
