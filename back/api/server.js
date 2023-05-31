@@ -26,6 +26,7 @@ app.use(cors(corsOptions))
 
 //Route files
 const clients = require('./routes/clients')
+const persons = require('./routes/persons')
 
 
 //Body Parser
@@ -41,6 +42,7 @@ app.use((req, res, next) => {
 if(process.env.NODE_ENV == 'development') app.use(morgan('dev'))
 //Mount routes
 app.use('/api/v1/clients', clients)
+app.use('/api/v1/persons', persons)
 
 //Error handler middleware -> Must be after Mounting routes so it works in those. Middleware kinda works in a linear order. 
 app.use(errorHandler)
