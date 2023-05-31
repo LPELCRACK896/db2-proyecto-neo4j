@@ -1,7 +1,6 @@
 const ErrorResponse = require('../utils/errorResponse')
 const asyncHandler = require('../middlewares/async')
 const fieldChecker = require('../middlewares/fieldChecker')
-const { existAccountByNumber } = require('../middlewares/nodes/accounts')
 const {convertNeo4jProps} = require('../utils/handleTypesNeo4j')
 const stripSpaces = require('../utils/stripspaces')
 const uuid = require('uuid');
