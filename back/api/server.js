@@ -29,7 +29,7 @@ const clients = require('./routes/clients')
 const persons = require('./routes/persons')
 const withdrawals = require('./routes/withdrawals')
 const transfers = require("./routes/transfers")
-
+const deposits = require('./routes/deposits')
 
 //Body Parser
 app.use(express.json()) //Sin esta linea, los controladores no acceden al req.body
@@ -47,6 +47,7 @@ app.use('/api/v1/clients', clients)
 app.use('/api/v1/persons', persons)
 app.use('/api/v1/withdrawals', withdrawals)
 app.use('/api/v1/transfers', transfers)
+app.use('/api/v1/deposits', deposits)
 //Error handler middleware -> Must be after Mounting routes so it works in those. Middleware kinda works in a linear order. 
 app.use(errorHandler)
 
