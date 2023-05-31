@@ -1,49 +1,28 @@
-import DataTable from 'react-data-table-component';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './Home.css'
 
-const Fraud_Behavior = () => {
-  const [users, setUsers] = useState([]);
+const Query = () => {
 
-  const URL = 'http://localhost:5000/api/v1/clients/';
+  const [query, setQuery] = useState('');
 
-  const showData = async () => {
-    try {
-      const response = await fetch(URL);
-      let data = await response.json();
-      data = data.data
-      console.log(data);
-      setUsers(data);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
+  const handleInputChange = (event) => {
+    setQuery(event.target.value);
+  };
+
+  const handleQuerySubmit = () => {
+    // Aquí puedes realizar alguna acción con la query, como enviarla a un servidor o procesarla localmente
+    console.log(query);
   };
   
-  useEffect(() => {
-    showData();
-  }, []);
-
-  const columns = [
-    {
-      name: 'OCCUPATION',
-      selector: (row) => row.occupation,
-    },
-    {
-      name: 'ADDRESS',
-      selector: (row) => row.address,
-    },
-    {
-      name: 'BIRTHDATE',
-      selector: (row) => row.birthdate,
-    },
-  ];
-
   return (
     <div className="inicio-container">
-      <h1 className="titulo">Fraud Behavior</h1>
-      <DataTable columns={columns} data={users} pagination />
+      <h1 className="titulo">Query</h1>
+      <div>
+      <input type="text" value={query} onChange={handleInputChange} />
+      <button onClick={handleQuerySubmit}>Enviar</button>
     </div>
-  );
-};
+    </div>
+  )
+}
 
-export default Fraud_Behavior;
+export default Query;
