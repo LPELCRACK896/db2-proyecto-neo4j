@@ -13,6 +13,7 @@ import Fraud_Behavior from './pages/Fraud_Behavior';
 import Person from './pages/Person';
 import Transfer from './pages/Transfer';
 import Withdrawal from './pages/Withdrawal';
+import SingleClient from './components/SingleClient';
 
 function App(){
   return (
@@ -31,6 +32,7 @@ function App(){
           <Route path='/person' element={<Person/>}/>
           <Route path='/transfer' element={<Transfer/>}/>
           <Route path='/withdrawal' element={<Withdrawal/>}/>
+          <Route path='/client/:id' element={<SingleClient/>}/>
         </Routes>
       <Footer/>
       </BrowserRouter>
