@@ -1,8 +1,8 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
-import './Home.css'
+import './Tablas.css'
 
-const Base = () => {
+const Client = () => {
   const [users, setUsers] = useState([]);
 
   const URL = 'http://localhost:5000/api/v1/clients/';
@@ -25,12 +25,12 @@ const Base = () => {
 
   const columns = [
     {
-      name: 'OCCUPATION',
-      selector: (row) => row.occupation,
+      name: 'NAME',
+      selector: (row) => row.name,
     },
     {
-      name: 'ADDRESS',
-      selector: (row) => row.address,
+      name: 'PHONE',
+      selector: (row) => row.phone,
     },
     {
       name: 'BIRTHDATE',
@@ -46,4 +46,4 @@ const Base = () => {
   );
 };
 
-export default Base;
+export default Client;

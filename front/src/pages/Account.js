@@ -1,6 +1,6 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
-import './Home.css'
+import './Tablas.css'
 
 const Account = () => {
   const [users, setUsers] = useState([]);
