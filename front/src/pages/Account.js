@@ -2,6 +2,7 @@ import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
 import './Tablas.css'
 import { Link } from 'react-router-dom';
+import './Home.css'
 
 
 const Account = () => {
@@ -59,6 +60,11 @@ const Account = () => {
   return (
     <div className="inicio-container">
       <h1 className="titulo">Account</h1>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+	      <div className="client-buttons">
+        <Link to={`/accounts/create`} className="btn btn-success">Crear</Link>
+        </div>
+      </div>
       <DataTable columns={columns} data={users} pagination />
     </div>
   );

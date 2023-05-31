@@ -35,8 +35,6 @@ const EditTransfer = () => {
         showConfirmButton: false,
         timer: 1500,
       });
-      // Redireccionar a la vista anterior
-      // window.history.back(); // Opción 1: Usar la función back del navegador
     } catch (err) {
       swalError('Hubo un problema al guardar los cambios');
       console.log(err);

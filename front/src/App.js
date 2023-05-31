@@ -23,6 +23,12 @@ import SingleDeposit from './components/SingleDeposit';
 import EditDeposit from './components/EditDeposit';
 import SingleAccount from './components/SingleAccount';
 import EditAccount from './components/EditAccount';
+import CreateTransfer from './components/CreateTransfer';
+import CreateAccount from './components/CreateAccount';
+import CreateClient from './components/CreateClient';
+import CreateDeposit from './components/CreateDeposit';
+import CreatePerson from './components/CreatePerson';
+import CreateWithdrawal from './components/CreateWithdrawal';
 
 function App(){
   return (
@@ -52,6 +58,12 @@ function App(){
           <Route path='/deposits/:id/edit' element={<EditDeposit/>}/> 
           <Route path='/accounts/:id' element={<SingleAccount/>}/>
           <Route path='/accounts/:id/edit' element={<EditAccount/>}/> 
+          <Route path='/transfers/create' element={<CreateTransfer/>}/>
+          <Route path='/accounts/create' element={<CreateAccount/>}/>
+          <Route path='/client/create' element={<CreateClient/>}/> 
+          <Route path='/person/create' element={<CreatePerson/>}/> 
+          <Route path='/deposit/create' element={<CreateDeposit/>}/> 
+          <Route path='/withdrawal/create' element={<CreateWithdrawal/>}/>  
         </Routes>
       <Footer/>
       </BrowserRouter>

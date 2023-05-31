@@ -1,6 +1,7 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
 import './Tablas.css'
+import './Home.css'
 
 const Fraud_Behavior = () => {
   const [users, setUsers] = useState([]);

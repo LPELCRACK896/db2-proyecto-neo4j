@@ -33,10 +33,13 @@ const Fraude = () => {
           Opción:
           <select value={selectedOption} onChange={handleOptionChange}>
             <option value="">Seleccione una opción</option>
-            <option value="transferencia">Transferencia</option>
-            <option value="cliente">Cliente</option>
-            <option value="cuenta">Cuenta</option>
-            <option value="todo">Todo</option>
+            <option value="Account">Transferencia</option>
+            <option value="Client">Cliente</option>
+            <option value="Deposit">Cuenta</option>
+            <option value="Person">Cuenta</option>
+            <option value="Transfer">Cuenta</option>
+            <option value="Withdrawal">Cuenta</option>
+            <option value="Todo">Todo</option>
           </select>
         </label>
       </div>
