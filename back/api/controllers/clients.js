@@ -7,10 +7,10 @@ const asyncHandler = require('../middlewares/async')
 exports.getClients = asyncHandler(async (req, res, next) => {
     const driver = req.driver
     const session = driver.session()
-    const query = 'MATCH (n) RETURN n'
+    const query = 'MATCH (c: Client) RETURN c'
 
     const result = await session.run(query)
-    const nodes = result.records.map(record => record.get('n').properties);
+    const nodes = result.records.map(record => record.get('c').properties);
     session.close()
 
     return res.status(200).json({msg: "Got all clients", data: nodes})
