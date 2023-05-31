@@ -1,10 +1,12 @@
 const express = require('express')
 const {
-    getWithdrawls
+    getWithdrawals,
+    getWithdrawal
  } = require('../controllers/withdrawals')
 
 const router = express.Router();
 
-router.route('/').get(getWithdrawls)
+router.route('/').get(getWithdrawals)
+router.route('/:id').get(getWithdrawal)
 
 module.exports = router
