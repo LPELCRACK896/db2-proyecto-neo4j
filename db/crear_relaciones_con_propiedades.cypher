@@ -1,0 +1,1 @@
+CREATE (cliente)-[:TIENE_CUENTA {relationship_prop1: valor1, relationship_prop2: valor2, ...}]->(account)
