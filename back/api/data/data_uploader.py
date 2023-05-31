@@ -69,7 +69,8 @@ class BankNeo4j():
                 elif value == 'date':
                     create_query += f'n.{key} = date(row.{key}), '
                 elif value == 'point':
-                    create_query += f'n.{key} = point({{latitude: toFloat(row.latitude), longitude: toFloat(row.longitude)}}), '
+                    if 'latitude' in types_dict and 'longitude' in types_dict:
+                        create_query += f'n.location = point({{latitude: toFloat(row.latitude), longitude: toFloat(row.longitude)}}), '
                 elif value == 'datetime':
                     create_query += f'n.{key} = datetime(row.{key}), '
                 else:  # default is string
@@ -104,7 +105,6 @@ class BankNeo4j():
         for _, row in dataframe.iterrows():
             row_start_id = self.__fast_cast(str(row[":START_ID"]), relation.start_in[2])
             row_end_id = self.__fast_cast(str(row[":END_ID"]), relation.end_in[2])
-
             create_query = f"""
             MATCH (start:{relation.start_in[0]} {{ {relation.start_in[1]}: {row_start_id}}}), (end: {relation.end_in[0]} {{{relation.end_in[1]}: {row_end_id}}})
             MERGE (start)-[r:{relation.name}]->(end)
@@ -124,7 +124,8 @@ class BankNeo4j():
                              if not pd.isna(row[key]):
                                 create_query += f'r.{key} = date("{row[key]}"), '
                     elif value == 'point':
-                        create_query += f'r.{key} = point({{latitude: toFloat("{row[key]}"), longitude: toFloat("{row[key]}")}}), '
+                        if 'latitude' in row and 'longitude' in row and not pd.isna(row['latitude']) and not pd.isna(row['longitude']):
+                            create_query += f'r.location = point({{latitude: toFloat("{row["latitude"]}"), longitude: toFloat("{row["longitude"]}")}}), '
                     elif value == 'datetime':
                         if key in row:
                             if not pd.isna(row[key]):
