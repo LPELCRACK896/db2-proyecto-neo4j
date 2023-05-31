@@ -4,7 +4,7 @@ import axios from "axios";
 import '../pages/Home.css';
 import Swal from 'sweetalert2';
 
-const SingleClient = () => {
+const SinglePerson = () => {
   const { id } = useParams();
   const [client, setClient] = useState(null);
 
@@ -19,7 +19,7 @@ const SingleClient = () => {
 
   const getClient = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/v1/clients/${id}`);
+      const res = await axios.get(`http://localhost:5000/api/v1/persons/${id}`);
       const data = res.data;
 
       if (!data.data) {
@@ -54,21 +54,16 @@ const SingleClient = () => {
     <div className="single-client-container">
       <h1 className="client-title">{client.name}</h1>
       <div className="client-buttons">
-        <Link to={`/clients/${id}/edit`} className="edit-button">Editar</Link>
-        <button onClick={handleDelete} className="delete-button">Eliminar</button>
+        <Link to={`/persons/${id}/edit`} className="edit-button-person">Editar</Link>
+        <button onClick={handleDelete} className="delete-button-person">Eliminar</button>
       </div>
       <div className="client-info">
         <p><strong>Name:</strong> {client.name}</p>
-        <p><strong>Birthdate:</strong> {client.birthdate}</p>
-        <p><strong>Ocupation:</strong> {client.ocupation}</p>
-        <p><strong>Address:</strong> {client.address}</p>
-        <p><strong>Phone:</strong> {client.phone}</p>
-        <p><strong>Nit:</strong> {client.nit.low}</p>
-        <p><strong>Average Income PM:</strong> {client.average_income_pm}</p>
+        <p><strong>Type:</strong> {client.type}</p>
         <p><strong>DPI:</strong> {client.dpi.low}</p>
       </div>
     </div>
   );
 };
 
-export default SingleClient;
+export default SinglePerson;

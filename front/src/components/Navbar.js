@@ -20,13 +20,7 @@ const Navbar = () => {
             <Link className="nav-link active" aria-current="page" to ='/home'>Home</Link>
             </li>
             <li className="nav-item">
-            <Link className="nav-link" to ='/query'>Query</Link>
-            </li>
-            <li className="nav-item">
             <Link className="nav-link" to ='/fraude'>Fraude</Link>
-            </li>
-            <li className="nav-item">
-            <Link className="nav-link" to ='/visualizacion'>Visualizacion</Link>
             </li>
             <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to ='/ref' role="button" data-bs-toggle="dropdown" aria-expanded="false">
