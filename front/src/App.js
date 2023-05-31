@@ -15,6 +15,8 @@ import SingleClient from './components/SingleClient';
 import EditClient from './components/EditClient';
 import EditPerson from './components/EditPerson';
 import SinglePerson from './components/SinglePerson';
+import SingleTransfer from './components/SingleTransfer';
+import EditTransfer from './components/EditTransfer';
 
 function App(){
   return (
@@ -35,7 +37,9 @@ function App(){
           <Route path='/client/:id' element={<SingleClient/>}/>
           <Route path='/clients/:id/edit' element={<EditClient/>}/>
           <Route path='/persons/:id' element={<SinglePerson/>}/>
-          <Route path='/persons/:id/edit' element={<EditPerson/>}/>       
+          <Route path='/persons/:id/edit' element={<EditPerson/>}/>
+          <Route path='/transfers/:id' element={<SingleTransfer/>}/>
+          <Route path='/transfers/:id/edit' element={<EditTransfer/>}/>        
         </Routes>
       <Footer/>
       </BrowserRouter>

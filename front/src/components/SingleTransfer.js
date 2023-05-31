@@ -4,7 +4,7 @@ import axios from "axios";
 import '../pages/Home.css';
 import Swal from 'sweetalert2';
 
-const SinglePerson = () => {
+const SingleTransfer = () => {
   const { id } = useParams();
   const [client, setClient] = useState(null);
 
@@ -19,7 +19,7 @@ const SinglePerson = () => {
 
   const getClient = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/v1/persons/${id}`);
+      const res = await axios.get(`http://localhost:5000/api/v1/transfers/${id}`);
       const data = res.data;
 
       if (!data.data) {
@@ -58,12 +58,14 @@ const SinglePerson = () => {
         <button onClick={handleDelete} className="delete-button-person">Eliminar</button>
       </div>
       <div className="client-info">
-        <p><strong>Name:</strong> {client.name}</p>
+        <p><strong>Amount:</strong> {client.amount}</p>
+        <p><strong>Motive:</strong> {client.motive}</p>
+        <p><strong>id:</strong> {client.id}</p>
+        <p><strong>State:</strong> {client.state}</p>
         <p><strong>Type:</strong> {client.type}</p>
-        <p><strong>DPI:</strong> {client.dpi.low}</p>
       </div>
     </div>
   );
 };
 
-export default SinglePerson;
+export default SingleTransfer;
