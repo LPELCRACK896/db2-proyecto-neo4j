@@ -191,7 +191,7 @@ def __create_single_account(client_row: pd.Series, person_row, from_date = None)
     state = random.choice(account_states)
     create_date = fake.date_between(start_date=from_date) if from_date else fake.date_this_century()
     end_date = fake.date_between_dates(date_start=create_date, date_end=dt.date(2023, 12, 31)) if state == "closed" else None 
-    account_number = fake.unique.random_number(digits=10)
+    account_number = abs(fake.unique.random_number(digits=10))
     capital = round(fake.random.uniform(1000, 50000), 2)
 
     account_client = pd.Series({
