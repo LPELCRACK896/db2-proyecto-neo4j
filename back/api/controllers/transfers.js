@@ -28,7 +28,7 @@ exports.getTransfer = asyncHandler(async (req, res, next) => {
     const nodes = result.records.map(record => record.get('n').properties);
     session.close()
 
-    return res.status(200).json({msg: "Got a transfer", data: nodes})
+    return res.status(200).json({msg: nodes.length? "Got a transfer": "No data", data: nodes[0]})
 })
 
 
