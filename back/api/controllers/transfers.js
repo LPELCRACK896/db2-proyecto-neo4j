@@ -97,8 +97,8 @@ exports.createTansfer = asyncHandler(async (req, res, next) => {
     CREATE (t:Transfer {id: $id, amount: $amount, motive: $motive, state: $state, type: $type}) 
     WITH t
     MATCH (origin:Account {number: toInteger($number_origin)}), (destiny:Account {number: toInteger($number_destiny)}) 
-    CREATE (origin)-[:MADE]->(t) 
-    CREATE (destiny)-[:RECEIVED]->(t)
+    CREATE (origin)-[:MADE {date: datetime()}]->(t) 
+    CREATE (destiny)-[:RECEIVED {date: datetime()}]->(t)
     RETURN t
     `;
     const result = await session.run(transferQuery, {
