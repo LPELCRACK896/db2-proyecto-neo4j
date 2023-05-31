@@ -47,3 +47,68 @@
     background-color: #0d47a1;
   }
   
+  .single-client-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.client-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.client-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.edit-button {
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.delete-button {
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button-person {
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.delete-button-person {
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.client-info {
+  margin-bottom: 20px;
+}
+
+.client-info p {
+  margin-bottom: 10px;
+}
+
+.client-info strong {
+  font-weight: bold;
+}
+

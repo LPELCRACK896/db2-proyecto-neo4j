@@ -1,11 +1,12 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
 import './Tablas.css'
+import { Link } from 'react-router-dom';
 
 const Person = () => {
   const [users, setUsers] = useState([]);
 
-  const URL = 'http://localhost:5000/api/v1/clients/';
+  const URL = 'http://localhost:5000/api/v1/persons/';
 
   const showData = async () => {
     try {
@@ -25,16 +26,16 @@ const Person = () => {
 
   const columns = [
     {
-      name: 'OCCUPATION',
-      selector: (row) => row.occupation,
+      name: 'TYPE',
+      selector: (row) => row.type,
     },
     {
-      name: 'ADDRESS',
-      selector: (row) => row.address,
+      name: 'NAME',
+      selector: (row) => <Link to={row.type === 'Person' ? `/persons/${row.dpi.low}` : `/client/${row.dpi.low}` }>{row.name}</Link>,
     },
     {
-      name: 'BIRTHDATE',
-      selector: (row) => row.birthdate,
+      name: 'DPI',
+      selector: (row) => row.dpi.low,
     },
   ];
 

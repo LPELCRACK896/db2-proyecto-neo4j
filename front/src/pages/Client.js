@@ -38,6 +38,26 @@ const Client = () => {
       name: 'BIRTHDATE',
       selector: (row) => row.birthdate,
     },
+    {
+      name: 'OCUPATION',
+      selector: (row) => row.ocupation,
+    },
+    {
+      name: 'ADDRESSS',
+      selector: (row) => row.address,
+    },
+    {
+      name: 'NIT',
+      selector: (row) => row.nit.low,
+    },
+    {
+      name: 'DPI',
+      selector: (row) => row.dpi.low,
+    },
+    {
+      name: 'AVERAGE INCOME PM',
+      selector: (row) => row.average_income_pm,
+    },
   ];
 
   return (
