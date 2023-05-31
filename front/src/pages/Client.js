@@ -1,5 +1,7 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Tablas.css'
 
 const Client = () => {
@@ -26,7 +28,7 @@ const Client = () => {
   const columns = [
     {
       name: 'NAME',
-      selector: (row) => row.name,
+      selector: (row) => <Link to={`/client/${row.dpi.low}`}>{row.name}</Link>,
     },
     {
       name: 'PHONE',
