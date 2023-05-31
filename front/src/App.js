@@ -19,6 +19,8 @@ import SingleTransfer from './components/SingleTransfer';
 import EditTransfer from './components/EditTransfer';
 import SingleWithdrawal from './components/SingleWithdrawal';
 import EditWithdrawal from './components/EditWithdrawal';
+import SingleDeposit from './components/SingleDeposit';
+import EditDeposit from './components/EditDeposit';
 
 function App(){
   return (
@@ -43,7 +45,9 @@ function App(){
           <Route path='/transfers/:id' element={<SingleTransfer/>}/>
           <Route path='/transfers/:id/edit' element={<EditTransfer/>}/>
           <Route path='/withdrawals/:id' element={<SingleWithdrawal/>}/>
-          <Route path='/withdrawals/:id/edit' element={<EditWithdrawal/>}/>         
+          <Route path='/withdrawals/:id/edit' element={<EditWithdrawal/>}/>     
+          <Route path='/deposits/:id' element={<SingleDeposit/>}/>
+          <Route path='/deposits/:id/edit' element={<EditDeposit/>}/> 
         </Routes>
       <Footer/>
       </BrowserRouter>
