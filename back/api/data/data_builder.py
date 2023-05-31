@@ -219,7 +219,9 @@ def __create_single_account(client_row: pd.Series, person_row, from_date = None)
         'account_type': random.choice(account_types),
         'state': state,
         "create_date": create_date,
-        'closing_date': end_date
+        'closing_date': end_date,
+        "expected_incoming_pm": capital + random.randint(0, 400) - random.randint(0, 400)
+
     })
 
     return account, account_client, account_person
