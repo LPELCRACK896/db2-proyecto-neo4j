@@ -88,8 +88,8 @@ exports.createTansfer = asyncHandler(async (req, res, next) => {
     }
 
     // Actualiza el balance  y estado de la cuenta destino y origen 
-    await session.run("MATCH (a:Account {number: toInteger($number)}) SET a.state = $state, a.balance = $new_balance", {number: number_origin, state: "active", new_balance:parseInt(node_account_origin.balance)-body.amount })
-    await session.run("MATCH (a:Account {number: toInteger($number)}) SET a.state = $state, a.balance = $new_balance", {number: number_destiny, state: "active", new_balance:parseInt(node_account_destiny.balance)+body.amount })
+    await session.run("MATCH (a:Account {number: toInteger($number)}) SET a.state = $state, a.balance = $new_balance", {number: number_origin, state: "active", new_balance:parseInt(node_account_origin.balance)-parseFloat(body.amount) })
+    await session.run("MATCH (a:Account {number: toInteger($number)}) SET a.state = $state, a.balance = $new_balance", {number: number_destiny, state: "active", new_balance:parseInt(node_account_destiny.balance)+parseFloat(body.amount) })
 
     //Crea transaccion
     const transferId = uuid.v4();
