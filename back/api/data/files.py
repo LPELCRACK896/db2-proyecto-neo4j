@@ -112,9 +112,9 @@ files = [
     EntityFile(
         type = "RELATION", 
         url = f"{base_url}/account_transfers_recieved.csv", 
-        labels = ["RECIEVED"], 
+        labels = ["RECEIVED"], 
         types_dict = build_types_dict(pd.read_csv(os.path.join(current_dir, "account_transfers_recieved.csv")).columns,{'date': 'datetime'}),
-        relation=Relation(("Person", "dpi", "int"),("Transfer", "id", "string"), "RECIEVED" ),
+        relation=Relation(("Account", "number", "int"),("Transfer", "id", "string"), "RECEIVED" ),
         dataframe= pd.read_csv(os.path.join(current_dir, "account_transfers_recieved.csv")),
         localfile=os.path.join(current_dir, "account_transfers_recieved.csv")
     ),       
