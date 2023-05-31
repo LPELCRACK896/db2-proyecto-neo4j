@@ -17,6 +17,8 @@ import EditPerson from './components/EditPerson';
 import SinglePerson from './components/SinglePerson';
 import SingleTransfer from './components/SingleTransfer';
 import EditTransfer from './components/EditTransfer';
+import SingleWithdrawal from './components/SingleWithdrawal';
+import EditWithdrawal from './components/EditWithdrawal';
 
 function App(){
   return (
@@ -39,7 +41,9 @@ function App(){
           <Route path='/persons/:id' element={<SinglePerson/>}/>
           <Route path='/persons/:id/edit' element={<EditPerson/>}/>
           <Route path='/transfers/:id' element={<SingleTransfer/>}/>
-          <Route path='/transfers/:id/edit' element={<EditTransfer/>}/>        
+          <Route path='/transfers/:id/edit' element={<EditTransfer/>}/>
+          <Route path='/withdrawals/:id' element={<SingleWithdrawal/>}/>
+          <Route path='/withdrawals/:id/edit' element={<EditWithdrawal/>}/>         
         </Routes>
       <Footer/>
       </BrowserRouter>

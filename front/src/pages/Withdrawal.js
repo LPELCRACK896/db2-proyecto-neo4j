@@ -1,11 +1,12 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
 import './Tablas.css'
+import { Link } from 'react-router-dom';
 
 const Withdrawal = () => {
   const [users, setUsers] = useState([]);
 
-  const URL = 'http://localhost:5000/api/v1/clients/';
+  const URL = 'http://localhost:5000/api/v1/withdrawals/';
 
   const showData = async () => {
     try {
@@ -25,16 +26,28 @@ const Withdrawal = () => {
 
   const columns = [
     {
-      name: 'OCCUPATION',
-      selector: (row) => row.occupation,
+      name: 'AMOUNT',
+      selector: (row) => row.amount,
     },
     {
-      name: 'ADDRESS',
-      selector: (row) => row.address,
+      name: 'MOTIVE',
+      selector: (row) => row.motive,
     },
     {
-      name: 'BIRTHDATE',
-      selector: (row) => row.birthdate,
+      name: 'LOCATION',
+      selector: (row) => `x = ${row.location.x}, y = ${row.location.y} `
+    },
+    {
+      name: 'ID',
+      selector: (row) => <Link to={`/withdrawals/${row.id}`}>{row.id}</Link>,
+    },
+    {
+      name: 'State',
+      selector: (row) => row.state,
+    },
+    {
+      name: 'Type',
+      selector: (row) => row.type,
     },
   ];
 
