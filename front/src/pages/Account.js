@@ -1,11 +1,13 @@
 import DataTable from 'react-data-table-component';
 import React, { useState, useEffect } from 'react';
 import './Tablas.css'
+import { Link } from 'react-router-dom';
+
 
 const Account = () => {
   const [users, setUsers] = useState([]);
 
-  const URL = 'http://localhost:5000/api/v1/clients/';
+  const URL = 'http://localhost:5000/api/v1/accounts/';
 
   const showData = async () => {
     try {
@@ -25,16 +27,32 @@ const Account = () => {
 
   const columns = [
     {
-      name: 'OCCUPATION',
-      selector: (row) => row.occupation,
+      name: 'NUMBER',
+      selector: (row) => <Link to={`/accounts/${row.number}`}>{row.number}</Link>,
     },
     {
-      name: 'ADDRESS',
-      selector: (row) => row.address,
+      name: 'ACCOUNT TYPE',
+      selector: (row) => row.account_type,
     },
     {
-      name: 'BIRTHDATE',
-      selector: (row) => row.birthdate,
+      name: 'BALANCE',
+      selector: (row) => row.balance,
+    },
+    {
+      name: 'EXPECTED INCOMING PM',
+      selector: (row) => row.expected_incoming_pm,
+    },
+    {
+      name: 'STATE',
+      selector: (row) => row.state,
+    },
+    {
+      name: 'CREATE DATE',
+      selector: (row) => row.create_date,
+    },
+    {
+      name: 'CLOSING DATE',
+      selector: (row) => row.closing_date,
     },
   ];
 

@@ -21,6 +21,8 @@ import SingleWithdrawal from './components/SingleWithdrawal';
 import EditWithdrawal from './components/EditWithdrawal';
 import SingleDeposit from './components/SingleDeposit';
 import EditDeposit from './components/EditDeposit';
+import SingleAccount from './components/SingleAccount';
+import EditAccount from './components/EditAccount';
 
 function App(){
   return (
@@ -48,6 +50,8 @@ function App(){
           <Route path='/withdrawals/:id/edit' element={<EditWithdrawal/>}/>     
           <Route path='/deposits/:id' element={<SingleDeposit/>}/>
           <Route path='/deposits/:id/edit' element={<EditDeposit/>}/> 
+          <Route path='/accounts/:id' element={<SingleAccount/>}/>
+          <Route path='/accounts/:id/edit' element={<EditAccount/>}/> 
         </Routes>
       <Footer/>
       </BrowserRouter>
