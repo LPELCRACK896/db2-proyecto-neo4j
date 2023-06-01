@@ -58,3 +58,21 @@ exports.getSusRetirment = asyncHandler(async (req, res, next) => {
 
     return res.status(200).json({msg: nodes.length?`Detected ${nodes.length}`:"No Fraud detected", data: nodes})
 })
+
+exports.getUnusualSaldo = asyncHandler(async (req, res, next) => {
+    const driver = req.driver
+    const session = driver.session()
+    const query = `MATCH (c:Client)-[r:Owes]->(a:Account)
+    WHERE a.balance > 15430
+    MERGE (c)-[:GENERATES]->(f:FraudBehavior {
+      motive: 'Sospecha de fraude por saldo inusual',
+      alert_level: 1
+    })
+    RETURN f
+    `
+    const result = await session.run(query)
+    const nodes = result.records.map(record => record.get('f').properties);
+    session.close()
+
+    return res.status(200).json({msg: nodes.length?`Detected ${nodes.length}`:"No Fraud detected", data: nodes})
+})
