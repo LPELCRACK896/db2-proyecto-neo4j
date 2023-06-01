@@ -30,7 +30,7 @@ const Fraude = () => {
     // Realizar cualquier acción adicional al cargar el componente
   }, []);
 
-  const columns = [
+  let columns = [
     {
       name: 'MOTIVE',
       selector: (row) => row.motive,
@@ -41,6 +41,19 @@ const Fraude = () => {
     },
   ];
 
+  if (selectedOption === 'User') {
+    columns = [
+      {
+        name: 'NAME',
+        selector: (row) => row.name,
+      },
+      {
+        name: 'NUM FRAUDS',
+        selector: (row) => row.numFrauds,
+      },
+    ];
+  }
+
   return (
     <div className="inicio-container">
       <h1 className="titulo">Fraude</h1>
@@ -50,11 +63,11 @@ const Fraude = () => {
             <select value={selectedOption} onChange={handleOptionChange}>
               <option value="">Seleccione una opción</option>
               <option value="Ingreso">Ingreso</option>
-              <option value="Client">Cliente</option>
-              <option value="Deposit">Deposit</option>
-              <option value="Person">Person</option>
               <option value="Transfer">Transfer</option>
               <option value="Withdrawal">Withdrawal</option>
+              <option value="Saldo">Saldo</option>
+              <option value="Deposit">Deposit</option>
+              <option value="User">User</option>
             </select>
           </label>
         </div>
@@ -74,4 +87,3 @@ const Fraude = () => {
 };
 
 export default Fraude;
-
