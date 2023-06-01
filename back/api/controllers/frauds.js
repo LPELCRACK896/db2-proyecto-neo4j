@@ -76,3 +76,21 @@ exports.getUnusualSaldo = asyncHandler(async (req, res, next) => {
 
     return res.status(200).json({msg: nodes.length?`Detected ${nodes.length}`:"No Fraud detected", data: nodes})
 })
+
+exports.getUnusualTransfer = asyncHandler(async (req, res, next) => {
+    const driver = req.driver
+    const session = driver.session()
+    const query = `MATCH (a1:Account)-[:RECEIVED]->(t:Transfer)
+    WHERE t.amount > 10000 AND NOT (a1)-[:OWES]->(:Account)<-[:MADE]-(:Person)
+    MERGE (t)-[:GENERATES]->(f:FraudBehavior {
+      motive: 'Sospecha de fraude por transferencia sospechosa',
+      alert_level: 4
+    })
+    RETURN f
+    `
+    const result = await session.run(query)
+    const nodes = result.records.map(record => record.get('f').properties);
+    session.close()
+
+    return res.status(200).json({msg: nodes.length?`Detected ${nodes.length}`:"No Fraud detected", data: nodes})
+})
