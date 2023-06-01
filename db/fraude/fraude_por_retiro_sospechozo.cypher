@@ -1,6 +1,6 @@
 MATCH (a:Account)-[:MADE]->(w:Withdrawal)
 WHERE w.amount > 10000 AND a.balance < w.amount
-CREATE (w)-[:GENERATES]->(f:FraudBehavior {
+MERGE (w)-[:GENERATES]->(f:FraudBehavior {
   motive: 'Sospecha de fraude por retiro sospechoso',
   alert_level: 3
 })
