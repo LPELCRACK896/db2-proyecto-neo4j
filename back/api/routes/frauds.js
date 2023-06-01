@@ -8,7 +8,7 @@ const {
 const router = express.Router();
 
 router.route('/deposit').get(getSuspiciosDepositFraud)
-router.route('/discrep').get(getDicrepanceByIngreso)
-router.route('/suswithdrawal').get(getSusRetirment)
+router.route('/ingreso').get(getDicrepanceByIngreso)
+router.route('/withdrawal').get(getSusRetirment)
 
 module.exports = router
