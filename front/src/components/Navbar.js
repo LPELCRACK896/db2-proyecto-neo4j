@@ -30,7 +30,6 @@ const Navbar = () => {
                 <li><Link className="dropdown-item" to ='/client'>Client</Link></li>
                 <li><Link className="dropdown-item" to ='/person'>Person</Link></li>
                 <li><Link className="dropdown-item" to ='/account'>Account</Link></li>
-                <li><Link className="dropdown-item" to ='/fraudbehavior'>Fraud Behavior</Link></li>
                 <li><Link className="dropdown-item" to ='/deposit'>Deposit</Link></li>
                 <li><Link className="dropdown-item" to ='/withdrawal'>Withdrawal</Link></li>
                 <li><Link className="dropdown-item" to ='/transfer'>Transfer</Link></li>
