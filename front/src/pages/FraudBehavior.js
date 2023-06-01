@@ -6,7 +6,7 @@ import './Home.css'
 const Fraud_Behavior = () => {
   const [users, setUsers] = useState([]);
 
-  const URL = 'http://localhost:5000/api/v1/clients/';
+  const URL = 'http://localhost:5000/api/v1/fraud/';
 
   const showData = async () => {
     try {
