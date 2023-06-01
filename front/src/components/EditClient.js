@@ -75,7 +75,7 @@ const EditClient = () => {
 
   return (
     <div className="single-client-container">
-      <h1 className="client-title">{client.name}</h1>
+      <h1 className="client-title">Editar Cliente</h1>
       <div className="client-info">
         <p>
           <strong>Name:</strong>{' '}

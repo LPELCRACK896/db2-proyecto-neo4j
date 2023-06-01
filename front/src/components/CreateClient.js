@@ -10,6 +10,7 @@ const CreateClient = () => {
     nit: '',
     average_income_pm: '',
     dpi: '',
+    label: '',
   });
 
   const swalError = (message) => {
@@ -83,6 +84,15 @@ const CreateClient = () => {
             type="text"
             name="dpi"
             value={newClient.dpi}
+            onChange={handleInputChange}
+          />
+        </p>
+        <p>
+          <strong>New Label (Opcional):</strong>{' '}
+          <input
+            type="text"
+            name="label"
+            value={newClient.label}
             onChange={handleInputChange}
           />
         </p>

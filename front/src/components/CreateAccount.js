@@ -82,7 +82,7 @@ const CreateAccount = () => {
           <strong>DPI:</strong>{' '}
           <input
             type="text"
-            name="state"
+            name="dpi"
             value={newAccount.dpi}
             onChange={handleInputChange}
           />
@@ -91,7 +91,7 @@ const CreateAccount = () => {
           <strong>DPI Heredero:</strong>{' '}
           <input
             type="text"
-            name="create_date"
+            name="dpi_inh"
             value={newAccount.dpi_inh}
             onChange={handleInputChange}
           />
