@@ -40,7 +40,7 @@ exports.createClient = asyncHandler(async (req, res, next) => {
 
     const driver = req.driver
     const session = driver.session()
-    const { dpi, nit, name, average_income_pm } = req.body
+    const { dpi, nit, name, average_income_pm, label } = req.body
 
     const exist_dpi = await session.run(`MATCH (n: Person {dpi: toInteger($dpi)}) RETURN count(n) > 0 as exists`, { dpi })
     const exist_nit = await session.run(`MATCH (n: Person {nit: toInteger($nit)}) RETURN count(n) > 0 as exists`, { nit })
@@ -51,17 +51,16 @@ exports.createClient = asyncHandler(async (req, res, next) => {
         return next(new ErrorResponse(`El numero de NIT ya está asociado a una persona en la base de datos.`, 409))
     }
 
-    const createQuery = `CREATE (c:Client:Person {
-        name: $name,
-        dpi: toInteger($dpi),
-        nit: toInteger($nit),
-        average_income_pm: toFloat($average_income_pm)})
-        RETURN c`
-    const result = await session.run(createQuery, {name, dpi, nit, average_income_pm})
-    console.log(result)
+    const variables = {name, dpi, nit, average_income_pm}
+    let createQuery = `CREATE (c:Client:Person `
+    
+    if(label) {
+        createQuery += `:${label} `
+    }
+
+    createQuery += `{ name: $name, dpi: toInteger($dpi), nit: toInteger($nit), average_income_pm: toFloat($average_income_pm)}) RETURN c`
+    const result = await session.run(createQuery, variables)
     const client = result.records[0].get('c').properties;
-
     session.close()
-
     return res.status(201).json({ success: true, data: client });
 })
