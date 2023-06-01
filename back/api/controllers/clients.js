@@ -64,3 +64,77 @@ exports.createClient = asyncHandler(async (req, res, next) => {
     session.close()
     return res.status(201).json({ success: true, data: client });
 })
+
+
+// @desc    Update properties of a client
+// @route   PUT /api/v1/clients/:id
+// @access   Public
+exports.updateClientProperties = asyncHandler(async (req, res, next) => {
+
+    const id = req.params.id
+    const driver = req.driver
+    const session = driver.session()
+    const { dpi, nit, name, average_income_pm } = req.body
+
+    const updateQuery = `
+        MATCH (c:Client {dpi: ${id}})
+        SET c.dpi = coalesce($dpi, c.dpi), 
+            c.nit = coalesce($nit, c.nit),
+            c.name = coalesce($name, c.name),
+            c.average_income_pm = coalesce($average_income_pm, c.average_income_pm)
+        RETURN c
+    `
+
+    const result = await session.run(updateQuery, { dpi, nit, name, average_income_pm })
+    const client = result.records[0].get('c').properties;
+    session.close()
+
+    return res.status(200).json({msg: "Client's properties updated successfully", data: client})
+})
+
+// @desc    Update labels of a client
+// @route   PUT /api/v1/clients/:id/label
+// @access   Public
+exports.updateClientLabel = asyncHandler(async (req, res, next) => {
+
+    const id = req.params.id
+    const driver = req.driver
+    const session = driver.session()
+    const { label } = req.body
+
+    const updateLabelQuery = `
+        MATCH (c:Client {dpi: ${id}})
+        REMOVE c:Client
+        SET c:${label}
+        RETURN c
+    `
+
+    const result = await session.run(updateLabelQuery)
+    const client = result.records[0].get('c').properties;
+    session.close()
+
+    return res.status(200).json({msg: "Client's label updated successfully", data: client})
+})
+
+// @desc    Add label to a client
+// @route   PUT /api/v1/clients/:id/addlabel
+// @access   Public
+exports.addClientLabel = asyncHandler(async (req, res, next) => {
+
+    const id = req.params.id
+    const driver = req.driver
+    const session = driver.session()
+    const { label } = req.body
+
+    const addLabelQuery = `
+        MATCH (c:Client {dpi: ${id}})
+        SET c:${label}
+        RETURN c
+    `
+
+    const result = await session.run(addLabelQuery)
+    const client = result.records[0].get('c').properties;
+    session.close()
+
+    return res.status(200).json({msg: "Client's label added successfully", data: client})
+})
