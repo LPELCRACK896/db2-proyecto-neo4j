@@ -94,3 +94,23 @@ exports.getUnusualTransfer = asyncHandler(async (req, res, next) => {
 
     return res.status(200).json({msg: nodes.length?`Detected ${nodes.length}`:"No Fraud detected", data: nodes})
 })
+
+exports.getUnusualUser = asyncHandler(async (req, res, next) => {
+    const driver = req.driver
+    const session = driver.session()
+    const query = `MATCH (c:Client)-[:Owes]->(a:Account)-[:MADE]->(d:Withdrawal)-[:GENERATES]->(f:FraudBehavior)
+    RETURN c.name as name, COUNT(f) AS numFrauds
+    `
+    const result = await session.run(query)
+    const records = result.records
+    session.close()
+
+    const nodes = records.map(record => {
+        return {
+            name: record.get('name'),
+            numFrauds: record.get('numFrauds').toNumber(), // Convert Neo4j Integer to JavaScript Number
+        };
+    });
+
+    return res.status(200).json({msg: nodes.length?`Detected ${nodes.length}`:"No Fraud detected", data: nodes})
+})
